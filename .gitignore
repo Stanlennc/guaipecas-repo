@@ -15,3 +15,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 *.swp
+
+# Dados pessoais / credenciais (não versionar)
+email.txt
