@@ -183,15 +183,21 @@ function updateRiverAlert(level, message) {
   }
 
   function fetchRivers() {
+    function apply(data) {
+      if (data && data.rios) updateRivers(data);
+    }
     fetch('rivers.json', { cache: 'no-store' })
       .then(function(r){ if (!r.ok) throw new Error('sem rivers.json'); return r.json(); })
-      .then(updateRivers)
+      .then(apply)
       .catch(function(){
-        ['guaibaLevel', 'jacuiLevel', 'nowUpdate'].forEach(function(id){
-          clearSkeleton(document.getElementById(id));
-        });
-        var updateEl = document.getElementById('nowUpdate');
-        if (updateEl) updateEl.textContent = 'dados estáticos';
+        if (window.RIVERS_DATA) apply(window.RIVERS_DATA);
+        else {
+          ['guaibaLevel', 'jacuiLevel', 'nowUpdate'].forEach(function(id){
+            clearSkeleton(document.getElementById(id));
+          });
+          var updateEl = document.getElementById('nowUpdate');
+          if (updateEl) updateEl.textContent = 'dados estáticos';
+        }
       });
   }
 

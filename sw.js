@@ -15,6 +15,7 @@ const SHELL = [
   '/assets/icon-192.png',
   '/assets/icon-512.png',
   '/noticias-data.js',
+  '/rivers-data.js',
   '/editais-data.js',
   '/servicos-data.js',
   '/unidades-map-data.js',

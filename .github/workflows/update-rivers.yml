@@ -3,7 +3,7 @@ name: Atualizar nível dos rios
 on:
   schedule:
     - cron: "*/30 * * * *" # a cada 30 minutos
-  workflow_dispatch: {} # permite rodar manualmente pela aba Actions
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -24,21 +24,15 @@ jobs:
         run: pip install requests
 
       - name: Buscar dados dos rios
-        if: ${{ secrets.ANA_API_USER != '' && secrets.ANA_API_PASSWORD != '' }}
         env:
           ANA_API_USER: ${{ secrets.ANA_API_USER }}
           ANA_API_PASSWORD: ${{ secrets.ANA_API_PASSWORD }}
         run: python automation/fetch_rivers.py
 
-      - name: Avisar credenciais ANA ausentes
-        if: ${{ secrets.ANA_API_USER == '' || secrets.ANA_API_PASSWORD == '' }}
-        run: echo "ANA_API_USER/ANA_API_PASSWORD não configurados — rios usam links externos no site."
-
       - name: Publicar mudanças
-        if: ${{ secrets.ANA_API_USER != '' && secrets.ANA_API_PASSWORD != '' }}
         run: |
           git config user.name "guaiba-em-dia-bot"
           git config user.email "actions@github.com"
-          git add rivers.json
+          git add rivers.json rivers-data.js
           git diff --quiet && git diff --staged --quiet || git commit -m "Atualiza nível dos rios [automático]"
           git push
