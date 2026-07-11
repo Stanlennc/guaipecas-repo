@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-11T22:27:53.181900+00:00",
+  "gerado_em": "2026-07-11T22:45:52.541355+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -199,15 +199,6 @@
       "feed": "recentes"
     },
     {
-      "id": "876d6f85864b",
-      "titulo": "Obras das alças da nova Ponte do Guaíba dependem de remoções em Porto Alegre",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPendQdkJiUW1oU1RvTVVfZ2tGcjNuQkxlTThNanFTSy14NFdTUFpUbXJsa2hYc002MkRnX1dOU3VMOElFOU55bnczLVpKd0k4V3FXMUV0ZnRMWWZFWENzeF9Sams5TzR4ZlFWTVRNZy1SaTd3MjltRkY4aWUxNUczVUt5M05vaktoTS1fT21RU2NWRVJKREUwLVp5N0dTRlBYTmtDdGN5THZVdFJwYnFqRnZHbm9ia2VmUEVpWlFkeVpfXzU0dHlV?oc=5",
-      "fonte": "R7",
-      "publicado_em": "2026-07-08T13:35:02+00:00",
-      "categoria": null,
-      "feed": "recentes"
-    },
-    {
       "id": "7cbd8fad7170",
       "titulo": "Guaíba inaugura seis novas salas no Hospital Regional Nelson Cornetet",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbl9IN2lPbTcxd1NZalNqUWxNei11ZHFEdlFnc1hEdU1xTFlnNDJQbS1yRUpzSERKeE5uS1pWaGZZc2lORnNsQmVhOTlFMk8zR0NBRjBBbFB5TGJNUlVhbGZ2VnozWFFpZDB4enE0UEY5aThsNHVMUWV6b1FPSEtvTnR3Q3Z3aE9SRHJQOEpKeXh1aE16?oc=5",
@@ -348,6 +339,15 @@
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMkowNU5NUkdXQUFka3pNYXpMRGhKdkNYNVM4ZlZLTW1INjdOdWZzRFBSWjB2dFprci11TFo5eXhWYTVqS0x3azJYMmlSNUdlVVlreFhuYzBkQm5kT2J1TGhxeGItYmRrMVhxMFo2UW5TNVpEQS01T0w4OThLT2xaa2ZpUGE1S24zR21zT1IyNkRwcEkzclNGQ3lvVzE3eXg1Z09CTUVMQlc2ZTI3UWFwZlAzemRWWk5VU3pCdmc3Vm9iNzgxWk5EWVRWME9rYzFw?oc=5",
       "fonte": "Repórter Guaibense",
       "publicado_em": "2026-06-16T07:00:00+00:00",
+      "categoria": null,
+      "feed": "reporter"
+    },
+    {
+      "id": "69ffa1599a86",
+      "titulo": "Prefeitura de Guaíba reorganiza o calendário de pagamento e de adiantamento do 13º salário dos servidores",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdWVrUEZLemYzaG1SZlVmMG4tY3lCWjN2ejVXYU1JZ09ad3pnekJOYmJERC1fSGVFeDZ6c3ZrblItckdpN2ZnbEE4SXBRYmVCLWh1My1oZGh6ZXkzdVZaVFczNHlPRDJySFhQWGdrZnVQNEQ2Y0pXbHhvTXB1b0lnSzBpamc0dXpJb090RW1fNkI3Z0ZCZjVOb3E4MWlqMl80d3U4ZWJGYjdwQlZiOUFnSm8weG5CRmxuTXBHQkVNOVh3SnQ3OWJ0NXBQZXJkYVRmeVNsZWJ1bWstR0JWRGd3Rl9GUQ?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-06-15T07:00:00+00:00",
       "categoria": null,
       "feed": "reporter"
     }
