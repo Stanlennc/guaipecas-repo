@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Agrega notícias sobre Guaíba/RS de feeds RSS públicos.
+Agrega notícias de Guaíba/RS e da Região Metropolitana de Porto Alegre.
 Gera noticias.json para o site consumir.
 """
 
@@ -19,9 +19,50 @@ ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "noticias.json"
 USER_AGENT = "GuaipecasBot/1.0 (+https://github.com/Stanlennc/guaipecas-repo)"
 MAX_ITEMS_HOME = 8
-MAX_ITEMS = 24
+MAX_ITEMS = 30
 
-# Feeds testados — prioridade local primeiro.
+# Municípios e termos da Região Metropolitana de Porto Alegre (RMPA).
+REGIAO_METRO_TERMOS = [
+    "porto alegre",
+    "região metropolitana",
+    "regiao metropolitana",
+    "grande porto alegre",
+    "metropolitana de porto alegre",
+    "rmpa",
+    "canoas",
+    "gravataí",
+    "gravatai",
+    "cachoeirinha",
+    "viamão",
+    "viamao",
+    "alvorada",
+    "sapucaia do sul",
+    "esteio",
+    "são leopoldo",
+    "sao leopoldo",
+    "novo hamburgo",
+    "eldorado do sul",
+    "charqueadas",
+    "triunfo",
+    "portão",
+    "portao",
+    "nova santa rita",
+    "guaíba",
+    "guaiba",
+    "dois irmãos",
+    "dois irmaos",
+    "ivoti",
+    "campo bom",
+    "br-116",
+    "br 116",
+    "freeway",
+    "zona sul",
+    "zona norte",
+    "zona leste",
+    "zona oeste",
+]
+
+# Feeds testados — prioridade local primeiro, depois região metropolitana.
 FEEDS = [
     {
         "id": "reporter",
@@ -33,8 +74,8 @@ FEEDS = [
     {
         "id": "litoral",
         "nome": "Portal Litoral Sul",
-        "url": "https://news.google.com/rss/search?q=site:portallitoralsul.com.br+Gua%C3%ADba&hl=pt-BR&gl=BR&ceid=BR:pt-419",
-        "filtro": "guaiba",
+        "url": "https://news.google.com/rss/search?q=site:portallitoralsul.com.br+(Gua%C3%ADba+OR+Eldorado+OR+Charqueadas)&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+        "filtro": "regiao_metro",
         "prioridade": 9,
     },
     {
@@ -42,6 +83,27 @@ FEEDS = [
         "nome": "Correio do Povo",
         "url": "https://news.google.com/rss/search?q=Gua%C3%ADba+site:correiodopovo.com.br&hl=pt-BR&gl=BR&ceid=BR:pt-419",
         "filtro": "guaiba",
+        "prioridade": 9,
+    },
+    {
+        "id": "correio_metro",
+        "nome": "Correio do Povo",
+        "url": "https://news.google.com/rss/search?q=site:correiodopovo.com.br+regi%C3%A3o+metropolitana+Porto+Alegre&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+        "filtro": "regiao_metro",
+        "prioridade": 8,
+    },
+    {
+        "id": "gzh_metro",
+        "nome": "GZH",
+        "url": "https://news.google.com/rss/search?q=site:gauchazh.clicrbs.com.br+regi%C3%A3o+metropolitana&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+        "filtro": "regiao_metro",
+        "prioridade": 7,
+    },
+    {
+        "id": "vizinhos",
+        "nome": "Google Notícias",
+        "url": "https://news.google.com/rss/search?q=Gua%C3%ADba+OR+Eldorado+do+Sul+OR+Charqueadas+when:7d&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+        "filtro": "regiao_metro",
         "prioridade": 8,
     },
     {
@@ -52,10 +114,24 @@ FEEDS = [
         "prioridade": 7,
     },
     {
+        "id": "metro_recentes",
+        "nome": "Google Notícias",
+        "url": "https://news.google.com/rss/search?q=regi%C3%A3o+metropolitana+Porto+Alegre+when:7d&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+        "filtro": "regiao_metro",
+        "prioridade": 7,
+    },
+    {
         "id": "google",
         "nome": "Google Notícias",
         "url": "https://news.google.com/rss/search?q=Gua%C3%ADba+RS&hl=pt-BR&gl=BR&ceid=BR:pt-419",
         "filtro": "guaiba_cidade",
+        "prioridade": 6,
+    },
+    {
+        "id": "metro_poars",
+        "nome": "Google Notícias",
+        "url": "https://news.google.com/rss/search?q=Porto+Alegre+OR+Canoas+OR+Gravata%C3%AD+when:7d&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+        "filtro": "regiao_metro",
         "prioridade": 6,
     },
 ]
@@ -67,8 +143,10 @@ SOURCE_PRIORITY = {
     "correio do povo": 8,
     "defensoria": 7,
     "prefeitura": 7,
-    "g1": 4,
-    "gzh": 4,
+    "gzh": 6,
+    "zero hora": 6,
+    "g1": 5,
+    "gauchazh": 5,
 }
 
 
@@ -147,8 +225,42 @@ def is_river_not_city(text):
         r"\bcheia.*porto alegre\b",
         r"\benchente.*porto alegre\b",
         r"\belevação do n[ií]vel\b",
+        r"\bminera[cç][aã]o.*gua[ií]ba\b",
+        r"\bareia.*gua[ií]ba\b",
     ]
     return any(re.search(pattern, text) for pattern in river_patterns)
+
+
+def is_junk_item(item):
+    titulo = (item.get("titulo") or "").lower()
+    fonte = (item.get("fonte") or "").lower()
+    if "moovit" in fonte or "moovit" in titulo:
+        return True
+    if re.search(r"\bparada\s*$", titulo) and re.search(r"\d{5}", titulo):
+        return True
+    return False
+
+
+def mentions_regiao_metro(text):
+    if not text:
+        return False
+    lower = text.lower()
+    if is_river_not_city(lower) and not any(
+        term in lower for term in ("guaíba", "guaiba", "eldorado", "charqueadas", "porto alegre")
+    ):
+        return False
+    return any(term in lower for term in REGIAO_METRO_TERMOS)
+
+
+def relevance_boost(item):
+    titulo = item.get("titulo", "").lower()
+    if mentions_guaiba_city(titulo):
+        return 3
+    if ("guaíba" in titulo or "guaiba" in titulo) and not is_river_not_city(titulo):
+        return 2
+    if mentions_regiao_metro(titulo):
+        return 1
+    return 0
 
 
 def passes_filter(item, filtro):
@@ -160,6 +272,8 @@ def passes_filter(item, filtro):
         return ("guaíba" in lower or "guaiba" in lower) and not is_river_not_city(lower)
     if filtro == "guaiba_cidade":
         return mentions_guaiba_city(titulo)
+    if filtro == "regiao_metro":
+        return mentions_regiao_metro(titulo)
     return True
 
 
@@ -220,7 +334,7 @@ def parse_rss(xml_text, feed_cfg):
             "prioridade": max(base_priority, source_priority(fonte)),
         }
 
-        if passes_filter(entry, feed_cfg.get("filtro")):
+        if passes_filter(entry, feed_cfg.get("filtro")) and not is_junk_item(entry):
             items.append(entry)
 
     return items
@@ -245,7 +359,7 @@ def dedupe_and_sort(items):
                 dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
             except ValueError:
                 dt = datetime.min.replace(tzinfo=timezone.utc)
-        return (dt, item.get("prioridade", 5))
+        return (relevance_boost(item), dt, item.get("prioridade", 5))
 
     unique.sort(key=sort_key, reverse=True)
     trimmed = unique[:MAX_ITEMS]
@@ -261,7 +375,7 @@ def write_rss(noticias):
         '<rss version="2.0"><channel>',
         "<title>Guibanews — Guaipecas</title>",
         "<link>https://guaipecas.github.io/</link>",
-        "<description>Notícias sobre Guaíba/RS</description>",
+        "<description>Notícias de Guaíba e da Região Metropolitana de Porto Alegre</description>",
         "<language>pt-BR</language>",
     ]
     for item in noticias[:20]:
