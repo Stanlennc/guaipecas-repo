@@ -1,15 +1,18 @@
 {
-  "gerado_em": "2026-07-11T20:58:31.601617+00:00",
+  "gerado_em": "2026-07-11T22:36:28.823402+00:00",
   "mercados": [
     {
       "id": "stok",
       "nome": "Stok Center",
-      "cor": "#3dadb8",
+      "cor": "#48d4f0",
       "url": "https://www.stokonline.com.br/ofertas",
       "banner": "assets/banners/stok.png",
       "ofertas": [],
       "tipo": "scraping",
-      "quantidade": 0
+      "quantidade": 0,
+      "promocao_imagem": "assets/banners/stok.png",
+      "promocao_titulo": "Ver encarte da semana",
+      "imagem_credito": "Stok Center"
     },
     {
       "id": "indio",
@@ -17,47 +20,27 @@
       "cor": "#4ec9a0",
       "url": "https://supermercadosindio.app.br/promocoes",
       "banner": "assets/banners/indio.png",
-      "ofertas": [
-        {
-          "titulo": "Supermercado Índio - Guaíba",
-          "preco": "",
-          "imagem": "https://assets.ibecom.com.br/ib.store.image.medium/m-23f3328c4612491bb296b0d831f76379.png",
-          "link": "/"
-        },
-        {
-          "titulo": "Supermercado Índio - Guaíba",
-          "preco": "",
-          "imagem": "https://assets.ibecom.com.br/ib.store.image.medium/m-23f3328c4612491bb296b0d831f76379.png",
-          "link": "/"
-        }
-      ],
+      "ofertas": [],
       "tipo": "scraping",
       "banner_origem": "https://assets.ibecom.com.br/ib.store.image.medium/m-23f3328c4612491bb296b0d831f76379.png",
-      "quantidade": 2
+      "quantidade": 0,
+      "promocao_imagem": "assets/banners/indio.png",
+      "promocao_titulo": "Ver encarte da semana",
+      "imagem_credito": "Supermercado Índio"
     },
     {
       "id": "paulinho",
       "nome": "Supermercado Paulinho",
-      "cor": "#e8a87c",
+      "cor": "#ffd166",
       "url": "https://supermercadopaulinho.com.br/promocoes",
       "banner": "assets/banners/paulinho.png",
-      "ofertas": [
-        {
-          "titulo": "Supermercado Paulinho",
-          "preco": "",
-          "imagem": "https://assets.ibecom.com.br/ib.store.image.medium/m-9edbfff4022a4ac7a2f7c45ed301d430.png",
-          "link": "/"
-        },
-        {
-          "titulo": "Supermercado Paulinho",
-          "preco": "",
-          "imagem": "https://assets.ibecom.com.br/ib.store.image.medium/m-9edbfff4022a4ac7a2f7c45ed301d430.png",
-          "link": "/"
-        }
-      ],
+      "ofertas": [],
       "tipo": "scraping",
       "banner_origem": "https://assets.ibecom.com.br/ib.store.image.medium/m-9edbfff4022a4ac7a2f7c45ed301d430.png",
-      "quantidade": 2
+      "quantidade": 0,
+      "promocao_imagem": "assets/banners/paulinho.png",
+      "promocao_titulo": "Ver encarte da semana",
+      "imagem_credito": "Supermercado Paulinho"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-11T22:27:53.181900+00:00",
+  "gerado_em": "2026-07-11T22:47:18.834757+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -82,7 +82,8 @@
       "categoria": null,
       "feed": "reporter_direto",
       "imagem": "https://www.reporterguaibense.com.br/uploads/images/2026/06/sob-chuva-guaiba-recebe-mais-de-400-corredores-na-8-etapa-do-circuito-sesc-de-corridas-208df.jpeg",
-      "imagem_credito": "Repórter Guaibense"
+      "imagem_credito": "Repórter Guaibense",
+      "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
     },
     {
       "id": "d85bcc167848",
@@ -93,7 +94,8 @@
       "categoria": null,
       "feed": "reporter_direto",
       "imagem": "https://www.reporterguaibense.com.br/uploads/images/2026/06/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba-19f15.jpg",
-      "imagem_credito": "Repórter Guaibense"
+      "imagem_credito": "Repórter Guaibense",
+      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
     },
     {
       "id": "221c68dd37a6",
@@ -104,7 +106,8 @@
       "categoria": null,
       "feed": "reporter_direto",
       "imagem": "https://www.reporterguaibense.com.br/uploads/images/2026/07/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos-33238.jpeg",
-      "imagem_credito": "Repórter Guaibense"
+      "imagem_credito": "Repórter Guaibense",
+      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
     },
     {
       "id": "4cd91ccbbdfb",
@@ -115,7 +118,8 @@
       "categoria": null,
       "feed": "reporter_direto",
       "imagem": "https://www.reporterguaibense.com.br/uploads/images/2026/06/guaiba-lanca-editais-da-politica-nacional-aldir-blanc-com-mais-de-r-450-mil-em-investimentos-na-cultura-761fa.jpg",
-      "imagem_credito": "Repórter Guaibense"
+      "imagem_credito": "Repórter Guaibense",
+      "resumo": "Os editais foram apresentados em duas audiências públicas presenciais"
     },
     {
       "id": "158a75a76c50",
@@ -124,7 +128,8 @@
       "fonte": "Studio Notícias",
       "publicado_em": "2026-07-11T08:40:47+00:00",
       "categoria": null,
-      "feed": "vizinhos"
+      "feed": "vizinhos",
+      "resumo": "PRF prende homem com motocicleta furtada na BR-116, em Guaíba Studio Notícias"
     },
     {
       "id": "359ce39e10c7",
@@ -133,7 +138,8 @@
       "fonte": "Correio do Povo",
       "publicado_em": "2026-07-10T20:10:02+00:00",
       "categoria": null,
-      "feed": "correio"
+      "feed": "correio",
+      "resumo": "Alunos apresentam oficina e visitam o Jornal Correio do Povo e a Rádio Guaíba Correio do Povo"
     },
     {
       "id": "3a2cd35e5251",
@@ -142,7 +148,8 @@
       "fonte": "expansao.co",
       "publicado_em": "2026-07-10T17:05:19+00:00",
       "categoria": null,
-      "feed": "recentes"
+      "feed": "recentes",
+      "resumo": "Guaíba fortalece as equipes da Defesa Civil com treinamento aquático expansao.co"
     },
     {
       "id": "7e14a601c6dd",
@@ -151,7 +158,8 @@
       "fonte": "defensoria.rs.def.br",
       "publicado_em": "2026-07-09T18:26:24+00:00",
       "categoria": null,
-      "feed": "recentes"
+      "feed": "recentes",
+      "resumo": "Defensoria Pública participa da entrega das escrituras encaminhadas pelo Projeto Terra – Eu sou COHAB, em Guaíba defensoria.rs.def.br"
     },
     {
       "id": "ea9a7f777f82",
@@ -160,7 +168,8 @@
       "fonte": "Agora RS",
       "publicado_em": "2026-07-09T13:19:53+00:00",
       "categoria": null,
-      "feed": "recentes"
+      "feed": "recentes",
+      "resumo": "Mutirão do Projeto Terra contempla 226 imóveis, em Guaíba Agora RS"
     },
     {
       "id": "b7a69d8e4111",
@@ -169,7 +178,8 @@
       "fonte": "Correio do Povo",
       "publicado_em": "2026-07-09T12:55:26+00:00",
       "categoria": null,
-      "feed": "correio"
+      "feed": "correio",
+      "resumo": "Cinco novos consultórios e uma Sala Lilás são inaugurados no Hospital Regional Nelson Cornetet, em Guaíba Correio do Povo"
     },
     {
       "id": "fa898c66b7b6",
@@ -178,7 +188,8 @@
       "fonte": "Portal Litoral Sul",
       "publicado_em": "2026-07-09T11:13:01+00:00",
       "categoria": null,
-      "feed": "litoral"
+      "feed": "litoral",
+      "resumo": "Cidade Inteligente Guaíba inicia entrega da infraestrutura e projeta novo ciclo de desenvolvimento para a região Portal Litoral Sul"
     },
     {
       "id": "e0c55945fd2d",
@@ -187,7 +198,8 @@
       "fonte": "Jornal O Sul",
       "publicado_em": "2026-07-09T02:24:08+00:00",
       "categoria": null,
-      "feed": "recentes"
+      "feed": "recentes",
+      "resumo": "Projeto Terra entrega 226 escrituras em Guaíba Jornal O Sul"
     },
     {
       "id": "9ee89f7b2a64",
@@ -196,7 +208,8 @@
       "fonte": "GZH",
       "publicado_em": "2026-07-08T18:38:55+00:00",
       "categoria": null,
-      "feed": "recentes"
+      "feed": "recentes",
+      "resumo": "Lenda das maratonas Eliud Kipchoge corre na Orla do Guaíba e conhece projeto social da Capital GZH"
     },
     {
       "id": "876d6f85864b",
@@ -205,7 +218,8 @@
       "fonte": "R7",
       "publicado_em": "2026-07-08T13:35:02+00:00",
       "categoria": null,
-      "feed": "recentes"
+      "feed": "recentes",
+      "resumo": "Obras das alças da nova Ponte do Guaíba dependem de remoções em Porto Alegre R7"
     },
     {
       "id": "7cbd8fad7170",
@@ -214,7 +228,8 @@
       "fonte": "expansao.co",
       "publicado_em": "2026-07-07T12:49:49+00:00",
       "categoria": null,
-      "feed": "recentes"
+      "feed": "recentes",
+      "resumo": "Guaíba inaugura seis novas salas no Hospital Regional Nelson Cornetet expansao.co"
     },
     {
       "id": "fb943be7b348",
@@ -223,7 +238,8 @@
       "fonte": "Portal Litoral Sul",
       "publicado_em": "2026-07-07T11:15:11+00:00",
       "categoria": null,
-      "feed": "litoral"
+      "feed": "litoral",
+      "resumo": "Cidade Inteligente Guaíba inicia nova etapa com primeiro evento oficial de ativação do bairro Portal Litoral Sul"
     },
     {
       "id": "086a09ae1b68",
@@ -232,7 +248,8 @@
       "fonte": "Portal de Camaquã",
       "publicado_em": "2026-07-06T23:02:16+00:00",
       "categoria": null,
-      "feed": "recentes"
+      "feed": "recentes",
+      "resumo": "Motorista de aplicativo morre em acidente em Guaíba, e SIMTRAPLIRS cobra punição rigorosa ao motorista embriagado Portal de Camaquã"
     },
     {
       "id": "a6107b83689a",
@@ -241,7 +258,8 @@
       "fonte": "Jornal do Comércio",
       "publicado_em": "2026-07-06T20:39:50+00:00",
       "categoria": null,
-      "feed": "recentes"
+      "feed": "recentes",
+      "resumo": "Hospital de Guaíba reabre em setembro com nova gestão Jornal do Comércio"
     },
     {
       "id": "70d54633355a",
@@ -250,7 +268,8 @@
       "fonte": "MetSul Meteorologia",
       "publicado_em": "2026-07-05T15:27:52+00:00",
       "categoria": null,
-      "feed": "recentes"
+      "feed": "recentes",
+      "resumo": "Guaíba perto do normal com alerta da Prefeitura de risco de cheia MetSul Meteorologia"
     },
     {
       "id": "2d4e7a08ef0b",
@@ -259,7 +278,8 @@
       "fonte": "Correio do Povo",
       "publicado_em": "2026-07-05T15:23:00+00:00",
       "categoria": null,
-      "feed": "recentes"
+      "feed": "recentes",
+      "resumo": "Guaíba intensifica investimentos em obras de prevenção contra enchentes na área de infraestrutura Correio do Povo"
     },
     {
       "id": "2e20766bf06b",
@@ -268,7 +288,8 @@
       "fonte": "Repórter Guaibense",
       "publicado_em": "2026-07-02T19:20:55+00:00",
       "categoria": null,
-      "feed": "reporter"
+      "feed": "reporter",
+      "resumo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional 'Mobilidade para Todos' Repórter Guaibense"
     },
     {
       "id": "e99883bf253e",
@@ -277,7 +298,8 @@
       "fonte": "G1",
       "publicado_em": "2026-06-27T07:00:00+00:00",
       "categoria": null,
-      "feed": "google"
+      "feed": "google",
+      "resumo": "O que significa monumento de 4,5 metros com dedo apontado para o céu instalado às margens do Guaíba G1"
     },
     {
       "id": "2afc568ba6d5",
@@ -286,7 +308,8 @@
       "fonte": "((o))eco | Jornalismo Ambiental",
       "publicado_em": "2026-06-26T07:00:00+00:00",
       "categoria": null,
-      "feed": "google"
+      "feed": "google",
+      "resumo": "Situação política e interesses estrangeiros ameaçam o Guaíba, no Rio Grande do Sul ((o))eco | Jornalismo Ambiental"
     },
     {
       "id": "28cfe033ae86",
@@ -295,7 +318,8 @@
       "fonte": "Diário Gaúcho",
       "publicado_em": "2026-06-24T07:00:00+00:00",
       "categoria": null,
-      "feed": "google"
+      "feed": "google",
+      "resumo": "O que significa a mão gigante de concreto com dedo apontado para o céu em Guaíba Diário Gaúcho"
     },
     {
       "id": "84fb647c92f5",
@@ -304,7 +328,8 @@
       "fonte": "Instituto Humanitas Unisinos - IHU",
       "publicado_em": "2026-06-23T11:17:41+00:00",
       "categoria": null,
-      "feed": "google"
+      "feed": "google",
+      "resumo": "Comitê faz alerta sobre efeitos de vapor da CMPC em Guaíba/RS Instituto Humanitas Unisinos - IHU"
     },
     {
       "id": "9215686b765c",
@@ -313,7 +338,8 @@
       "fonte": "Repórter Guaibense",
       "publicado_em": "2026-06-22T07:00:00+00:00",
       "categoria": null,
-      "feed": "reporter"
+      "feed": "reporter",
+      "resumo": "Círculo Saúde abre 120 vagas de emprego para a instalação do novo hospital de Guaíba Repórter Guaibense"
     },
     {
       "id": "38548429cccc",
@@ -322,7 +348,8 @@
       "fonte": "Repórter Guaibense",
       "publicado_em": "2026-06-22T07:00:00+00:00",
       "categoria": null,
-      "feed": "reporter"
+      "feed": "reporter",
+      "resumo": "Observatório Social alerta para situação financeira e indica redução de 23% nas despesas de Guaíba Repórter Guaibense"
     },
     {
       "id": "784593a9ce78",
@@ -331,7 +358,8 @@
       "fonte": "Repórter Guaibense",
       "publicado_em": "2026-06-19T07:00:00+00:00",
       "categoria": null,
-      "feed": "reporter"
+      "feed": "reporter",
+      "resumo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos Repórter Guaibense"
     },
     {
       "id": "fef6f73af6dd",
@@ -340,7 +368,8 @@
       "fonte": "Repórter Guaibense",
       "publicado_em": "2026-06-16T07:00:00+00:00",
       "categoria": null,
-      "feed": "reporter"
+      "feed": "reporter",
+      "resumo": "Obras da Corsan podem causar oscilação na pressão da água em Guaíba nesta quarta-feira Repórter Guaibense"
     },
     {
       "id": "3bef2f34c602",
@@ -349,7 +378,8 @@
       "fonte": "Repórter Guaibense",
       "publicado_em": "2026-06-16T07:00:00+00:00",
       "categoria": null,
-      "feed": "reporter"
+      "feed": "reporter",
+      "resumo": "Guaíba recebe etapa do Circuito Sesc de Corridas no dia 28 de junho; veja como se inscrever Repórter Guaibense"
     }
   ],
   "noticias_home": [
@@ -362,7 +392,8 @@
       "categoria": null,
       "feed": "reporter_direto",
       "imagem": "https://www.reporterguaibense.com.br/uploads/images/2026/06/sob-chuva-guaiba-recebe-mais-de-400-corredores-na-8-etapa-do-circuito-sesc-de-corridas-208df.jpeg",
-      "imagem_credito": "Repórter Guaibense"
+      "imagem_credito": "Repórter Guaibense",
+      "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
     },
     {
       "id": "d85bcc167848",
@@ -373,7 +404,8 @@
       "categoria": null,
       "feed": "reporter_direto",
       "imagem": "https://www.reporterguaibense.com.br/uploads/images/2026/06/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba-19f15.jpg",
-      "imagem_credito": "Repórter Guaibense"
+      "imagem_credito": "Repórter Guaibense",
+      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
     },
     {
       "id": "221c68dd37a6",
@@ -384,7 +416,8 @@
       "categoria": null,
       "feed": "reporter_direto",
       "imagem": "https://www.reporterguaibense.com.br/uploads/images/2026/07/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos-33238.jpeg",
-      "imagem_credito": "Repórter Guaibense"
+      "imagem_credito": "Repórter Guaibense",
+      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
     },
     {
       "id": "4cd91ccbbdfb",
@@ -395,7 +428,8 @@
       "categoria": null,
       "feed": "reporter_direto",
       "imagem": "https://www.reporterguaibense.com.br/uploads/images/2026/06/guaiba-lanca-editais-da-politica-nacional-aldir-blanc-com-mais-de-r-450-mil-em-investimentos-na-cultura-761fa.jpg",
-      "imagem_credito": "Repórter Guaibense"
+      "imagem_credito": "Repórter Guaibense",
+      "resumo": "Os editais foram apresentados em duas audiências públicas presenciais"
     },
     {
       "id": "158a75a76c50",
@@ -404,7 +438,8 @@
       "fonte": "Studio Notícias",
       "publicado_em": "2026-07-11T08:40:47+00:00",
       "categoria": null,
-      "feed": "vizinhos"
+      "feed": "vizinhos",
+      "resumo": "PRF prende homem com motocicleta furtada na BR-116, em Guaíba Studio Notícias"
     },
     {
       "id": "359ce39e10c7",
@@ -413,7 +448,8 @@
       "fonte": "Correio do Povo",
       "publicado_em": "2026-07-10T20:10:02+00:00",
       "categoria": null,
-      "feed": "correio"
+      "feed": "correio",
+      "resumo": "Alunos apresentam oficina e visitam o Jornal Correio do Povo e a Rádio Guaíba Correio do Povo"
     },
     {
       "id": "3a2cd35e5251",
@@ -422,7 +458,8 @@
       "fonte": "expansao.co",
       "publicado_em": "2026-07-10T17:05:19+00:00",
       "categoria": null,
-      "feed": "recentes"
+      "feed": "recentes",
+      "resumo": "Guaíba fortalece as equipes da Defesa Civil com treinamento aquático expansao.co"
     },
     {
       "id": "7e14a601c6dd",
@@ -431,7 +468,8 @@
       "fonte": "defensoria.rs.def.br",
       "publicado_em": "2026-07-09T18:26:24+00:00",
       "categoria": null,
-      "feed": "recentes"
+      "feed": "recentes",
+      "resumo": "Defensoria Pública participa da entrega das escrituras encaminhadas pelo Projeto Terra – Eu sou COHAB, em Guaíba defensoria.rs.def.br"
     }
   ]
 }

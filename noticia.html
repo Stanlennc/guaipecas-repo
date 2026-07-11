@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notícia — Guibanews · Guaipecas</title>
+<meta name="description" content="Notícia de Guaíba e região agregada pelo Guaipecas, com crédito à fonte original.">
+<meta property="og:title" content="Guibanews — Guaipecas">
+<meta property="og:description" content="Notícias de Guaíba e da Região Metropolitana de Porto Alegre.">
+<meta property="og:image" content="">
+<meta property="og:type" content="article">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2eb8d4">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">Guaipecas
+      <small>Portal cidadão · Guaíba/RS</small>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Início</a>
+      <a href="guibanews.html" class="active">Guibanews</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="saude.html">Saúde</a>
+      <a href="diario-oficial.html">Diário Oficial</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" id="navToggle">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="nav-backdrop" id="navBackdrop" hidden></div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Início</a>
+    <a href="guibanews.html">Guibanews</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="saude.html">Saúde</a>
+    <a href="diario-oficial.html">Diário Oficial</a>
+    <a href="contatos.html">Contatos</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <p class="breadcrumb" id="noticiaBreadcrumb"><a href="index.html">Início</a> / <a href="guibanews.html">Guibanews</a> / <span>Carregando…</span></p>
+
+    <article class="noticia-article" id="noticiaArticle" aria-live="polite">
+      <div class="noticia-article__loading" id="noticiaLoading">
+        <div class="noticia-hero noticia-hero--skeleton"></div>
+        <div class="noticia-article__header">
+          <span class="skeleton skeleton-inline" style="width:120px;height:14px;display:inline-block"></span>
+          <h1 class="noticia-article__title skeleton" style="min-height:2.4em;margin-top:12px"></h1>
+        </div>
+      </div>
+
+      <div class="noticia-article__content" id="noticiaContent" hidden>
+        <figure class="noticia-hero" id="noticiaHero" hidden>
+          <img src="" alt="" loading="eager" decoding="async" referrerpolicy="no-referrer" id="noticiaHeroImg">
+          <figcaption id="noticiaHeroCredit"></figcaption>
+        </figure>
+
+        <header class="noticia-article__header">
+          <div class="noticia-article__meta">
+            <span class="noticia-article__source" id="noticiaSource"></span>
+            <time class="noticia-article__date" id="noticiaDate"></time>
+          </div>
+          <h1 class="noticia-article__title" id="noticiaTitle"></h1>
+        </header>
+
+        <div class="noticia-article__resumo" id="noticiaResumo"></div>
+
+        <div class="noticia-article__actions">
+          <a href="#" class="btn-primary" id="noticiaSourceLink" target="_blank" rel="noopener">Ler matéria completa na fonte ↗</a>
+          <button type="button" class="btn-secondary" id="noticiaShare">Compartilhar</button>
+        </div>
+
+        <p class="noticia-article__disclaimer">Conteúdo agregado automaticamente pelo Guaipecas. Texto e foto pertencem à <strong id="noticiaDisclaimerSource">fonte</strong>. O portal não edita nem endossa a matéria — abra o link acima para a versão completa no veículo de origem.</p>
+      </div>
+
+      <div class="noticia-article__error" id="noticiaError" hidden>
+        <h1 class="page-title">Notícia não encontrada</h1>
+        <p class="page-lede">O link pode estar desatualizado ou a matéria já saiu do feed.</p>
+        <a class="btn-primary" href="guibanews.html">Ver todas as manchetes</a>
+      </div>
+    </article>
+
+    <section class="noticia-related" id="noticiaRelated" hidden aria-labelledby="noticiaRelatedTitle">
+      <h2 class="noticia-related__title" id="noticiaRelatedTitle">Outras manchetes</h2>
+      <ol class="manchetes-list manchetes-list--compact" id="noticiaRelatedList"></ol>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Guaipecas</strong> — por quem mora em Guaíba, para quem mora em Guaíba.</p>
+    <div class="foot-links">
+      <a href="guibanews.html">← Voltar ao Guibanews</a>
+      <a href="index.html">Início</a>
+    </div>
+  </div>
+</footer>
+
+<script src="noticias-data.js"></script>
+<script src="analytics-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

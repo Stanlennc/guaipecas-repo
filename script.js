@@ -20,6 +20,12 @@
   };
 })();
 
+/** Página interna da notícia — mantém o usuário no Guaipecas. */
+function guaipecasNoticiaUrl(item) {
+  if (item && item.id) return 'noticia.html?id=' + encodeURIComponent(item.id);
+  return (item && item.url) || '#';
+}
+
 // Menu mobile + backdrop
 (function(){
   const toggle = document.getElementById('navToggle');
@@ -140,10 +146,28 @@ function updateRiverAlert(level, message) {
   var jacuiCard = document.querySelector('[data-river="jacui"]');
   if (!guaibaCard && !jacuiCard) return;
 
+  function applyRiverPhoto(riverId, riverData) {
+    var wrap = document.getElementById(riverId + 'Photo');
+    if (!wrap || !riverData || !riverData.imagem) return;
+    var img = wrap.querySelector('img');
+    var credit = wrap.querySelector('.river-card__photo-credit');
+    if (img) {
+      img.src = riverData.imagem;
+      img.alt = (riverData.nome || 'Rio') + ' — ' + (riverData.local || '');
+    }
+    if (credit) {
+      credit.textContent = 'Foto: ' + (riverData.imagem_credito || riverData.fonte || 'Fonte');
+    }
+    wrap.hidden = false;
+    var card = document.querySelector('[data-river="' + riverId + '"]');
+    if (card) card.classList.add('river-card--has-photo');
+  }
+
   function updateRivers(data) {
     var rios = data.rios || {};
     var g = rios.guaiba;
     if (g && guaibaCard) {
+      applyRiverPhoto('guaiba', g);
       var levelEl = document.getElementById('guaibaLevel');
       var statusEl = document.getElementById('guaibaStatus');
       var updatedEl = document.getElementById('guaibaUpdated');
@@ -160,6 +184,7 @@ function updateRiverAlert(level, message) {
 
     var j = rios.jacui;
     if (j && jacuiCard) {
+      applyRiverPhoto('jacui', j);
       var levelEl2 = document.getElementById('jacuiLevel');
       var statusEl2 = document.getElementById('jacuiStatus');
       var updatedEl2 = document.getElementById('jacuiUpdated');
@@ -292,22 +317,24 @@ function updateRiverAlert(level, message) {
   }
 
   function renderBanner(m) {
-    var banner = m.banner || ('assets/banners/' + m.id + '.png');
+    var banner = m.promocao_imagem || m.banner_origem || m.banner || ('assets/banners/' + m.id + '.png');
     var alt = 'Ofertas ' + m.nome;
-    var cta = 'Ver encarte da semana';
-    if (m.ofertas && m.ofertas.length > 0) {
+    var cta = m.promocao_titulo || 'Ver encarte da semana';
+    if (!m.promocao_titulo && m.ofertas && m.ofertas.length > 0) {
       var o = m.ofertas[0];
       cta = (o.titulo || '') + (o.preco ? ' — ' + o.preco : '');
       cta = cta.trim() || 'Ver encarte da semana';
     }
+    var credit = m.imagem_credito || m.nome;
     return (
-      '<a href="' + escapeHtml(m.url) + '" target="_blank" rel="noopener" class="banner-offer" style="--market-color:' + escapeHtml(m.cor) + '">' +
-        '<img src="' + escapeHtml(banner) + '" alt="' + escapeHtml(alt) + '" loading="lazy" width="480" height="270">' +
+      '<a href="' + escapeHtml(m.url) + '" target="_blank" rel="noopener" class="banner-offer banner-offer--live" style="--market-color:' + escapeHtml(m.cor) + '">' +
+        '<img src="' + escapeHtml(banner) + '" alt="' + escapeHtml(alt) + '" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="480" height="270">' +
         '<div class="banner-offer__overlay">' +
           '<span class="banner-offer__badge" aria-hidden="true">' + escapeHtml(marketInitial(m.nome)) + '</span>' +
           '<div class="banner-offer__text">' +
             '<span class="banner-offer__name">' + escapeHtml(m.nome) + '</span>' +
             '<span class="banner-offer__cta">' + escapeHtml(cta) + '</span>' +
+            '<span class="banner-offer__credit">Foto: ' + escapeHtml(credit) + '</span>' +
           '</div>' +
           '<span class="banner-offer__arrow" aria-hidden="true">→</span>' +
         '</div>' +
@@ -315,23 +342,28 @@ function updateRiverAlert(level, message) {
     );
   }
 
+  function loadOffers(data) {
+    if (!data.mercados || !data.mercados.length) return;
+    container.innerHTML = data.mercados.map(renderBanner).join('');
+    var updateEl = document.getElementById('offersUpdate');
+    if (updateEl && data.gerado_em) {
+      updateEl.textContent = 'última atualização: ' + new Date(data.gerado_em).toLocaleString('pt-BR');
+      clearSkeleton(updateEl);
+    }
+    if (window._observeReveal) window._observeReveal();
+  }
+
   fetch('ofertas.json', { cache: 'no-store' })
     .then(function(r){ if (!r.ok) throw new Error('sem ofertas.json'); return r.json(); })
-    .then(function(data){
-      if (!data.mercados || !data.mercados.length) return;
-      container.innerHTML = data.mercados.map(renderBanner).join('');
-      var updateEl = document.getElementById('offersUpdate');
-      if (updateEl && data.gerado_em) {
-        updateEl.textContent = 'última atualização: ' + new Date(data.gerado_em).toLocaleString('pt-BR');
-        clearSkeleton(updateEl);
-      }
-      if (window._observeReveal) window._observeReveal();
-    })
+    .then(loadOffers)
     .catch(function(){
-      var updateEl = document.getElementById('offersUpdate');
-      if (updateEl) {
-        updateEl.textContent = 'encartes estáticos';
-        clearSkeleton(updateEl);
+      if (window.OFERTAS_DATA) loadOffers(window.OFERTAS_DATA);
+      else {
+        var updateEl = document.getElementById('offersUpdate');
+        if (updateEl) {
+          updateEl.textContent = 'encartes estáticos';
+          clearSkeleton(updateEl);
+        }
       }
     });
 })();
@@ -384,7 +416,9 @@ function updateRiverAlert(level, message) {
   }
 
   function setLead(item) {
-    leadEl.href = item.url;
+    leadEl.href = guaipecasNoticiaUrl(item);
+    leadEl.removeAttribute('target');
+    leadEl.removeAttribute('rel');
     leadEl.hidden = false;
     leadEl.classList.remove('manchete-lead--skeleton');
 
@@ -423,7 +457,7 @@ function updateRiverAlert(level, message) {
     var hasImage = !!item.imagem;
     return (
       '<li class="manchete-item' + (hasImage ? ' manchete-item--has-image' : '') + '">' +
-        '<a href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener" class="manchete-item__link">' +
+        '<a href="' + escapeHtml(guaipecasNoticiaUrl(item)) + '" class="manchete-item__link">' +
           thumbHtml(item) +
           '<span class="manchete-item__source">' + escapeHtml(item.fonte || 'Fonte') + '</span>' +
           '<span class="manchete-item__title">' + escapeHtml(item.titulo) + '</span>' +
@@ -565,7 +599,7 @@ function updateRiverAlert(level, message) {
         : '';
       return (
         '<li class="manchete-item' + (hasImage ? ' manchete-item--has-image' : '') + '">' +
-          '<a href="' + esc(item.url) + '" target="_blank" rel="noopener" class="manchete-item__link">' +
+          '<a href="' + esc(guaipecasNoticiaUrl(item)) + '" class="manchete-item__link">' +
             thumb +
             '<span class="manchete-item__source">' + esc(item.fonte || 'Fonte') + '</span>' +
             '<span class="manchete-item__title">' + esc(item.titulo) + creditHtml + '</span>' +
@@ -700,4 +734,170 @@ function updateRiverAlert(level, message) {
       .catch(function(){ if (window.GUIUNIDADES_DATA) initMap(window.GUIUNIDADES_DATA.unidades || []); });
   };
   document.head.appendChild(leaflet);
+})();
+
+// Página interna da notícia
+(function(){
+  var articleRoot = document.getElementById('noticiaArticle');
+  if (!articleRoot) return;
+
+  var params = new URLSearchParams(window.location.search);
+  var articleId = params.get('id');
+
+  var loadingEl = document.getElementById('noticiaLoading');
+  var contentEl = document.getElementById('noticiaContent');
+  var errorEl = document.getElementById('noticiaError');
+  var relatedSection = document.getElementById('noticiaRelated');
+  var relatedList = document.getElementById('noticiaRelatedList');
+
+  function esc(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function formatDate(iso) {
+    if (!iso) return '';
+    var dt = new Date(iso);
+    if (isNaN(dt.getTime())) return '';
+    return dt.toLocaleString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+  }
+
+  function setMeta(name, value) {
+    if (!value) return;
+    var el = document.querySelector('meta[name="' + name + '"]');
+    if (el) el.setAttribute('content', value);
+  }
+
+  function setOg(prop, value) {
+    if (!value) return;
+    var el = document.querySelector('meta[property="' + prop + '"]');
+    if (el) el.setAttribute('content', value);
+  }
+
+  function renderRelated(items, currentId) {
+    if (!relatedList || !relatedSection) return;
+    var others = items.filter(function(it){ return it.id !== currentId; }).slice(0, 5);
+    if (!others.length) return;
+    relatedList.innerHTML = others.map(function(item){
+      return (
+        '<li class="manchete-item' + (item.imagem ? ' manchete-item--has-image' : '') + '">' +
+          '<a href="' + esc(guaipecasNoticiaUrl(item)) + '" class="manchete-item__link">' +
+            (item.imagem
+              ? '<span class="manchete-item__thumb" aria-hidden="true"><img src="' + esc(item.imagem) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>'
+              : '') +
+            '<span class="manchete-item__source">' + esc(item.fonte || 'Fonte') + '</span>' +
+            '<span class="manchete-item__title">' + esc(item.titulo) + '</span>' +
+            '<span class="manchete-item__date">' + esc(formatDate(item.publicado_em)) + '</span>' +
+          '</a></li>'
+      );
+    }).join('');
+    relatedSection.hidden = false;
+    if (window._observeReveal) window._observeReveal();
+  }
+
+  function showError() {
+    if (loadingEl) loadingEl.hidden = true;
+    if (contentEl) contentEl.hidden = true;
+    if (errorEl) errorEl.hidden = false;
+    document.title = 'Notícia não encontrada — Guibanews · Guaipecas';
+  }
+
+  function renderArticle(item, allItems) {
+    if (loadingEl) loadingEl.hidden = true;
+    if (errorEl) errorEl.hidden = true;
+    if (contentEl) contentEl.hidden = false;
+
+    document.title = item.titulo + ' — Guibanews · Guaipecas';
+    setMeta('description', (item.resumo || item.titulo).slice(0, 160));
+    setOg('og:title', item.titulo);
+    setOg('og:description', (item.resumo || item.titulo).slice(0, 200));
+    if (item.imagem) setOg('og:image', item.imagem);
+
+    var breadcrumb = document.getElementById('noticiaBreadcrumb');
+    if (breadcrumb) {
+      var shortTitle = item.titulo.length > 48 ? item.titulo.slice(0, 48) + '…' : item.titulo;
+      breadcrumb.innerHTML = '<a href="index.html">Início</a> / <a href="guibanews.html">Guibanews</a> / <span>' + esc(shortTitle) + '</span>';
+    }
+
+    var hero = document.getElementById('noticiaHero');
+    var heroImg = document.getElementById('noticiaHeroImg');
+    var heroCredit = document.getElementById('noticiaHeroCredit');
+    if (item.imagem && hero && heroImg) {
+      heroImg.src = item.imagem;
+      heroImg.alt = item.titulo;
+      if (heroCredit) {
+        heroCredit.textContent = 'Foto: ' + (item.imagem_credito || item.fonte || 'Fonte');
+      }
+      hero.hidden = false;
+    } else if (hero) {
+      hero.hidden = true;
+    }
+
+    var sourceEl = document.getElementById('noticiaSource');
+    var dateEl = document.getElementById('noticiaDate');
+    var titleEl = document.getElementById('noticiaTitle');
+    var resumoEl = document.getElementById('noticiaResumo');
+    var sourceLink = document.getElementById('noticiaSourceLink');
+    var disclaimerSource = document.getElementById('noticiaDisclaimerSource');
+
+    if (sourceEl) sourceEl.textContent = item.fonte || 'Fonte';
+    if (dateEl) dateEl.textContent = formatDate(item.publicado_em);
+    if (titleEl) titleEl.textContent = item.titulo;
+    if (resumoEl) {
+      if (item.resumo) {
+        resumoEl.textContent = item.resumo;
+        resumoEl.classList.remove('noticia-article__resumo--empty');
+      } else {
+        resumoEl.textContent = 'Resumo indisponível no feed. Abra a matéria na fonte original para ler o texto completo.';
+        resumoEl.classList.add('noticia-article__resumo--empty');
+      }
+    }
+    if (sourceLink) {
+      sourceLink.href = item.url;
+      sourceLink.textContent = 'Ler matéria completa em ' + (item.fonte || 'fonte') + ' ↗';
+    }
+    if (disclaimerSource) disclaimerSource.textContent = item.fonte || 'fonte original';
+
+    renderRelated(allItems, item.id);
+
+    var shareBtn = document.getElementById('noticiaShare');
+    if (shareBtn) {
+      shareBtn.addEventListener('click', function(){
+        var shareUrl = window.location.href;
+        var shareTitle = item.titulo + ' — Guibanews';
+        if (window.guaipecasTrack) window.guaipecasTrack('share', { method: 'noticia', page: shareTitle });
+        if (navigator.share) {
+          navigator.share({ title: shareTitle, text: item.titulo, url: shareUrl }).catch(function(){});
+        } else {
+          window.open('https://wa.me/?text=' + encodeURIComponent(shareTitle + ': ' + shareUrl), '_blank', 'noopener');
+        }
+      });
+    }
+  }
+
+  function load(data) {
+    if (!articleId) {
+      showError();
+      return;
+    }
+    var items = data.noticias || [];
+    var item = items.find(function(it){ return it.id === articleId; });
+    if (!item) {
+      showError();
+      return;
+    }
+    renderArticle(item, items);
+  }
+
+  if (!articleId) {
+    showError();
+    return;
+  }
+
+  fetch('noticias.json', { cache: 'no-store' })
+    .then(function(r){ if (!r.ok) throw new Error('sem noticias.json'); return r.json(); })
+    .then(load)
+    .catch(function(){
+      if (window.GUIBANEWS_DATA) load(window.GUIBANEWS_DATA);
+      else showError();
+    });
 })();

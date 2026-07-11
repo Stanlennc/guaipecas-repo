@@ -15,6 +15,8 @@ import requests
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "ofertas.json"
+JS_OUTPUT = ROOT / "ofertas-data.js"
 
 # ------------------------------------------------------------
 # 1. Configuração de cada mercado
@@ -24,7 +26,7 @@ MARKETS = {
     "stok": {
         "name": "Stok Center",
         "url": "https://www.stokonline.com.br/ofertas",
-        "color": "#3dadb8",
+        "color": "#48d4f0",
         "banner_fallback": "assets/banners/stok.png",
         "scraper": "scrape_stok"
     },
@@ -38,7 +40,7 @@ MARKETS = {
     "paulinho": {
         "name": "Supermercado Paulinho",
         "url": "https://supermercadopaulinho.com.br/promocoes",
-        "color": "#e8a87c",
+        "color": "#ffd166",
         "banner_fallback": "assets/banners/paulinho.png",
         "scraper": "scrape_paulinho"
     },
@@ -215,6 +217,32 @@ def resolve_banner(market_id, page_url, fallback, name="", color="#3dadb8"):
     return fallback, None
 
 
+def _is_store_logo(url, titulo=""):
+    if not url:
+        return True
+    low = url.lower()
+    titulo_low = (titulo or "").lower()
+    if "store.image" in low or "logo" in low:
+        return True
+    if titulo_low in {"supermercado índio", "supermercado indio", "supermercado paulinho", "stok center"}:
+        return True
+    return False
+
+
+def pick_promo_highlight(ofertas, banner_origem, banner_local):
+    """Escolhe a melhor imagem de promoção e um título curto para o card."""
+    for oferta in ofertas:
+        img = _normalize_url(oferta.get("imagem"))
+        titulo = (oferta.get("titulo") or "").strip()
+        if img and not _is_store_logo(img, titulo) and len(titulo) > 3:
+            return img, titulo[:72]
+
+    if banner_origem and not _is_store_logo(banner_origem):
+        return banner_origem, "Encarte da semana"
+
+    return banner_local, "Ver encarte da semana"
+
+
 def scrape_ibecom_promo_page(url):
     """Extrai ofertas visíveis em páginas ibecom (se houver)."""
     html = fetch_html(url)
@@ -222,20 +250,29 @@ def scrape_ibecom_promo_page(url):
         return []
     soup = BeautifulSoup(html, "lxml")
     ofertas = []
-    for img in soup.select("img[src*='ibecom'], img[src*='produto'], img[src*='product']"):
-        src = img.get("src", "")
+    seen = set()
+
+    for img in soup.select(
+        "img[src*='ibecom'], img[data-src*='ibecom'], img[src*='produto'], img[src*='product']"
+    ):
+        src = _normalize_url(img.get("src") or img.get("data-src"), url)
         alt = img.get("alt", "").strip()
-        parent = img.find_parent(["a", "div", "article"])
-        link = None
-        if parent and parent.name == "a":
-            link = parent.get("href")
-        if alt and len(alt) > 2:
-            ofertas.append({
-                "titulo": alt[:80],
-                "preco": "",
-                "imagem": src,
-                "link": link,
-            })
+        if not src or src in seen:
+            continue
+        seen.add(src)
+        if _is_store_logo(src, alt):
+            continue
+        parent = img.find_parent("a")
+        link = parent.get("href") if parent else None
+        if link:
+            link = _normalize_url(link, url)
+        titulo = alt if alt and len(alt) > 2 else "Oferta da semana"
+        ofertas.append({
+            "titulo": titulo[:80],
+            "preco": "",
+            "imagem": src,
+            "link": link,
+        })
     return ofertas[:10]
 
 
@@ -359,11 +396,25 @@ def main():
 
         result["mercados"].append(mercado_data)
 
+        promo_img, promo_titulo = pick_promo_highlight(
+            mercado_data.get("ofertas", []),
+            mercado_data.get("banner_origem"),
+            mercado_data["banner"],
+        )
+        mercado_data["promocao_imagem"] = promo_img
+        mercado_data["promocao_titulo"] = promo_titulo
+        mercado_data["imagem_credito"] = config["name"]
+
     output = ROOT / "ofertas.json"
     with open(output, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
-    print("ofertas.json atualizado com sucesso.")
+    JS_OUTPUT.write_text(
+        "window.OFERTAS_DATA = " + json.dumps(result, ensure_ascii=False) + ";\n",
+        encoding="utf-8",
+    )
+
+    print("ofertas.json e ofertas-data.js atualizados com sucesso.")
 
 
 if __name__ == "__main__":

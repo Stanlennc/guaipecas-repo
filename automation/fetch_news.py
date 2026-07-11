@@ -358,6 +358,52 @@ def normalize_image_url(url):
     return url
 
 
+def strip_html_text(html):
+    if not html:
+        return ""
+    text = re.sub(r"<[^>]+>", " ", html)
+    text = re.sub(r"\s+", " ", text).strip()
+    for old, new in (("&nbsp;", " "), ("&amp;", "&"), ("&quot;", '"'), ("&#39;", "'"), ("&lt;", "<"), ("&gt;", ">")):
+        text = text.replace(old, new)
+    return text
+
+
+def clean_resumo(text):
+    if not text:
+        return None
+    text = strip_html_text(text) if "<" in text else text.strip()
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) < 40:
+        return None
+    return text[:600].rstrip() + ("…" if len(text) > 600 else "")
+
+
+def extract_og_description(html):
+    if not html:
+        return None
+    patterns = (
+        r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:description["\']',
+        r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']description["\']',
+    )
+    for pattern in patterns:
+        match = re.search(pattern, html, re.I)
+        if match:
+            return clean_resumo(match.group(1))
+    return None
+
+
+def resumo_from_rss_item(item_el):
+    for tag in (CONTENT_NS, "description"):
+        block = item_el.find(tag)
+        if block is not None and block.text:
+            resumo = clean_resumo(block.text)
+            if resumo:
+                return resumo
+    return None
+
+
 def extract_og_image(html):
     if not html:
         return None
@@ -419,10 +465,10 @@ def image_from_html(html):
     return None
 
 
-def fetch_article_image(url):
-    """Busca imagem na página da matéria (og:image ou primeira img relevante)."""
+def fetch_article_meta(url):
+    """Busca imagem e resumo na página da matéria (og: tags)."""
     if not url:
-        return None
+        return None, None
 
     target = decode_google_news_url(url)
     headers = {"User-Agent": USER_AGENT}
@@ -430,12 +476,21 @@ def fetch_article_image(url):
         resp = requests.get(target, headers=headers, timeout=12, allow_redirects=True)
         resp.raise_for_status()
         if "text/html" not in (resp.headers.get("Content-Type") or "").lower():
-            return None
+            return None, None
         html = resp.text[:150000]
-        return extract_og_image(html) or image_from_html(html)
+        return (
+            extract_og_image(html) or image_from_html(html),
+            extract_og_description(html),
+        )
     except Exception as exc:
-        print(f"imagem {target[:60]}: {exc}", file=sys.stderr)
-        return None
+        print(f"meta {target[:60]}: {exc}", file=sys.stderr)
+        return None, None
+
+
+def fetch_article_image(url):
+    """Busca imagem na página da matéria (og:image ou primeira img relevante)."""
+    img, _ = fetch_article_meta(url)
+    return img
 
 
 PT_MONTHS = {
@@ -466,9 +521,9 @@ def parse_pt_date(text):
 
 
 def extract_page_meta(html):
-    """Extrai título, imagem e data de uma página HTML."""
+    """Extrai título, imagem, data e resumo de uma página HTML."""
     if not html:
-        return None, None, None
+        return None, None, None, None
     title = None
     for pattern in (
         r'<meta[^>]+property=["\']og:title["\'][^>]+content=["\']([^"\']+)["\']',
@@ -502,7 +557,8 @@ def extract_page_meta(html):
         )
         if pt_match:
             published = pt_match.group(1)
-    return title, image, published
+    resumo = extract_og_description(html)
+    return title, image, published, resumo
 
 
 def parse_published_value(value):
@@ -544,7 +600,7 @@ def scrape_reporter_home(max_items=14):
         try:
             page = requests.get(url, headers=headers, timeout=15)
             page.raise_for_status()
-            titulo, imagem, published = extract_page_meta(page.text[:160000])
+            titulo, imagem, published, resumo = extract_page_meta(page.text[:160000])
             if not titulo:
                 continue
             pub_dt = parse_published_value(published)
@@ -562,6 +618,8 @@ def scrape_reporter_home(max_items=14):
             if imagem:
                 entry["imagem"] = imagem
                 entry["imagem_credito"] = "Repórter Guaibense"
+            if resumo:
+                entry["resumo"] = resumo
             if passes_filter(entry, "nenhum") and not is_junk_item(entry):
                 items.append(entry)
         except Exception as exc:
@@ -570,9 +628,12 @@ def scrape_reporter_home(max_items=14):
     return items
 
 
-def enrich_images(noticias):
-    """Preenche imagem e crédito quando a fonte original publica foto."""
-    pending = [item for item in noticias if not item.get("imagem")]
+def enrich_metadata(noticias):
+    """Preenche imagem, resumo e crédito quando a fonte original publica metadados."""
+    pending = [
+        item for item in noticias
+        if not item.get("imagem") or not item.get("resumo")
+    ]
     direct = [item for item in pending if "news.google.com" not in (item.get("url") or "")]
     google = [item for item in pending if item not in direct]
     fetched = 0
@@ -580,12 +641,17 @@ def enrich_images(noticias):
     for item in direct + google:
         if fetched >= MAX_IMAGE_FETCH:
             break
-        img = fetch_article_image(item.get("url"))
+        if item.get("imagem") and item.get("resumo"):
+            continue
+        img, resumo = fetch_article_meta(item.get("url"))
         fetched += 1
-        if img:
+        if img and not item.get("imagem"):
             item["imagem"] = img
             item["imagem_credito"] = item.get("fonte")
             print(f"imagem og: {item['titulo'][:50]}…", file=sys.stderr)
+        if resumo and not item.get("resumo"):
+            item["resumo"] = resumo
+            print(f"resumo og: {item['titulo'][:50]}…", file=sys.stderr)
 
     for item in noticias:
         if item.get("imagem"):
@@ -653,6 +719,10 @@ def parse_rss(xml_text, feed_cfg):
         if rss_image:
             entry["imagem"] = rss_image
             entry["imagem_credito"] = fonte
+
+        resumo = resumo_from_rss_item(item_el)
+        if resumo:
+            entry["resumo"] = resumo
 
         if passes_filter(entry, feed_cfg.get("filtro")) and not is_junk_item(entry):
             items.append(entry)
@@ -753,7 +823,7 @@ def main():
         collected.extend(parsed)
 
     noticias = dedupe_and_sort(collected)
-    noticias = enrich_images(noticias)
+    noticias = enrich_metadata(noticias)
     noticias_home = noticias[:MAX_ITEMS_HOME]
 
     payload = {

@@ -95,7 +95,7 @@
         <span class="guibanews-update skeleton skeleton-inline" id="newsUpdate">atualizando…</span>
       </div>
 
-      <a href="#" class="manchete-lead manchete-lead--skeleton" id="newsLead" target="_blank" rel="noopener" hidden>
+      <a href="#" class="manchete-lead manchete-lead--skeleton" id="newsLead" hidden>
         <div class="manchete-lead__media" id="newsLeadMedia" hidden></div>
         <div class="manchete-lead__body">
           <span class="manchete-lead__label">Manchete</span>
@@ -125,7 +125,7 @@
         </li>
       </ol>
 
-      <p class="guibanews-disclaimer">Guaíba e Grande Porto Alegre — fotos e textos vêm das fontes originais (citadas quando há imagem). Cada manchete abre a matéria completa no veículo de origem. O Guaipecas não edita nem endossa o conteúdo.</p>
+      <p class="guibanews-disclaimer">Guaíba e Grande Porto Alegre — fotos e resumos vêm das fontes originais (citadas em cada matéria). O Guaipecas exibe a manchete no site e indica o veículo de origem; não edita nem endossa o conteúdo.</p>
     </section>
 
     <!-- AGORA — rios + clima -->
@@ -136,6 +136,11 @@
       </div>
       <div class="now-grid">
         <div class="river-card now-card" data-river="guaiba">
+          <div class="river-card__photo" id="guaibaPhoto" hidden>
+            <img src="" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+            <span class="river-card__photo-credit"></span>
+          </div>
+          <div class="river-card__body">
           <div class="river-name">Rio Guaíba</div>
           <div class="river-place">Cais Mauá, Porto Alegre</div>
           <div class="river-level skeleton" id="guaibaLevel">0,66 m</div>
@@ -146,9 +151,15 @@
           <div class="river-meta">Cota de inundação: 3,00 m · Pico histórico: 5,35 m</div>
           <a class="river-link" href="https://nivelguaiba.com.br/portoalegre" target="_blank" rel="noopener">Ver dados ao vivo ↗</a>
           <div class="river-updated" id="guaibaUpdated">Carregando…</div>
+          </div>
         </div>
 
         <div class="river-card now-card" data-river="jacui">
+          <div class="river-card__photo" id="jacuiPhoto" hidden>
+            <img src="" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+            <span class="river-card__photo-credit"></span>
+          </div>
+          <div class="river-card__body">
           <div class="river-name">Rio Jacuí</div>
           <div class="river-place">Dona Francisca — alerta antecipado</div>
           <div class="river-level skeleton" id="jacuiLevel">2,30 m</div>
@@ -159,6 +170,7 @@
           <div class="river-meta">Cota de inundação: 7,50 m · <span id="wxRain" class="skeleton skeleton-inline">chuva: carregando…</span></div>
           <a class="river-link" href="https://nivelguaiba.com.br/donafrancisca" target="_blank" rel="noopener">Ver dados ao vivo ↗</a>
           <div class="river-updated" id="jacuiUpdated">Carregando…</div>
+          </div>
         </div>
 
         <div class="weather-card now-card">
@@ -205,7 +217,7 @@
         <span class="offers-update skeleton skeleton-inline" id="offersUpdate">atualizando…</span>
       </div>
       <p class="offers-lede">Encartes da semana dos mercados de Guaíba — para fechar a compra com preço melhor.</p>
-      <p class="offers-disclaimer">Links para os sites dos mercados. Sem vínculo comercial.</p>
+      <p class="offers-disclaimer">Encartes e fotos vêm dos sites dos mercados (citados em cada card). Sem vínculo comercial.</p>
 
       <div class="offers-scroll-wrap">
         <div class="offers-grid offers-grid--3" id="offersGrid">
@@ -340,6 +352,7 @@
 </footer>
 
 <script src="noticias-data.js"></script>
+<script src="ofertas-data.js"></script>
 <script src="rivers-data.js"></script>
 <script src="editais-data.js"></script>
 <script src="servicos-data.js"></script>

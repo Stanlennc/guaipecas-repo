@@ -33,6 +33,6 @@ jobs:
         run: |
           git config user.name "guaiba-em-dia-bot"
           git config user.email "actions@github.com"
-          git add rivers.json rivers-data.js
+          git add rivers.json rivers-data.js assets/rivers/
           git diff --quiet && git diff --staged --quiet || git commit -m "Atualiza nível dos rios [automático]"
           git push

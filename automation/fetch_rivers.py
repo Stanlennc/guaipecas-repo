@@ -20,6 +20,7 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "rivers.json"
 JS_OUTPUT = ROOT / "rivers-data.js"
+RIVERS_IMG_DIR = ROOT / "assets" / "rivers"
 USER_AGENT = "GuaipecasBot/1.0 (+https://github.com/Stanlennc/guaipecas-repo)"
 
 ANA_AUTH_URL = "https://www.ana.gov.br/hidrowebservice/EstacoesTelemetricas/OAUth/v1"
@@ -108,6 +109,62 @@ def parse_feed_item(item):
         "status": status,
         "data_hora_medicao": item.get("date_published"),
     }
+
+
+def extract_og_image(html):
+    if not html:
+        return None
+    patterns = [
+        r'<meta[^>]+property=["\']og:image(?::secure_url)?["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image(?::secure_url)?["\']',
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, html, re.I)
+        if match:
+            url = match.group(1).strip()
+            if url.startswith("http"):
+                return url
+    return None
+
+
+def download_river_photo(river_id, image_url):
+    """Salva foto do rio localmente para o site estático."""
+    if not image_url:
+        return None
+    RIVERS_IMG_DIR.mkdir(parents=True, exist_ok=True)
+    ext = ".webp" if ".webp" in image_url.lower() else ".jpg"
+    dest = RIVERS_IMG_DIR / f"{river_id}{ext}"
+    headers = {"User-Agent": USER_AGENT}
+    try:
+        resp = requests.get(image_url, headers=headers, timeout=25)
+        resp.raise_for_status()
+        if len(resp.content) < 1024:
+            return None
+        dest.write_bytes(resp.content)
+        return f"assets/rivers/{river_id}{ext}"
+    except Exception as exc:
+        print(f"imagem rio {river_id}: {exc}", file=sys.stderr)
+        return None
+
+
+def enrich_river_photos(rios):
+    """Adiciona fotos reais das estações (Nível Guaíba)."""
+    for chave, station in STATIONS.items():
+        if chave not in rios:
+            continue
+        try:
+            html = fetch_text(station["fonte_url"])
+            remote = extract_og_image(html)
+            if not remote:
+                continue
+            local = download_river_photo(chave, remote)
+            rios[chave]["imagem_remota"] = remote
+            rios[chave]["imagem"] = local or remote
+            rios[chave]["imagem_credito"] = "Nível Guaíba"
+            print(f"foto rio {chave}: {rios[chave]['imagem']}", file=sys.stderr)
+        except Exception as exc:
+            print(f"foto rio {chave}: {exc}", file=sys.stderr)
+    return rios
 
 
 def fetch_nivelguaiba_feed():
@@ -251,6 +308,8 @@ def main():
     if not rios:
         print("Nenhum dado de rio obtido.", file=sys.stderr)
         sys.exit(1)
+
+    rios = enrich_river_photos(rios)
 
     payload = {
         "gerado_em": datetime.now(timezone.utc).isoformat(),

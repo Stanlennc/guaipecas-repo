@@ -30,6 +30,6 @@ jobs:
         run: |
           git config user.name "guaiba-em-dia-bot"
           git config user.email "actions@github.com"
-          git add ofertas.json assets/banners/
+          git add ofertas.json ofertas-data.js assets/banners/
           git diff --quiet && git diff --staged --quiet || git commit -m "Atualiza ofertas [automático]"
           git push
