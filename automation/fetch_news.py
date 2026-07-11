@@ -17,7 +17,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "noticias.json"
-USER_AGENT = "GuaipecasBot/1.0 (+https://github.com/guaipecas)"
+USER_AGENT = "GuaipecasBot/1.0 (+https://github.com/Stanlennc/guaipecas-repo)"
 MAX_ITEMS_HOME = 8
 MAX_ITEMS = 24
 
