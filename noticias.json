@@ -1,0 +1,322 @@
+{
+  "gerado_em": "2026-07-11T05:32:00.153757+00:00",
+  "fontes": [
+    {
+      "id": "reporter",
+      "nome": "Repórter Guaibense",
+      "url": "https://news.google.com/rss/search?q=site:reporterguaibense.com.br&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+    },
+    {
+      "id": "litoral",
+      "nome": "Portal Litoral Sul",
+      "url": "https://news.google.com/rss/search?q=site:portallitoralsul.com.br+Gua%C3%ADba&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+    },
+    {
+      "id": "correio",
+      "nome": "Correio do Povo",
+      "url": "https://news.google.com/rss/search?q=Gua%C3%ADba+site:correiodopovo.com.br&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+    },
+    {
+      "id": "recentes",
+      "nome": "Google Notícias",
+      "url": "https://news.google.com/rss/search?q=Gua%C3%ADba+when:7d&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+    },
+    {
+      "id": "google",
+      "nome": "Google Notícias",
+      "url": "https://news.google.com/rss/search?q=Gua%C3%ADba+RS&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+    }
+  ],
+  "noticias": [
+    {
+      "id": "359ce39e10c7",
+      "titulo": "Alunos apresentam oficina e visitam o Jornal Correio do Povo e a Rádio Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVG16TEZZa3JUU25DSUlRMjR1dzZ1WFowN0xzYjVLdkFfdW53R2tsbUxFQVBwSk92U2xQVHAyN0FVYUxTR2lYLTlXa2Q3U0VnWGphd014M2dfYS1Na1dmcEpNdktDaS14Rk00Yi0yX051ZGZIbEl5TXprRlIxTWNSZWVhNUh6M25LaG1KbFBKczgwai1GaGxwU0ZUbVdLNkVtUWNkMFlUMnBMa2tjcU9tQV80Tk1DTElvSjZleldhOExqeTdBSHlTV1lscHdGOWQ0bTdzWnZabjg?oc=5",
+      "fonte": "Correio do Povo",
+      "publicado_em": "2026-07-10T20:10:02+00:00",
+      "categoria": null,
+      "feed": "correio"
+    },
+    {
+      "id": "3a2cd35e5251",
+      "titulo": "Guaíba fortalece as equipes da Defesa Civil com treinamento aquático",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQnVUYlY3V2Q1bDI5Q245eGloLU1kb3JhWXd0M1NCdGdCMGRLNHZoTTM5X051U05ZOWR4RUJHaUxxMGZVbmIyby02M3RKWTFkck93Z19meF9jNmhlZHRQMEpKbGxpZ3FvMXRwcTdDREptdk55aHhjalVJMlJrM0E3cVpzYjZfMVhBVklXanpmZEE0YmM?oc=5",
+      "fonte": "expansao.co",
+      "publicado_em": "2026-07-10T17:05:19+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "0c1c6cc40be1",
+      "titulo": "Escola Gomes Jardim comemora 100 anos de história e homenageia ex-diretores",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSWwtWW9UdmpCNjQ2M1NvYU1LeVliNGJfUjBKWHpmS3RKWXhSdkdsd0w5a3cxRnBWSVJhY1pCaTBNNWpEYzBYQXNjTjBPNlhGREZvQ3NQcXVrWWpIS3FRM0o5MTRuUU50cEdlbmtNdzJjS0NHdnN4aHp0Ul9IMVFFaERRU3pFNEo1UGl3TlV3RmQ0UU82ZUJzVE5TQ25EcTdxVVpyVVpXNHk5b0IybjZlanRCbHpod1Z6eEdZTg?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-09T22:20:00+00:00",
+      "categoria": null,
+      "feed": "reporter"
+    },
+    {
+      "id": "7e14a601c6dd",
+      "titulo": "Defensoria Pública participa da entrega das escrituras encaminhadas pelo Projeto Terra – Eu sou COHAB, em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdEhqOThMTUxOQVVXZXkzY18zd0dGUTNWdXRaRTR2S2thRzdCZzVwdjhqcUQ2NXh5c3NkYnIyd09TWXdkcWFfQUwtYmVqWVo2c2dyVC1RWUtXZ0JEVndNR2QxcWxZVTJGU3FVWlRPNjlJbWg4ckVUclBGZzVic200ckk4TDhGSGFzZ01mT2ZoOUhySUZINXlUMDV0WFF3M1dGd2FMV0pWYnhVemVVZEUwaXVlTXV3ZFVqakg5NEYyb1BYU05Oa0VGUmZZX3FXalhUQ0NBd3RaYUNqZw?oc=5",
+      "fonte": "defensoria.rs.def.br",
+      "publicado_em": "2026-07-09T18:26:24+00:00",
+      "categoria": null,
+      "feed": "google"
+    },
+    {
+      "id": "ea9a7f777f82",
+      "titulo": "Mutirão do Projeto Terra contempla 226 imóveis, em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV1Z4QzRSWXpXOGc3THh1VlkyZjNKdzYwT0VjYlpTZzE2Y0JQLTB0enlsQUdtTUVEQVQ2Q3dya3ZKUkkwbzRxUkxRdU4zWHRPdnRiUFNwNENRVm9OX0tCTThQMFlKcUhVS21GcDJMUTBlUjR3ZGJDOGZKVGV4c3JWcExtdw?oc=5",
+      "fonte": "Agora RS",
+      "publicado_em": "2026-07-09T13:19:53+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "b7a69d8e4111",
+      "titulo": "Cinco novos consultórios e uma Sala Lilás são inaugurados no Hospital Regional Nelson Cornetet, em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQbk9WelplN1pYck9oQW91SWRaMUp2MHB5QVBIdGd2RGI0Ty1HSXB0YzcyTnRibWlrc2hXUlZyMUNMd0pNbURIdlBZTVQ1MkFScGNVLWdDOS1rYmJaNTJEd0lxUU9zVzZPemo3MFQtWEd1d3JFSTJZM2lvR0M0ZXZUUlF0Szc2M2oxLXdkTEEwYzA2ZV9ZVzFxb3hNR1RCM291dW9zV3pKb3ZfYXVUU3VzZS1uVk9hWDBCbnJEREJTWkJuT0k4elNUOE83LUZ0bkJ4QVNTQ01DTWwwVFFLSzBheURXSDRQcDhodUk5NVZGcFkzeTdZNkE5cVUxSUhaaVJDOEE?oc=5",
+      "fonte": "Correio do Povo",
+      "publicado_em": "2026-07-09T12:55:26+00:00",
+      "categoria": null,
+      "feed": "correio"
+    },
+    {
+      "id": "fa898c66b7b6",
+      "titulo": "Cidade Inteligente Guaíba inicia entrega da infraestrutura e projeta novo ciclo de desenvolvimento para a região",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRWEwWFRFM3RoQUJraC1OVzRQNWZaTmhQMFBXb00xcG9DNnlSUTUzQUJSM2lVekRWcTlWbWhyb3h5aFJRaHlQaDM5LUIxT2l1YTRHN2xCTGxHUkFnUTgtbE1WVTRyTjMwV3RJd0RwcFAxS01RMVRSQ29GR1RPTVZQNFJZVVdGVVF6SzhLRnNLQlVhNHFKa3dUd2VGWUJNZFh3MnJPaF9BTmh3b0Q4T3F6MC1qekZjbmdwZGJyUmZLbjd2cHZwendsZVRpVEFuNFNySWc?oc=5",
+      "fonte": "Portal Litoral Sul",
+      "publicado_em": "2026-07-09T11:13:01+00:00",
+      "categoria": null,
+      "feed": "litoral"
+    },
+    {
+      "id": "e0c55945fd2d",
+      "titulo": "Projeto Terra entrega 226 escrituras em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNczZUbEpZRGNxbmh1UEp0SUJ3QkhGSU5yUWo3VUZXRUdyNjFTczdqdlVaaHVDRTdCbkxWd2p4dUhWcEgzdzlPUG5FM21vNF9QSUpBeDlpZnN3T2FwYWJGQ0s4V0tIczl1MUVkQ0pCV0szS1U5Q09jR0hDZUpMWkhGZdIBgAFBVV95cUxNczZUbEpZRGNxbmh1UEp0SUJ3QkhGSU5yUWo3VUZXRUdyNjFTczdqdlVaaHVDRTdCbkxWd2p4dUhWcEgzdzlPUG5FM21vNF9QSUpBeDlpZnN3T2FwYWJGQ0s4V0tIczl1MUVkQ0pCV0szS1U5Q09jR0hDZUpMWkhGZQ?oc=5",
+      "fonte": "Jornal O Sul",
+      "publicado_em": "2026-07-09T02:24:08+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "dad52d1676db",
+      "titulo": "Relatório de sustentabilidade da CMPC destaca mais de 425 mil hectares de conservação na América do Sul",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTThWWER2RjcxQVI1d2J0bDF1VGU2a1ZWUXpYV0ExczRmazYxXzNsUmtYQVZ6S2ZYUmJmUW50aFdPdjR6UXNHWWZmaHdMYmVSZzk1OWV6TWVNSmkwLWU3dFpPNVZsWENJZE5Id0lQMnBoclFPVjhjQlZGRWt3cmcxT282TFJ1bkZKMzBqSzh0M3hBbmYwMmJ2NGpvaXdUWDFwRnVpbWgweGVjRFpRaUJCMnR5ZEl0cmhXZktnaTVtdExiczQtdkhEUUZ4R0RfMHU2YXpjVTdIYlhXdG0xeXV2NUJR?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-08T20:38:00+00:00",
+      "categoria": null,
+      "feed": "reporter"
+    },
+    {
+      "id": "9ee89f7b2a64",
+      "titulo": "Lenda das maratonas Eliud Kipchoge corre na Orla do Guaíba e conhece projeto social da Capital",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxONGJqZmJxNFBEOEFCeVk2Z3NNemVpM3Bsc1duZzVIQ3lDMXpQOGJwSHBpc0MtQ3Z6UGZFMFFzWDNpYkdjQjRJNHViYzFRRWoxQzFpbjk4RVR0dmsxXzFFZ2l0TVFNMlF6Z0RyODhDSldUUURKOEdyM2ZwaUdGbkdGUXcwTTc4aXhqZzZZbGtpTGFwcWNkZTdYWXc5dFFLN21ON1NJYXZnZ3dGaUhzbXc1YWNIaE5wWF9jR3dwcGRFRmpFVVVUS0pCR0Y5bW0ybm9ZVWVLemhLVS1UOFVQQl90aldSWVJ5VEJnM0NaTWpsaXA3bFY2NlBrcW16QXJsN0txYmNMQ3FsRVVrLW5pWE9UTGhGM3NnRXNBLV9uMVRrUXh0bUxS?oc=5",
+      "fonte": "GZH",
+      "publicado_em": "2026-07-08T18:38:55+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "2a61252b236d",
+      "titulo": "Rótula do acidente que matou Jonathan Costa Soares poderá receber o nome do motorista",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZlJGZDFXVkR3WWtBMm54dTNPSUlwTWJZYkR2ZmxCY0lsamZlZi1hY1VDRkc2VzZnRGlOb05HNk9KazlQWjVOblBZeENtZ0pfZGNiTkRmYmhWYlBDZVJ3aWNNbUFtU2trbkNUQ3RlSW5Kak80NVlMWXRERUJJYkQwejRxRWR2MXlPYUhwLVJKQW9IbWY0MHQtbkN6MmNVaDdNeEhjdFBVY1dBa0pIbW00dnd2aXRCRS1zNG5ldEJ4WHVmbHJTZnZnR2tB?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-08T18:23:00+00:00",
+      "categoria": null,
+      "feed": "reporter"
+    },
+    {
+      "id": "876d6f85864b",
+      "titulo": "Obras das alças da nova Ponte do Guaíba dependem de remoções em Porto Alegre",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPendQdkJiUW1oU1RvTVVfZ2tGcjNuQkxlTThNanFTSy14NFdTUFpUbXJsa2hYc002MkRnX1dOU3VMOElFOU55bnczLVpKd0k4V3FXMUV0ZnRMWWZFWENzeF9Sams5TzR4ZlFWTVRNZy1SaTd3MjltRkY4aWUxNUczVUt5M05vaktoTS1fT21RU2NWRVJKREUwLVp5N0dTRlBYTmtDdGN5THZVdFJwYnFqRnZHbm9ia2VmUEVpWlFkeVpfXzU0dHlV?oc=5",
+      "fonte": "R7",
+      "publicado_em": "2026-07-08T13:35:02+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "ab4d17bad809",
+      "titulo": "RECORD Guaíba leva estúdio de inverno à Serra Gaúcha durante temporada 2026",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVms1MkpZbVNaTjdTWURQY3BsNDFlYlVvcXo0bV91U3FxN3RoaGVzZjJPZGhPVDRacVdDeVNfbFlqTmNqU0xKRHJwUVJJc05HTlM0VHhJVUZWQm90TlhuaDJQU1ZVTUk2U1VpRzBiVDJfeWowNHpzRGpQbTZjZV9XZHpQOGJzbmRlSGhUSzdXVlRTRmtEdi03TGlEZXVWdTA2aGJsTFlsdVNzWXVQdlRYck1UdGVMenNkNTNEdlBQamF3eXB0QmNFaGFNWHo0SThXNGdNV1lrMmJ5dw?oc=5",
+      "fonte": "R7",
+      "publicado_em": "2026-07-07T19:04:53+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "7cbd8fad7170",
+      "titulo": "Guaíba inaugura seis novas salas no Hospital Regional Nelson Cornetet",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbl9IN2lPbTcxd1NZalNqUWxNei11ZHFEdlFnc1hEdU1xTFlnNDJQbS1yRUpzSERKeE5uS1pWaGZZc2lORnNsQmVhOTlFMk8zR0NBRjBBbFB5TGJNUlVhbGZ2VnozWFFpZDB4enE0UEY5aThsNHVMUWV6b1FPSEtvTnR3Q3Z3aE9SRHJQOEpKeXh1aE16?oc=5",
+      "fonte": "expansao.co",
+      "publicado_em": "2026-07-07T12:49:49+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "fb943be7b348",
+      "titulo": "Cidade Inteligente Guaíba inicia nova etapa com primeiro evento oficial de ativação do bairro",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdVhYdHVOTnpMOEdlZ2pILXhFUFc0c3RPdFNRWlBmMU04NmlZcWF2dG1Ddmh1T08xUHdSaUJtY0RtLWFsRU5mMWRfNXJSdUw5N2hfRDVlamMtek5OOTUyR0tuMENiTjhQZVZmeE1jRTdVVmd4b2hpNHVMZ2NaYU9NME94Y1dWblAya3I5WkN2YzE2VXJMQXdjUFNrdE5qRFVURmRxVkxZLW02VU52NnR0RXBpYjVONGl6cS1HUC1JOG54OUdXMzhHenJ5MXFMUmlHdFE?oc=5",
+      "fonte": "Portal Litoral Sul",
+      "publicado_em": "2026-07-07T11:15:11+00:00",
+      "categoria": null,
+      "feed": "litoral"
+    },
+    {
+      "id": "086a09ae1b68",
+      "titulo": "Motorista de aplicativo morre em acidente em Guaíba, e SIMTRAPLIRS cobra punição rigorosa ao motorista embriagado",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPQWczZTVibktoVFVOZ1FuN1pkSmRkenJHM0p6WFltYTZXZXZSUzJLS1VhUm96Rmh2TzMtMFA4X2xrZnBCUVRhWWNoTEw4RnBBaEFBTFRJLUJsV01JRE1UbHNiVmJ3Q2hmS0V6ZFYxaEN3UlZLdnhzRW01U215Z2xoa3pIZzYzcnBFRVk3LXB5Uy1Xb09DbUtmQUNsTG10dlNGX1N4ZlI0NWVqTndUazZnTU5Gd3djbm1VZ3hMS280X1ZPRXQ1V1JSTm1FazVmM2txVVh0SlVwMmFjUXpxSzB1UFpBZTZtLTZxd2RUVm1wQzBJLW92cVNrV1JHYnE?oc=5",
+      "fonte": "Portal de Camaquã",
+      "publicado_em": "2026-07-06T23:02:16+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "a6107b83689a",
+      "titulo": "Hospital de Guaíba reabre em setembro com nova gestão",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONjlGa0M4Mk1zN05zc1BGUXFGTWpocFdjYlY0dHU5QlpNcFl0MlNITnJjRjlFbDhhSVh5VGQwNm1vWWhHbzRrdy1GcXFlQVFXWHZaS0NXdUs3QWZZM2o1SGZiYTl1MHJUelZKZE1BV0RyRUR6WXFWT0t4c2g2eE12VEJKMm5KX3FiN3VXUkR3UXRDeDI1V0NBbVRsWWJHLWxWNnBRSnFJZ3AtV3NHMVdiRlM4b3VVOXhjX3ctcUtaaw?oc=5",
+      "fonte": "Jornal do Comércio",
+      "publicado_em": "2026-07-06T20:39:50+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "b07d3d4c0f34",
+      "titulo": "Decisão da Justiça Federal mantém mineração suspensa no Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbzBtV19Ndnl5N2w0aWp6ejE2TFhNMnVMWWpHLVlKUmlPR0Nzb1lHeGg0QWcxNXVmbi1fQk90enhCV1VDRVZZSlgzMFM2YmJFTzY0Rjl2U1BfTXZEbkduR0ZzenNLU2tiU2dxSXhlLS1BUFpNRHQ5OGFKR0NBemdCM1VuOXkwWHRyZi05RXVEaFBmTVpIWnowUkM1RTFYT01PMUYwM2hjMHZUYWE2SmJ5RjN6LVBfS2hDUVNPaEM1VTk2aXl2b1E?oc=5",
+      "fonte": "Correio do Povo",
+      "publicado_em": "2026-07-06T18:43:56+00:00",
+      "categoria": null,
+      "feed": "correio"
+    },
+    {
+      "id": "33136d692e98",
+      "titulo": "Réus são condenados a 24 anos de prisão pela morte do jovem guaibense Gabriel Cavalheiro",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZnJOcHg1WGtyUjc3cXdEb3d1b21UaHU4Ti1UalVPX0hYOGpuUTUtU1R1ZHItMndIYzJPVE9paU9rMlR4aEFMMWgyYWptM29PRUhxU3pUM3QyamIxd1Awd1FKcmplVTQ0YmlqN2NLOFVQdjRUNUVyLVo3WDRObWtFTmYxN21nRE15WHM3OWg0NjZSLXprLVBtbThYRUYxNzduQS1wOXdlbnlTSDJubnh2ek9lT3NPTnZtUWJfcWhOVUVWVjhoekJ5QkVIZHdLUQ?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-06T16:04:00+00:00",
+      "categoria": null,
+      "feed": "reporter"
+    },
+    {
+      "id": "70d54633355a",
+      "titulo": "Guaíba perto do normal com alerta da Prefeitura de risco de cheia",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc1hzNXdQQk9lVnktbkNpbHQwUi1pT2F3eDBBMm5oX2ZFeVZkblowR0pFM1RaQVlZSFp1cGpKTXAzUE9xQkl2Z2NXTmE1bkU1NG1aRmpUQjlQSjVDREhUMzNwLTU5YXFUbDZJVFFRMzhXUUdUQjBqLUM3WUk5QU5nVXowVUhKSWRyc3FiYldR?oc=5",
+      "fonte": "MetSul Meteorologia",
+      "publicado_em": "2026-07-05T15:27:52+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "2d4e7a08ef0b",
+      "titulo": "Guaíba intensifica investimentos em obras de prevenção contra enchentes na área de infraestrutura",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOd09LX1hZWklFbDVVZjRLSFhjVTdFSXBYajBSTkdFandlZnRRWDQtUEhYZUhQOFYwSFhmampjQ2NXSUUzWGVNeDVRNThjQllIalFGOWphbWNLdlNhQWczMGpEUXRvUlhnMmU5OF9PbWlIa3ZiUUtQVmRPcUxZSGY4emsxT0ViQjhNU3VNX2RJZkF1Rlo4OS1uV05FX0lpYzFRamxzc3d1VFdhTzlQRnhsUmhMa2F6R19PcDZFcUtUT3E3Z0xSLWpfb1BWYmRUZUI5MUFYNTVJQk02UDJLOWp3bEEteUlSbnVtVXplODVNSnFEelU0?oc=5",
+      "fonte": "Correio do Povo",
+      "publicado_em": "2026-07-05T15:23:00+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "a9dfd50e6838",
+      "titulo": "Av. Guaíba 1826 Cristal Porto Alegre - Rio Grande Do Sul 91900-420 Brasil parada",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdzZMQlhCNTFRRm5uYkc1ZmU0Qkl5Y3AwalRQcGg2NkgybmJhYTFZbVhZaTM3TGVFUHRNajFmVGFuM2VkWnZKeUNKeXNQNzNSRUlLZmZaNnNqUTZIRUxRZ1Jna01VUVlpb0lWMnZJcW8zbFgwbzRweTRmdm5BY3VWSGEwek93SGQ5M05zYldxSW0ybklFbFcxUy1fU2hjN2pCSzB5eUI5cGtCUVVabXMybmhQVDBPNlduTnd2cXk3UE1IMUhZbjRzWUxuYlI1elFPdFdLS05PUmk0MXhVOEd4QzFGZXhISTd5TEFrV0xzVnNtbUVPQzVJ?oc=5",
+      "fonte": "Moovit",
+      "publicado_em": "2026-07-05T04:08:45+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "be551a5c91e9",
+      "titulo": "Novo Projeto de Lei quer transformar Orla do Guaíba em Polo Náutico",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbnJGOUZfdnBJejRQQ1N0ZHhPUnVsYU8xX3lVMXdnVjZsT0pFdm9WWlV6M1l6cXZQTzU5RTdBYzRxQVpIRkZFLURQaV8wWW5vc1JsM2xYZXJRbDB1T2Q4TG44bkZyRERCblpqWnlqandnMDBIbGVhdEs2OExobVQxczRMZDNsc0loZTlRRGVSWFUwTjVNMnJ3ZUZOdTR3SGRNbmpJWk10cHZlaXdMbl8zcXJOTWlDV0ZuY3BLNGd4VjNWS0VTeWs2bEVwdVEwQ0tiWUJ2TzJiR3EycTU5a2pnNg?oc=5",
+      "fonte": "Terra",
+      "publicado_em": "2026-07-04T18:13:00+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "13814abf03dc",
+      "titulo": "/Notícias Esporte",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjbE84cEptcDFyVzducF9pdEluZmdkSWMwNFI1emJETGRQYTk3cm56RVJ6ZmlPOTJ5SkRqQmFYMWwtSktGRzhzX01FMmdYWmxNZE9rT1B5dFdaZlNRWXQxMFlKYVE5WUdja19FdVhR?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-04T15:37:39+00:00",
+      "categoria": null,
+      "feed": "reporter"
+    }
+  ],
+  "noticias_home": [
+    {
+      "id": "359ce39e10c7",
+      "titulo": "Alunos apresentam oficina e visitam o Jornal Correio do Povo e a Rádio Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVG16TEZZa3JUU25DSUlRMjR1dzZ1WFowN0xzYjVLdkFfdW53R2tsbUxFQVBwSk92U2xQVHAyN0FVYUxTR2lYLTlXa2Q3U0VnWGphd014M2dfYS1Na1dmcEpNdktDaS14Rk00Yi0yX051ZGZIbEl5TXprRlIxTWNSZWVhNUh6M25LaG1KbFBKczgwai1GaGxwU0ZUbVdLNkVtUWNkMFlUMnBMa2tjcU9tQV80Tk1DTElvSjZleldhOExqeTdBSHlTV1lscHdGOWQ0bTdzWnZabjg?oc=5",
+      "fonte": "Correio do Povo",
+      "publicado_em": "2026-07-10T20:10:02+00:00",
+      "categoria": null,
+      "feed": "correio"
+    },
+    {
+      "id": "3a2cd35e5251",
+      "titulo": "Guaíba fortalece as equipes da Defesa Civil com treinamento aquático",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQnVUYlY3V2Q1bDI5Q245eGloLU1kb3JhWXd0M1NCdGdCMGRLNHZoTTM5X051U05ZOWR4RUJHaUxxMGZVbmIyby02M3RKWTFkck93Z19meF9jNmhlZHRQMEpKbGxpZ3FvMXRwcTdDREptdk55aHhjalVJMlJrM0E3cVpzYjZfMVhBVklXanpmZEE0YmM?oc=5",
+      "fonte": "expansao.co",
+      "publicado_em": "2026-07-10T17:05:19+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "0c1c6cc40be1",
+      "titulo": "Escola Gomes Jardim comemora 100 anos de história e homenageia ex-diretores",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSWwtWW9UdmpCNjQ2M1NvYU1LeVliNGJfUjBKWHpmS3RKWXhSdkdsd0w5a3cxRnBWSVJhY1pCaTBNNWpEYzBYQXNjTjBPNlhGREZvQ3NQcXVrWWpIS3FRM0o5MTRuUU50cEdlbmtNdzJjS0NHdnN4aHp0Ul9IMVFFaERRU3pFNEo1UGl3TlV3RmQ0UU82ZUJzVE5TQ25EcTdxVVpyVVpXNHk5b0IybjZlanRCbHpod1Z6eEdZTg?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-09T22:20:00+00:00",
+      "categoria": null,
+      "feed": "reporter"
+    },
+    {
+      "id": "7e14a601c6dd",
+      "titulo": "Defensoria Pública participa da entrega das escrituras encaminhadas pelo Projeto Terra – Eu sou COHAB, em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdEhqOThMTUxOQVVXZXkzY18zd0dGUTNWdXRaRTR2S2thRzdCZzVwdjhqcUQ2NXh5c3NkYnIyd09TWXdkcWFfQUwtYmVqWVo2c2dyVC1RWUtXZ0JEVndNR2QxcWxZVTJGU3FVWlRPNjlJbWg4ckVUclBGZzVic200ckk4TDhGSGFzZ01mT2ZoOUhySUZINXlUMDV0WFF3M1dGd2FMV0pWYnhVemVVZEUwaXVlTXV3ZFVqakg5NEYyb1BYU05Oa0VGUmZZX3FXalhUQ0NBd3RaYUNqZw?oc=5",
+      "fonte": "defensoria.rs.def.br",
+      "publicado_em": "2026-07-09T18:26:24+00:00",
+      "categoria": null,
+      "feed": "google"
+    },
+    {
+      "id": "ea9a7f777f82",
+      "titulo": "Mutirão do Projeto Terra contempla 226 imóveis, em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV1Z4QzRSWXpXOGc3THh1VlkyZjNKdzYwT0VjYlpTZzE2Y0JQLTB0enlsQUdtTUVEQVQ2Q3dya3ZKUkkwbzRxUkxRdU4zWHRPdnRiUFNwNENRVm9OX0tCTThQMFlKcUhVS21GcDJMUTBlUjR3ZGJDOGZKVGV4c3JWcExtdw?oc=5",
+      "fonte": "Agora RS",
+      "publicado_em": "2026-07-09T13:19:53+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    },
+    {
+      "id": "b7a69d8e4111",
+      "titulo": "Cinco novos consultórios e uma Sala Lilás são inaugurados no Hospital Regional Nelson Cornetet, em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQbk9WelplN1pYck9oQW91SWRaMUp2MHB5QVBIdGd2RGI0Ty1HSXB0YzcyTnRibWlrc2hXUlZyMUNMd0pNbURIdlBZTVQ1MkFScGNVLWdDOS1rYmJaNTJEd0lxUU9zVzZPemo3MFQtWEd1d3JFSTJZM2lvR0M0ZXZUUlF0Szc2M2oxLXdkTEEwYzA2ZV9ZVzFxb3hNR1RCM291dW9zV3pKb3ZfYXVUU3VzZS1uVk9hWDBCbnJEREJTWkJuT0k4elNUOE83LUZ0bkJ4QVNTQ01DTWwwVFFLSzBheURXSDRQcDhodUk5NVZGcFkzeTdZNkE5cVUxSUhaaVJDOEE?oc=5",
+      "fonte": "Correio do Povo",
+      "publicado_em": "2026-07-09T12:55:26+00:00",
+      "categoria": null,
+      "feed": "correio"
+    },
+    {
+      "id": "fa898c66b7b6",
+      "titulo": "Cidade Inteligente Guaíba inicia entrega da infraestrutura e projeta novo ciclo de desenvolvimento para a região",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRWEwWFRFM3RoQUJraC1OVzRQNWZaTmhQMFBXb00xcG9DNnlSUTUzQUJSM2lVekRWcTlWbWhyb3h5aFJRaHlQaDM5LUIxT2l1YTRHN2xCTGxHUkFnUTgtbE1WVTRyTjMwV3RJd0RwcFAxS01RMVRSQ29GR1RPTVZQNFJZVVdGVVF6SzhLRnNLQlVhNHFKa3dUd2VGWUJNZFh3MnJPaF9BTmh3b0Q4T3F6MC1qekZjbmdwZGJyUmZLbjd2cHZwendsZVRpVEFuNFNySWc?oc=5",
+      "fonte": "Portal Litoral Sul",
+      "publicado_em": "2026-07-09T11:13:01+00:00",
+      "categoria": null,
+      "feed": "litoral"
+    },
+    {
+      "id": "e0c55945fd2d",
+      "titulo": "Projeto Terra entrega 226 escrituras em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNczZUbEpZRGNxbmh1UEp0SUJ3QkhGSU5yUWo3VUZXRUdyNjFTczdqdlVaaHVDRTdCbkxWd2p4dUhWcEgzdzlPUG5FM21vNF9QSUpBeDlpZnN3T2FwYWJGQ0s4V0tIczl1MUVkQ0pCV0szS1U5Q09jR0hDZUpMWkhGZdIBgAFBVV95cUxNczZUbEpZRGNxbmh1UEp0SUJ3QkhGSU5yUWo3VUZXRUdyNjFTczdqdlVaaHVDRTdCbkxWd2p4dUhWcEgzdzlPUG5FM21vNF9QSUpBeDlpZnN3T2FwYWJGQ0s4V0tIczl1MUVkQ0pCV0szS1U5Q09jR0hDZUpMWkhGZQ?oc=5",
+      "fonte": "Jornal O Sul",
+      "publicado_em": "2026-07-09T02:24:08+00:00",
+      "categoria": null,
+      "feed": "recentes"
+    }
+  ]
+}

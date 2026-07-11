@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contatos úteis — Guaíba em Dia</title>
+<meta name="description" content="Telefones e endereços úteis em Guaíba/RS: emergência, prefeitura, câmara, ouvidoria e mais.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#3dadb8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">Guaipecas
+      <small>Portal cidadão · Guaíba/RS</small>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Início</a>
+      <a href="guibanews.html">Guibanews</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="saude.html">Saúde</a>
+      <a href="diario-oficial.html">Diário Oficial</a>
+      <a href="contatos.html" class="active">Contatos</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" id="navToggle">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="nav-backdrop" id="navBackdrop" hidden></div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Início</a>
+    <a href="guibanews.html">Guibanews</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="saude.html">Saúde</a>
+    <a href="diario-oficial.html">Diário Oficial</a>
+    <a href="contatos.html">Contatos</a>
+  </div>
+</header>
+
+<div class="emergency-strip">
+  <div class="wrap">
+    <span class="label">Emergência</span>
+    <a href="tel:192">SAMU 192</a>
+    <a href="tel:193">Bombeiros 193</a>
+    <a href="tel:190">Polícia 190</a>
+    <a href="tel:199">Defesa Civil 199</a>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+    <p class="breadcrumb"><a href="index.html">Início</a> / Contatos</p>
+    <h1 class="page-title">Contatos úteis</h1>
+    <p class="page-lede">Os números e endereços que vale a pena salvar no celular.</p>
+
+    <hr class="divider">
+    <p class="section-label">Emergência</p>
+    <ul class="data-list">
+      <li class="data-row"><span class="name">SAMU (emergência médica)</span><span class="cat">192</span><a class="link" href="tel:192">Ligar ↗</a></li>
+      <li class="data-row"><span class="name">Corpo de Bombeiros</span><span class="cat">193</span><a class="link" href="tel:193">Ligar ↗</a></li>
+      <li class="data-row"><span class="name">Polícia Militar</span><span class="cat">190</span><a class="link" href="tel:190">Ligar ↗</a></li>
+      <li class="data-row"><span class="name">Defesa Civil</span><span class="cat">199</span><a class="link" href="tel:199">Ligar ↗</a></li>
+    </ul>
+
+    <hr class="divider">
+    <p class="section-label">Prefeitura e Câmara</p>
+    <ul class="data-list">
+      <li class="data-row">
+        <span class="name">Prefeitura de Guaíba — sede</span>
+        <span class="cat">Av. Nestor de Moura Jardim, 111 — Centro</span>
+        <a class="link" href="tel:551134807000">(51) 3480-7000</a>
+      </li>
+      <li class="data-row">
+        <span class="name">Portal do Cidadão (autoatendimento)</span>
+        <span class="cat">Online</span>
+        <a class="link" href="https://guaiba.atende.net/cidadao" target="_blank" rel="noopener">Acessar ↗</a>
+      </li>
+      <li class="data-row">
+        <span class="name">Câmara Municipal de Guaíba</span>
+        <span class="cat">Online</span>
+        <a class="link" href="https://camaraguaiba.rs.gov.br" target="_blank" rel="noopener">Acessar ↗</a>
+      </li>
+    </ul>
+
+    <hr class="divider">
+    <p class="section-label">Ouvidoria e denúncias</p>
+    <ul class="data-list">
+      <li class="data-row">
+        <span class="name">Ouvidoria (Fala.BR — plataforma federal)</span>
+        <span class="cat">Online</span>
+        <a class="link" href="https://falabr.cgu.gov.br/web/RS/Guaiba" target="_blank" rel="noopener">Acessar ↗</a>
+      </li>
+    </ul>
+
+    <hr class="divider">
+    <p class="section-label">Saúde</p>
+    <ul class="data-list">
+      <li class="data-row">
+        <span class="name">Farmácia Municipal</span>
+        <span class="cat">R. São Paulo, 800 — Parque 35</span>
+        <a class="link" href="saude.html">Ver na lista de saúde ↗</a>
+      </li>
+      <li class="data-row">
+        <span class="name">Todas as unidades de saúde</span>
+        <span class="cat">28 unidades</span>
+        <a class="link" href="saude.html">Ver todas ↗</a>
+      </li>
+    </ul>
+
+    <p class="river-note note-spaced"><strong>Achou um número errado ou desatualizado?</strong> Esses dados são verificados periodicamente, mas telefones e endereços mudam. Confirme sempre que possível pelos canais oficiais linkados acima.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Guaipecas</strong> — iniciativa cidadã independente.</p>
+    <div class="foot-links">
+      <a href="index.html">← Voltar ao início</a>
+    </div>
+    <p class="foot-note">Última verificação dos dados estáticos: 10/07/2026</p>
+  </div>
+</footer>
+
+<script src="analytics-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

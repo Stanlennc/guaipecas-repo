@@ -1,0 +1,63 @@
+{
+  "gerado_em": "2026-07-11T05:00:59.142144+00:00",
+  "mercados": [
+    {
+      "id": "stok",
+      "nome": "Stok Center",
+      "cor": "#3dadb8",
+      "url": "https://www.stokonline.com.br/ofertas",
+      "banner": "assets/banners/stok.png",
+      "ofertas": [],
+      "tipo": "scraping",
+      "quantidade": 0
+    },
+    {
+      "id": "indio",
+      "nome": "Supermercado Índio",
+      "cor": "#4ec9a0",
+      "url": "https://supermercadosindio.app.br/promocoes",
+      "banner": "assets/banners/indio.png",
+      "ofertas": [
+        {
+          "titulo": "Supermercado Índio - Guaíba",
+          "preco": "",
+          "imagem": "https://assets.ibecom.com.br/ib.store.image.medium/m-23f3328c4612491bb296b0d831f76379.png",
+          "link": "/"
+        },
+        {
+          "titulo": "Supermercado Índio - Guaíba",
+          "preco": "",
+          "imagem": "https://assets.ibecom.com.br/ib.store.image.medium/m-23f3328c4612491bb296b0d831f76379.png",
+          "link": "/"
+        }
+      ],
+      "tipo": "scraping",
+      "banner_origem": "https://assets.ibecom.com.br/ib.store.image.medium/m-23f3328c4612491bb296b0d831f76379.png",
+      "quantidade": 2
+    },
+    {
+      "id": "paulinho",
+      "nome": "Supermercado Paulinho",
+      "cor": "#e8a87c",
+      "url": "https://supermercadopaulinho.com.br/promocoes",
+      "banner": "assets/banners/paulinho.png",
+      "ofertas": [
+        {
+          "titulo": "Supermercado Paulinho",
+          "preco": "",
+          "imagem": "https://assets.ibecom.com.br/ib.store.image.medium/m-9edbfff4022a4ac7a2f7c45ed301d430.png",
+          "link": "/"
+        },
+        {
+          "titulo": "Supermercado Paulinho",
+          "preco": "",
+          "imagem": "https://assets.ibecom.com.br/ib.store.image.medium/m-9edbfff4022a4ac7a2f7c45ed301d430.png",
+          "link": "/"
+        }
+      ],
+      "tipo": "scraping",
+      "banner_origem": "https://assets.ibecom.com.br/ib.store.image.medium/m-9edbfff4022a4ac7a2f7c45ed301d430.png",
+      "quantidade": 2
+    }
+  ]
+}

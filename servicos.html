@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Serviços — Guaipecas</title>
+<meta name="description" content="Farmácia de plantão, ônibus, coleta de lixo e agenda de Guaíba/RS — links e informações oficiais.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#3dadb8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">Guaipecas
+      <small>Portal cidadão · Guaíba/RS</small>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Início</a>
+      <a href="guibanews.html">Guibanews</a>
+      <a href="servicos.html" class="active">Serviços</a>
+      <a href="saude.html">Saúde</a>
+      <a href="diario-oficial.html">Diário Oficial</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" id="navToggle">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="nav-backdrop" id="navBackdrop" hidden></div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Início</a>
+    <a href="guibanews.html">Guibanews</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="saude.html">Saúde</a>
+    <a href="diario-oficial.html">Diário Oficial</a>
+    <a href="contatos.html">Contatos</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <p class="breadcrumb"><a href="index.html">Início</a> / Serviços</p>
+    <h1 class="page-title">Serviços do dia a dia</h1>
+    <p class="page-lede">O que você consulta com frequência — com link direto para a fonte oficial.</p>
+
+    <div class="servicos-grid" id="servicosGrid">
+      <p class="guibanews-disclaimer">Carregando serviços…</p>
+    </div>
+
+    <hr class="divider">
+    <p class="section-label">Agenda e avisos oficiais</p>
+    <ol class="manchetes-list" id="agendaList"></ol>
+
+    <hr class="divider">
+    <p class="section-label">Vagas e editais recentes</p>
+    <p class="page-lede">Licitações, concursos e oportunidades — <a href="diario-oficial.html">ver todos no Diário Oficial</a>.</p>
+    <ol class="manchetes-list" id="vagasList"></ol>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Guaipecas</strong> — links para fontes públicas da Prefeitura e parceiros.</p>
+    <div class="foot-links">
+      <a href="index.html">← Voltar ao início</a>
+      <a href="https://guaiba.atende.net/cidadao" target="_blank" rel="noopener">Portal da Prefeitura ↗</a>
+    </div>
+  </div>
+</footer>
+
+<script src="servicos-data.js"></script>
+<script src="editais-data.js"></script>
+<script src="analytics-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

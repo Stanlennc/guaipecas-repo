@@ -1,0 +1,35 @@
+name: Atualizar nível dos rios
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # a cada 30 minutos
+  workflow_dispatch: {} # permite rodar manualmente pela aba Actions
+
+jobs:
+  update-rivers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install requests
+
+      - name: Buscar dados dos rios
+        env:
+          ANA_API_USER: ${{ secrets.ANA_API_USER }}
+          ANA_API_PASSWORD: ${{ secrets.ANA_API_PASSWORD }}
+        run: python automation/fetch_rivers.py
+
+      - name: Publicar mudanças
+        run: |
+          git config user.name "guaiba-em-dia-bot"
+          git config user.email "actions@github.com"
+          git add rivers.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Atualiza nível dos rios [automático]"
+          git push

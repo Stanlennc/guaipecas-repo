@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guibanews — Guaipecas</title>
+<meta name="description" content="Notícias sobre Guaíba/RS reunidas do Repórter Guaibense, Portal Litoral Sul, Correio do Povo e outras fontes.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#3dadb8">
+<link rel="alternate" type="application/rss+xml" title="Guibanews RSS" href="noticias.rss">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">Guaipecas
+      <small>Portal cidadão · Guaíba/RS</small>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Início</a>
+      <a href="guibanews.html" class="active">Guibanews</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="saude.html">Saúde</a>
+      <a href="diario-oficial.html">Diário Oficial</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" id="navToggle">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="nav-backdrop" id="navBackdrop" hidden></div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Início</a>
+    <a href="guibanews.html">Guibanews</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="saude.html">Saúde</a>
+    <a href="diario-oficial.html">Diário Oficial</a>
+    <a href="contatos.html">Contatos</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <p class="breadcrumb"><a href="index.html">Início</a> / Guibanews</p>
+    <h1 class="page-title">Guibanews</h1>
+    <p class="page-lede">Todas as manchetes sobre Guaíba — cada link abre a matéria completa na fonte original.</p>
+
+    <div class="page-actions">
+      <a class="btn-secondary" href="noticias.rss" target="_blank" rel="noopener">Assinar RSS ↗</a>
+      <button type="button" class="btn-secondary" id="shareGuibanews">Compartilhar</button>
+    </div>
+
+    <ol class="manchetes-list manchetes-list--full" id="newsFullList" aria-live="polite"></ol>
+    <p class="guibanews-disclaimer">Agregado automaticamente a cada 2 horas. O Guaipecas não edita o conteúdo das fontes.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Guaipecas</strong> — por quem mora em Guaíba, para quem mora em Guaíba.</p>
+    <div class="foot-links">
+      <a href="index.html">← Voltar ao início</a>
+      <a href="noticias.rss">RSS Guibanews</a>
+    </div>
+  </div>
+</footer>
+
+<script src="noticias-data.js"></script>
+<script src="analytics-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Metadados do Windows (download da internet)
+*:Zone.Identifier
+
+# Dados gerados por automação (opcional — descomente se preferir não versionar)
+# rivers.json
+# ofertas.json
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp

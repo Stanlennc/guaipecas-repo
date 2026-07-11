@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saúde em Guaíba — Guaíba em Dia</title>
+<meta name="description" content="UBS, ESF, CAPS, SAMU e demais unidades de saúde de Guaíba/RS, com fonte oficial do CNES/DATASUS.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#3dadb8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">Guaipecas
+      <small>Portal cidadão · Guaíba/RS</small>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Início</a>
+      <a href="guibanews.html">Guibanews</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="saude.html" class="active">Saúde</a>
+      <a href="diario-oficial.html">Diário Oficial</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" id="navToggle">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="nav-backdrop" id="navBackdrop" hidden></div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Início</a>
+    <a href="guibanews.html">Guibanews</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="saude.html">Saúde</a>
+    <a href="diario-oficial.html">Diário Oficial</a>
+    <a href="contatos.html">Contatos</a>
+  </div>
+</header>
+
+<div class="emergency-strip">
+  <div class="wrap">
+    <span class="label">Emergência</span>
+    <a href="tel:192">SAMU 192</a>
+    <a href="tel:193">Bombeiros 193</a>
+    <a href="tel:190">Polícia 190</a>
+    <a href="tel:199">Defesa Civil 199</a>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+    <p class="breadcrumb"><a href="index.html">Início</a> / Saúde</p>
+    <h1 class="page-title">Unidades de saúde de Guaíba</h1>
+    <p class="page-lede">Lista completa das unidades municipais de saúde, direto do Cadastro Nacional de Estabelecimentos de Saúde (CNES/DATASUS) — a base oficial usada pelo próprio SUS.</p>
+
+    <div class="source-note">
+      <strong>Fonte:</strong> CNES/DATASUS, consultado a partir do CNPJ da Prefeitura Municipal de Guaíba. Cada unidade tem uma ficha oficial própria — clique em "Ver ficha" para endereço, telefone e detalhes completos. Lista com 28 unidades, revisada periodicamente.
+    </div>
+
+    <p class="section-label">Mapa das unidades</p>
+    <div id="saudeMap" class="saude-map" aria-label="Mapa das unidades de saúde de Guaíba"></div>
+
+    <hr class="divider">
+    <p class="section-label">Filtrar por tipo</p>
+
+    <div class="chip-row" id="chipRow" role="group" aria-label="Filtrar unidades por tipo">
+      <button class="chip active" data-cat="all">Todas (28)</button>
+      <button class="chip" data-cat="ubs">UBS</button>
+      <button class="chip" data-cat="esf">ESF</button>
+      <button class="chip" data-cat="caps">CAPS</button>
+      <button class="chip" data-cat="emergencia">Emergência</button>
+      <button class="chip" data-cat="farmacia">Farmácia</button>
+      <button class="chip" data-cat="outros">Outros serviços</button>
+    </div>
+
+    <ul class="data-list" id="dataList">
+
+      <li class="data-row" data-cat="farmacia">
+        <span class="name">Farmácia Municipal</span>
+        <span class="cat">Farmácia</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302832038" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="outros">
+        <span class="name">Unidade de Saúde Prisional de Guaíba</span>
+        <span class="cat">Outros</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307477775" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="esf">
+        <span class="name">ESF Ipê Santa Rita</span>
+        <span class="cat">ESF</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309309742050" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="outros">
+        <span class="name">Secretaria Municipal de Saúde</span>
+        <span class="cat">Outros</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309306624677" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="caps">
+        <span class="name">CAPS AD Guaíba</span>
+        <span class="cat">CAPS</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307676603" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="outros">
+        <span class="name">Unidade de Controle de Zoonoses</span>
+        <span class="cat">Outros</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307263171" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="outros">
+        <span class="name">Serviço Municipal de Fisioterapia</span>
+        <span class="cat">Outros</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307605900" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="ubs">
+        <span class="name">UBS Centro</span>
+        <span class="cat">UBS</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302832046" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="caps">
+        <span class="name">CAPS IJ Guaíba</span>
+        <span class="cat">CAPS</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309309586741" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="ubs">
+        <span class="name">Unidade Básica de Saúde Colina</span>
+        <span class="cat">UBS</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309303563529" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="esf">
+        <span class="name">ESF Primavera São Jorge</span>
+        <span class="cat">ESF</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307471432" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="ubs">
+        <span class="name">Unidade Básica de Saúde Vila Iolanda</span>
+        <span class="cat">UBS</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225972" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="ubs">
+        <span class="name">Unidade Básica de Saúde COHAB</span>
+        <span class="cat">UBS</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225999" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="esf">
+        <span class="name">ESF Pedras Brancas</span>
+        <span class="cat">ESF</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225948" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="esf">
+        <span class="name">ESF São Francisco</span>
+        <span class="cat">ESF</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225964" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="ubs">
+        <span class="name">Unidade Básica de Saúde Columbia City</span>
+        <span class="cat">UBS</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225980" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="esf">
+        <span class="name">ESF São Jorge</span>
+        <span class="cat">ESF</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225921" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="ubs">
+        <span class="name">Unidade de Saúde Centro</span>
+        <span class="cat">UBS</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225956" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="esf">
+        <span class="name">ESF Nova Guaíba / São Francisco</span>
+        <span class="cat">ESF</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307751907" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="emergencia">
+        <span class="name">SAMU 192 Guaíba — USB (Suporte Básico)</span>
+        <span class="cat">Emergência</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307622325" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="outros">
+        <span class="name">Unidade Especializada Policlínica Guaíba</span>
+        <span class="cat">Outros</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225913" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="outros">
+        <span class="name">Unidade de Vigilância em Saúde</span>
+        <span class="cat">Outros</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307788967" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="caps">
+        <span class="name">CAPS II Guaíba</span>
+        <span class="cat">CAPS</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309303082784" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="emergencia">
+        <span class="name">SAMU 192 Guaíba — USA (Suporte Avançado)</span>
+        <span class="cat">Emergência</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309306263747" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="ubs">
+        <span class="name">Unidade Básica de Saúde Logradouro</span>
+        <span class="cat">UBS</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309303298183" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="esf">
+        <span class="name">ESF Ermo</span>
+        <span class="cat">ESF</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309304530608" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="esf">
+        <span class="name">ESF Moradas da Colina</span>
+        <span class="cat">ESF</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309304914171" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+      <li class="data-row" data-cat="outros">
+        <span class="name">SAE Guaíba (atenção especializada)</span>
+        <span class="cat">Outros</span>
+        <a class="link" href="https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309308287422" target="_blank" rel="noopener">Ver ficha ↗</a>
+      </li>
+
+    </ul>
+
+    <p id="emptyState" class="empty-state">Nenhuma unidade encontrada nessa categoria.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Guaipecas</strong> — iniciativa cidadã independente.</p>
+    <div class="foot-links">
+      <a href="index.html">← Voltar ao início</a>
+      <a href="https://cnes2.datasus.gov.br/" target="_blank" rel="noopener">CNES/DATASUS ↗</a>
+    </div>
+    <p class="foot-note">Última verificação dos dados estáticos: 10/07/2026</p>
+  </div>
+</footer>
+
+<script src="unidades-map-data.js"></script>
+<script src="analytics-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

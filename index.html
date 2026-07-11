@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guaipecas · Guaíba em Dia</title>
+<meta name="description" content="Nível dos rios, saúde, editais e contatos de Guaíba/RS — reunidos e atualizados para quem mora na cidade.">
+<meta property="og:title" content="Guaipecas · Guaíba em Dia">
+<meta property="og:description" content="O essencial de Guaíba reunido: rios, saúde, editais, ofertas e contatos — atualizado para você agir a tempo.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/favicon.svg">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#3dadb8">
+<link rel="alternate" type="application/rss+xml" title="Guibanews RSS" href="noticias.rss">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">Guaipecas
+      <small>Portal cidadão · Guaíba/RS</small>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html" class="active">Início</a>
+      <a href="guibanews.html">Guibanews</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="saude.html">Saúde</a>
+      <a href="diario-oficial.html">Diário Oficial</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" id="navToggle">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="nav-backdrop" id="navBackdrop" hidden></div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Início</a>
+    <a href="guibanews.html">Guibanews</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="saude.html">Saúde</a>
+    <a href="diario-oficial.html">Diário Oficial</a>
+    <a href="contatos.html">Contatos</a>
+  </div>
+</header>
+
+<div class="emergency-strip">
+  <div class="wrap">
+    <span class="label">Emergência</span>
+    <a href="tel:192">SAMU 192</a>
+    <a href="tel:193">Bombeiros 193</a>
+    <a href="tel:190">Polícia 190</a>
+    <a href="tel:199">Defesa Civil 199</a>
+    <span class="label">Prefeitura</span>
+    <a href="tel:551134807000">(51) 3480-7000</a>
+  </div>
+</div>
+
+<div class="river-alert" id="riverAlert" hidden role="alert">
+  <div class="wrap river-alert__inner">
+    <span class="river-alert__text" id="riverAlertText">Atenção: nível dos rios em observação.</span>
+    <a class="river-alert__link" href="#nowTitle">Ver Agora ↓</a>
+  </div>
+</div>
+
+<div class="pwa-install" id="pwaInstall" hidden>
+  <div class="wrap pwa-install__inner">
+    <span>Salve o Guaipecas na tela inicial do celular.</span>
+    <button type="button" class="btn-secondary" id="pwaInstallBtn">Instalar</button>
+    <button type="button" class="pwa-install__close" id="pwaInstallClose" aria-label="Fechar">×</button>
+  </div>
+</div>
+
+<section class="hero-band">
+  <div class="wrap hero">
+    <p class="section-label">Guaíba / RS</p>
+    <h1>Fique por dentro do que acontece em Guaíba.</h1>
+    <p class="lede">Notícias, rios, saúde, editais e contatos — reunidos num só lugar, atualizados para quem mora aqui.</p>
+    <svg class="waterline" viewBox="0 0 700 64" preserveAspectRatio="none" aria-hidden="true">
+      <path class="fill wave" d="M0 40 C 60 24, 120 54, 180 38 C 240 22, 300 52, 360 36 C 420 20, 480 50, 540 34 C 600 18, 660 46, 700 30 L700 64 L0 64 Z"/>
+      <path class="wave" d="M0 40 C 60 24, 120 54, 180 38 C 240 22, 300 52, 360 36 C 420 20, 480 50, 540 34 C 600 18, 660 46, 700 30"/>
+    </svg>
+  </div>
+  <p class="photo-credit">Foto: Píer de Guaíba, por Guilherme R — <a href="https://commons.wikimedia.org/wiki/File:P%C3%ADer_de_Gua%C3%ADba.jpg" target="_blank" rel="noopener">Wikimedia Commons ↗</a></p>
+</section>
+
+<main>
+  <div class="wrap">
+
+    <!-- GUIBANEWS — manchetes no topo -->
+    <section class="guibanews-band" aria-labelledby="newsTitle">
+      <div class="guibanews-header">
+        <span class="guibanews-badge" id="newsTitle">Guibanews</span>
+        <span class="guibanews-update skeleton skeleton-inline" id="newsUpdate">atualizando…</span>
+      </div>
+
+      <a href="#" class="manchete-lead manchete-lead--skeleton" id="newsLead" target="_blank" rel="noopener" hidden>
+        <span class="manchete-lead__label">Manchete</span>
+        <span class="manchete-lead__meta">
+          <span class="manchete-lead__source skeleton skeleton-inline" id="newsLeadSource">fonte</span>
+          <span class="manchete-lead__date skeleton skeleton-inline" id="newsLeadDate">agora</span>
+        </span>
+        <h2 class="manchete-lead__title skeleton" id="newsLeadTitle">Carregando manchete…</h2>
+      </a>
+
+      <ol class="manchetes-list" id="newsList" aria-live="polite">
+        <li class="manchete-item manchete-item--skeleton">
+          <span class="manchete-item__source skeleton skeleton-inline">fonte</span>
+          <span class="manchete-item__title skeleton">Carregando notícia…</span>
+          <span class="manchete-item__date skeleton skeleton-inline">agora</span>
+        </li>
+        <li class="manchete-item manchete-item--skeleton">
+          <span class="manchete-item__source skeleton skeleton-inline">fonte</span>
+          <span class="manchete-item__title skeleton">Carregando notícia…</span>
+          <span class="manchete-item__date skeleton skeleton-inline">agora</span>
+        </li>
+        <li class="manchete-item manchete-item--skeleton">
+          <span class="manchete-item__source skeleton skeleton-inline">fonte</span>
+          <span class="manchete-item__title skeleton">Carregando notícia…</span>
+          <span class="manchete-item__date skeleton skeleton-inline">agora</span>
+        </li>
+      </ol>
+
+      <p class="guibanews-disclaimer">Cada manchete abre a matéria completa no veículo de origem. O Guaipecas não edita nem endossa o conteúdo.</p>
+    </section>
+
+    <!-- AGORA — rios + clima -->
+    <section class="now-section" aria-labelledby="nowTitle">
+      <div class="now-header">
+        <span class="now-badge" id="nowTitle">Agora</span>
+        <span class="now-update skeleton skeleton-inline" id="nowUpdate">atualizando…</span>
+      </div>
+      <div class="now-grid">
+        <div class="river-card now-card" data-river="guaiba">
+          <div class="river-name">Rio Guaíba</div>
+          <div class="river-place">Cais Mauá, Porto Alegre</div>
+          <div class="river-level skeleton" id="guaibaLevel">0,66 m</div>
+          <div class="river-status" id="guaibaStatus">
+            <span class="status-dot" style="background:var(--status-normal);"></span>
+            <span>Normal</span>
+          </div>
+          <div class="river-meta">Cota de inundação: 3,00 m · Pico histórico: 5,35 m</div>
+          <a class="river-link" href="https://nivelguaiba.com.br/portoalegre" target="_blank" rel="noopener">Ver dados ao vivo ↗</a>
+          <div class="river-updated" id="guaibaUpdated">Carregando…</div>
+        </div>
+
+        <div class="river-card now-card" data-river="jacui">
+          <div class="river-name">Rio Jacuí</div>
+          <div class="river-place">Dona Francisca — alerta antecipado</div>
+          <div class="river-level skeleton" id="jacuiLevel">2,30 m</div>
+          <div class="river-status" id="jacuiStatus">
+            <span class="status-dot" style="background:var(--status-alert);"></span>
+            <span>Vigiar</span>
+          </div>
+          <div class="river-meta">Cota de inundação: 7,50 m · <span id="wxRain" class="skeleton skeleton-inline">chuva: carregando…</span></div>
+          <a class="river-link" href="https://nivelguaiba.com.br/donafrancisca" target="_blank" rel="noopener">Ver dados ao vivo ↗</a>
+          <div class="river-updated" id="jacuiUpdated">Carregando…</div>
+        </div>
+
+        <div class="weather-card now-card">
+          <div class="weather-head">
+            <svg class="weather-icon" id="wxIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+            </svg>
+            <span class="weather-temp skeleton" id="wxTemp">24°C</span>
+            <span class="weather-desc skeleton skeleton-inline" id="wxDesc">carregando</span>
+          </div>
+          <p class="weather-compact" id="wxCompact">Previsão de hoje em Guaíba</p>
+          <a class="weather-more" href="https://open-meteo.com/" target="_blank" rel="noopener">Fonte: Open-Meteo ↗</a>
+        </div>
+      </div>
+
+      <p class="river-note">Dados da ANA, atualizados a cada 30 minutos. Em risco, ligue <strong>199</strong> (Defesa Civil).</p>
+
+      <div class="river-sources">
+        <span class="section-label">Mais fontes</span>
+        <div class="source-links">
+          <a href="https://nivelguaiba.com.br/" target="_blank" rel="noopener">Nível Guaíba ↗</a>
+          <a href="https://sema.rs.gov.br/niveis-guaiba" target="_blank" rel="noopener">SEMA/RS ↗</a>
+          <a href="https://guaiba.atende.net/cidadao" target="_blank" rel="noopener">Guaíba Resiliente ↗</a>
+        </div>
+      </div>
+
+      <details class="prep-tips">
+        <summary>Prevenção a enchentes — o que ter pronto</summary>
+        <ul>
+          <li>Kit básico separado: documentos, remédios de uso contínuo, água e lanterna.</li>
+          <li>Combine com a família um ponto de encontro em local mais alto.</li>
+          <li>Salve os contatos de emergência no celular antes de precisar.</li>
+          <li>Siga os canais oficiais da Defesa Civil — cada evento é diferente.</li>
+        </ul>
+      </details>
+    </section>
+
+    <hr class="divider">
+
+    <!-- OFERTAS — 3 mercados locais -->
+    <section class="offers-section" aria-labelledby="offersTitle">
+      <div class="offers-header">
+        <p class="section-label" id="offersTitle">Ofertas locais</p>
+        <span class="offers-update skeleton skeleton-inline" id="offersUpdate">atualizando…</span>
+      </div>
+      <p class="offers-lede">Encartes da semana dos mercados de Guaíba — para fechar a compra com preço melhor.</p>
+      <p class="offers-disclaimer">Links para os sites dos mercados. Sem vínculo comercial.</p>
+
+      <div class="offers-scroll-wrap">
+        <div class="offers-grid offers-grid--3" id="offersGrid">
+          <a href="https://www.stokonline.com.br/ofertas" target="_blank" rel="noopener" class="banner-offer" style="--market-color:#3dadb8">
+            <img src="assets/banners/stok.png" alt="Ofertas Stok Center" loading="lazy" width="480" height="270">
+            <div class="banner-offer__overlay">
+              <span class="banner-offer__badge" aria-hidden="true">S</span>
+              <div class="banner-offer__text">
+                <span class="banner-offer__name">Stok Center</span>
+                <span class="banner-offer__cta">Ver encarte da semana</span>
+              </div>
+              <span class="banner-offer__arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+          <a href="https://supermercadosindio.app.br/promocoes" target="_blank" rel="noopener" class="banner-offer" style="--market-color:#4ec9a0">
+            <img src="assets/banners/indio.png" alt="Ofertas Supermercado Índio" loading="lazy" width="480" height="270">
+            <div class="banner-offer__overlay">
+              <span class="banner-offer__badge" aria-hidden="true">I</span>
+              <div class="banner-offer__text">
+                <span class="banner-offer__name">Supermercado Índio</span>
+                <span class="banner-offer__cta">Ver encarte da semana</span>
+              </div>
+              <span class="banner-offer__arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+          <a href="https://supermercadopaulinho.com.br/promocoes" target="_blank" rel="noopener" class="banner-offer" style="--market-color:#e8a87c">
+            <img src="assets/banners/paulinho.png" alt="Ofertas Supermercado Paulinho" loading="lazy" width="480" height="270">
+            <div class="banner-offer__overlay">
+              <span class="banner-offer__badge" aria-hidden="true">P</span>
+              <div class="banner-offer__text">
+                <span class="banner-offer__name">Supermercado Paulinho</span>
+                <span class="banner-offer__cta">Ver encarte da semana</span>
+              </div>
+              <span class="banner-offer__arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+        </div>
+        <p class="offers-scroll-hint">Deslize para ver mais →</p>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- EDITAIS RECENTES -->
+    <section class="editais-section" aria-labelledby="editaisTitle">
+      <div class="section-head-row">
+        <p class="section-label" id="editaisTitle">Editais e vagas</p>
+        <a class="section-more" href="diario-oficial.html">Ver todos →</a>
+      </div>
+      <ol class="manchetes-list manchetes-list--compact" id="editaisList"></ol>
+    </section>
+
+    <hr class="divider">
+
+    <!-- AGENDA -->
+    <section class="agenda-section" aria-labelledby="agendaTitle">
+      <div class="section-head-row">
+        <p class="section-label" id="agendaTitle">Agenda local</p>
+        <a class="section-more" href="servicos.html">Serviços →</a>
+      </div>
+      <ol class="manchetes-list manchetes-list--compact" id="agendaHomeList"></ol>
+    </section>
+
+    <hr class="divider">
+    <p class="section-label">Acesse</p>
+
+    <div class="card-grid card-grid--3">
+      <a class="card" href="guibanews.html" data-accent="search">
+        <svg class="card-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h6"/><circle cx="17" cy="17" r="4"/><path d="M20 20l2 2"/></svg>
+        <span class="tag">Guibanews</span>
+        <h3>Notícias da cidade</h3>
+        <p>Manchetes locais atualizadas a cada 2 horas — com fonte em cada link.</p>
+      </a>
+
+      <a class="card" href="servicos.html" data-accent="jobs">
+        <svg class="card-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M3 9h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9z"/><path d="M8 9V7a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+        <span class="tag">Serviços</span>
+        <h3>Dia a dia</h3>
+        <p>Farmácia de plantão, ônibus, coleta de lixo e agenda oficial.</p>
+      </a>
+
+      <a class="card" href="saude.html" data-accent="health">
+        <svg class="card-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/></svg>
+        <span class="tag">Saúde</span>
+        <h3>Unidades de saúde</h3>
+        <p>28 UBS, ESF e CAPS com ficha oficial do CNES — ache a unidade certa em segundos.</p>
+      </a>
+
+      <a class="card" href="diario-oficial.html" data-accent="docs">
+        <svg class="card-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg>
+        <span class="tag">Diário Oficial</span>
+        <h3>Editais e decretos</h3>
+        <p>Licitações, concursos e decretos — direto na fonte, antes que a informação se perca.</p>
+      </a>
+
+      <a class="card" href="contatos.html" data-accent="phone">
+        <svg class="card-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="tag">Contatos úteis</span>
+        <h3>Telefones e endereços</h3>
+        <p>Emergência, ouvidoria e secretarias — salve agora, use quando precisar.</p>
+      </a>
+    </div>
+
+    <div class="concursos-note">
+      <p class="concursos-note__title">Concursos públicos</p>
+      <p class="concursos-note__text">No momento, <strong>não há concurso com inscrições abertas</strong> na Prefeitura de Guaíba. Quando sair edital novo, ele aparecerá primeiro no <a href="diario-oficial.html">Diário Oficial</a> e no portal da <a href="https://concurso.idecan.org.br/Concurso.aspx?ID=77" target="_blank" rel="noopener">IDECAN ↗</a>.</p>
+    </div>
+
+    <div class="home-footer">
+      <p><span class="badge-independent">independente</span> — feito por moradores, para moradores. Fontes públicas, revisadas com frequência.</p>
+      <div class="share-bar" id="shareBar">
+        <span class="share-bar__label">Compartilhe o Guaipecas:</span>
+        <button type="button" class="btn-secondary btn-secondary--sm" id="shareWhatsapp">WhatsApp</button>
+        <button type="button" class="btn-secondary btn-secondary--sm" id="shareNative">Enviar link</button>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Guaipecas</strong> — por quem mora em Guaíba, para quem mora em Guaíba.</p>
+    <div class="foot-links">
+      <a href="https://guaiba.atende.net/transparencia/">Portal da Transparência ↗</a>
+      <a href="https://falabr.cgu.gov.br/web/RS/Guaiba">Ouvidoria (Fala.BR) ↗</a>
+      <a href="https://guaiba.atende.net/cidadao">Site oficial da Prefeitura ↗</a>
+      <a href="https://nivelguaiba.com.br/">Nível Guaíba ↗</a>
+    </div>
+    <p class="foot-note">Última verificação dos dados estáticos: 10/07/2026</p>
+  </div>
+</footer>
+
+<script src="noticias-data.js"></script>
+<script src="editais-data.js"></script>
+<script src="servicos-data.js"></script>
+<script src="analytics-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

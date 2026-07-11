@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diário Oficial — Guaíba em Dia</title>
+<meta name="description" content="Onde encontrar o Diário Oficial de Guaíba/RS: editais, decretos e publicações da prefeitura e da Câmara Municipal.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#3dadb8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">Guaipecas
+      <small>Portal cidadão · Guaíba/RS</small>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Início</a>
+      <a href="guibanews.html">Guibanews</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="saude.html">Saúde</a>
+      <a href="diario-oficial.html" class="active">Diário Oficial</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" id="navToggle">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="nav-backdrop" id="navBackdrop" hidden></div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Início</a>
+    <a href="guibanews.html">Guibanews</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="saude.html">Saúde</a>
+    <a href="diario-oficial.html">Diário Oficial</a>
+    <a href="contatos.html">Contatos</a>
+  </div>
+</header>
+
+<div class="emergency-strip">
+  <div class="wrap">
+    <span class="label">Emergência</span>
+    <a href="tel:192">SAMU 192</a>
+    <a href="tel:193">Bombeiros 193</a>
+    <a href="tel:190">Polícia 190</a>
+    <a href="tel:199">Defesa Civil 199</a>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+    <p class="breadcrumb"><a href="index.html">Início</a> / Diário Oficial</p>
+    <h1 class="page-title">Diário Oficial de Guaíba</h1>
+    <p class="page-lede">Editais, decretos, licitações e atos oficiais do município. Use o Diário FAMURS como fonte principal — é estável e cobre as publicações de Guaíba.</p>
+
+    <div class="source-note">
+      <strong>Monitoramento automático:</strong> editais e vagas indexados pelo Guaipecas a partir de fontes públicas. Confirme sempre no <a href="https://www.diariomunicipal.com.br/famurs/pesquisar" target="_blank" rel="noopener">Diário FAMURS ↗</a> (entidade Guaíba: 963876).
+    </div>
+
+    <hr class="divider">
+    <p class="section-label">Publicações recentes</p>
+    <ol class="manchetes-list" id="editaisPageList"></ol>
+
+    <hr class="divider">
+    <p class="section-label">Onde consultar</p>
+
+    <div class="card-grid card-grid--1">
+      <a class="card" href="https://www.diariomunicipal.com.br/famurs/pesquisar" target="_blank" rel="noopener">
+        <span class="tag">Fonte principal</span>
+        <h3>Diário Oficial dos Municípios — FAMURS</h3>
+        <p>Publicação certificada digitalmente, usada por Guaíba e a maioria dos municípios gaúchos. Use o campo de busca e filtre por "Guaíba" para ver só as matérias do município.</p>
+      </a>
+    </div>
+
+    <p class="river-note note-spaced"><strong>Diário da Câmara:</strong> publicações legislativas também podem aparecer em <a href="https://camaraguaiba.rs.gov.br/portal/?sec=diariosoficiais" target="_blank" rel="noopener">camaraguaiba.rs.gov.br ↗</a>, mas o servidor costuma ser instável — use o FAMURS como referência principal.</p>
+
+    <hr class="divider">
+    <p class="section-label">Concursos públicos</p>
+    <div class="concursos-note">
+      <p class="concursos-note__text">No momento, <strong>não há concurso com inscrições abertas</strong>. Todo edital novo é publicado aqui no Diário antes de qualquer outro lugar. Acompanhe também o portal da <a href="https://concurso.idecan.org.br/Concurso.aspx?ID=77" target="_blank" rel="noopener">IDECAN ↗</a> (banca do último concurso).</p>
+    </div>
+
+    <hr class="divider">
+    <p class="section-label">Dica de uso</p>
+    <p class="prose">Editais de concurso, licitações e decretos costumam sair primeiro no Diário FAMURS. Se você procura algo específico (um CNPJ, um número de processo, um nome), o campo de busca do FAMURS aceita esses termos diretamente — não precisa navegar edição por edição.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Guaipecas</strong> — iniciativa cidadã independente.</p>
+    <div class="foot-links">
+      <a href="index.html">← Voltar ao início</a>
+      <a href="https://www.diariomunicipal.com.br/famurs/pesquisar" target="_blank" rel="noopener">FAMURS ↗</a>
+    </div>
+    <p class="foot-note">Última verificação dos dados estáticos: 10/07/2026</p>
+  </div>
+</footer>
+
+<script src="editais-data.js"></script>
+<script src="analytics-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
