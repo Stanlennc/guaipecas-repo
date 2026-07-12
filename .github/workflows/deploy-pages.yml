@@ -6,7 +6,6 @@ on:
   workflow_run:
     workflows:
       - "Atualizar nível dos rios"
-      - "Atualizar alerta por bairro"
       - "Atualizar Guibanews"
       - "Atualizar ofertas dos mercados"
       - "Atualizar editais"
@@ -40,13 +39,6 @@ jobs:
         run: |
           pip install requests
           python automation/fetch_rivers.py
-
-      - name: Atualizar alerta por bairro antes do deploy
-        continue-on-error: true
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-2.0-flash-lite
-        run: python automation/fetch_bairros_alerta.py
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5

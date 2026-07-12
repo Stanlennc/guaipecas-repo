@@ -205,33 +205,6 @@
         <a class="weather-more" href="https://open-meteo.com/" target="_blank" rel="noopener">Fonte: Open-Meteo ↗</a>
       </div>
 
-      <div class="bairro-card now-card" id="bairroPanel" aria-labelledby="bairroTitle">
-        <div class="bairro-header">
-          <span class="bairro-badge" id="bairroTitle">Meu bairro</span>
-          <span class="bairro-update skeleton skeleton-inline" id="bairroUpdate">atualizando…</span>
-        </div>
-        <p class="bairro-lede">Risco de enchente personalizado — cruza histórico de 2024, nível dos rios, previsão de chuva e orientação com IA.</p>
-        <label class="bairro-picker-label" for="bairroSelect">Onde você mora em Guaíba?</label>
-        <select id="bairroSelect" class="bairro-select" aria-describedby="bairroDisclaimer">
-          <option value="">Selecione seu bairro…</option>
-        </select>
-        <div class="bairro-body" id="bairroBody" hidden>
-          <div class="bairro-status-row" id="bairroStatusRow">
-            <span class="status-dot" id="bairroStatusDot" style="background:var(--status-normal);"></span>
-            <span class="bairro-status-label" id="bairroStatusLabel">—</span>
-            <span class="bairro-hist-tag" id="bairroHistTag" hidden></span>
-          </div>
-          <p class="bairro-text" id="bairroText"></p>
-          <p class="bairro-action" id="bairroAction"></p>
-          <p class="bairro-hist-note" id="bairroHistNote" hidden></p>
-        </div>
-        <p class="bairro-disclaimer" id="bairroDisclaimer">
-          <span data-cadence="bairros">alerta por bairro com IA (a cada 2 horas)</span>.
-          Indicativo — não substitui avisos oficiais. Em risco, ligue
-          <a href="contatos-emergencia.html#defesa-civil"><strong>199</strong></a>.
-        </p>
-      </div>
-
       <p class="river-note">Dados via <a href="https://nivelguaiba.com.br/" target="_blank" rel="noopener">Nível Guaíba ↗</a>, <span data-cadence="rivers">espelha o Nível Guaíba (a cada 15 minutos)</span>. <strong>Indicativo apenas</strong> — não substitui avisos oficiais da Defesa Civil ou da prefeitura. Em risco, ligue <a href="contatos-emergencia.html#defesa-civil"><strong>199</strong> (Defesa Civil)</a>.</p>
 
       <div class="river-sources">
@@ -406,10 +379,9 @@
 <script src="ofertas-data.js"></script>
 <script src="schedules-data.js"></script>
 <script src="rivers-data.js"></script>
-<script src="bairros-alerta-data.js"></script>
 <script src="editais-data.js"></script>
 <script src="servicos-data.js"></script>
 <script src="analytics-config.js"></script>
-<script src="script.js?v=24"></script>
+<script src="script.js?v=25"></script>
 </body>
 </html>

@@ -12,13 +12,11 @@
       "short_label": "15 min"
     },
     "bairros": {
+      "enabled": false,
       "workflow": "update-bairros-alerta.yml",
-      "cron": "12 */2 * * *",
-      "cron_timezone": "UTC",
-      "fetch_delay_minutes": 4,
-      "interval_minutes": 120,
-      "label": "alerta por bairro com IA (a cada 2 horas)",
-      "short_label": "2 h"
+      "manual": true,
+      "label": "alerta por bairro — em standby (dados em revisão)",
+      "short_label": "standby"
     },
     "news": {
       "workflow": "update-news.yml",

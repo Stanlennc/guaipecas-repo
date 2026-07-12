@@ -1,5 +1,7 @@
 {
   "versao": 1,
+  "status": "standby",
+  "nota_standby": "Dados históricos de 2024 precisam curadoria comunitária antes de reativar no site.",
   "cidade": "Guaíba",
   "fonte_historico": "Mapeamento maio/2024 (Zenodo/Plano Rio Grande) e relatos locais",
   "bairros": [

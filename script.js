@@ -60,7 +60,7 @@ window.GuaipecazConsent = (function(){
     banner.setAttribute('aria-label', 'Preferências de cookies');
     banner.innerHTML =
       '<div class="cookie-consent__inner">' +
-        '<p class="cookie-consent__text">Usamos cookies essenciais para salvar sua cidade e bairro preferidos. Com sua permissão, também usamos Google Analytics para medir visitas — sem vender dados. Leia a <a href="privacidade.html">Política de Privacidade</a>.</p>' +
+        '<p class="cookie-consent__text">Usamos cookies essenciais para salvar sua cidade preferida. Com sua permissão, também usamos Google Analytics para medir visitas — sem vender dados. Leia a <a href="privacidade.html">Política de Privacidade</a>.</p>' +
         '<div class="cookie-consent__actions">' +
           '<button type="button" class="btn-secondary btn-secondary--sm" data-cookie="essential">Só essenciais</button>' +
           '<button type="button" class="btn-primary btn-secondary--sm" data-cookie="analytics">Aceitar analytics</button>' +

@@ -1,9 +1,10 @@
+# STANDBY — alerta por bairro pausado até curadoria dos dados de 2024.
+# Código em automation/fetch_bairros_alerta.py e automation/bairros.seed.json
+# Para reativar: restaure o cron, remova `if: false` e recoloque a seção na home.
+
 name: Atualizar alerta por bairro
 
 on:
-  schedule:
-    # A cada 2 h — respeita cota gratuita do Gemini
-    - cron: "12 */2 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -15,43 +16,7 @@ concurrency:
 
 jobs:
   update-bairros-alerta:
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    if: false
     runs-on: ubuntu-latest
     steps:
-      - name: Baixar o repositório
-        uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Configurar Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Instalar dependências
-        run: pip install requests
-
-      - name: Garantir rivers.json atualizado
-        env:
-          ANA_API_USER: ${{ secrets.ANA_API_USER }}
-          ANA_API_PASSWORD: ${{ secrets.ANA_API_PASSWORD }}
-        run: python automation/fetch_rivers.py
-
-      - name: Gerar alertas por bairro (Gemini)
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-2.0-flash-lite
-          GEMINI_FORCE: "1"
-        run: python automation/fetch_bairros_alerta.py
-
-      - run: python automation/gen_schedules.py
-
-      - name: Publicar mudanças
-        run: |
-          git config user.name "guaiba-em-dia-bot"
-          git config user.email "actions@github.com"
-          git add rivers.json rivers-data.js bairros-alerta.json bairros-alerta-data.js schedules-data.js
-          git pull --rebase --autostash origin main
-          git add rivers.json rivers-data.js bairros-alerta.json bairros-alerta-data.js schedules-data.js
-          git diff --quiet && git diff --staged --quiet || git commit -m "Atualiza alerta por bairro [automático]"
-          git push
+      - run: echo "Workflow em standby."
