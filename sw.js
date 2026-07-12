@@ -1,4 +1,4 @@
-const CACHE = 'guaipecaz-v41';
+const CACHE = 'guaipecaz-v42';
 const SHELL = [
   '/',
   '/index.html',
@@ -33,7 +33,7 @@ const SHELL = [
   '/assets/backgrounds/bg-guaipeca-viralata.jpg',
   '/assets/backgrounds/bg-guibanews.jpg',
   '/assets/backgrounds/bg-orla.jpg',
-  '/assets/backgrounds/bg-contatos.jpg',
+  '/assets/backgrounds/bg-guaiba-sunset.jpg',
   '/noticias-data.js',
   '/ofertas-data.js',
   '/rivers-data.js',
