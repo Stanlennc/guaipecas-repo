@@ -1460,6 +1460,11 @@ nav.main-nav a.active { color: var(--river); }
   gap: 4px 14px;
   align-items: center;
 }
+.data-row__tel {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
 .apoio-lede { margin-top: -4px; margin-bottom: 18px; }
 .apoio-map {
   height: 380px;

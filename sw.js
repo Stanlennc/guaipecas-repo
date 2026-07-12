@@ -1,4 +1,4 @@
-const CACHE = 'guaipecaz-v30';
+const CACHE = 'guaipecaz-v31';
 const SHELL = [
   '/',
   '/index.html',

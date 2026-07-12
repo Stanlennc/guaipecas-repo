@@ -1810,14 +1810,9 @@ window.guaipecasContatoEmergencia = (function(){
     if (p.mapa && p.lat != null && p.lon != null) {
       links.push('<button type="button" class="link link--map" data-map-ponto="' + esc(p.id) + '">Ver no mapa ↓</button>');
     }
-    if (p.tel) {
-      var href = ce ? ce.hrefForTel(p.tel, p.servico, { onEmergenciaPage: true }) : ('tel:' + p.tel);
+    if (p.tel || p.telefone) {
       var label = ce ? ce.labelForTel(p.tel, p.telefone) : (p.telefone || p.tel);
-      if (ce && ce.isShortEmergency(p.tel)) {
-        links.push('<a class="link" href="' + esc(href) + '">' + esc(label) + ' — mapa ↗</a>');
-      } else {
-        links.push('<a class="link" href="tel:' + esc(p.tel) + '">' + esc(label) + ' ↗</a>');
-      }
+      links.push('<span class="data-row__tel">' + esc(label) + '</span>');
     }
     if (p.url) {
       var href = esc(p.url);
