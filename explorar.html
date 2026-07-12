@@ -68,13 +68,33 @@
 
     <section class="explorar-perfil" id="explorarPerfil" aria-live="polite">
       <div class="explorar-perfil__media">
-        <img id="explorarPerfilImg" src="" alt="" loading="lazy">
+        <button type="button" class="explorar-perfil__zoom" id="explorarPerfilZoom" aria-label="Ampliar foto do destaque">
+          <img id="explorarPerfilImg" src="" alt="" loading="lazy">
+          <span class="explorar-perfil__zoom-hint" aria-hidden="true">Ampliar</span>
+        </button>
       </div>
       <div class="explorar-perfil__body">
         <p class="explorar-perfil__tagline" id="explorarPerfilTagline"></p>
         <p class="explorar-perfil__text" id="explorarPerfilText"></p>
       </div>
     </section>
+
+    <dialog class="explorar-lightbox" id="explorarLightbox" aria-labelledby="explorarLightboxTitle">
+      <form method="dialog" class="explorar-lightbox__toolbar">
+        <button type="submit" class="explorar-lightbox__close" aria-label="Fechar">×</button>
+      </form>
+      <figure class="explorar-lightbox__figure">
+        <div class="explorar-lightbox__media">
+          <img id="explorarLightboxImg" src="" alt="">
+        </div>
+        <figcaption class="explorar-lightbox__caption">
+          <h2 class="explorar-lightbox__title" id="explorarLightboxTitle"></h2>
+          <p class="explorar-lightbox__text" id="explorarLightboxText"></p>
+          <p class="explorar-lightbox__address" id="explorarLightboxAddress"></p>
+          <a class="explorar-lightbox__map" id="explorarLightboxMap" href="#explorarMap">Ver no mapa ↓</a>
+        </figcaption>
+      </figure>
+    </dialog>
 
     <section class="explorar-section" aria-labelledby="fdsTitle">
       <div class="section-head-row">

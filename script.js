@@ -1879,8 +1879,17 @@ function updateRiverAlert(level, message) {
   var ledeEl = document.getElementById('explorarLede');
   var cidadeNotaEl = document.getElementById('explorarCidadeNota');
   var perfilImg = document.getElementById('explorarPerfilImg');
+  var perfilZoom = document.getElementById('explorarPerfilZoom');
+  var perfilSection = document.getElementById('explorarPerfil');
   var perfilTagline = document.getElementById('explorarPerfilTagline');
   var perfilText = document.getElementById('explorarPerfilText');
+  var lightbox = document.getElementById('explorarLightbox');
+  var lightboxImg = document.getElementById('explorarLightboxImg');
+  var lightboxTitle = document.getElementById('explorarLightboxTitle');
+  var lightboxText = document.getElementById('explorarLightboxText');
+  var lightboxAddress = document.getElementById('explorarLightboxAddress');
+  var lightboxMap = document.getElementById('explorarLightboxMap');
+  var perfilItem = null;
   var fdsGrid = document.getElementById('explorarFdsGrid');
   var gridEl = document.getElementById('explorarGrid');
   var mapEl = document.getElementById('explorarMap');
@@ -1914,8 +1923,8 @@ function updateRiverAlert(level, message) {
 
   function renderCard(it, opts) {
     opts = opts || {};
-    var href = it.url ? it.url : '#explorarMap';
-    var target = it.url && it.url.indexOf('http') === 0 ? ' target="_blank" rel="noopener"' : '';
+    var href = '#explorarMap';
+    var target = '';
     var extra = opts.fds ? ' explorar-card--fds' : '';
     var motivo = opts.motivo ? '<p class="explorar-card__meta">' + esc(opts.motivo) + '</p>' : '';
     var quando = it.quando ? '<p class="explorar-card__meta">' + esc(it.quando) + '</p>' : '';
@@ -1943,23 +1952,60 @@ function updateRiverAlert(level, message) {
   function fitImagens(root) {
     var fit = window.guaipecasFitImageFrame;
     if (!fit) return;
-    (root || document).querySelectorAll('.explorar-perfil__media img, .explorar-card__media img').forEach(fit);
+    (root || document).querySelectorAll('.explorar-perfil__zoom img, .explorar-card__media img').forEach(fit);
+  }
+
+  function openLugarLightbox(item) {
+    if (!item || !lightbox || !lightboxImg) return;
+    lightboxImg.src = item.imagem || '';
+    lightboxImg.alt = item.titulo || '';
+    if (lightboxTitle) lightboxTitle.textContent = item.titulo || '';
+    if (lightboxText) lightboxText.textContent = item.descricao_longa || item.descricao_curta || '';
+    if (lightboxAddress) lightboxAddress.textContent = item.endereco || '';
+    if (lightboxMap) {
+      lightboxMap.hidden = !(item.mapa && item.lat != null && item.lon != null);
+    }
+    if (typeof lightbox.showModal === 'function') lightbox.showModal();
   }
 
   function renderPerfil(cidade) {
     var perfil = (data.perfis && data.perfis[cidade]) || null;
     if (!perfil) return;
+    perfilItem = perfil.item_ref ? itemById(perfil.item_ref) : null;
+    var titulo = perfilItem ? perfilItem.titulo : (perfil.tagline || perfil.nome || cidade);
+    var descricao = perfilItem
+      ? (perfilItem.descricao_longa || perfilItem.descricao_curta)
+      : (perfil.descricao || '');
+    var imagem = perfilItem ? (perfilItem.imagem || perfil.imagem) : perfil.imagem;
     if (perfilImg) {
-      perfilImg.src = perfil.imagem || 'assets/explorar/guaiba-pier-guaiba.jpg';
-      perfilImg.alt = perfil.nome || cidade;
+      perfilImg.src = imagem || 'assets/explorar/guaiba-pier-guaiba.jpg';
+      perfilImg.alt = perfil.imagem_alt || titulo;
       window.guaipecasFitImageFrame(perfilImg);
     }
-    if (perfilTagline) perfilTagline.textContent = perfil.tagline || '';
-    if (perfilText) perfilText.textContent = perfil.descricao || '';
+    if (perfilZoom) {
+      perfilZoom.disabled = !perfilItem;
+      perfilZoom.setAttribute('aria-label', perfilItem
+        ? ('Ampliar foto de ' + titulo)
+        : 'Ampliar foto do destaque');
+    }
+    if (perfilTagline) perfilTagline.textContent = titulo;
+    if (perfilText) perfilText.textContent = descricao;
     if (cidadeNotaEl && gc) {
       var cfg = gc.getConfig(cidade);
       cidadeNotaEl.textContent = 'Mostrando sugestões para ' + (cfg ? cfg.name : cidade) + '. A cidade vale para todo o Guaipecaz.';
     }
+  }
+
+  if (perfilZoom) {
+    perfilZoom.addEventListener('click', function(){
+      if (perfilItem) openLugarLightbox(perfilItem);
+    });
+  }
+
+  if (lightboxMap && lightbox) {
+    lightboxMap.addEventListener('click', function(){
+      if (typeof lightbox.close === 'function') lightbox.close();
+    });
   }
 
   function renderFds(cidade) {
@@ -1985,7 +2031,8 @@ function updateRiverAlert(level, message) {
     var quando = it.quando ? '<br><em>' + esc(it.quando) + '</em>' : '';
     var horario = it.horario ? '<br><em>' + esc(it.horario) + '</em>' : '';
     var endereco = it.endereco ? '<br>' + esc(it.endereco) : '';
-    var link = it.url ? '<br><a href="' + esc(it.url) + '" target="_blank" rel="noopener">Saiba mais ↗</a>' : '';
+    var extUrl = it.site_url || it.url;
+    var link = extUrl ? '<br><a href="' + esc(extUrl) + '" target="_blank" rel="noopener">Site oficial ↗</a>' : '';
     return '<strong>' + esc(it.titulo) + '</strong>' + endereco + '<br>' + esc(it.descricao_curta) + quando + horario + link;
   }
 
@@ -2019,8 +2066,10 @@ function updateRiverAlert(level, message) {
     updateMap(cidade);
   }
 
+  var explorarInitialized = false;
+
   function initMap() {
-    if (!mapEl || !window.L) return;
+    if (!mapEl || !window.L || mapInstance) return;
     var cfg = gc.getConfig();
     mapInstance = L.map('explorarMap').setView([cfg.lat, cfg.lon], cfg.zoom);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(mapInstance);
@@ -2035,8 +2084,13 @@ function updateRiverAlert(level, message) {
       window.GuaipecazSchedules.updateStamp(cadenceEl, data.gerado_em, 'explorar');
     }
     applyCidade(gc.get());
-    gc.onChange(applyCidade);
-    if (mapEl) window.guaipecasLoadLeaflet(initMap);
+    if (!explorarInitialized) {
+      explorarInitialized = true;
+      gc.onChange(applyCidade);
+      if (mapEl) window.guaipecasLoadLeaflet(initMap);
+    } else if (mapInstance) {
+      updateMap(gc.get());
+    }
   }
 
   function fetchExplorar() {

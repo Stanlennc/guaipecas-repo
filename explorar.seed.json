@@ -5,23 +5,29 @@
   "perfis": {
     "guaiba": {
       "nome": "Guaíba",
-      "tagline": "Beira do Guaíba, praças e orla",
-      "descricao": "Guaíba vive de frente para o lago: a orla, a Praça da Maçã, a Praia Alegria e o píer são os cartões-postais da cidade.",
+      "item_ref": "guaiba-praia-alegria",
+      "tagline": "Praia Alegria",
+      "descricao": "A Praia Alegria é o balneário tradicional de Guaíba às margens do Guaíba. O bairro respira orla, barcos e aquele ritmo de fim de semana com chimarrão virado para o lago.",
       "imagem": "assets/explorar/guaiba-praia-alegria.webp",
+      "imagem_alt": "Praia Alegria, Guaíba",
       "imagem_credito": "Guaipecaz"
     },
     "poa": {
       "nome": "Porto Alegre",
-      "tagline": "Parques e orla da capital",
-      "descricao": "Redenção, Jardim Botânico, Parcão e a Usina do Gasômetro — o que há de mais clássico no turismo porto-alegrense.",
+      "item_ref": "poa-parque-redencao",
+      "tagline": "Parque da Redenção",
+      "descricao": "O Parque da Redenção (Farroupilha) está no roteiro turístico oficial de Porto Alegre. Lagos, árvores centenárias, pista de caminhada e o famoso Brique de antiguidades aos domingos.",
       "imagem": "assets/explorar/poa-parque-redencao.png",
-      "imagem_credito": "Ricardo Stricher · Guaipecaz"
+      "imagem_alt": "Parque da Redenção, Porto Alegre",
+      "imagem_credito": "Ricardo Stricher"
     },
     "canoas": {
       "nome": "Canoas",
-      "tagline": "Verde urbano perto de POA",
-      "descricao": "O Parque Getúlio Vargas — o Capão do Corvo — é o principal pulmão verde e programa em família na cidade.",
+      "item_ref": "canoas-parque-getulio",
+      "tagline": "Parque Getúlio Vargas",
+      "descricao": "O Parque Getúlio Vargas, o Capão do Corvo, é o principal pulmão verde de Canoas. Amplo, arborizado e com infraestrutura para caminhada, esporte e piquenique.",
       "imagem": "assets/explorar/canoas-parque-getulio2.jpg",
+      "imagem_alt": "Parque Getúlio Vargas, Canoas",
       "imagem_credito": "Guaipecaz"
     }
   },
@@ -125,7 +131,7 @@
       "lon": -51.1847,
       "tags": ["parque", "natureza"],
       "horario": "Ter–dom 9h–17h — confirme no site oficial",
-      "url": "https://www.plantarum.com.br/jbpoa/",
+      "site_url": "https://www.plantarum.com.br/jbpoa/",
       "dica": "Vá de manhã cedo — menos calor e mais silêncio nas trilhas."
     },
     {

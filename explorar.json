@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-12T02:40:35.495764+00:00",
+  "gerado_em": "2026-07-12T02:54:24.166342+00:00",
   "lede": "Pontos turísticos de Guaíba, Porto Alegre e Canoas — com foto, endereço e mapa.",
   "cidades": [
     "guaiba",
@@ -9,23 +9,29 @@
   "perfis": {
     "guaiba": {
       "nome": "Guaíba",
-      "tagline": "Beira do Guaíba, praças e orla",
-      "descricao": "Guaíba vive de frente para o lago: a orla, a Praça da Maçã, a Praia Alegria e o píer são os cartões-postais da cidade.",
+      "item_ref": "guaiba-praia-alegria",
+      "tagline": "Praia Alegria",
+      "descricao": "A Praia Alegria é o balneário tradicional de Guaíba às margens do Guaíba. O bairro respira orla, barcos e aquele ritmo de fim de semana com chimarrão virado para o lago.",
       "imagem": "assets/explorar/guaiba-praia-alegria.webp",
+      "imagem_alt": "Praia Alegria, Guaíba",
       "imagem_credito": "Guaipecaz"
     },
     "poa": {
       "nome": "Porto Alegre",
-      "tagline": "Parques e orla da capital",
-      "descricao": "Redenção, Jardim Botânico, Parcão e a Usina do Gasômetro — o que há de mais clássico no turismo porto-alegrense.",
+      "item_ref": "poa-parque-redencao",
+      "tagline": "Parque da Redenção",
+      "descricao": "O Parque da Redenção (Farroupilha) está no roteiro turístico oficial de Porto Alegre. Lagos, árvores centenárias, pista de caminhada e o famoso Brique de antiguidades aos domingos.",
       "imagem": "assets/explorar/poa-parque-redencao.png",
-      "imagem_credito": "Ricardo Stricher · Guaipecaz"
+      "imagem_alt": "Parque da Redenção, Porto Alegre",
+      "imagem_credito": "Ricardo Stricher"
     },
     "canoas": {
       "nome": "Canoas",
-      "tagline": "Verde urbano perto de POA",
-      "descricao": "O Parque Getúlio Vargas — o Capão do Corvo — é o principal pulmão verde e programa em família na cidade.",
+      "item_ref": "canoas-parque-getulio",
+      "tagline": "Parque Getúlio Vargas",
+      "descricao": "O Parque Getúlio Vargas, o Capão do Corvo, é o principal pulmão verde de Canoas. Amplo, arborizado e com infraestrutura para caminhada, esporte e piquenique.",
       "imagem": "assets/explorar/canoas-parque-getulio2.jpg",
+      "imagem_alt": "Parque Getúlio Vargas, Canoas",
       "imagem_credito": "Guaipecaz"
     }
   },
@@ -50,187 +56,6 @@
       "item_ref": "canoas-parque-getulio",
       "destaque": "Família",
       "motivo": "Parque Getúlio Vargas — sombra, pista e espaço para o dia inteiro."
-    }
-  ],
-  "pontos_turisticos": [
-    {
-      "id": "guaiba-praca-maca",
-      "cidade": "guaiba",
-      "titulo": "Praça da Maçã",
-      "endereco": "Rua Bento Gonçalves, s/n — Centro, Guaíba/RS",
-      "descricao_curta": "Coração cívico — eventos, feiras e encontro de bairro no centro.",
-      "descricao_longa": "A Praça da Maçã concentra o pulso do centro de Guaíba: corridas, festivais, feiras e programação da prefeitura.",
-      "imagem": "assets/explorar/guaiba-praca-maca.jpeg",
-      "imagem_credito": "Guaipecaz",
-      "lat": -30.1128,
-      "lon": -51.3262,
-      "tags": [
-        "centro",
-        "eventos"
-      ],
-      "gratis": true,
-      "horario": "Aberta o dia todo",
-      "dica": "Confira a agenda municipal — costuma ter evento nos fins de semana.",
-      "tipo": "lugar",
-      "mapa": true,
-      "curado": true
-    },
-    {
-      "id": "guaiba-praia-alegria",
-      "cidade": "guaiba",
-      "titulo": "Praia Alegria",
-      "endereco": "Av. Alegria, 75-139 — Bairro Praia Alegria, Guaíba/RS",
-      "descricao_curta": "Balneário gaúcho à beira do lago — chimarrão, pesca e fim de tarde na água.",
-      "descricao_longa": "A Praia Alegria é o balneário tradicional de Guaíba às margens do Guaíba. O bairro respira orla, barcos e aquele ritmo de fim de semana com chimarrão virado para o lago.",
-      "imagem": "assets/explorar/guaiba-praia-alegria.webp",
-      "imagem_credito": "Guaipecaz",
-      "lat": -30.0875,
-      "lon": -51.281,
-      "tags": [
-        "orla",
-        "balneário",
-        "grátis"
-      ],
-      "gratis": true,
-      "horario": "Melhor à tarde e no pôr do sol",
-      "dica": "Respeite a comunidade ribeirinha — estacione em áreas permitidas.",
-      "tipo": "lugar",
-      "mapa": true,
-      "curado": true
-    },
-    {
-      "id": "guaiba-pier-guaiba",
-      "cidade": "guaiba",
-      "titulo": "Píer de Guaíba",
-      "endereco": "Margem do Guaíba — Guaíba/RS",
-      "descricao_curta": "Deck sobre o lago — vista ampla e pôr do sol de frente para a água.",
-      "descricao_longa": "O píer de Guaíba é um dos melhores pontos para sentir o lago de perto: caminhada sobre a água, barcos ao longe e aquele entardecer que define a cidade ribeirinha.",
-      "imagem": "assets/explorar/guaiba-pier-guaiba.jpg",
-      "imagem_credito": "Guaipecaz",
-      "lat": -30.09,
-      "lon": -51.285,
-      "tags": [
-        "orla",
-        "pôr do sol",
-        "grátis"
-      ],
-      "gratis": true,
-      "dica": "Combine com a Praia Alegria no mesmo passeio.",
-      "tipo": "lugar",
-      "mapa": true,
-      "curado": true
-    },
-    {
-      "id": "poa-parque-redencao",
-      "cidade": "poa",
-      "titulo": "Parque da Redenção",
-      "endereco": "Av. Oswaldo Aranha, s/n — Bom Fim, Porto Alegre/RS",
-      "descricao_curta": "O parque mais icônico da capital — lagos, bosque e Brique aos domingos.",
-      "descricao_longa": "O Parque da Redenção (Farroupilha) está no roteiro turístico oficial de Porto Alegre. Lagos, árvores centenárias, pista de caminhada e o famoso Brique de antiguidades aos domingos.",
-      "imagem": "assets/explorar/poa-parque-redencao.png",
-      "imagem_credito": "Ricardo Stricher",
-      "lat": -30.0341,
-      "lon": -51.2078,
-      "tags": [
-        "parque",
-        "grátis",
-        "domingo"
-      ],
-      "gratis": true,
-      "horario": "Diariamente, 5h às 23h",
-      "dica": "Domingo de manhã: caminhada + Brique no mesmo programa.",
-      "tipo": "lugar",
-      "mapa": true,
-      "curado": true
-    },
-    {
-      "id": "poa-jardim-botanico",
-      "cidade": "poa",
-      "titulo": "Jardim Botânico de Porto Alegre",
-      "endereco": "Rua José Bonifácio, 745 — Jardim Botânico, Porto Alegre/RS",
-      "descricao_curta": "Coleções ao ar livre, estufas e trilhas — refúgio verde na zona sul.",
-      "descricao_longa": "O Jardim Botânico é um dos principais atrativos naturais de Porto Alegre. Trilhas, estufas e coleções de plantas nativas e exóticas em ambiente amplo e arborizado.",
-      "imagem": "assets/explorar/poa-jardim-botanico.jpg",
-      "imagem_credito": "Guaipecaz",
-      "lat": -30.0545,
-      "lon": -51.1847,
-      "tags": [
-        "parque",
-        "natureza"
-      ],
-      "horario": "Ter–dom 9h–17h — confirme no site oficial",
-      "url": "https://www.plantarum.com.br/jbpoa/",
-      "dica": "Vá de manhã cedo — menos calor e mais silêncio nas trilhas.",
-      "tipo": "lugar",
-      "mapa": true,
-      "curado": true
-    },
-    {
-      "id": "poa-moinhos-vento",
-      "cidade": "poa",
-      "titulo": "Parque Moinhos de Vento",
-      "endereco": "Av. Osvaldo Aranha, s/n — Moinhos de Vento, Porto Alegre/RS",
-      "descricao_curta": "O Parcão — lago, pistas e sombra no bairro mais elegante da cidade.",
-      "descricao_longa": "O Parque Moinhos de Vento, carinhosamente o Parcão, figura nos roteiros de parques urbanos de Porto Alegre. Ambiente tranquilo para caminhada, piquenique e pausa no bairro.",
-      "imagem": "assets/explorar/poa-moinhos-vento.webp",
-      "imagem_credito": "Maria Ana Krack",
-      "lat": -30.0258,
-      "lon": -51.2009,
-      "tags": [
-        "parque",
-        "grátis"
-      ],
-      "gratis": true,
-      "horario": "Diariamente, 5h às 23h",
-      "dica": "Combine com almoço no bairro Moinhos de Vento.",
-      "tipo": "lugar",
-      "mapa": true,
-      "curado": true
-    },
-    {
-      "id": "poa-usina-gasometro",
-      "cidade": "poa",
-      "titulo": "Usina do Gasômetro",
-      "endereco": "Av. Mauá, 1050 — Centro Histórico, Porto Alegre/RS",
-      "descricao_curta": "Centro cultural à beira do Guaíba — pôr do sol e orla do Cais Mauá.",
-      "descricao_longa": "A Usina do Gasômetro é cartão-postal de Porto Alegre: chaminé histórica, exposições, vista para o lago e um dos pores do sol mais famosos da capital gaúcha.",
-      "imagem": "assets/explorar/poa-orla-guaiba.jpg",
-      "imagem_credito": "Guaipecaz",
-      "lat": -30.0336,
-      "lon": -51.2401,
-      "tags": [
-        "cultura",
-        "orla",
-        "pôr do sol"
-      ],
-      "gratis": true,
-      "horario": "Orla livre · programação cultural conforme calendário",
-      "dica": "Chegue 40 minutos antes do pôr do sol para caminhar do Gasômetro ao Cais Mauá.",
-      "tipo": "lugar",
-      "mapa": true,
-      "curado": true
-    },
-    {
-      "id": "canoas-parque-getulio",
-      "cidade": "canoas",
-      "titulo": "Parque Getúlio Vargas",
-      "endereco": "Rua José Bonifácio, 694 — Centro, Canoas/RS",
-      "descricao_curta": "Grande parque urbano — pistas, área verde e programa em família.",
-      "descricao_longa": "O Parque Getúlio Vargas, o Capão do Corvo, é o principal pulmão verde de Canoas. Amplo, arborizado e com infraestrutura para caminhada, esporte e piquenique.",
-      "imagem": "assets/explorar/canoas-parque-getulio2.jpg",
-      "imagem_credito": "Guaipecaz",
-      "lat": -29.9148,
-      "lon": -51.1746,
-      "tags": [
-        "parque",
-        "grátis",
-        "família"
-      ],
-      "gratis": true,
-      "dica": "Chegue cedo no sábado para estacionar perto da José Bonifácio.",
-      "tipo": "lugar",
-      "mapa": true,
-      "curado": true
     }
   ],
   "itens": [
@@ -340,7 +165,7 @@
         "natureza"
       ],
       "horario": "Ter–dom 9h–17h — confirme no site oficial",
-      "url": "https://www.plantarum.com.br/jbpoa/",
+      "site_url": "https://www.plantarum.com.br/jbpoa/",
       "dica": "Vá de manhã cedo — menos calor e mais silêncio nas trilhas.",
       "tipo": "lugar",
       "mapa": true,

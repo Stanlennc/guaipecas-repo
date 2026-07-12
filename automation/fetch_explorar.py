@@ -43,7 +43,6 @@ def main():
         "cidades": seed.get("cidades") or ["guaiba", "poa", "canoas"],
         "perfis": seed.get("perfis") or {},
         "fim_de_semana": seed.get("fim_de_semana") or [],
-        "pontos_turisticos": pontos,
         "itens": pontos,
     }
 
