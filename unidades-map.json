@@ -1,229 +1,565 @@
 {
-  "gerado_em": "2026-07-11T05:32:00Z",
+  "gerado_em": "2026-07-12T04:57:39Z",
   "unidades": [
     {
       "nome": "Farmácia Municipal",
       "categoria": "Farmácia",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302832038",
       "data_cat": "farmacia",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "RUA SAO PAULO, 800 — Bairro PARQUE 35 — CEP 92704-305 — Guaíba, RS",
+      "lat": -30.1129171,
+      "lon": -51.3312095,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "Unidade de Saúde Prisional de Guaíba",
       "categoria": "Outros",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307477775",
       "data_cat": "outros",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "ESTRADA DA RESTINGA, 211 — BR 116 KM 303 — Bairro RURAL — CEP 92730-300 — Guaíba, RS",
+      "lat": -30.1173513,
+      "lon": -51.3725088,
+      "geocode_fonte": "bairro",
+      "posicao_aproximada": true,
+      "cidade": "guaiba"
     },
     {
       "nome": "ESF Ipê Santa Rita",
       "categoria": "ESF",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309309742050",
       "data_cat": "esf",
-      "lat": -30.1012,
-      "lon": -51.3298
+      "endereco": "AV WENCESLAU FONTOURA, 1059 — Bairro SANTA RITA — CEP 92708-180 — Guaíba, RS",
+      "lat": -30.0890107,
+      "lon": -51.3262739,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "Secretaria Municipal de Saúde",
       "categoria": "Outros",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309306624677",
       "data_cat": "outros",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "RUA PARANA, 470 — Bairro PARQUE 35 — CEP 92705-520 — Guaíba, RS",
+      "lat": -30.11148,
+      "lon": -51.3269982,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "CAPS AD Guaíba",
       "categoria": "CAPS",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307676603",
       "data_cat": "caps",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "RUA JOAO ARAUJO LESSA, 183 — CASA — Bairro PARQUE 35 — CEP 92705-500 — Guaíba, RS",
+      "lat": -30.1130294,
+      "lon": -51.328695,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "Unidade de Controle de Zoonoses",
       "categoria": "Outros",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307263171",
       "data_cat": "outros",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "ESTRADA SANTA MARIA, 825 — Bairro JARDIM DOS LAGOS — CEP 92714-150 — Guaíba, RS",
+      "lat": -30.1197512,
+      "lon": -51.3642369,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "Serviço Municipal de Fisioterapia",
       "categoria": "Outros",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307605900",
       "data_cat": "outros",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "SAO PAULO, 301 — Bairro PARQUE 35 — CEP 92705-540 — Guaíba, RS",
+      "lat": -30.1077664,
+      "lon": -51.3259853,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "UBS Centro",
       "categoria": "UBS",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302832046",
       "data_cat": "ubs",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "RUA SERAFIM SILVA, 160 — ENTRADA B — Bairro CENTRO — CEP 92704-645 — Guaíba, RS",
+      "lat": -30.1077085,
+      "lon": -51.3133431,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "CAPS IJ Guaíba",
       "categoria": "CAPS",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309309586741",
       "data_cat": "caps",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "RUA OTAVIO ROCHA, 133 — Bairro PARQUE 35 — CEP 92704-350 — Guaíba, RS",
+      "lat": -30.1097371,
+      "lon": -51.3232543,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "Unidade Básica de Saúde Colina",
       "categoria": "UBS",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309303563529",
       "data_cat": "ubs",
-      "lat": -30.1082,
-      "lon": -51.3381
+      "endereco": "AV PASTOR LUIZ ANTONIO RODRIGUES DA LUZ, 542 — Bairro COLINA — CEP 92700-575 — Guaíba, RS",
+      "lat": -30.1208885,
+      "lon": -51.3378338,
+      "geocode_fonte": "bairro",
+      "posicao_aproximada": true,
+      "cidade": "guaiba"
     },
     {
       "nome": "ESF Primavera São Jorge",
       "categoria": "ESF",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307471432",
       "data_cat": "esf",
-      "lat": -30.1178,
-      "lon": -51.3512
+      "endereco": "ADAO FOQUES, 3386 — Bairro PRIMAVERA — CEP 92728-160 — Guaíba, RS",
+      "lat": -30.1545789,
+      "lon": -51.3396532,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "Unidade Básica de Saúde Vila Iolanda",
       "categoria": "UBS",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225972",
       "data_cat": "ubs",
-      "lat": -30.1055,
-      "lon": -51.3455
+      "endereco": "RUA VALDOMIRO RODRIGUES, 248 — CASA — Bairro VILA IOLANDA — CEP 92726-120 — Guaíba, RS",
+      "lat": -30.1408733,
+      "lon": -51.3289982,
+      "geocode_fonte": "bairro",
+      "posicao_aproximada": true,
+      "cidade": "guaiba"
     },
     {
       "nome": "Unidade Básica de Saúde COHAB",
       "categoria": "UBS",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225999",
       "data_cat": "ubs",
-      "lat": -30.0985,
-      "lon": -51.3195
+      "endereco": "RUA 42, 500 — Bairro COHABSANTA RITA — CEP 92708-730 — Guaíba, RS",
+      "lat": -30.1168455,
+      "lon": -51.325883,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "ESF Pedras Brancas",
       "categoria": "ESF",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225948",
       "data_cat": "esf",
-      "lat": -30.1295,
-      "lon": -51.3125
+      "endereco": "RUA JOSE CARLOS FERREIRA, 417 — CASA — Bairro PEDRAS BRANCAS — CEP 92722-320 — Guaíba, RS",
+      "lat": -30.1630503,
+      "lon": -51.3992322,
+      "geocode_fonte": "bairro",
+      "posicao_aproximada": true,
+      "cidade": "guaiba"
     },
     {
       "nome": "ESF São Francisco",
       "categoria": "ESF",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225964",
       "data_cat": "esf",
-      "lat": -30.1195,
-      "lon": -51.3188
+      "endereco": "RUA ESTANCIA VELHA, 150 — Bairro SAO FRANCISCO — CEP 92718-890 — Guaíba, RS",
+      "lat": -30.1348014,
+      "lon": -51.3709141,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "Unidade Básica de Saúde Columbia City",
       "categoria": "UBS",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225980",
       "data_cat": "ubs",
-      "lat": -30.1215,
-      "lon": -51.3012
+      "endereco": "RUA ELETRICAL, 151 — CASA — Bairro COLUMBIA CITY — CEP 92718-080 — Guaíba, RS",
+      "lat": -30.1322908,
+      "lon": -51.3595538,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "ESF São Jorge",
       "categoria": "ESF",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225921",
       "data_cat": "esf",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "RUA RUA SERTAO SANTANA, 80 — Bairro SAO JORGE — CEP 92729-110 — Guaíba, RS",
+      "lat": -30.1532542,
+      "lon": -51.3447225,
+      "geocode_fonte": "bairro",
+      "posicao_aproximada": true,
+      "cidade": "guaiba"
     },
     {
       "nome": "Unidade de Saúde Centro",
       "categoria": "UBS",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225956",
       "data_cat": "ubs",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "RUA SERAFIM SILVA, 160 — Bairro CENTRO — CEP 92704-645 — Guaíba, RS",
+      "lat": -30.1077085,
+      "lon": -51.3133431,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "ESF Nova Guaíba / São Francisco",
       "categoria": "ESF",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307751907",
       "data_cat": "esf",
-      "lat": -30.1195,
-      "lon": -51.3188
+      "endereco": "AV ENCRUZILHADA DO SUL, 13 — Bairro NOVA GUAIBA — CEP 92718-805 — Guaíba, RS",
+      "lat": -30.1342138,
+      "lon": -51.3709061,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "SAMU 192 Guaíba — USB (Suporte Básico)",
       "categoria": "Emergência",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307622325",
       "data_cat": "emergencia",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "RUA SANTA CATARINA, 721 — Bairro PARQUE 35 — CEP 92705-510 — Guaíba, RS",
+      "lat": -30.1127175,
+      "lon": -51.3270393,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "Unidade Especializada Policlínica Guaíba",
       "categoria": "Outros",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309302225913",
       "data_cat": "outros",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "AV JOAO DE ARAUJO LESSA, 360 — Bairro PARQUE — CEP 92704-305 — Guaíba, RS",
+      "lat": -30.1130294,
+      "lon": -51.328695,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "Unidade de Vigilância em Saúde",
       "categoria": "Outros",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309307788967",
       "data_cat": "outros",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "RUA PARANA, 470 — Bairro PARQUE 35 — CEP 92705-520 — Guaíba, RS",
+      "lat": -30.11148,
+      "lon": -51.3269982,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "CAPS II Guaíba",
       "categoria": "CAPS",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309303082784",
       "data_cat": "caps",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "RUA RIO GRANDE DO SUL, 144 — Bairro CHACARA DAS PAINEIRA — CEP 92706-020 — Guaíba, RS",
+      "lat": -30.1057466,
+      "lon": -51.3247548,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "SAMU 192 Guaíba — USA (Suporte Avançado)",
       "categoria": "Emergência",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309306263747",
       "data_cat": "emergencia",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "RUA SANTA CATARINA, 721 — Bairro PARQUE 35 — CEP 92705-510 — Guaíba, RS",
+      "lat": -30.1127175,
+      "lon": -51.3270393,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "Unidade Básica de Saúde Logradouro",
       "categoria": "UBS",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309303298183",
       "data_cat": "ubs",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "ESTRADA BOM RETIRO, S/N — Bairro LOGRADOURO — CEP 92729-710 — Guaíba, RS",
+      "lat": -30.1684509,
+      "lon": -51.3382166,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "ESF Ermo",
       "categoria": "ESF",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309304530608",
       "data_cat": "esf",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "RUA EVARISTO LOPES, 45 — Bairro ERMO — CEP 92702-700 — Guaíba, RS",
+      "lat": -30.1282885,
+      "lon": -51.3225185,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "ESF Moradas da Colina",
       "categoria": "ESF",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309304914171",
       "data_cat": "esf",
-      "lat": -30.1082,
-      "lon": -51.3381
+      "endereco": "RUA X 11, 21 — CASA — Bairro MORADAS DA COLINA — CEP 92700-635 — Guaíba, RS",
+      "lat": -30.1252174,
+      "lon": -51.3408799,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
     },
     {
       "nome": "SAE Guaíba (atenção especializada)",
       "categoria": "Outros",
       "cnes_url": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4309308287422",
       "data_cat": "outros",
-      "lat": -30.1137,
-      "lon": -51.3266
+      "endereco": "BENTO GONCALVES, 355 — Bairro CENTRO — CEP 92704-565 — Guaíba, RS",
+      "lat": -30.1594142,
+      "lon": -51.3732159,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "cidade": "guaiba"
+    },
+    {
+      "id": "poa-hcpa",
+      "cidade": "poa",
+      "nome": "Hospital de Clínicas de Porto Alegre",
+      "categoria": "Emergência",
+      "data_cat": "emergencia",
+      "endereco": "Rua Ramiro Barcelos, 2350 — Santa Cecília — Porto Alegre/RS",
+      "nota": "Referência de urgência na capital. Em emergência médica, ligue 192.",
+      "lat": -30.0386784,
+      "lon": -51.2066248,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "regional": true
+    },
+    {
+      "id": "poa-sms",
+      "cidade": "poa",
+      "nome": "Secretaria Municipal de Saúde de Porto Alegre",
+      "categoria": "Outros",
+      "data_cat": "outros",
+      "endereco": "Rua João Pessoa, 80 — Centro Histórico — Porto Alegre/RS",
+      "lat": -30.033226,
+      "lon": -51.2220134,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "regional": true
+    },
+    {
+      "id": "poa-ubs-tristeza",
+      "cidade": "poa",
+      "nome": "UBS Tristeza",
+      "categoria": "UBS",
+      "data_cat": "ubs",
+      "endereco": "Avenida Wenceslau Escobar, 2400 — Tristeza — Porto Alegre/RS",
+      "lat": -30.1028652,
+      "lon": -51.2510299,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "regional": true
+    },
+    {
+      "id": "poa-caps-restinga",
+      "cidade": "poa",
+      "nome": "CAPS III Restinga",
+      "categoria": "CAPS",
+      "data_cat": "caps",
+      "endereco": "Avenida Economista Nildo Nelson Oliveira, 650 — Restinga — Porto Alegre/RS",
+      "lat": -30.1521786,
+      "lon": -51.1431394,
+      "geocode_fonte": "bairro",
+      "posicao_aproximada": true,
+      "regional": true
+    },
+    {
+      "id": "poa-caps-ad-poa",
+      "cidade": "poa",
+      "nome": "CAPS AD III Porto Alegre",
+      "categoria": "CAPS",
+      "data_cat": "caps",
+      "endereco": "Avenida João Pessoa, 1255 — Santana — Porto Alegre/RS",
+      "lat": -30.0315674,
+      "lon": -51.2237799,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "regional": true
+    },
+    {
+      "id": "poa-farmacia-popular",
+      "cidade": "poa",
+      "nome": "Farmácia Popular — Centro",
+      "categoria": "Farmácia",
+      "data_cat": "farmacia",
+      "endereco": "Rua dos Andradas, 1234 — Centro Histórico — Porto Alegre/RS",
+      "lat": -30.029495,
+      "lon": -51.229538,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "regional": true
+    },
+    {
+      "id": "canoas-sms",
+      "cidade": "canoas",
+      "nome": "Secretaria Municipal de Saúde de Canoas",
+      "categoria": "Outros",
+      "data_cat": "outros",
+      "endereco": "Rua Dr. Barcelos, 1600 — Centro — Canoas/RS",
+      "lat": -29.9167229,
+      "lon": -51.186268,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "regional": true
+    },
+    {
+      "id": "canoas-hps",
+      "cidade": "canoas",
+      "nome": "Hospital de Pronto Socorro de Canoas",
+      "categoria": "Emergência",
+      "data_cat": "emergencia",
+      "endereco": "Rua Júlio de Castilhos, s/n — Centro — Canoas/RS",
+      "nota": "Referência de urgência em Canoas. Em emergência médica, ligue 192.",
+      "lat": -29.9556625,
+      "lon": -51.1726191,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "regional": true
+    },
+    {
+      "id": "canoas-us-santa-isabel",
+      "cidade": "canoas",
+      "nome": "Unidade de Saúde Santa Isabel",
+      "categoria": "UBS",
+      "data_cat": "ubs",
+      "endereco": "Rua Frei Orlando, 141 — Centro — Canoas/RS",
+      "lat": -29.9214531,
+      "lon": -51.1781662,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "regional": true
+    },
+    {
+      "id": "canoas-caps-novos-tempos",
+      "cidade": "canoas",
+      "nome": "CAPS II Novos Tempos",
+      "categoria": "CAPS",
+      "data_cat": "caps",
+      "endereco": "Rua São Caetano, 102 — Marechal Rondon — Canoas/RS",
+      "lat": -29.919852,
+      "lon": -51.1687311,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "regional": true
+    },
+    {
+      "id": "canoas-caps-amanhecer",
+      "cidade": "canoas",
+      "nome": "CAPS AD III Amanhecer",
+      "categoria": "CAPS",
+      "data_cat": "caps",
+      "endereco": "Rua 15 de Novembro, 82 — Nossa Senhora das Graças — Canoas/RS",
+      "lat": -29.9269777,
+      "lon": -51.1684841,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "regional": true
+    },
+    {
+      "id": "canoas-upa-niteroi",
+      "cidade": "canoas",
+      "nome": "UPA Niterói",
+      "categoria": "Emergência",
+      "data_cat": "emergencia",
+      "endereco": "Rua Primeiro de Maio, 100 — Niterói — Canoas/RS",
+      "lat": -29.9515191,
+      "lon": -51.1637646,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "regional": true
+    },
+    {
+      "id": "eldorado-sms",
+      "cidade": "eldorado",
+      "nome": "Secretaria Municipal de Saúde de Eldorado do Sul",
+      "categoria": "Outros",
+      "data_cat": "outros",
+      "endereco": "Estrada da Arrozeira, 270 — Centro — Eldorado do Sul/RS",
+      "lat": -30.0038963,
+      "lon": -51.3114098,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "regional": true
+    },
+    {
+      "id": "eldorado-pa-24h",
+      "cidade": "eldorado",
+      "nome": "Pronto Atendimento 24h — Itaí",
+      "categoria": "Emergência",
+      "data_cat": "emergencia",
+      "endereco": "Rua Porto Alegre, 200 — Itaí — Eldorado do Sul/RS",
+      "nota": "Referência de urgência no município. Em emergência médica, ligue 192.",
+      "lat": -30.0063081,
+      "lon": -51.3100452,
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false,
+      "regional": true
+    },
+    {
+      "id": "eldorado-ubs-picada",
+      "cidade": "eldorado",
+      "nome": "UBS Picada",
+      "categoria": "UBS",
+      "data_cat": "ubs",
+      "endereco": "Avenida Martinho Poeta, 2125 — Picada — Eldorado do Sul/RS",
+      "lat": -30.1,
+      "lon": -51.325,
+      "geocode_fonte": "centro",
+      "posicao_aproximada": true,
+      "regional": true
+    },
+    {
+      "id": "eldorado-esf-chacara",
+      "cidade": "eldorado",
+      "nome": "ESF Chácara",
+      "categoria": "ESF",
+      "data_cat": "esf",
+      "endereco": "Rua Nestor Jardim Filho, 1000 — Chácara — Eldorado do Sul/RS",
+      "lat": -30.1,
+      "lon": -51.325,
+      "geocode_fonte": "centro",
+      "posicao_aproximada": true,
+      "regional": true
+    },
+    {
+      "id": "eldorado-esf-parque",
+      "cidade": "eldorado",
+      "nome": "ESF Parque",
+      "categoria": "ESF",
+      "data_cat": "esf",
+      "endereco": "Rua Antenor Martim Mercante, 821 — Parque — Eldorado do Sul/RS",
+      "lat": -30.1,
+      "lon": -51.325,
+      "geocode_fonte": "centro",
+      "posicao_aproximada": true,
+      "regional": true
     }
   ]
 }

@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parent
 REQUIRED = [
     ("fetch_apoio.py", []),
     ("fetch_emergencia.py", []),
-    ("fetch_unidades_map.py", ["--from-json"]),
+    ("fetch_unidades_map.py", ["--regiao-only"]),
 ]
 
 # Opcionais — dependem de rede ou bs4; falha só avisa

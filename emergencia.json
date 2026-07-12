@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-12T00:00:00Z",
+  "gerado_em": "2026-07-12T04:56:18Z",
   "lede": "Telefones de emergência e pontos de referência na região metropolitana. Em perigo imediato, ligue direto — os números funcionam em qualquer cidade.",
   "servicos": {
     "samu": {
@@ -44,9 +44,11 @@
       "tel": "192",
       "horario": "24 horas — ligue 192",
       "mapa": true,
-      "lat": -30.1158,
-      "lon": -51.3295,
-      "nota": "Em emergência médica, ligue 192. A central despacha ambulância para o endereço informado."
+      "lat": -30.1129171,
+      "lon": -51.3312095,
+      "nota": "Em emergência médica, ligue 192. A central despacha ambulância para o endereço informado.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "guaiba-bombeiros",
@@ -58,9 +60,11 @@
       "tel": "193",
       "horario": "Emergência: 193",
       "mapa": true,
-      "lat": -30.1082,
-      "lon": -51.3184,
-      "nota": "Atende Guaíba, Eldorado do Sul, Barra do Ribeiro e municípios da região. Em emergência, ligue 193."
+      "lat": -30.1185539,
+      "lon": -51.3439229,
+      "nota": "Atende Guaíba, Eldorado do Sul, Barra do Ribeiro e municípios da região. Em emergência, ligue 193.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "guaiba-policia-bpm",
@@ -72,9 +76,11 @@
       "tel": "190",
       "horario": "Emergência: 190",
       "mapa": true,
-      "lat": -30.1125,
-      "lon": -51.3255,
-      "nota": "Em perigo imediato, ligue 190. O BPM atende Guaíba e região."
+      "lat": -30.114008,
+      "lon": -51.3250682,
+      "nota": "Em perigo imediato, ligue 190. O BPM atende Guaíba e região.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "guaiba-policia-crpm",
@@ -85,9 +91,11 @@
       "telefone": "(51) 3480-7550",
       "tel": "190",
       "mapa": true,
-      "lat": -30.1134,
-      "lon": -51.3238,
-      "nota": "Comando regional. Emergências: 190."
+      "lat": -30.1077085,
+      "lon": -51.3133431,
+      "nota": "Comando regional. Emergências: 190.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "guaiba-defesa-civil",
@@ -99,9 +107,11 @@
       "tel": "199",
       "horario": "Emergência: 199",
       "mapa": true,
-      "lat": -30.1137,
-      "lon": -51.3266,
-      "nota": "Enchentes, temporais e desastres. Ligue 199 em situação de risco."
+      "lat": -30.1171933,
+      "lon": -51.3377734,
+      "nota": "Enchentes, temporais e desastres. Ligue 199 em situação de risco.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "guaiba-disque-180",
@@ -126,9 +136,11 @@
       "tel": "192",
       "horario": "24 horas — ligue 192",
       "mapa": true,
-      "lat": -30.0422,
-      "lon": -51.2205,
-      "nota": "Central estadual despacha ambulâncias pela capital e região. Em emergência, ligue 192."
+      "lat": -30.0386784,
+      "lon": -51.2066248,
+      "nota": "Central estadual despacha ambulâncias pela capital e região. Em emergência, ligue 192.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "poa-bombeiros",
@@ -140,9 +152,11 @@
       "tel": "193",
       "horario": "Emergência: 193",
       "mapa": true,
-      "lat": -30.0817,
-      "lon": -51.2423,
-      "nota": "Unidade de referência na capital. Emergências: 193."
+      "lat": -30.0435747,
+      "lon": -51.2283832,
+      "nota": "Unidade de referência na capital. Emergências: 193.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "poa-policia",
@@ -154,9 +168,11 @@
       "tel": "190",
       "horario": "Emergência: 190",
       "mapa": true,
-      "lat": -30.0415,
-      "lon": -51.2108,
-      "nota": "Sede da BM no estado. Em perigo imediato, ligue 190."
+      "lat": -30.0481191,
+      "lon": -51.2127731,
+      "nota": "Sede da BM no estado. Em perigo imediato, ligue 190.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "poa-defesa-civil",
@@ -168,9 +184,11 @@
       "tel": "199",
       "horario": "Emergência: 199",
       "mapa": true,
-      "lat": -30.0288,
-      "lon": -51.2285,
-      "nota": "Coordenação municipal de proteção e defesa civil."
+      "lat": -30.0403255,
+      "lon": -51.2311931,
+      "nota": "Coordenação municipal de proteção e defesa civil.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "poa-disque-180",
@@ -195,9 +213,11 @@
       "tel": "192",
       "horario": "24 horas — ligue 192",
       "mapa": true,
-      "lat": -29.9185,
-      "lon": -51.1862,
-      "nota": "Referência de urgência na cidade. Em emergência médica, ligue 192."
+      "lat": -29.9064286,
+      "lon": -51.1979584,
+      "nota": "Referência de urgência na cidade. Em emergência médica, ligue 192.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "canoas-bombeiros",
@@ -209,9 +229,11 @@
       "tel": "193",
       "horario": "Emergência: 193",
       "mapa": true,
-      "lat": -29.9442,
-      "lon": -51.1685,
-      "nota": "Unidade que atende Canoas e região. Emergências: 193."
+      "lat": -29.9241998,
+      "lon": -51.1700298,
+      "nota": "Unidade que atende Canoas e região. Emergências: 193.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "canoas-policia",
@@ -223,9 +245,11 @@
       "tel": "190",
       "horario": "Emergência: 190",
       "mapa": true,
-      "lat": -29.9178,
-      "lon": -51.1836,
-      "nota": "BPM de Canoas. Em perigo imediato, ligue 190."
+      "lat": -29.9166722,
+      "lon": -51.1798579,
+      "nota": "BPM de Canoas. Em perigo imediato, ligue 190.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "canoas-defesa-civil",
@@ -237,9 +261,11 @@
       "tel": "199",
       "horario": "Emergência: 199",
       "mapa": true,
-      "lat": -29.9430,
-      "lon": -51.1670,
-      "nota": "Defesa Civil municipal. Enchentes e temporais: 199."
+      "lat": -29.9241998,
+      "lon": -51.1700298,
+      "nota": "Defesa Civil municipal. Enchentes e temporais: 199.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "canoas-disque-180",
@@ -262,9 +288,11 @@
       "tel": "192",
       "horario": "24 horas — ligue 192",
       "mapa": true,
-      "lat": -30.0882,
-      "lon": -51.3015,
-      "nota": "Referência de urgência no município. Em emergência médica, ligue 192."
+      "lat": -30.1,
+      "lon": -51.325,
+      "nota": "Referência de urgência no município. Em emergência médica, ligue 192.",
+      "geocode_fonte": "centro",
+      "posicao_aproximada": true
     },
     {
       "id": "eldorado-bombeiros",
@@ -277,9 +305,11 @@
       "horario": "Emergência: 193",
       "mapa": true,
       "regional": true,
-      "lat": -30.1082,
-      "lon": -51.3184,
-      "nota": "Eldorado do Sul é atendido pelo 6º BBM de Guaíba. Em emergência, ligue 193."
+      "lat": -30.1,
+      "lon": -51.325,
+      "nota": "Eldorado do Sul é atendido pelo 6º BBM de Guaíba. Em emergência, ligue 193.",
+      "geocode_fonte": "centro",
+      "posicao_aproximada": true
     },
     {
       "id": "eldorado-policia",
@@ -291,9 +321,11 @@
       "tel": "190",
       "horario": "Emergência: 190",
       "mapa": true,
-      "lat": -30.0756,
-      "lon": -51.3152,
-      "nota": "Em perigo imediato, ligue 190. A ocorrência é despachada pela região."
+      "lat": -30.0001073,
+      "lon": -51.3235963,
+      "nota": "Em perigo imediato, ligue 190. A ocorrência é despachada pela região.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "eldorado-defesa-civil",
@@ -305,9 +337,11 @@
       "tel": "199",
       "horario": "Emergência: 199",
       "mapa": true,
-      "lat": -30.0750,
-      "lon": -51.3145,
-      "nota": "Coordenadoria municipal de defesa civil. Enchentes e temporais: 199."
+      "lat": -30.0001073,
+      "lon": -51.3235963,
+      "nota": "Coordenadoria municipal de defesa civil. Enchentes e temporais: 199.",
+      "geocode_fonte": "nominatim",
+      "posicao_aproximada": false
     },
     {
       "id": "eldorado-disque-180",

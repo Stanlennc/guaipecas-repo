@@ -574,6 +574,8 @@ function clearSkeleton(el) {
   var noteEl = document.getElementById('saudeMapNota');
   var chipRow = document.getElementById('chipRow');
   var rows = document.querySelectorAll('#dataList .data-row');
+  var dataListEl = document.getElementById('dataList');
+  var dataListOriginalHtml = dataListEl ? dataListEl.innerHTML : '';
   var emptyState = document.getElementById('emptyState');
   var map = null;
   var markerLayers = [];
@@ -599,19 +601,80 @@ function clearSkeleton(el) {
     };
   }
 
-  function filterUnidades(cat) {
-    if (cat === 'all') return allUnidades.slice();
-    return allUnidades.filter(function(u){ return u.data_cat === cat; });
+  function unidadesDaCidade(cidade) {
+    return allUnidades.filter(function(u){
+      return (u.cidade || 'guaiba') === cidade;
+    });
+  }
+
+  function filterUnidades(cat, cidade) {
+    var base = unidadesDaCidade(cidade);
+    if (cat === 'all') return base.slice();
+    return base.filter(function(u){ return u.data_cat === cat; });
+  }
+
+  function updateChipCounts(cidade) {
+    if (!chipRow) return;
+    var base = unidadesDaCidade(cidade);
+    chipRow.querySelectorAll('.chip').forEach(function(chip){
+      var cat = chip.getAttribute('data-cat');
+      var count = cat === 'all' ? base.length : base.filter(function(u){ return u.data_cat === cat; }).length;
+      var label = chip.textContent.replace(/\s*\(\d+\)\s*$/, '').trim();
+      chip.textContent = cat === 'all' ? label + ' (' + count + ')' : label;
+    });
+  }
+
+  function renderDynamicRows(unidades) {
+    if (!dataListEl) return;
+    dataListEl.innerHTML = unidades.map(function(u){
+      var links = '';
+      if (u.cnes_url) {
+        links += '<a class="link" href="' + esc(u.cnes_url) + '" target="_blank" rel="noopener">Ver ficha ↗</a>';
+      }
+      if (u.lat != null && u.lon != null) {
+        links += '<button type="button" class="link link--map" data-map-key="' + esc(unitKey(u)) + '" data-map-cat="' + esc(u.data_cat || '') + '">Ver no mapa ↓</button>';
+      }
+      return '<li class="data-row" data-cat="' + esc(u.data_cat || '') + '">' +
+        '<span class="name">' + esc(u.nome) + '</span>' +
+        '<span class="cat">' + esc(u.categoria) + '</span>' +
+        (u.endereco ? '<span class="data-row__meta">' + esc(u.endereco) + '</span>' : '') +
+        (u.nota ? '<span class="data-row__note">' + esc(u.nota) + '</span>' : '') +
+        (links ? '<span class="data-row__links">' + links + '</span>' : '') +
+        '</li>';
+    }).join('');
+    dataListEl.querySelectorAll('.link--map').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        focusOnMap(btn.getAttribute('data-map-key'), btn.getAttribute('data-map-cat'));
+      });
+    });
+  }
+
+  function renderListRows(unidades, cidade) {
+    if (cidade === 'guaiba') {
+      if (dataListEl && dataListEl.innerHTML !== dataListOriginalHtml) {
+        dataListEl.innerHTML = dataListOriginalHtml;
+        rows = document.querySelectorAll('#dataList .data-row');
+        wireListMapLinks();
+      }
+      if (dataListEl) dataListEl.style.display = '';
+      rows.forEach(function(row){
+        var match = activeCat === 'all' || row.getAttribute('data-cat') === activeCat;
+        row.classList.toggle('hidden', !match);
+      });
+      return;
+    }
+    if (dataListEl) dataListEl.style.display = '';
+    renderDynamicRows(unidades);
   }
 
   function updateCidadeNota(cidade) {
     if (!noteEl) return;
     var cfg = gc.getConfig(cidade);
     if (cidade === 'guaiba') {
-      noteEl.textContent = '';
+      noteEl.textContent = 'Catálogo completo das unidades municipais de Guaíba (CNES).';
       return;
     }
-    noteEl.textContent = 'Catálogo municipal de Guaíba — o mapa mostra a rede guaibense na região. Você está vendo ' + cfg.name + ' no seletor; use os filtros para ir ao ícone no mapa.';
+    noteEl.textContent = 'Referência das principais unidades em ' + cfg.name + ' — para o catálogo completo de Guaíba, volte ao seletor.';
   }
 
   function scrollToMap() {
@@ -631,7 +694,6 @@ function clearSkeleton(el) {
       return;
     }
     var bounds = L.featureGroup(markerLayers).getBounds();
-    if (cidade !== 'guaiba') bounds.extend([cfg.lat, cfg.lon]);
     map.flyToBounds(bounds.pad(0.14), { duration: 0.55, maxZoom: 14 });
     if (openFirst) {
       window.setTimeout(function(){ markerLayers[0].openPopup(); }, 620);
@@ -651,6 +713,9 @@ function clearSkeleton(el) {
     mh.coordsComOffset(unidades).forEach(function(item){
       var u = item.p;
       var popup = '<strong>' + esc(u.nome) + '</strong><br>' + esc(u.categoria);
+      if (u.endereco) popup += '<br>' + esc(u.endereco);
+      if (u.posicao_aproximada) popup += '<br><em>Posição aproximada no mapa</em>';
+      if (u.regional) popup += '<br><em>Referência regional — confirme na prefeitura ou CNES</em>';
       if (u.cnes_url) popup += '<br><a href="' + esc(u.cnes_url) + '" target="_blank" rel="noopener">Ver ficha CNES ↗</a>';
       var marker = mh.addMarker(map, markerPoint(u), { lat: item.lat, lon: item.lon, popup: popup });
       if (marker) {
@@ -661,7 +726,6 @@ function clearSkeleton(el) {
 
     if (markerLayers.length > 1) {
       var bounds = L.featureGroup(markerLayers).getBounds();
-      if (cidade !== 'guaiba') bounds.extend([cfg.lat, cfg.lon]);
       map.fitBounds(bounds.pad(0.12));
     } else if (markerLayers.length === 1) {
       map.setView(markerLayers[0].getLatLng(), 14);
@@ -674,12 +738,10 @@ function clearSkeleton(el) {
     opts = opts || {};
     activeCat = cat || activeCat;
     var cid = cidade || gc.get();
-    var visible = filterUnidades(activeCat);
+    var visible = filterUnidades(activeCat, cid);
 
-    rows.forEach(function(row){
-      var match = activeCat === 'all' || row.getAttribute('data-cat') === activeCat;
-      row.classList.toggle('hidden', !match);
-    });
+    updateChipCounts(cid);
+    renderListRows(visible, cid);
     if (emptyState) emptyState.style.display = visible.length === 0 ? 'block' : 'none';
 
     if (chipRow) {
@@ -1563,9 +1625,15 @@ function updateRiverAlert(level, message) {
       var popup = '<strong>' + esc(p.nome) + '</strong>';
       if (p.endereco) popup += '<br>' + esc(p.endereco);
       if (p.telefone) popup += '<br>' + esc(p.telefone);
+      if (p.posicao_aproximada) popup += '<br><em>Posição aproximada no mapa</em>';
       if (p.descricao) popup += '<br><em>' + esc(p.descricao) + '</em>';
       markerLayers.push(mh.addMarker(mapInstance, p, { lat: item.lat, lon: item.lon, popup: popup }));
     });
+    if (markerLayers.length > 1) {
+      mapInstance.fitBounds(L.featureGroup(markerLayers).getBounds().pad(0.12));
+    } else if (markerLayers.length === 1) {
+      mapInstance.setView(markerLayers[0].getLatLng(), 14);
+    }
   }
 
   function pontosDaCidade(cidade) {
@@ -1587,7 +1655,7 @@ function updateRiverAlert(level, message) {
       cidadeNotaEl.textContent = 'Rede de apoio presencial em Guaíba. Canais nacionais (180, 181, Delegacia Online) aparecem em qualquer cidade.';
       return;
     }
-    cidadeNotaEl.textContent = 'Pontos presenciais cadastrados em Guaíba. Em ' + cfg.name + ', use os contatos de emergência; canais nacionais continuam na lista.';
+    cidadeNotaEl.textContent = 'Pontos presenciais em ' + cfg.name + '. Canais nacionais (180, 181, Delegacia Online) continuam na lista.';
   }
 
   function setFilter(cat, cidade) {
@@ -1747,9 +1815,15 @@ function updateRiverAlert(level, message) {
       if (p.regional) popup += '<br><em>Unidade regional (fora do município selecionado)</em>';
       if (p.endereco) popup += '<br>' + esc(p.endereco);
       if (p.telefone) popup += '<br>' + esc(p.telefone);
+      if (p.posicao_aproximada) popup += '<br><em>Posição aproximada no mapa</em>';
       if (p.nota) popup += '<br><em>' + esc(p.nota) + '</em>';
       markerLayers.push(mh.addMarker(mapInstance, p, { lat: item.lat, lon: item.lon, popup: popup }));
     });
+    if (markerLayers.length > 1) {
+      mapInstance.fitBounds(L.featureGroup(markerLayers).getBounds().pad(0.12));
+    } else if (markerLayers.length === 1) {
+      mapInstance.setView(markerLayers[0].getLatLng(), 14);
+    }
     renderLegenda();
   }
 

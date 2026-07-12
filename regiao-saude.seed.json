@@ -1,0 +1,144 @@
+{
+  "nota": "Referência municipal/regional para mapa — não substitui o catálogo completo do CNES em Guaíba.",
+  "unidades": [
+    {
+      "id": "poa-hcpa",
+      "cidade": "poa",
+      "nome": "Hospital de Clínicas de Porto Alegre",
+      "categoria": "Emergência",
+      "data_cat": "emergencia",
+      "endereco": "Rua Ramiro Barcelos, 2350 — Santa Cecília — Porto Alegre/RS",
+      "nota": "Referência de urgência na capital. Em emergência médica, ligue 192."
+    },
+    {
+      "id": "poa-sms",
+      "cidade": "poa",
+      "nome": "Secretaria Municipal de Saúde de Porto Alegre",
+      "categoria": "Outros",
+      "data_cat": "outros",
+      "endereco": "Rua João Pessoa, 80 — Centro Histórico — Porto Alegre/RS"
+    },
+    {
+      "id": "poa-ubs-tristeza",
+      "cidade": "poa",
+      "nome": "UBS Tristeza",
+      "categoria": "UBS",
+      "data_cat": "ubs",
+      "endereco": "Avenida Wenceslau Escobar, 2400 — Tristeza — Porto Alegre/RS"
+    },
+    {
+      "id": "poa-caps-restinga",
+      "cidade": "poa",
+      "nome": "CAPS III Restinga",
+      "categoria": "CAPS",
+      "data_cat": "caps",
+      "endereco": "Avenida Economista Nildo Nelson Oliveira, 650 — Restinga — Porto Alegre/RS"
+    },
+    {
+      "id": "poa-caps-ad-poa",
+      "cidade": "poa",
+      "nome": "CAPS AD III Porto Alegre",
+      "categoria": "CAPS",
+      "data_cat": "caps",
+      "endereco": "Avenida João Pessoa, 1255 — Santana — Porto Alegre/RS"
+    },
+    {
+      "id": "poa-farmacia-popular",
+      "cidade": "poa",
+      "nome": "Farmácia Popular — Centro",
+      "categoria": "Farmácia",
+      "data_cat": "farmacia",
+      "endereco": "Rua dos Andradas, 1234 — Centro Histórico — Porto Alegre/RS"
+    },
+    {
+      "id": "canoas-sms",
+      "cidade": "canoas",
+      "nome": "Secretaria Municipal de Saúde de Canoas",
+      "categoria": "Outros",
+      "data_cat": "outros",
+      "endereco": "Rua Dr. Barcelos, 1600 — Centro — Canoas/RS"
+    },
+    {
+      "id": "canoas-hps",
+      "cidade": "canoas",
+      "nome": "Hospital de Pronto Socorro de Canoas",
+      "categoria": "Emergência",
+      "data_cat": "emergencia",
+      "endereco": "Rua Júlio de Castilhos, s/n — Centro — Canoas/RS",
+      "nota": "Referência de urgência em Canoas. Em emergência médica, ligue 192."
+    },
+    {
+      "id": "canoas-us-santa-isabel",
+      "cidade": "canoas",
+      "nome": "Unidade de Saúde Santa Isabel",
+      "categoria": "UBS",
+      "data_cat": "ubs",
+      "endereco": "Rua Frei Orlando, 141 — Centro — Canoas/RS"
+    },
+    {
+      "id": "canoas-caps-novos-tempos",
+      "cidade": "canoas",
+      "nome": "CAPS II Novos Tempos",
+      "categoria": "CAPS",
+      "data_cat": "caps",
+      "endereco": "Rua São Caetano, 102 — Marechal Rondon — Canoas/RS"
+    },
+    {
+      "id": "canoas-caps-amanhecer",
+      "cidade": "canoas",
+      "nome": "CAPS AD III Amanhecer",
+      "categoria": "CAPS",
+      "data_cat": "caps",
+      "endereco": "Rua 15 de Novembro, 82 — Nossa Senhora das Graças — Canoas/RS"
+    },
+    {
+      "id": "canoas-upa-niteroi",
+      "cidade": "canoas",
+      "nome": "UPA Niterói",
+      "categoria": "Emergência",
+      "data_cat": "emergencia",
+      "endereco": "Rua Primeiro de Maio, 100 — Niterói — Canoas/RS"
+    },
+    {
+      "id": "eldorado-sms",
+      "cidade": "eldorado",
+      "nome": "Secretaria Municipal de Saúde de Eldorado do Sul",
+      "categoria": "Outros",
+      "data_cat": "outros",
+      "endereco": "Estrada da Arrozeira, 270 — Centro — Eldorado do Sul/RS"
+    },
+    {
+      "id": "eldorado-pa-24h",
+      "cidade": "eldorado",
+      "nome": "Pronto Atendimento 24h — Itaí",
+      "categoria": "Emergência",
+      "data_cat": "emergencia",
+      "endereco": "Rua Porto Alegre, 200 — Itaí — Eldorado do Sul/RS",
+      "nota": "Referência de urgência no município. Em emergência médica, ligue 192."
+    },
+    {
+      "id": "eldorado-ubs-picada",
+      "cidade": "eldorado",
+      "nome": "UBS Picada",
+      "categoria": "UBS",
+      "data_cat": "ubs",
+      "endereco": "Avenida Martinho Poeta, 2125 — Picada — Eldorado do Sul/RS"
+    },
+    {
+      "id": "eldorado-esf-chacara",
+      "cidade": "eldorado",
+      "nome": "ESF Chácara",
+      "categoria": "ESF",
+      "data_cat": "esf",
+      "endereco": "Rua Nestor Jardim Filho, 1000 — Chácara — Eldorado do Sul/RS"
+    },
+    {
+      "id": "eldorado-esf-parque",
+      "cidade": "eldorado",
+      "nome": "ESF Parque",
+      "categoria": "ESF",
+      "data_cat": "esf",
+      "endereco": "Rua Antenor Martim Mercante, 821 — Parque — Eldorado do Sul/RS"
+    }
+  ]
+}
