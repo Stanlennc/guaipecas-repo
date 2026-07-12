@@ -85,6 +85,11 @@ body[data-page="guibanews"] {
   background-position: center 42%;
 }
 
+body[data-page="servicos"] {
+  --bg-image: url('assets/backgrounds/bg-orla.jpg');
+  background-position: center 35%;
+}
+
 body[data-page="saude"] {
   --bg-image: url('assets/backgrounds/bg-orla.jpg');
   background-image:
@@ -100,7 +105,7 @@ body[data-page="editais"] {
 
 body[data-page="contatos"] {
   --bg-image: url('assets/backgrounds/bg-guaiba-sunset.jpg');
-  background-position: center 30%;
+  background-position: center 88%;
 }
 
 @keyframes page-in {
