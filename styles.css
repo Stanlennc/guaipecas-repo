@@ -1430,6 +1430,16 @@ nav.main-nav a.active { color: var(--river); }
   font-size: 0.76rem;
   white-space: nowrap;
 }
+.data-row .link--map {
+  color: var(--river);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.data-row .link--map:hover { color: var(--ink); }
 .data-row.hidden { display: none; }
 .data-row__meta {
   flex: 1 1 100%;

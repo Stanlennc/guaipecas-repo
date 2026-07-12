@@ -387,7 +387,9 @@ window.guaipecasMapHelpers = (function(){
     animal: '#bc6c25',
     farmacia: '#2a9d8f',
     ubs: '#1d8a6e',
+    esf: '#3dadb8',
     caps: '#5c7cfa',
+    outros: '#8b9cb3',
     saude: '#2eb8d4',
     emergencia: '#e63946',
     lugar: '#2eb8d4',
@@ -411,8 +413,10 @@ window.guaipecasMapHelpers = (function(){
     animal: '<path d="M4.5 4.8a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4zm7 0a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4zM3.2 8.3a1 1 0 110 2 1 1 0 010-2zm9.6 0a1 1 0 110 2 1 1 0 010-2zM8 8.8c-1.8 0-3.2 1-3.5 2.4-.4 1.8 1.2 3.3 3.5 3.3s3.9-1.5 3.5-3.3c-.3-1.4-1.7-2.4-3.5-2.4z"/>',
     farmacia: '<path d="M6 2h4v3h3v4h-3v3H6v-3H3V5h3V2z"/>',
     ubs: '<path d="M3 3h10v2H9v9H7V5H3V3zm8 4h2v2h-2V7zm0 3h2v2h-2v-2z"/>',
+    esf: '<path d="M8 1.8a2.8 2.8 0 110 5.6 2.8 2.8 0 010-5.6zm-4.2 6.2h8.4v1.6H3.8v-1.6zm1.4 2.2h5.6v2.8H5.2v-2.8z"/>',
     caps: '<path d="M8 2.5a3.8 3.8 0 00-3.8 3.8c0 1.5.9 2.8 2.2 3.4L5.5 13h5l-.9-3.3A3.8 3.8 0 008 2.5zm0 1.8a2 2 0 110 4 2 2 0 010-4z"/>',
     saude: '<path d="M7 2h2v5h5v2H9v5H7V9H2V7h5V2z"/>',
+    outros: '<path d="M3.5 3.5h9v9h-9v-9zm1.5 1.5v6h6v-6h-6zm1.2 1.2h3.6v1.2H6.2V6.2zm0 2h3.6v1.2H6.2V8.2z"/>',
     emergencia: '<path d="M2.5 9.5h2.2l1-3.2 2.1 6.4 1.8-4.6 1 2.4h3.9v1.8H12l-1.2-2.8-1.9 4.8-2.2-6.7-1.1 3.5H2.5V9.5z"/>',
     parque: '<path d="M8 2.5c-1.8 0-3 1.4-3 3.2 0 1.2.6 2.2 1.5 2.8L5.5 13h5l-1-4.5c.9-.6 1.5-1.6 1.5-2.8 0-1.8-1.2-3.2-3-3.2zm0 1.6c.8 0 1.3.6 1.3 1.6S8.8 7.3 8 7.3 6.7 6.7 6.7 5.7 7.2 4.1 8 4.1z"/>',
     orla: '<path d="M2 10.5c1.5-1.2 3-1 4.2-.2 1.4.9 2.8 1.1 4.3 0 1.2-.8 2.7-1 4.2.2v1.3c-1.5-1-3-.8-4.2 0-1.4.9-2.8 1.1-4.3 0-1.2-.8-2.7-1-4.2 0v-1.3zM2 7.8c1.5-1.2 3-1 4.2-.2 1.4.9 2.8 1.1 4.3 0 1.2-.8 2.7-1 4.2.2v1.3c-1.5-1-3-.8-4.2 0-1.4.9-2.8 1.1-4.3 0-1.2-.8-2.7-1-4.2 0V7.8z"/>',
@@ -436,14 +440,21 @@ window.guaipecasMapHelpers = (function(){
     return tags + ' ' + titulo + ' ' + cat;
   }
 
+  function normCat(p) {
+    return String(p.data_cat || p.categoria || '').toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  }
+
   function iconKind(p) {
     if (!p) return 'default';
     if (p.servico && ICONS[p.servico]) return p.servico;
-    var cat = String(p.categoria || '').toLowerCase();
-    if (cat.indexOf('farm') >= 0) return 'farmacia';
-    if (cat === 'ubs' || cat === 'esf') return 'ubs';
+    var cat = normCat(p);
+    if (cat === 'farmacia') return 'farmacia';
+    if (cat === 'ubs') return 'ubs';
+    if (cat === 'esf') return 'esf';
     if (cat === 'caps') return 'caps';
-    if (cat === 'emergência' || cat === 'emergencia') return 'emergencia';
+    if (cat === 'emergencia') return 'emergencia';
+    if (cat === 'outros') return 'outros';
     if (ICONS[cat]) return cat;
     var texto = textoPonto(p);
     if (p.tipo === 'feira' || texto.indexOf('feira') >= 0 || texto.indexOf('brique') >= 0) return 'feira';
@@ -554,27 +565,202 @@ function clearSkeleton(el) {
   if (el) el.classList.remove('skeleton', 'skeleton-inline');
 }
 
-// Filtro de categorias (saúde)
+// Mapa de saúde + filtro por tipo (lista e mapa sincronizados)
 (function(){
-  const chipRow = document.getElementById('chipRow');
-  if (!chipRow) return;
-  const chips = chipRow.querySelectorAll('.chip');
-  const rows = document.querySelectorAll('#dataList .data-row');
-  const emptyState = document.getElementById('emptyState');
+  var mapEl = document.getElementById('saudeMap');
+  if (!mapEl) return;
 
-  chipRow.addEventListener('click', function(e){
-    const chip = e.target.closest('.chip');
-    if (!chip) return;
-    chips.forEach(c => c.classList.remove('active'));
-    chip.classList.add('active');
-    const cat = chip.getAttribute('data-cat');
-    let visibleCount = 0;
-    rows.forEach(row => {
-      const match = (cat === 'all') || (row.getAttribute('data-cat') === cat);
-      row.classList.toggle('hidden', !match);
-      if (match) visibleCount++;
+  var gc = window.GuaipecasCidade;
+  var noteEl = document.getElementById('saudeMapNota');
+  var chipRow = document.getElementById('chipRow');
+  var rows = document.querySelectorAll('#dataList .data-row');
+  var emptyState = document.getElementById('emptyState');
+  var map = null;
+  var markerLayers = [];
+  var markerByKey = {};
+  var allUnidades = [];
+  var activeCat = 'all';
+
+  function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;'); }
+
+  function unitKey(u) {
+    var m = (u.cnes_url || '').match(/VCo_Unidade=(\d+)/);
+    return m ? m[1] : u.nome;
+  }
+
+  function markerPoint(u) {
+    return {
+      nome: u.nome,
+      categoria: u.data_cat || u.categoria,
+      data_cat: u.data_cat,
+      categoria_label: u.categoria,
+      lat: u.lat,
+      lon: u.lon
+    };
+  }
+
+  function filterUnidades(cat) {
+    if (cat === 'all') return allUnidades.slice();
+    return allUnidades.filter(function(u){ return u.data_cat === cat; });
+  }
+
+  function updateCidadeNota(cidade) {
+    if (!noteEl) return;
+    var cfg = gc.getConfig(cidade);
+    if (cidade === 'guaiba') {
+      noteEl.textContent = '';
+      return;
+    }
+    noteEl.textContent = 'Catálogo municipal de Guaíba — o mapa mostra a rede guaibense na região. Você está vendo ' + cfg.name + ' no seletor; use os filtros para ir ao ícone no mapa.';
+  }
+
+  function scrollToMap() {
+    mapEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
+  function fitMapToMarkers(cidade, openFirst) {
+    if (!map) return;
+    var cfg = gc.getConfig(cidade);
+    if (!markerLayers.length) {
+      map.setView([cfg.lat, cfg.lon], cfg.zoom);
+      return;
+    }
+    if (markerLayers.length === 1) {
+      map.flyTo(markerLayers[0].getLatLng(), 15, { duration: 0.5 });
+      if (openFirst) window.setTimeout(function(){ markerLayers[0].openPopup(); }, 380);
+      return;
+    }
+    var bounds = L.featureGroup(markerLayers).getBounds();
+    if (cidade !== 'guaiba') bounds.extend([cfg.lat, cfg.lon]);
+    map.flyToBounds(bounds.pad(0.14), { duration: 0.55, maxZoom: 14 });
+    if (openFirst) {
+      window.setTimeout(function(){ markerLayers[0].openPopup(); }, 620);
+    }
+  }
+
+  function renderMarkers(unidades, cidade) {
+    if (!map || !window.L) return;
+    var mh = window.guaipecasMapHelpers;
+    markerLayers.forEach(function(layer){ map.removeLayer(layer); });
+    markerLayers = [];
+    markerByKey = {};
+    var cfg = gc.getConfig(cidade);
+
+    updateCidadeNota(cidade);
+
+    mh.coordsComOffset(unidades).forEach(function(item){
+      var u = item.p;
+      var popup = '<strong>' + esc(u.nome) + '</strong><br>' + esc(u.categoria);
+      if (u.cnes_url) popup += '<br><a href="' + esc(u.cnes_url) + '" target="_blank" rel="noopener">Ver ficha CNES ↗</a>';
+      var marker = mh.addMarker(map, markerPoint(u), { lat: item.lat, lon: item.lon, popup: popup });
+      if (marker) {
+        markerLayers.push(marker);
+        markerByKey[unitKey(u)] = marker;
+      }
     });
-    if (emptyState) emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
+
+    if (markerLayers.length > 1) {
+      var bounds = L.featureGroup(markerLayers).getBounds();
+      if (cidade !== 'guaiba') bounds.extend([cfg.lat, cfg.lon]);
+      map.fitBounds(bounds.pad(0.12));
+    } else if (markerLayers.length === 1) {
+      map.setView(markerLayers[0].getLatLng(), 14);
+    } else {
+      map.setView([cfg.lat, cfg.lon], cfg.zoom);
+    }
+  }
+
+  function setFilter(cat, cidade, opts) {
+    opts = opts || {};
+    activeCat = cat || activeCat;
+    var cid = cidade || gc.get();
+    var visible = filterUnidades(activeCat);
+
+    rows.forEach(function(row){
+      var match = activeCat === 'all' || row.getAttribute('data-cat') === activeCat;
+      row.classList.toggle('hidden', !match);
+    });
+    if (emptyState) emptyState.style.display = visible.length === 0 ? 'block' : 'none';
+
+    if (chipRow) {
+      chipRow.querySelectorAll('.chip').forEach(function(chip){
+        chip.classList.toggle('active', chip.getAttribute('data-cat') === activeCat);
+      });
+    }
+
+    renderMarkers(visible, cid);
+
+    if (opts.scrollMap) scrollToMap();
+    if (opts.focusMap) {
+      var delay = opts.scrollMap ? 300 : 0;
+      window.setTimeout(function(){
+        fitMapToMarkers(cid, opts.openFirst);
+      }, delay);
+    }
+  }
+
+  function focusOnMap(key, rowCat) {
+    if (rowCat && rowCat !== activeCat) {
+      setFilter(rowCat, gc.get(), { scrollMap: true, focusMap: false });
+    }
+    var marker = markerByKey[key];
+    if (!marker || !map) return;
+    scrollToMap();
+    map.flyTo(marker.getLatLng(), Math.max(map.getZoom(), 15), { duration: 0.55 });
+    window.setTimeout(function(){ marker.openPopup(); }, 320);
+  }
+
+  function wireListMapLinks() {
+    rows.forEach(function(row){
+      var linkEl = row.querySelector('a.link');
+      if (!linkEl || row.querySelector('.link--map')) return;
+      var m = linkEl.href.match(/VCo_Unidade=(\d+)/);
+      if (!m) return;
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'link link--map';
+      btn.textContent = 'Ver no mapa ↓';
+      btn.addEventListener('click', function(e){
+        e.preventDefault();
+        focusOnMap(m[1], row.getAttribute('data-cat'));
+      });
+      linkEl.insertAdjacentElement('afterend', btn);
+    });
+  }
+
+  function initMap(unidades) {
+    if (!window.L) return;
+    allUnidades = unidades || [];
+    map = L.map('saudeMap').setView([-30.1137, -51.3266], 12);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
+
+    if (chipRow) {
+      chipRow.addEventListener('click', function(e){
+        var chip = e.target.closest('.chip');
+        if (!chip) return;
+        var cat = chip.getAttribute('data-cat');
+        setFilter(cat, gc.get(), {
+          scrollMap: true,
+          focusMap: true,
+          openFirst: cat !== 'all'
+        });
+      });
+    }
+
+    wireListMapLinks();
+    setFilter('all', gc.get());
+    gc.onChange(function(cidade){ setFilter(activeCat, cidade); });
+  }
+
+  window.guaipecasLoadLeaflet(function(){
+    function boot(unidades) { initMap(unidades || []); }
+    fetch('unidades-map.json', { cache: 'no-store' })
+      .then(function(r){ return r.json(); })
+      .then(function(d){ boot(d.unidades); })
+      .catch(function(){
+        if (window.GUIUNIDADES_DATA) boot(window.GUIUNIDADES_DATA.unidades);
+        else boot([]);
+      });
   });
 })();
 
@@ -1294,61 +1480,6 @@ function updateRiverAlert(level, message) {
   }
 })();
 
-// Mapa de saúde
-(function(){
-  var mapEl = document.getElementById('saudeMap');
-  if (!mapEl) return;
-
-  var gc = window.GuaipecasCidade;
-  var noteEl = document.getElementById('saudeMapNota');
-  var map = null;
-  var markers = [];
-  var allUnidades = [];
-
-  function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;'); }
-
-  function renderMarkers(cidade) {
-    if (!map || !window.L) return;
-    var mh = window.guaipecasMapHelpers;
-    markers.forEach(function(layer){ map.removeLayer(layer); });
-    markers = [];
-    var cfg = gc.getConfig(cidade);
-    if (cidade !== 'guaiba') {
-      map.setView([cfg.lat, cfg.lon], cfg.zoom);
-      if (noteEl) {
-        noteEl.textContent = 'Unidades municipais cadastradas apenas para Guaíba. Em ' + cfg.name + ', para urgência ligue 192 ou veja Contatos de emergência.';
-      }
-      return;
-    }
-    if (noteEl) noteEl.textContent = '';
-    allUnidades.forEach(function(u){
-      var popup = '<strong>' + esc(u.nome) + '</strong><br>' + esc(u.categoria);
-      if (u.cnes_url) popup += '<br><a href="' + esc(u.cnes_url) + '" target="_blank" rel="noopener">CNES ↗</a>';
-      markers.push(mh.addMarker(map, u, { popup: popup }));
-    });
-    map.setView([cfg.lat, cfg.lon], 12);
-  }
-
-  function initMap(unidades) {
-    if (!window.L || !unidades.length) return;
-    allUnidades = unidades;
-    map = L.map('saudeMap').setView([-30.1137, -51.3266], 12);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
-    renderMarkers(gc.get());
-    gc.onChange(renderMarkers);
-  }
-
-  window.guaipecasLoadLeaflet(function(){
-    function boot(unidades) { initMap(unidades || []); }
-    fetch('unidades-map.json', { cache: 'no-store' })
-      .then(function(r){ return r.json(); })
-      .then(function(d){ boot(d.unidades); })
-      .catch(function(){
-        if (window.GUIUNIDADES_DATA) boot(window.GUIUNIDADES_DATA.unidades);
-        else boot([]);
-      });
-  });
-})();
 
 // Mapa e lista de apoio — páginas dedicadas (mulher / pet)
 (function(){
