@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-12T16:57:30.633295+00:00",
+  "gerado_em": "2026-07-12T19:03:54.385964+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -84,16 +84,6 @@
       "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
     },
     {
-      "id": "221c68dd37a6",
-      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
-      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
-    },
-    {
       "id": "d85bcc167848",
       "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
@@ -102,6 +92,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
+    },
+    {
+      "id": "221c68dd37a6",
+      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
+      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
     },
     {
       "id": "4cd91ccbbdfb",
@@ -152,6 +152,16 @@
       "categoria": null,
       "feed": "correio",
       "resumo": "Alunos apresentam oficina e visitam o Jornal Correio do Povo e a Rádio Guaíba Correio do Povo"
+    },
+    {
+      "id": "b819b903d906",
+      "titulo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 32",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOcjJNNTRBVm8yXzBRZ3BhaWZwYktPeEkwUmRWY3BEU084Tk1XMGJET2FHM1BINE0tYjB1UW5HbmdFa3pPNVltX2s0SzZWQUlXSGV2anZtY3NSUGlCZTBmd3VaaEw4eUNFXzhyemtTVTduV1hZN3c4WTZlZjJxRnMtS0xwdzUyV256Tkp1TTZLUWRObmgtTG9hMmdaN2lHWm1uLWhmZGpvOVZCeHVZcTVxVms3MHJrM2lIYkc4ME9LUEFYMFl3LTFpMjBENEJfRmdDQWpMT3FqdnRNMHpoVGZ6dGZmazJueExRU1ZyZE9qc3pUNEVXTVc4Mk43NmNjNVo1c28wWllBQm5xQVQ5TjJqaDNacWRSUmxjVklKbzBTYjFqS1IwWlBSVWVvaUxvalE?oc=5",
+      "fonte": "ArchDaily",
+      "publicado_em": "2026-07-10T18:04:41+00:00",
+      "categoria": null,
+      "feed": "recentes",
+      "resumo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 32 ArchDaily"
     },
     {
       "id": "3a2cd35e5251",
@@ -362,16 +372,6 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Observatório Social alerta para situação financeira e indica redução de 23% nas despesas de Guaíba Repórter Guaibense"
-    },
-    {
-      "id": "784593a9ce78",
-      "titulo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSXpabXR0c1ZCZXJXRHY4U3M3aUhTWFM1N19WNFMzcU9nbnBMR3I3SHE5eml2bVZmRGptZ2MwLUxTQXF5cXgxMG1uVEdNaGN6SkxkcjNONzNtclg5Z2NRbTg5ZlprMDhKZE44cEhOR3V5VzhobmM5QTdEUHoza0lZWWZxaFA3M3ExUXpnUTc5N1dzeG5sWW9iS3p1eE9nc2xtU2VXNENIdlkwdVd3N1MxVWpMeVNzcnZILU1rWmFvR1ZoQmZXRXRXYnV3bVE?oc=5",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-06-19T07:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter",
-      "resumo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos Repórter Guaibense"
     }
   ],
   "noticias_home": [
@@ -386,16 +386,6 @@
       "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
     },
     {
-      "id": "221c68dd37a6",
-      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
-      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
-    },
-    {
       "id": "d85bcc167848",
       "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
@@ -404,6 +394,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
+    },
+    {
+      "id": "221c68dd37a6",
+      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
+      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
     },
     {
       "id": "4cd91ccbbdfb",
