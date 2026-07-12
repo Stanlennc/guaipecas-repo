@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-12T14:55:11.388076+00:00",
+  "gerado_em": "2026-07-12T16:57:30.633295+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -84,16 +84,6 @@
       "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
     },
     {
-      "id": "d85bcc167848",
-      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
-    },
-    {
       "id": "221c68dd37a6",
       "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
       "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
@@ -104,6 +94,16 @@
       "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
     },
     {
+      "id": "d85bcc167848",
+      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
+    },
+    {
       "id": "4cd91ccbbdfb",
       "titulo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura",
       "url": "https://www.reporterguaibense.com.br/noticia/guaiba-lanca-editais-da-politica-nacional-aldir-blanc-com-mais-de-r-450-mil-em-investimentos-na-cultura",
@@ -112,6 +112,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Os editais foram apresentados em duas audiências públicas presenciais"
+    },
+    {
+      "id": "8c21b166730d",
+      "titulo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 44",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOQ0tYaUFndWhpdkNUQjVFN2tLRHpvdEs5c1FVaVNwUEsxbDkyX0lYRHJUZW1LZ21iV0h0NXM5R2xtdS1iWjB2T293WTlnWng1WnVTeFBUa0tSZjM5SDBLVklhT2prSjNGYVJzN21EeHhndWVra2RPQUZrTjgxUGFyOEU1b1dqYlI0SXdKXzhYbUlVa1NKcHpJNldlLXRQU1lLV21NZ2pVU1dDV3dFRnp6RTJSZlRfeHRELUxUYlB6ZjlyQWZHOENMWjlqX000TVZram8zTV9QUDZENHphel9MaTA4d1JhXzhzcjBWLXF5eU42N19uN296anlmc1M3WWZVZ2c4c3FZNkFJd2xqZml3TEw3aUlVeWRJcEhBemZHR0dhWmdwdWdBc09HcGNpN28?oc=5",
+      "fonte": "ArchDaily",
+      "publicado_em": "2026-07-12T00:04:47+00:00",
+      "categoria": null,
+      "feed": "recentes",
+      "resumo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 44 ArchDaily"
     },
     {
       "id": "158a75a76c50",
@@ -142,16 +152,6 @@
       "categoria": null,
       "feed": "correio",
       "resumo": "Alunos apresentam oficina e visitam o Jornal Correio do Povo e a Rádio Guaíba Correio do Povo"
-    },
-    {
-      "id": "7d132ae72a99",
-      "titulo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 4",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOdllWZjFXTURKRjRadGxEZXhEUks2SkxWaVBhNHZyN1psdnI1b1NPV3ptZFp1VHRaakZPM0FKaUtqNmtJeVEweTRwMC1wdDZoYlpqZ01XT1Fyd1JyS0JlUk9hbnNiZTdGR0tUVUo1YXRiQjNuZ0lqaWJ2UVJkY3IzdDNTai1EbGRiMnRHYkwwa25yQWlRUzc5SzBDZUc5ZlNmT0VQNTdBd1RaaHhnZnRLNDFpNzNnZGxBUWkxYzJORFEyXzZBYnBsYlVKazFHRjI4OEZJMVNCbVhlRnhGM2RRcmhUSWxONmVaS3BJVTRiTFZmT2VTdDZuYnNKLTZlWHNpZXRNUG9vWDI3M1lCUHo3blg3aVo5TWZiNGVySXB5ZXhKQVdncGc?oc=5",
-      "fonte": "ArchDaily",
-      "publicado_em": "2026-07-10T17:43:32+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 4 ArchDaily"
     },
     {
       "id": "3a2cd35e5251",
@@ -224,6 +224,16 @@
       "resumo": "Lenda das maratonas Eliud Kipchoge corre na Orla do Guaíba e conhece projeto social da Capital GZH"
     },
     {
+      "id": "876d6f85864b",
+      "titulo": "Obras das alças da nova Ponte do Guaíba dependem de remoções em Porto Alegre",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPendQdkJiUW1oU1RvTVVfZ2tGcjNuQkxlTThNanFTSy14NFdTUFpUbXJsa2hYc002MkRnX1dOU3VMOElFOU55bnczLVpKd0k4V3FXMUV0ZnRMWWZFWENzeF9Sams5TzR4ZlFWTVRNZy1SaTd3MjltRkY4aWUxNUczVUt5M05vaktoTS1fT21RU2NWRVJKREUwLVp5N0dTRlBYTmtDdGN5THZVdFJwYnFqRnZHbm9ia2VmUEVpWlFkeVpfXzU0dHlV?oc=5",
+      "fonte": "R7",
+      "publicado_em": "2026-07-08T13:35:02+00:00",
+      "categoria": null,
+      "feed": "recentes",
+      "resumo": "Obras das alças da nova Ponte do Guaíba dependem de remoções em Porto Alegre R7"
+    },
+    {
       "id": "7cbd8fad7170",
       "titulo": "Guaíba inaugura seis novas salas no Hospital Regional Nelson Cornetet",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbl9IN2lPbTcxd1NZalNqUWxNei11ZHFEdlFnc1hEdU1xTFlnNDJQbS1yRUpzSERKeE5uS1pWaGZZc2lORnNsQmVhOTlFMk8zR0NBRjBBbFB5TGJNUlVhbGZ2VnozWFFpZDB4enE0UEY5aThsNHVMUWV6b1FPSEtvTnR3Q3Z3aE9SRHJQOEpKeXh1aE16?oc=5",
@@ -264,23 +274,13 @@
       "resumo": "Hospital de Guaíba reabre em setembro com nova gestão Jornal do Comércio"
     },
     {
-      "id": "70d54633355a",
-      "titulo": "Guaíba perto do normal com alerta da Prefeitura de risco de cheia",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc1hzNXdQQk9lVnktbkNpbHQwUi1pT2F3eDBBMm5oX2ZFeVZkblowR0pFM1RaQVlZSFp1cGpKTXAzUE9xQkl2Z2NXTmE1bkU1NG1aRmpUQjlQSjVDREhUMzNwLTU5YXFUbDZJVFFRMzhXUUdUQjBqLUM3WUk5QU5nVXowVUhKSWRyc3FiYldR?oc=5",
-      "fonte": "MetSul Meteorologia",
-      "publicado_em": "2026-07-05T15:27:52+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Guaíba perto do normal com alerta da Prefeitura de risco de cheia MetSul Meteorologia"
-    },
-    {
       "id": "2d4e7a08ef0b",
       "titulo": "Guaíba intensifica investimentos em obras de prevenção contra enchentes na área de infraestrutura",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOd09LX1hZWklFbDVVZjRLSFhjVTdFSXBYajBSTkdFandlZnRRWDQtUEhYZUhQOFYwSFhmampjQ2NXSUUzWGVNeDVRNThjQllIalFGOWphbWNLdlNhQWczMGpEUXRvUlhnMmU5OF9PbWlIa3ZiUUtQVmRPcUxZSGY4emsxT0ViQjhNU3VNX2RJZkF1Rlo4OS1uV05FX0lpYzFRamxzc3d1VFdhTzlQRnhsUmhMa2F6R19PcDZFcUtUT3E3Z0xSLWpfb1BWYmRUZUI5MUFYNTVJQk02UDJLOWp3bEEteUlSbnVtVXplODVNSnFEelU0?oc=5",
       "fonte": "Correio do Povo",
       "publicado_em": "2026-07-05T15:23:00+00:00",
       "categoria": null,
-      "feed": "recentes",
+      "feed": "google",
       "resumo": "Guaíba intensifica investimentos em obras de prevenção contra enchentes na área de infraestrutura Correio do Povo"
     },
     {
@@ -386,16 +386,6 @@
       "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
     },
     {
-      "id": "d85bcc167848",
-      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
-    },
-    {
       "id": "221c68dd37a6",
       "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
       "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
@@ -406,6 +396,16 @@
       "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
     },
     {
+      "id": "d85bcc167848",
+      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
+    },
+    {
       "id": "4cd91ccbbdfb",
       "titulo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura",
       "url": "https://www.reporterguaibense.com.br/noticia/guaiba-lanca-editais-da-politica-nacional-aldir-blanc-com-mais-de-r-450-mil-em-investimentos-na-cultura",
@@ -414,6 +414,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Os editais foram apresentados em duas audiências públicas presenciais"
+    },
+    {
+      "id": "8c21b166730d",
+      "titulo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 44",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOQ0tYaUFndWhpdkNUQjVFN2tLRHpvdEs5c1FVaVNwUEsxbDkyX0lYRHJUZW1LZ21iV0h0NXM5R2xtdS1iWjB2T293WTlnWng1WnVTeFBUa0tSZjM5SDBLVklhT2prSjNGYVJzN21EeHhndWVra2RPQUZrTjgxUGFyOEU1b1dqYlI0SXdKXzhYbUlVa1NKcHpJNldlLXRQU1lLV21NZ2pVU1dDV3dFRnp6RTJSZlRfeHRELUxUYlB6ZjlyQWZHOENMWjlqX000TVZram8zTV9QUDZENHphel9MaTA4d1JhXzhzcjBWLXF5eU42N19uN296anlmc1M3WWZVZ2c4c3FZNkFJd2xqZml3TEw3aUlVeWRJcEhBemZHR0dhWmdwdWdBc09HcGNpN28?oc=5",
+      "fonte": "ArchDaily",
+      "publicado_em": "2026-07-12T00:04:47+00:00",
+      "categoria": null,
+      "feed": "recentes",
+      "resumo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 44 ArchDaily"
     },
     {
       "id": "158a75a76c50",
@@ -444,16 +454,6 @@
       "categoria": null,
       "feed": "correio",
       "resumo": "Alunos apresentam oficina e visitam o Jornal Correio do Povo e a Rádio Guaíba Correio do Povo"
-    },
-    {
-      "id": "7d132ae72a99",
-      "titulo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 4",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOdllWZjFXTURKRjRadGxEZXhEUks2SkxWaVBhNHZyN1psdnI1b1NPV3ptZFp1VHRaakZPM0FKaUtqNmtJeVEweTRwMC1wdDZoYlpqZ01XT1Fyd1JyS0JlUk9hbnNiZTdGR0tUVUo1YXRiQjNuZ0lqaWJ2UVJkY3IzdDNTai1EbGRiMnRHYkwwa25yQWlRUzc5SzBDZUc5ZlNmT0VQNTdBd1RaaHhnZnRLNDFpNzNnZGxBUWkxYzJORFEyXzZBYnBsYlVKazFHRjI4OEZJMVNCbVhlRnhGM2RRcmhUSWxONmVaS3BJVTRiTFZmT2VTdDZuYnNKLTZlWHNpZXRNUG9vWDI3M1lCUHo3blg3aVo5TWZiNGVySXB5ZXhKQVdncGc?oc=5",
-      "fonte": "ArchDaily",
-      "publicado_em": "2026-07-10T17:43:32+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 4 ArchDaily"
     }
   ]
 }
