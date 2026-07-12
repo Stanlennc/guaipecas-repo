@@ -5,4 +5,4 @@
  * 2. Admin → Fluxos de dados → Web → copie o ID (formato G-XXXXXXXXXX)
  * 3. Cole abaixo e publique o site
  */
-window.GUAIPECAS_GA4_ID = 'G-3S0WN5G27T';
+window.GUAIPECAZ_GA4_ID = 'G-3S0WN5G27T';

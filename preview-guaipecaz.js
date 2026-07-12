@@ -3,7 +3,7 @@
   var DEFAULT_THEME = 'mare';
 
   var THEME_LABELS = {
-    noite: 'Noite — escuro refinado, painel noturno e alertas (base atual do Guaipecas).',
+    noite: 'Noite — escuro refinado, painel noturno e alertas (base atual do Guaipecaz).',
     aurora: 'Aurora — claro quente, papel e sol; portal público acolhedor para o dia.',
     neblina: 'Neblina — claro frio, cinza-azul; dashboard metropolitano limpo.',
     lagoa: 'Lagoa — escuro aquático, turquesa intenso; sensação de água profunda à noite.',

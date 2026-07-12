@@ -29,7 +29,7 @@ window.GuaipecazConsent = (function(){
   }
 
   function loadAnalytics() {
-    var id = window.GUAIPECAS_GA4_ID;
+    var id = window.GUAIPECAZ_GA4_ID || window.GUAIPECAS_GA4_ID;
     if (!id || id.indexOf('G-') !== 0 || id === 'G-XXXXXXXX' || window.__guaipecasGaLoaded) return;
     window.__guaipecasGaLoaded = true;
 

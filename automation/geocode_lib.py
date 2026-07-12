@@ -7,7 +7,7 @@ import re
 import sys
 import time
 
-USER_AGENT = "GuaipecasBot/1.0 (geocode; +https://github.com/Stanlennc/guaipecas-repo)"
+from site_config import USER_AGENT
 NOMINATIM_DELAY = 1.1
 
 CITIES = {

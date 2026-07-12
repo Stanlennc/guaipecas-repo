@@ -12,9 +12,10 @@ from pathlib import Path
 
 import requests
 
+from site_config import USER_AGENT
+
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "editais.json"
-USER_AGENT = "GuaipecasBot/1.0"
 MAX_ITEMS = 12
 
 FEEDS = [

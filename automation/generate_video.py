@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera vídeo promocional de 30s do Guaipecas para redes sociais."""
+"""Gera vídeo promocional de 30s do Guaipecaz para redes sociais."""
 
 from __future__ import annotations
 
@@ -10,6 +10,8 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
+from site_config import SITE_NAME, SITE_URL_DISPLAY
+
 try:
     import imageio_ffmpeg
 except ImportError:
@@ -17,9 +19,9 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
-OUT_VIDEO = ASSETS / "video-guaipecas-30s.mp4"
-QR_PATH = ASSETS / "qr-guaipecas.png"
-SITE_URL = "stanlennc.github.io/guaipecas-repo"
+OUT_VIDEO = ASSETS / "video-guaipecaz-30s.mp4"
+QR_PATH = ASSETS / "qr-guaipecaz.png"
+SITE_URL = SITE_URL_DISPLAY
 
 W, H = 1080, 1920
 FPS = 30
@@ -121,7 +123,7 @@ def mock_header(draw, section: str, alpha: float):
         return
     c = int(255 * alpha)
     rounded(draw, (80, 200, 360, 260), 14, (*PAPER_LIGHT, c) if False else PAPER_LIGHT)
-    draw.text((100, 212), "Guaipecas", font=F["badge"], fill=(*INK_SOFT,))
+    draw.text((100, 212), SITE_NAME, font=F["badge"], fill=(*INK_SOFT,))
     rounded(draw, (80, 280, 280, 340), 20, RIVER_DARK)
     draw.text((100, 292), section, font=F["badge"], fill=WHITE)
 
@@ -137,7 +139,7 @@ def slide_intro(t: float) -> Image.Image:
 
     texts = [
         ((80, 420), "Morou em Guaíba?", F["hero"], GOLD, a),
-        ((80, 530), "Guaipecas", F["title"], INK, a * ease_out(min(1, t / 0.25))),
+        ((80, 530), SITE_NAME, F["title"], INK, a * ease_out(min(1, t / 0.25))),
         ((80, 610), "Guaíba em Dia", F["subtitle"], RIVER, a * ease_out(min(1, (t - 0.08) / 0.25))),
         ((80, 700), "Tudo da cidade num só lugar.", F["body"], INK, a * ease_out(min(1, (t - 0.15) / 0.25))),
         ((80, 760), "Notícias. Rios. Saúde. Editais.", F["body"], INK_SOFT, a * ease_out(min(1, (t - 0.22) / 0.25))),
@@ -190,7 +192,7 @@ def slide_guibanews(t: float) -> Image.Image:
         y += 126
 
     img = overlay_text(img, (80, 1280), "Pare de caçar notícia em 5 apps.", F["body"], GOLD, a * ease_out(min(1, (t - 0.5) / 0.2)))
-    img = overlay_text(img, (80, 1340), "Abra o Guaipecas e pronto.", F["body"], INK, a * ease_out(min(1, (t - 0.55) / 0.2)))
+    img = overlay_text(img, (80, 1340), f"Abra o {SITE_NAME} e pronto.", F["body"], INK, a * ease_out(min(1, (t - 0.55) / 0.2)))
 
     draw = ImageDraw.Draw(img)
     draw_progress(draw, H - 120, 2 / SLIDE_COUNT)
@@ -298,7 +300,7 @@ def slide_saude_editais(t: float) -> Image.Image:
         ey += 52
 
     img = overlay_text(img, (80, 980), "Não perca concurso nem plantão.", F["body"], GOLD, a * ease_out(min(1, (t - 0.45) / 0.2)))
-    img = overlay_text(img, (80, 1040), "O Guaipecas avisa você.", F["body"], INK, a * ease_out(min(1, (t - 0.5) / 0.2)))
+    img = overlay_text(img, (80, 1040), f"O {SITE_NAME} avisa você.", F["body"], INK, a * ease_out(min(1, (t - 0.5) / 0.2)))
 
     draw = ImageDraw.Draw(img)
     draw_progress(draw, H - 120, 5 / SLIDE_COUNT)
@@ -334,7 +336,7 @@ def slide_cta(t: float) -> Image.Image:
         rounded(draw, (80, 1280, W - 80, 1380), 20, RIVER_DARK)
         draw.text((W // 2 - 280, 1318), "COMPARTILHE COM GUAÍBA", font=F["cta"], fill=WHITE)
 
-    draw.text((80, 1480), "Guaipecas · Iniciativa cidadã independente", font=F["small"], fill=INK_SOFT)
+    draw.text((80, 1480), f"{SITE_NAME} · Iniciativa cidadã independente", font=F["small"], fill=INK_SOFT)
 
     draw = ImageDraw.Draw(img)
     draw_progress(draw, H - 120, 1.0)
@@ -352,7 +354,7 @@ SLIDES = [
 
 
 def render_frames() -> list[Path]:
-    tmp = Path(tempfile.mkdtemp(prefix="guaipecas-video-"))
+    tmp = Path(tempfile.mkdtemp(prefix="guaipecaz-video-"))
     paths: list[Path] = []
     frame_idx = 0
 

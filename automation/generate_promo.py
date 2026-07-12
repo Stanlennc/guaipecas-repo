@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-"""Gera imagens de divulgação do Guaipecas para redes sociais."""
+"""Gera imagens de divulgação do Guaipecaz para redes sociais."""
 
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
+from site_config import SITE_NAME, SITE_URL_DISPLAY
+
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
-QR_PATH = ASSETS / "qr-guaipecas.png"
-SITE_URL = "stanlennc.github.io/guaipecas-repo"
+QR_PATH = ASSETS / "qr-guaipecaz.png"
+SITE_URL = SITE_URL_DISPLAY
 
 # Cores da marca
 PAPER = (10, 15, 20)
@@ -97,7 +99,7 @@ def draw_feed():
     draw.rectangle((0, 0, w, 8), fill=RIVER)
 
     # Marca
-    draw.text((72, 72), "Guaipecas", font=font_brand, fill=INK)
+    draw.text((72, 72), SITE_NAME, font=font_brand, fill=INK)
     draw.text((72, 152), "Guaíba em Dia", font=font_tag, fill=RIVER)
     draw.text((72, 206), "Portal cidadão · Guaíba/RS", font=font_small, fill=INK_SOFT)
 
@@ -154,7 +156,7 @@ def draw_story():
     except OSError:
         font_hero = font_tag
 
-    draw.text((80, 120), "Guaipecas", font=font_brand_big, fill=INK)
+    draw.text((80, 120), SITE_NAME, font=font_brand_big, fill=INK)
     draw.text((80, 230), "Guaíba em Dia", font=font_tag, fill=RIVER)
     draw.text((80, 290), "O essencial da cidade no seu bolso", font=font_small, fill=INK_SOFT)
 

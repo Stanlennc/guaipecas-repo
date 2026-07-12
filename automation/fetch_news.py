@@ -16,9 +16,10 @@ from pathlib import Path
 
 import requests
 
+from site_config import SITE_NAME, SITE_URL, USER_AGENT
+
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "noticias.json"
-USER_AGENT = "GuaipecasBot/1.0 (+https://github.com/Stanlennc/guaipecas-repo)"
 MAX_ITEMS_HOME = 8
 MAX_ITEMS = 30
 MAX_CONTENT_FETCH = 30
@@ -952,8 +953,8 @@ def write_rss(noticias):
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<rss version="2.0"><channel>',
-        "<title>Guibanews — Guaipecas</title>",
-        "<link>https://guaipecas.github.io/</link>",
+        f"<title>Guibanews — {SITE_NAME}</title>",
+        f"<link>{SITE_URL}</link>",
         "<description>Notícias de Guaíba e da Região Metropolitana de Porto Alegre</description>",
         "<language>pt-BR</language>",
     ]

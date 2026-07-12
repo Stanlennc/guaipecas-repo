@@ -12,10 +12,12 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+from site_config import USER_AGENT as _BOT
+
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "servicos.json"
 BASE = "https://guaiba.atende.net"
-USER_AGENT = "Mozilla/5.0 (compatible; GuaipecasBot/1.0)"
+USER_AGENT = f"Mozilla/5.0 (compatible; {_BOT})"
 
 
 def scrape_prefeitura_noticias():

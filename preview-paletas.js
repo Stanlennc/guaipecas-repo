@@ -3,7 +3,7 @@
   if (!grid) return;
 
   var PALETTES = [
-    { id: 'noite', name: 'Noite', mood: 'Escuro refinado — herda o Guaipecas atual com mais ar.', tags: ['Escuro', 'Base'], colors: ['#0a0f14', '#e8edf2', '#3dadb8', '#e8a87c', '#243040'] },
+    { id: 'noite', name: 'Noite', mood: 'Escuro refinado — herda o Guaipecaz atual com mais ar.', tags: ['Escuro', 'Base'], colors: ['#0a0f14', '#e8edf2', '#3dadb8', '#e8a87c', '#243040'] },
     { id: 'lagoa', name: 'Lagoa', mood: 'Água profunda à noite — turquesa vivo sobre fundo quase preto.', tags: ['Escuro', 'Água'], colors: ['#061018', '#dce9f2', '#2ec4c8', '#7ec8e3', '#1a3044'] },
     { id: 'jacui', name: 'Jacuí', mood: 'Âmbar de alerta + água — rios e Defesa Civil em evidência.', tags: ['Escuro', 'Alertas'], colors: ['#141210', '#f2ece4', '#5ab4c4', '#e8a050', '#3a342c'] },
     { id: 'mare', name: 'Maré', mood: 'Alto contraste cívico — ciano brilhante, alertas saltam aos olhos.', tags: ['Escuro', 'Contraste'], colors: ['#071828', '#f0f6fc', '#48d4f0', '#ffd166', '#1a3a52'] },

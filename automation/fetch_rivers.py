@@ -17,11 +17,12 @@ from urllib.parse import urlparse
 
 import requests
 
+from site_config import USER_AGENT
+
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "rivers.json"
 JS_OUTPUT = ROOT / "rivers-data.js"
 RIVERS_IMG_DIR = ROOT / "assets" / "rivers"
-USER_AGENT = "GuaipecasBot/1.0 (+https://github.com/Stanlennc/guaipecas-repo)"
 
 ANA_AUTH_URL = "https://www.ana.gov.br/hidrowebservice/EstacoesTelemetricas/OAUth/v1"
 ANA_SERIE_URL = "https://www.ana.gov.br/hidrowebservice/EstacoesTelemetricas/HidroinfoanaSerieTelemetricaAdotada/v1"
