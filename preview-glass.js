@@ -25,6 +25,7 @@
       id: 'orla',
       name: 'Orla do lago',
       credit: 'Lenny Maidana · CC BY 2.0 · Wikimedia',
+      src: 'assets/backgrounds/bg-orla.jpg',
       mood: 'Orla urbana à beira d’água — moderno e reconhecível.'
     },
     {

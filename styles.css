@@ -79,6 +79,33 @@ body[data-apoio-page="pet"] {
   background-position: center 38%;
 }
 
+/* Fundos por página */
+body[data-page="guibanews"] {
+  --bg-image: url('assets/backgrounds/bg-guibanews.jpg');
+  background-position: center 42%;
+}
+
+body[data-page="saude"] {
+  --bg-image: url('assets/backgrounds/bg-orla.jpg');
+  background-image:
+    linear-gradient(180deg, rgba(4, 10, 19, 0.72) 0%, rgba(7, 24, 40, 0.9) 50%, rgba(4, 10, 19, 0.96) 100%),
+    var(--bg-image);
+  background-position: center 35%;
+}
+
+body[data-page="editais"] {
+  --bg-image: url('assets/backgrounds/bg-orla.jpg');
+  background-position: center 35%;
+}
+
+body[data-page="contatos"] {
+  --bg-image: url('assets/backgrounds/bg-contatos.jpg');
+  background-image:
+    linear-gradient(180deg, rgba(4, 10, 19, 0.68) 0%, rgba(7, 24, 40, 0.9) 50%, rgba(4, 10, 19, 0.95) 100%),
+    var(--bg-image);
+  background-position: center center;
+}
+
 @keyframes page-in {
   from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
