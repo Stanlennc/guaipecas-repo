@@ -810,7 +810,7 @@ def cap_resumo(text):
 
 
 def sanitize_noticias(noticias):
-    """Remove texto integral e fotos — Guibanews só publica resumo curto + link."""
+    """Remove texto integral e fotos — GuaibaNews só publica resumo curto + link."""
     for item in noticias:
         item.pop("conteudo", None)
         item.pop("imagem", None)
@@ -953,7 +953,7 @@ def write_rss(noticias):
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<rss version="2.0"><channel>',
-        f"<title>Guibanews — {SITE_NAME}</title>",
+        f"<title>GuaibaNews — {SITE_NAME}</title>",
         f"<link>{SITE_URL}</link>",
         "<description>Notícias de Guaíba e da Região Metropolitana de Porto Alegre</description>",
         "<language>pt-BR</language>",

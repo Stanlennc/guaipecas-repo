@@ -6,7 +6,7 @@ on:
   workflow_run:
     workflows:
       - "Atualizar nível dos rios"
-      - "Atualizar Guibanews"
+      - "Atualizar GuaibaNews"
       - "Atualizar ofertas dos mercados"
       - "Atualizar editais"
       - "Atualizar serviços"

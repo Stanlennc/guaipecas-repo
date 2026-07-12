@@ -1408,7 +1408,7 @@ function updateRiverAlert(level, message) {
   if (window.GuaipecazSchedules) window.GuaipecazSchedules.alignPoll('offers', fetchOffers);
 })();
 
-// Guibanews — manchetes via JSON
+// GuaibaNews — manchetes via JSON
 (function(){
   var listEl = document.getElementById('newsList');
   var leadEl = document.getElementById('newsLead');
@@ -1579,18 +1579,18 @@ function updateRiverAlert(level, message) {
       }
     });
   }
-  var shareNews = document.getElementById('shareGuibanews');
+  var shareNews = document.getElementById('shareGuaibaNews');
   if (shareNews) {
     shareNews.addEventListener('click', function(){
-      if (window.guaipecasTrack) window.guaipecasTrack('share', { method: 'guibanews', page: 'Guibanews' });
+      if (window.guaipecasTrack) window.guaipecasTrack('share', { method: 'guibanews', page: 'GuaibaNews' });
       var url = window.location.href;
-      if (navigator.share) navigator.share({ title: 'Guibanews', url: url });
-      else window.open('https://wa.me/?text=' + encodeURIComponent('Guibanews — Guaíba: ' + url), '_blank');
+      if (navigator.share) navigator.share({ title: 'GuaibaNews', url: url });
+      else window.open('https://wa.me/?text=' + encodeURIComponent('GuaibaNews — Guaíba: ' + url), '_blank');
     });
   }
 })();
 
-// Guibanews página completa
+// GuaibaNews página completa
 (function(){
   var list = document.getElementById('newsFullList');
   if (!list) return;
@@ -2269,7 +2269,7 @@ window.guaipecasContatoEmergencia = (function(){
     if (loadingEl) loadingEl.hidden = true;
     if (contentEl) contentEl.hidden = true;
     if (errorEl) errorEl.hidden = false;
-    document.title = 'Notícia não encontrada — Guibanews · Guaipecaz';
+    document.title = 'Notícia não encontrada — GuaibaNews · Guaipecaz';
   }
 
   function renderArticle(item, allItems) {
@@ -2279,7 +2279,7 @@ window.guaipecasContatoEmergencia = (function(){
 
     var lead = item.resumo || '';
 
-    document.title = item.titulo + ' — Guibanews · Guaipecaz';
+    document.title = item.titulo + ' — GuaibaNews · Guaipecaz';
     var descSource = lead || item.titulo;
     setMeta('description', descSource.slice(0, 160));
     setOg('og:title', item.titulo);
@@ -2288,7 +2288,7 @@ window.guaipecasContatoEmergencia = (function(){
     var breadcrumb = document.getElementById('noticiaBreadcrumb');
     if (breadcrumb) {
       var shortTitle = item.titulo.length > 48 ? item.titulo.slice(0, 48) + '…' : item.titulo;
-      breadcrumb.innerHTML = '<a href="index.html">Início</a> / <a href="guibanews.html">Guibanews</a> / <span>' + esc(shortTitle) + '</span>';
+      breadcrumb.innerHTML = '<a href="index.html">Início</a> / <a href="guibanews.html">GuaibaNews</a> / <span>' + esc(shortTitle) + '</span>';
     }
 
     var hero = document.getElementById('noticiaHero');
@@ -2335,7 +2335,7 @@ window.guaipecasContatoEmergencia = (function(){
     if (shareBtn) {
       shareBtn.addEventListener('click', function(){
         var shareUrl = window.location.href;
-        var shareTitle = item.titulo + ' — Guibanews';
+        var shareTitle = item.titulo + ' — GuaibaNews';
         if (window.guaipecasTrack) window.guaipecasTrack('share', { method: 'noticia', page: shareTitle });
         if (navigator.share) {
           navigator.share({ title: shareTitle, text: item.titulo, url: shareUrl }).catch(function(){});

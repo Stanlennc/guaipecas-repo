@@ -108,7 +108,7 @@ def draw_feed():
     draw.text((72, 342), "acontece em Guaíba.", font=font_feat, fill=GOLD)
 
     features = [
-        "Notícias locais (Guibanews)",
+        "Notícias locais (GuaibaNews)",
         "Nível dos rios em tempo real",
         "Saúde e unidades de atendimento",
         "Editais, concursos e vagas",

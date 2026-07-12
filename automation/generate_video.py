@@ -167,7 +167,7 @@ def slide_guibanews(t: float) -> Image.Image:
     img = gradient_bg()
     draw = ImageDraw.Draw(img)
     a = fade_alpha(t)
-    mock_header(draw, "Guibanews", a)
+    mock_header(draw, "GuaibaNews", a)
 
     img = overlay_text(img, (80, 400), "Notícias de Guaíba", F["title"], INK, a)
     img = overlay_text(img, (80, 480), "reunidas pra você.", F["title"], GOLD, a * ease_out(min(1, (t - 0.1) / 0.2)))

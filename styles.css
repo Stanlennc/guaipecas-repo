@@ -1294,7 +1294,7 @@ body.nav-open { overflow: hidden; }
   .offers-grid--3 { grid-template-columns: repeat(3, 1fr); }
 }
 
-/* ---------- Guibanews — manchetes ---------- */
+/* ---------- GuaibaNews — manchetes ---------- */
 .guibanews-band {
   margin-top: -52px;
   position: relative;

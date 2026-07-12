@@ -21,8 +21,8 @@
     {
       id: 'jornal',
       name: 'Jornal',
-      tags: ['Editorial', 'Guibanews'],
-      mood: 'Tom de veículo de imprensa local — manchetes com peso, corpo serifado para textos longos. Ideal se o Guibanews for protagonista.',
+      tags: ['Editorial', 'GuaibaNews'],
+      mood: 'Tom de veículo de imprensa local — manchetes com peso, corpo serifado para textos longos. Ideal se o GuaibaNews for protagonista.',
       stack: ['Playfair Display — manchetes', 'Source Serif 4 — matérias', 'JetBrains Mono — metadados'],
       sampleDisplay: 'Manchete da região',
       sampleBody: 'Cada matéria abre com hierarquia clara, como um jornal de bairro digital.'

@@ -11,7 +11,7 @@
       id: 'revista',
       name: 'Revista',
       mood: 'Hero editorial + coluna principal (notícias) e sidebar (rios/clima). Hierarquia visual forte para manchetes.',
-      pros: 'Guibanews em destaque · Sensação premium',
+      pros: 'GuaibaNews em destaque · Sensação premium',
       best: 'Se notícias forem o carro-chefe'
     },
     {
@@ -59,7 +59,7 @@
       ? '<nav class="lm-sidebar-nav" aria-label="Menu">' +
           '<a href="#" class="active">Painel</a>' +
           '<a href="#">Região</a>' +
-          '<a href="#">Guibanews</a>' +
+          '<a href="#">GuaibaNews</a>' +
           '<a href="#">Guaíba</a>' +
           '<a href="#">Participe</a>' +
         '</nav>'
@@ -72,7 +72,7 @@
         '<div class="lm-card"><div style="font-size:0.7rem;color:var(--ink-soft)">Rio Jacuí</div><div class="lm-card__value">0,99 m</div><div class="lm-card__meta">Vigiar · Cota 7,5 m</div></div>' +
         '<div class="lm-card"><div style="font-size:0.7rem;color:var(--ink-soft)">Clima · Guaíba</div><div class="lm-card__value">24°</div><div class="lm-card__meta">Semana · chuva sáb 78%</div></div>' +
       '</div>' +
-      '<div class="lm-section-title">Guibanews</div>' +
+      '<div class="lm-section-title">GuaibaNews</div>' +
       '<div class="lm-row-news">' +
         '<div class="lm-card"><div class="lm-news-title">Circuito Sesc reúne 400 corredores em Guaíba</div><div class="lm-card__meta">Repórter Guaibense · há 2 h</div></div>' +
         '<div class="lm-card"><div class="lm-news-title" style="font-size:0.85rem">PRF prende em BR-116</div><div class="lm-card__meta">Studio · ontem</div></div>' +
@@ -131,7 +131,7 @@
 
     var navItems = layoutId === 'hub'
       ? '<a href="#" class="active">Início</a><a href="#">Região</a><a href="#">Guaíba</a><a href="#">Participe</a>'
-      : '<a href="#" class="active">Início</a><a href="#">Região</a><a href="#">Guaíba</a><a href="#">Guibanews</a><a href="#">Participe</a>';
+      : '<a href="#" class="active">Início</a><a href="#">Região</a><a href="#">Guaíba</a><a href="#">GuaibaNews</a><a href="#">Participe</a>';
 
     return (
       '<div class="layout-mock" data-layout-inner="' + layoutId + '">' +

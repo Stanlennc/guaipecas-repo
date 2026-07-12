@@ -9,7 +9,7 @@ on:
   workflow_run:
     workflows:
       - "Atualizar ofertas dos mercados"
-      - "Atualizar Guibanews"
+      - "Atualizar GuaibaNews"
     types: [completed]
 
 permissions:
