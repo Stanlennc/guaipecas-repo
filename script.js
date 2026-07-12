@@ -20,7 +20,7 @@
   };
 })();
 
-/** Página interna da notícia — mantém o usuário no Guaipecas. */
+/** Página interna da notícia — mantém o usuário no Guaipecaz. */
 function guaipecasNoticiaUrl(item) {
   if (item && item.id) return 'noticia.html?id=' + encodeURIComponent(item.id);
   return (item && item.url) || '#';
@@ -139,6 +139,10 @@ window.guaipecasMapHelpers = (function(){
     mulher: '#c77dff',
     abrigo: '#6a994e',
     animal: '#bc6c25',
+    lugar: '#2eb8d4',
+    feira: '#ffd166',
+    roteiro: '#4ec9a0',
+    evento: '#c77dff',
     default: '#2eb8d4'
   };
 
@@ -776,7 +780,7 @@ function updateRiverAlert(level, message) {
   }
 
   function shareText() {
-    return 'Guaipecas — notícias, rios, saúde e serviços de Guaíba: ' + window.location.href;
+    return 'Guaipecaz — notícias, rios, lazer e serviços da região: ' + window.location.href;
   }
 
   var waBtn = document.getElementById('shareWhatsapp');
@@ -791,7 +795,7 @@ function updateRiverAlert(level, message) {
     nativeBtn.addEventListener('click', function(){
       if (window.guaipecasTrack) window.guaipecasTrack('share', { method: 'native', page: document.title });
       if (navigator.share) {
-        navigator.share({ title: 'Guaipecas', text: shareText(), url: window.location.href }).catch(function(){});
+        navigator.share({ title: 'Guaipecaz', text: shareText(), url: window.location.href }).catch(function(){});
       } else if (navigator.clipboard) {
         navigator.clipboard.writeText(shareText());
         nativeBtn.textContent = 'Link copiado';
@@ -1406,7 +1410,7 @@ function updateRiverAlert(level, message) {
     if (loadingEl) loadingEl.hidden = true;
     if (contentEl) contentEl.hidden = true;
     if (errorEl) errorEl.hidden = false;
-    document.title = 'Notícia não encontrada — Guibanews · Guaipecas';
+    document.title = 'Notícia não encontrada — Guibanews · Guaipecaz';
   }
 
   function renderArticle(item, allItems) {
@@ -1416,7 +1420,7 @@ function updateRiverAlert(level, message) {
 
     var conteudo = Array.isArray(item.conteudo) ? item.conteudo.filter(Boolean) : [];
 
-    document.title = item.titulo + ' — Guibanews · Guaipecas';
+    document.title = item.titulo + ' — Guibanews · Guaipecaz';
     var descSource = (conteudo[0] || item.resumo || item.titulo);
     setMeta('description', descSource.slice(0, 160));
     setOg('og:title', item.titulo);
@@ -1537,5 +1541,191 @@ function updateRiverAlert(level, message) {
     .catch(function(){
       if (window.GUIBANEWS_DATA) load(window.GUIBANEWS_DATA);
       else showError();
+    });
+})();
+
+// Explorar — lazer, lugares e fim de semana
+(function(){
+  if (document.body.getAttribute('data-page') !== 'explorar') return;
+
+  var gc = window.GuaipecasCidade;
+  var helpers = window.guaipecasMapHelpers;
+  var data = null;
+  var tipoFilter = 'all';
+  var mapInstance = null;
+  var markers = [];
+
+  var ledeEl = document.getElementById('explorarLede');
+  var cidadeNotaEl = document.getElementById('explorarCidadeNota');
+  var perfilImg = document.getElementById('explorarPerfilImg');
+  var perfilTagline = document.getElementById('explorarPerfilTagline');
+  var perfilText = document.getElementById('explorarPerfilText');
+  var fdsGrid = document.getElementById('explorarFdsGrid');
+  var gridEl = document.getElementById('explorarGrid');
+  var chipRow = document.getElementById('explorarChips');
+  var mapEl = document.getElementById('explorarMap');
+
+  function esc(s) {
+    if (!s) return '';
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function itemById(id) {
+    if (!data || !data.itens) return null;
+    return data.itens.find(function(it){ return it.id === id; }) || null;
+  }
+
+  function itensDaCidade(cidade) {
+    return (data.itens || []).filter(function(it){ return it.cidade === cidade; });
+  }
+
+  function passaTipo(it) {
+    return tipoFilter === 'all' || it.tipo === tipoFilter;
+  }
+
+  function imgSrc(it) {
+    return it.imagem || it.imagem_remota || '';
+  }
+
+  function renderBadges(it) {
+    var parts = ['<span class="explorar-badge explorar-badge--tipo-' + esc(it.tipo) + '">' + esc(it.tipo) + '</span>'];
+    if (it.gratis) parts.push('<span class="explorar-badge">grátis</span>');
+    (it.tags || []).slice(0, 2).forEach(function(t){
+      if (t === 'grátis') return;
+      parts.push('<span class="explorar-badge">' + esc(t) + '</span>');
+    });
+    return parts.join('');
+  }
+
+  function renderCard(it, opts) {
+    opts = opts || {};
+    var href = it.url ? it.url : '#explorarMap';
+    var target = it.url && it.url.indexOf('http') === 0 ? ' target="_blank" rel="noopener"' : '';
+    var extra = opts.fds ? ' explorar-card--fds' : '';
+    var motivo = opts.motivo ? '<p class="explorar-card__meta">' + esc(opts.motivo) + '</p>' : '';
+    var quando = it.quando ? '<p class="explorar-card__meta">' + esc(it.quando) + '</p>' : '';
+    var destaque = opts.destaque ? '<p class="explorar-card__destaque">' + esc(opts.destaque) + '</p>' : '';
+    return (
+      '<a class="explorar-card' + extra + '" href="' + esc(href) + '"' + target + '>' +
+        '<div class="explorar-card__media">' +
+          '<img src="' + esc(imgSrc(it)) + '" alt="' + esc(it.titulo) + '" loading="lazy" width="960" height="600">' +
+          '<div class="explorar-card__badges">' + renderBadges(it) + '</div>' +
+        '</div>' +
+        '<div class="explorar-card__body">' +
+          destaque +
+          '<h3 class="explorar-card__title">' + esc(it.titulo) + '</h3>' +
+          '<p class="explorar-card__desc">' + esc(opts.desc || it.descricao_curta) + '</p>' +
+          motivo + quando +
+        '</div>' +
+      '</a>'
+    );
+  }
+
+  function renderPerfil(cidade) {
+    var perfil = (data.perfis && data.perfis[cidade]) || null;
+    if (!perfil) return;
+    if (perfilImg) {
+      perfilImg.src = perfil.imagem || perfil.imagem_remota || '';
+      perfilImg.alt = perfil.nome || cidade;
+    }
+    if (perfilTagline) perfilTagline.textContent = perfil.tagline || '';
+    if (perfilText) perfilText.textContent = perfil.descricao || '';
+    if (cidadeNotaEl && gc) {
+      var cfg = gc.getConfig(cidade);
+      cidadeNotaEl.textContent = 'Mostrando sugestões para ' + (cfg ? cfg.name : cidade) + '. A cidade vale para todo o Guaipecaz.';
+    }
+  }
+
+  function renderFds(cidade) {
+    if (!fdsGrid) return;
+    var picks = (data.fim_de_semana || []).filter(function(p){ return p.cidade === cidade; });
+    fdsGrid.innerHTML = picks.map(function(p){
+      var it = itemById(p.item_ref);
+      if (!it) return '';
+      return renderCard(it, { fds: true, destaque: p.destaque, motivo: p.motivo, desc: p.motivo });
+    }).join('') || '<p class="river-note">Em breve mais sugestões para este fim de semana.</p>';
+  }
+
+  function renderGrid(cidade) {
+    if (!gridEl) return;
+    var itens = itensDaCidade(cidade).filter(passaTipo);
+    gridEl.innerHTML = itens.map(function(it){ return renderCard(it); }).join('') ||
+      '<p class="river-note">Nenhum item nesta categoria para a cidade selecionada.</p>';
+  }
+
+  function popupHtml(it) {
+    var quando = it.quando ? '<br><em>' + esc(it.quando) + '</em>' : '';
+    var link = it.url ? '<br><a href="' + esc(it.url) + '" target="_blank" rel="noopener">Saiba mais ↗</a>' : '';
+    return '<strong>' + esc(it.titulo) + '</strong><br>' + esc(it.descricao_curta) + quando + link;
+  }
+
+  function updateMap(cidade) {
+    if (!mapInstance || !helpers) return;
+    markers.forEach(function(m){ mapInstance.removeLayer(m); });
+    markers = [];
+    var pontos = itensDaCidade(cidade).filter(function(it){
+      return it.mapa && it.lat != null && it.lon != null && passaTipo(it);
+    });
+    var comOffset = helpers.coordsComOffset(pontos);
+    comOffset.forEach(function(o){
+      var m = helpers.addMarker(mapInstance, { lat: o.lat, lon: o.lon, categoria: o.p.tipo }, {
+        lat: o.lat,
+        lon: o.lon,
+        popup: popupHtml(o.p)
+      });
+      if (m) markers.push(m);
+    });
+    if (pontos.length && gc) {
+      var cfg = gc.getConfig(cidade);
+      mapInstance.setView([cfg.lat, cfg.lon], cfg.zoom);
+    }
+    window.setTimeout(function(){ mapInstance.invalidateSize(); }, 150);
+  }
+
+  function applyCidade(cidade) {
+    renderPerfil(cidade);
+    renderFds(cidade);
+    renderGrid(cidade);
+    updateMap(cidade);
+  }
+
+  function initMap() {
+    if (!mapEl || !window.L) return;
+    var cfg = gc.getConfig();
+    mapInstance = L.map('explorarMap').setView([cfg.lat, cfg.lon], cfg.zoom);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(mapInstance);
+    updateMap(gc.get());
+    window.setTimeout(function(){ mapInstance.invalidateSize(); }, 200);
+  }
+
+  function boot(payload) {
+    data = payload;
+    if (ledeEl && data.lede) ledeEl.textContent = data.lede;
+    applyCidade(gc.get());
+    gc.onChange(applyCidade);
+    if (mapEl) window.guaipecasLoadLeaflet(initMap);
+  }
+
+  if (chipRow) {
+    chipRow.addEventListener('click', function(e){
+      var chip = e.target.closest('[data-tipo]');
+      if (!chip) return;
+      tipoFilter = chip.getAttribute('data-tipo');
+      chipRow.querySelectorAll('.chip').forEach(function(c){
+        c.classList.toggle('active', c.getAttribute('data-tipo') === tipoFilter);
+      });
+      renderGrid(gc.get());
+      updateMap(gc.get());
+    });
+  }
+
+  if (window.GUIEXPLORAR_DATA) boot(window.GUIEXPLORAR_DATA);
+
+  fetch('explorar.json', { cache: 'no-store' })
+    .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(boot)
+    .catch(function(){
+      if (window.GUIEXPLORAR_DATA) boot(window.GUIEXPLORAR_DATA);
+      else if (ledeEl) ledeEl.textContent = 'Conteúdo indisponível no momento.';
     });
 })();

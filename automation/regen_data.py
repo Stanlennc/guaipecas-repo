@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parent
 REQUIRED = [
     ("fetch_apoio.py", []),
     ("fetch_emergencia.py", []),
+    ("fetch_explorar.py", []),
     ("fetch_unidades_map.py", ["--from-json"]),
 ]
 

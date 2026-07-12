@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Guaipecas · Guaíba em Dia</title>
-<meta name="description" content="Nível dos rios, saúde, editais e contatos de Guaíba/RS — reunidos e atualizados para quem mora na cidade.">
-<meta property="og:title" content="Guaipecas · Guaíba em Dia">
-<meta property="og:description" content="O essencial de Guaíba reunido: rios, saúde, editais, ofertas e contatos — atualizado para você agir a tempo.">
+<title>Guaipecaz · Guaíba e região</title>
+<meta name="description" content="Nível dos rios, lazer, saúde, editais e contatos de Guaíba e Grande Porto Alegre — reunidos para quem mora na região.">
+<meta property="og:title" content="Guaipecaz · Guaíba e região">
+<meta property="og:description" content="O essencial da região reunido: rios, explorar, saúde, editais e contatos — atualizado para você agir a tempo.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="assets/favicon.svg">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -19,12 +19,13 @@
 
 <header class="site-header">
   <div class="wrap">
-    <a href="index.html" class="brand">Guaipecas
-      <small>Portal cidadão · Guaíba/RS</small>
+    <a href="index.html" class="brand">Guaipecaz
+      <small>Guaíba e região</small>
     </a>
     <nav class="main-nav">
       <a href="index.html" class="active">Início</a>
       <a href="guibanews.html">Guibanews</a>
+      <a href="explorar.html">Explorar</a>
       <a href="servicos.html">Serviços</a>
       <a href="saude.html">Saúde</a>
       <a href="diario-oficial.html">Diário Oficial</a>
@@ -38,6 +39,7 @@
   <div class="mobile-nav" id="mobileNav">
     <a href="index.html">Início</a>
     <a href="guibanews.html">Guibanews</a>
+    <a href="explorar.html">Explorar</a>
     <a href="servicos.html">Serviços</a>
     <a href="saude.html">Saúde</a>
     <a href="diario-oficial.html">Diário Oficial</a>
@@ -66,7 +68,7 @@
 
 <div class="pwa-install" id="pwaInstall" hidden>
   <div class="wrap pwa-install__inner">
-    <span>Salve o Guaipecas na tela inicial do celular.</span>
+    <span>Salve o Guaipecaz na tela inicial do celular.</span>
     <button type="button" class="btn-secondary" id="pwaInstallBtn">Instalar</button>
     <button type="button" class="pwa-install__close" id="pwaInstallClose" aria-label="Fechar">×</button>
   </div>
@@ -125,7 +127,7 @@
         </li>
       </ol>
 
-      <p class="guibanews-disclaimer">Guaíba e Grande Porto Alegre — fotos, resumos e texto (quando disponível) vêm das fontes originais. O Guaipecas exibe a matéria no site e indica o veículo de origem.</p>
+      <p class="guibanews-disclaimer">Guaíba e Grande Porto Alegre — fotos, resumos e texto (quando disponível) vêm das fontes originais. O Guaipecaz exibe a matéria no site e indica o veículo de origem.</p>
     </section>
 
     <!-- AGORA — rios + clima -->
@@ -293,7 +295,7 @@
     <section class="agenda-section" aria-labelledby="agendaTitle">
       <div class="section-head-row">
         <p class="section-label" id="agendaTitle">Agenda local</p>
-        <a class="section-more" href="servicos.html">Serviços →</a>
+        <a class="section-more" href="explorar.html">Explorar →</a>
       </div>
       <ol class="manchetes-list manchetes-list--compact" id="agendaHomeList"></ol>
     </section>
@@ -307,6 +309,13 @@
         <span class="tag">Guibanews</span>
         <h3>Notícias da região</h3>
         <p>Guaíba e Grande Porto Alegre — manchetes atualizadas a cada 2 horas.</p>
+      </a>
+
+      <a class="card" href="explorar.html" data-accent="water">
+        <svg class="card-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/><circle cx="12" cy="11" r="2"/></svg>
+        <span class="tag">Explorar</span>
+        <h3>Fim de semana</h3>
+        <p>Lugares, feiras e roteiros em Guaíba, POA, Canoas e Eldorado — com mapa e fotos.</p>
       </a>
 
       <a class="card" href="servicos.html" data-accent="jobs">
@@ -346,7 +355,7 @@
     <div class="home-footer">
       <p><span class="badge-independent">independente</span> — feito por moradores, para moradores. Fontes públicas, revisadas com frequência.</p>
       <div class="share-bar" id="shareBar">
-        <span class="share-bar__label">Compartilhe o Guaipecas:</span>
+        <span class="share-bar__label">Compartilhe o Guaipecaz:</span>
         <button type="button" class="btn-secondary btn-secondary--sm" id="shareWhatsapp">WhatsApp</button>
         <button type="button" class="btn-secondary btn-secondary--sm" id="shareNative">Enviar link</button>
       </div>
@@ -357,7 +366,7 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <p><strong>Guaipecas</strong> — por quem mora em Guaíba, para quem mora em Guaíba.</p>
+    <p><strong>Guaipecaz</strong> — por quem mora na região, para quem mora na região.</p>
     <div class="foot-links">
       <a href="https://guaiba.atende.net/transparencia/">Portal da Transparência ↗</a>
       <a href="https://falabr.cgu.gov.br/web/RS/Guaiba">Ouvidoria (Fala.BR) ↗</a>
@@ -374,6 +383,6 @@
 <script src="editais-data.js"></script>
 <script src="servicos-data.js"></script>
 <script src="analytics-config.js"></script>
-<script src="script.js?v=8"></script>
+<script src="script.js?v=9"></script>
 </body>
 </html>

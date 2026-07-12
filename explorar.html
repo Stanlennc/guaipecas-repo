@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explorar — Guaipecaz</title>
+<meta name="description" content="Lugares, feiras e ideias para o fim de semana em Guaíba, Porto Alegre, Canoas e Eldorado — mapa, fotos e roteiros curados.">
+<meta property="og:title" content="Explorar · Guaipecaz">
+<meta property="og:description" content="O que fazer no fim de semana na Grande Porto Alegre — lugares, feiras e mapa turístico.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2eb8d4">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="explorar">
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">Guaipecaz
+      <small>Guaíba e região</small>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Início</a>
+      <a href="guibanews.html">Guibanews</a>
+      <a href="explorar.html" class="active">Explorar</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="saude.html">Saúde</a>
+      <a href="diario-oficial.html">Diário Oficial</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" id="navToggle">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="nav-backdrop" id="navBackdrop" hidden></div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Início</a>
+    <a href="guibanews.html">Guibanews</a>
+    <a href="explorar.html">Explorar</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="saude.html">Saúde</a>
+    <a href="diario-oficial.html">Diário Oficial</a>
+    <a href="contatos.html">Contatos</a>
+  </div>
+</header>
+
+<div class="emergency-strip">
+  <div class="wrap">
+    <span class="label">Contatos de emergência</span>
+    <a href="mulher.html">Delegacia da Mulher</a>
+    <a href="contatos-emergencia.html#samu">SAMU 192</a>
+    <a href="contatos-emergencia.html#bombeiros">Bombeiros 193</a>
+    <a href="contatos-emergencia.html#policia">Polícia 190</a>
+    <a href="contatos-emergencia.html#defesa-civil">Defesa Civil 199</a>
+    <a href="ajude-um-pet.html">Ajude um pet</a>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+    <p class="breadcrumb"><a href="index.html">Início</a> / Explorar</p>
+    <h1 class="page-title">Explorar a região</h1>
+    <p class="page-lede" id="explorarLede">Lugares, feiras e ideias para o fim de semana.</p>
+
+    <p class="section-label">Cidade</p>
+    <div class="cidade-selector" data-cidade-selector aria-label="Selecionar cidade"></div>
+    <p class="river-note" id="explorarCidadeNota">A cidade escolhida vale para o mapa e para as sugestões abaixo.</p>
+
+    <section class="explorar-perfil" id="explorarPerfil" aria-live="polite">
+      <div class="explorar-perfil__media">
+        <img id="explorarPerfilImg" src="" alt="" loading="lazy" width="1280" height="720">
+      </div>
+      <div class="explorar-perfil__body">
+        <p class="explorar-perfil__tagline" id="explorarPerfilTagline"></p>
+        <p class="explorar-perfil__text" id="explorarPerfilText"></p>
+      </div>
+    </section>
+
+    <section class="explorar-section" aria-labelledby="fdsTitle">
+      <div class="section-head-row">
+        <p class="section-label" id="fdsTitle">Este fim de semana</p>
+      </div>
+      <div class="explorar-fds-grid" id="explorarFdsGrid"></div>
+    </section>
+
+    <hr class="divider">
+
+    <section class="explorar-section" aria-labelledby="lugaresTitle">
+      <div class="section-head-row">
+        <p class="section-label" id="lugaresTitle">Descubra</p>
+      </div>
+      <div class="chip-row" id="explorarChips" role="group" aria-label="Filtrar por tipo">
+        <button class="chip active" data-tipo="all">Todos</button>
+        <button class="chip" data-tipo="lugar">Lugares</button>
+        <button class="chip" data-tipo="feira">Feiras</button>
+        <button class="chip" data-tipo="roteiro">Roteiros</button>
+        <button class="chip" data-tipo="evento">Eventos</button>
+      </div>
+      <div class="explorar-grid" id="explorarGrid"></div>
+    </section>
+
+    <hr class="divider">
+
+    <section class="explorar-section" aria-labelledby="mapaTitle">
+      <p class="section-label" id="mapaTitle">Mapa</p>
+      <p class="map-legenda">Pins por tipo — lugares, feiras e roteiros com coordenadas na cidade selecionada.</p>
+      <div id="explorarMap" class="apoio-map" aria-label="Mapa turístico da região"></div>
+    </section>
+
+    <p class="river-note note-spaced">Conteúdo curado pelo <strong>Guaipecaz</strong>. Em breve: mais eventos automáticos e guia de restaurantes. Tem sugestão? <a href="participe.html">Participe ↗</a></p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Guaipecaz</strong> — iniciativa cidadã independente.</p>
+    <div class="foot-links">
+      <a href="index.html">← Voltar ao início</a>
+      <a href="participe.html">Enviar sugestão</a>
+    </div>
+    <p class="foot-note">Curadoria estática · automação de eventos em breve</p>
+  </div>
+</footer>
+
+<script src="analytics-config.js"></script>
+<script src="explorar-data.js"></script>
+<script src="script.js?v=9"></script>
+</body>
+</html>

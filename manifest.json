@@ -1,7 +1,7 @@
 {
-  "name": "Guaipecas — Guaíba em Dia",
-  "short_name": "Guaipecas",
-  "description": "Notícias, rios, saúde, editais e serviços de Guaíba/RS reunidos para quem mora na cidade.",
+  "name": "Guaipecaz — Guaíba e região",
+  "short_name": "Guaipecaz",
+  "description": "Notícias, rios, lazer, saúde e serviços de Guaíba e Grande Porto Alegre — reunidos para quem mora na região.",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#071828",

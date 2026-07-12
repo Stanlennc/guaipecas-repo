@@ -1,9 +1,10 @@
-const CACHE = 'guaipecas-v9';
+const CACHE = 'guaipecaz-v10';
 const SHELL = [
   '/',
   '/index.html',
   '/guibanews.html',
   '/noticia.html',
+  '/explorar.html',
   '/servicos.html',
   '/participe.html',
   '/saude.html',
@@ -16,6 +17,8 @@ const SHELL = [
   '/apoio-data.js',
   '/emergencia.json',
   '/emergencia-data.js',
+  '/explorar.json',
+  '/explorar-data.js',
   '/unidades-map.json',
   '/unidades-map-data.js',
   '/styles.css',

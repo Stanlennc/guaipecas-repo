@@ -1,5 +1,5 @@
 /**
- * Google Analytics 4 — Guaipecas
+ * Google Analytics 4 — Guaipecaz
  *
  * 1. Crie uma propriedade em https://analytics.google.com
  * 2. Admin → Fluxos de dados → Web → copie o ID (formato G-XXXXXXXXXX)
