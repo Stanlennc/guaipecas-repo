@@ -1,4 +1,4 @@
-const CACHE = 'guaipecaz-v38';
+const CACHE = 'guaipecaz-v39';
 const SHELL = [
   '/',
   '/index.html',
@@ -34,6 +34,8 @@ const SHELL = [
   '/noticias-data.js',
   '/ofertas-data.js',
   '/rivers-data.js',
+  '/bairros-alerta.json',
+  '/bairros-alerta-data.js',
   '/editais-data.js',
   '/servicos-data.js',
 ];

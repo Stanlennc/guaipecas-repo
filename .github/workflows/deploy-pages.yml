@@ -6,6 +6,7 @@ on:
   workflow_run:
     workflows:
       - "Atualizar nível dos rios"
+      - "Atualizar alerta por bairro"
       - "Atualizar Guibanews"
       - "Atualizar ofertas dos mercados"
       - "Atualizar editais"
@@ -39,6 +40,13 @@ jobs:
         run: |
           pip install requests
           python automation/fetch_rivers.py
+
+      - name: Atualizar alerta por bairro antes do deploy
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4o-mini
+        run: python automation/fetch_bairros_alerta.py
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5

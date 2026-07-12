@@ -18,6 +18,7 @@ REQUIRED = [
 OPTIONAL = [
     ("fetch_news.py", []),
     ("fetch_rivers.py", []),
+    ("fetch_bairros_alerta.py", []),
     ("fetch_offers.py", []),
     ("fetch_editais.py", []),
     ("fetch_servicos.py", []),

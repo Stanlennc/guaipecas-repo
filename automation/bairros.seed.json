@@ -1,0 +1,167 @@
+{
+  "versao": 1,
+  "cidade": "Guaíba",
+  "fonte_historico": "Mapeamento maio/2024 (Zenodo/Plano Rio Grande) e relatos locais",
+  "bairros": [
+    {
+      "id": "centro",
+      "nome": "Centro",
+      "risco_historico": "alto",
+      "proximidade_agua": "alta",
+      "atingido_2024": true,
+      "nota": "Trechos baixos do Centro alagaram em 2024; ruas próximas à orla são mais expostas."
+    },
+    {
+      "id": "cohab",
+      "nome": "COHAB",
+      "risco_historico": "alto",
+      "proximidade_agua": "alta",
+      "atingido_2024": true,
+      "nota": "Entre os bairros mais atingidos na cheia de maio/2024."
+    },
+    {
+      "id": "santa-rita",
+      "nome": "Santa Rita",
+      "risco_historico": "alto",
+      "proximidade_agua": "alta",
+      "atingido_2024": true,
+      "nota": "Área baixa com histórico forte de alagamento na enchente de 2024."
+    },
+    {
+      "id": "ipe",
+      "nome": "Ipê",
+      "risco_historico": "alto",
+      "proximidade_agua": "media",
+      "atingido_2024": true,
+      "nota": "Registros de inundação em 2024; atenção quando o Guaíba sobe."
+    },
+    {
+      "id": "praia-alegria",
+      "nome": "Praia Alegria",
+      "risco_historico": "alto",
+      "proximidade_agua": "alta",
+      "atingido_2024": true,
+      "nota": "Orla direta no Guaíba — sensível a qualquer subida do nível do lago."
+    },
+    {
+      "id": "columbia",
+      "nome": "Columbia",
+      "risco_historico": "alto",
+      "proximidade_agua": "media",
+      "atingido_2024": true,
+      "nota": "Columbia City registrou alagamentos na cheia de 2024."
+    },
+    {
+      "id": "parque-35",
+      "nome": "Parque 35",
+      "risco_historico": "medio",
+      "proximidade_agua": "media",
+      "atingido_2024": true,
+      "nota": "Pontos baixos podem acumular água com chuva forte e Guaíba alto."
+    },
+    {
+      "id": "sao-francisco",
+      "nome": "São Francisco",
+      "risco_historico": "medio",
+      "proximidade_agua": "media",
+      "atingido_2024": true,
+      "nota": "Áreas mais baixas alagaram em 2024; partes altas sofreram menos."
+    },
+    {
+      "id": "nova-guaiba",
+      "nome": "Nova Guaíba",
+      "risco_historico": "medio",
+      "proximidade_agua": "media",
+      "atingido_2024": true,
+      "nota": "Impacto moderado em 2024; enxurradas locais ainda são possíveis."
+    },
+    {
+      "id": "pedras-brancas",
+      "nome": "Pedras Brancas",
+      "risco_historico": "medio",
+      "proximidade_agua": "baixa",
+      "atingido_2024": true,
+      "nota": "Algumas vias alagaram em 2024; risco misto conforme o ponto do bairro."
+    },
+    {
+      "id": "garibaldina",
+      "nome": "Garibaldina",
+      "risco_historico": "medio",
+      "proximidade_agua": "media",
+      "atingido_2024": false,
+      "nota": "Menos citado em 2024, mas sujeito a enxurrada em temporal forte."
+    },
+    {
+      "id": "vila-iolanda",
+      "nome": "Vila Iolanda",
+      "risco_historico": "medio",
+      "proximidade_agua": "baixa",
+      "atingido_2024": false,
+      "nota": "Risco moderado de alagamento pontual por drenagem insuficiente."
+    },
+    {
+      "id": "colina",
+      "nome": "Colina",
+      "risco_historico": "baixo",
+      "proximidade_agua": "baixa",
+      "atingido_2024": false,
+      "nota": "Topografia mais alta; menor histórico de inundação pelo Guaíba."
+    },
+    {
+      "id": "moradas-da-colina",
+      "nome": "Moradas da Colina",
+      "risco_historico": "baixo",
+      "proximidade_agua": "baixa",
+      "atingido_2024": false,
+      "nota": "Área elevada — acompanhe mesmo assim em temporais intensos."
+    },
+    {
+      "id": "primavera",
+      "nome": "Primavera",
+      "risco_historico": "baixo",
+      "proximidade_agua": "baixa",
+      "atingido_2024": false,
+      "nota": "Menor exposição direta ao Guaíba; cuidado com enxurradas."
+    },
+    {
+      "id": "jardim-dos-lagos",
+      "nome": "Jardim dos Lagos",
+      "risco_historico": "baixo",
+      "proximidade_agua": "media",
+      "atingido_2024": false,
+      "nota": "Nome sugere proximidade de lagoas; monitorar em chuvas prolongadas."
+    },
+    {
+      "id": "sao-jorge",
+      "nome": "São Jorge",
+      "risco_historico": "baixo",
+      "proximidade_agua": "baixa",
+      "atingido_2024": false,
+      "nota": "Histórico limitado de inundação; mantenha kit de emergência."
+    },
+    {
+      "id": "ermo",
+      "nome": "Ermo",
+      "risco_historico": "baixo",
+      "proximidade_agua": "baixa",
+      "atingido_2024": false,
+      "nota": "Risco estrutural menor; atenção a alagamentos por chuva concentrada."
+    },
+    {
+      "id": "distrito",
+      "nome": "Distrito",
+      "risco_historico": "medio",
+      "proximidade_agua": "media",
+      "atingido_2024": false,
+      "nota": "Zona rural/distrital — estradas podem interromper acesso em cheias."
+    },
+    {
+      "id": "itapua",
+      "nome": "Itapuã",
+      "risco_historico": "medio",
+      "proximidade_agua": "media",
+      "atingido_2024": false,
+      "nota": "Proximidade de áreas baixas; acompanhe nível do Guaíba e chuva."
+    }
+  ]
+}

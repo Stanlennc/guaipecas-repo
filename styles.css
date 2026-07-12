@@ -745,6 +745,129 @@ body.nav-open { overflow: hidden; }
   text-decoration: none;
 }
 .weather-more:hover { text-decoration: underline; }
+
+/* Meu bairro — alerta de enchente */
+.bairro-card {
+  margin-top: 14px;
+  border: 1px solid rgba(46, 184, 212, 0.22);
+  background: linear-gradient(145deg, rgba(46, 184, 212, 0.06) 0%, var(--paper) 55%);
+}
+.bairro-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.bairro-badge {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--river);
+  font-weight: 600;
+}
+.bairro-update {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--mist);
+}
+.bairro-lede {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  margin: 0 0 12px;
+  line-height: 1.45;
+}
+.bairro-picker-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+.bairro-select {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--sand);
+  background: var(--paper-light);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+.bairro-select:focus {
+  outline: 2px solid var(--river);
+  outline-offset: 2px;
+}
+.bairro-body {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--sand);
+  background: var(--paper-light);
+  margin-bottom: 10px;
+}
+.bairro-card.alert-watch .bairro-body {
+  border-color: rgba(232, 168, 124, 0.45);
+  background: rgba(232, 168, 124, 0.08);
+}
+.bairro-card.alert-danger .bairro-body {
+  border-color: var(--status-danger);
+  background: rgba(220, 80, 80, 0.08);
+  animation: pulse-border 2.5s ease-in-out infinite;
+}
+.bairro-status-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.bairro-status-label {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+.bairro-hist-tag {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--sand);
+  color: var(--ink-soft);
+}
+.bairro-text {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0 0 8px;
+}
+.bairro-action {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--river);
+  margin: 0;
+  line-height: 1.4;
+}
+.bairro-hist-note {
+  font-size: 0.72rem;
+  color: var(--mist);
+  margin: 10px 0 0;
+  line-height: 1.35;
+  font-style: italic;
+}
+.bairro-disclaimer {
+  font-size: 0.68rem;
+  color: var(--mist);
+  margin: 0;
+  line-height: 1.4;
+}
+.bairro-disclaimer a {
+  color: var(--river);
+}
 .weather-compact {
   font-family: var(--font-mono);
   font-size: 0.72rem;
@@ -1656,6 +1779,7 @@ footer.site-footer,
   .reveal { opacity: 1; transform: none; transition: none; }
   .waterline .wave { animation: none; }
   .river-card.alert-danger { animation: none; }
+  .bairro-card.alert-danger { animation: none; }
   .skeleton::after { animation: none; }
 }
 

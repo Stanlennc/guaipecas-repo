@@ -60,7 +60,7 @@ window.GuaipecazConsent = (function(){
     banner.setAttribute('aria-label', 'Preferências de cookies');
     banner.innerHTML =
       '<div class="cookie-consent__inner">' +
-        '<p class="cookie-consent__text">Usamos cookies essenciais para salvar sua cidade preferida. Com sua permissão, também usamos Google Analytics para medir visitas — sem vender dados. Leia a <a href="privacidade.html">Política de Privacidade</a>.</p>' +
+        '<p class="cookie-consent__text">Usamos cookies essenciais para salvar sua cidade e bairro preferidos. Com sua permissão, também usamos Google Analytics para medir visitas — sem vender dados. Leia a <a href="privacidade.html">Política de Privacidade</a>.</p>' +
         '<div class="cookie-consent__actions">' +
           '<button type="button" class="btn-secondary btn-secondary--sm" data-cookie="essential">Só essenciais</button>' +
           '<button type="button" class="btn-primary btn-secondary--sm" data-cookie="analytics">Aceitar analytics</button>' +
@@ -290,6 +290,37 @@ window.GuaipecasCidade = (function(){
   });
 
   return { get: get, set: set, onChange: onChange, getConfig: getConfig, syncUi: syncUi, list: CITIES };
+})();
+
+// Bairro preferido — alerta de enchente personalizado (Guaíba)
+window.GuaipecasBairro = (function(){
+  var KEY = 'guaipecas_bairro';
+  var listeners = [];
+
+  function get() {
+    try { return localStorage.getItem(KEY) || ''; } catch (e) { return ''; }
+  }
+
+  function set(id) {
+    var prev = get();
+    if (!id) {
+      try { localStorage.removeItem(KEY); } catch (e) {}
+      listeners.forEach(function(fn){ fn('', prev); });
+      return;
+    }
+    if (prev === id) return;
+    try { localStorage.setItem(KEY, id); } catch (e) {}
+    listeners.forEach(function(fn){ fn(id, prev); });
+  }
+
+  function onChange(fn) { listeners.push(fn); }
+
+  window.addEventListener('storage', function(e){
+    if (e.key !== KEY) return;
+    listeners.forEach(function(fn){ fn(e.newValue || '', e.oldValue || ''); });
+  });
+
+  return { get: get, set: set, onChange: onChange };
 })();
 
 // Seletores de cidade reutilizáveis (mapas)
@@ -1062,6 +1093,130 @@ function updateRiverAlert(level, message) {
   fetchRivers();
   if (window.GuaipecazSchedules) {
     window.GuaipecazSchedules.alignPoll('rivers', fetchRivers);
+  }
+})();
+
+// Alerta de enchente por bairro (bairros-alerta.json + IA)
+(function(){
+  var panel = document.getElementById('bairroPanel');
+  if (!panel) return;
+
+  var selectEl = document.getElementById('bairroSelect');
+  var bodyEl = document.getElementById('bairroBody');
+  var statusLabelEl = document.getElementById('bairroStatusLabel');
+  var statusDotEl = document.getElementById('bairroStatusDot');
+  var histTagEl = document.getElementById('bairroHistTag');
+  var textEl = document.getElementById('bairroText');
+  var actionEl = document.getElementById('bairroAction');
+  var histNoteEl = document.getElementById('bairroHistNote');
+  var updateEl = document.getElementById('bairroUpdate');
+  var gb = window.GuaipecasBairro;
+
+  var alertData = null;
+  var byId = {};
+
+  var STATUS_COLOR = {
+    normal: 'var(--status-normal)',
+    watch: 'var(--status-alert)',
+    danger: 'var(--status-danger)'
+  };
+
+  var HIST_LABEL = {
+    alto: 'Histórico alto',
+    medio: 'Histórico médio',
+    baixo: 'Histórico baixo'
+  };
+
+  function indexBairros(data) {
+    byId = {};
+    (data.bairros || []).forEach(function(b){ byId[b.id] = b; });
+  }
+
+  function populateSelect(data) {
+    if (!selectEl || selectEl.dataset.ready) return;
+    var opts = ['<option value="">Selecione seu bairro…</option>'];
+    (data.bairros || []).forEach(function(b){
+      opts.push('<option value="' + b.id + '">' + b.nome + '</option>');
+    });
+    selectEl.innerHTML = opts.join('');
+    selectEl.dataset.ready = '1';
+    var saved = gb ? gb.get() : '';
+    if (saved && byId[saved]) selectEl.value = saved;
+  }
+
+  function applyStatusClasses(status) {
+    panel.classList.remove('alert-watch', 'alert-danger');
+    if (status === 'watch') panel.classList.add('alert-watch');
+    if (status === 'danger') panel.classList.add('alert-danger');
+  }
+
+  function renderBairro(id) {
+    if (!id || !byId[id]) {
+      if (bodyEl) bodyEl.hidden = true;
+      panel.classList.remove('alert-watch', 'alert-danger');
+      return;
+    }
+    var b = byId[id];
+    if (bodyEl) bodyEl.hidden = false;
+    applyStatusClasses(b.status);
+    if (statusDotEl) statusDotEl.style.background = STATUS_COLOR[b.status] || STATUS_COLOR.normal;
+    if (statusLabelEl) statusLabelEl.textContent = b.status_label || '—';
+    if (histTagEl) {
+      histTagEl.textContent = HIST_LABEL[b.risco_historico] || '';
+      histTagEl.hidden = !b.risco_historico;
+    }
+    if (textEl) textEl.textContent = b.texto || '';
+    if (actionEl) actionEl.textContent = b.acao || '';
+    if (histNoteEl) {
+      histNoteEl.textContent = b.nota_historica || '';
+      histNoteEl.hidden = !b.nota_historica;
+    }
+  }
+
+  function applyData(data) {
+    if (!data || !data.bairros) return;
+    alertData = data;
+    indexBairros(data);
+    populateSelect(data);
+    renderBairro(selectEl ? selectEl.value : '');
+
+    if (updateEl && window.GuaipecazSchedules && data.gerado_em) {
+      window.GuaipecazSchedules.updateStamp(updateEl, data.gerado_em, 'bairros');
+      if (data.fonte_texto) updateEl.textContent += ' · ' + data.fonte_texto;
+    } else if (updateEl && data.gerado_em) {
+      updateEl.textContent = 'atualizado ' + new Date(data.gerado_em).toLocaleString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+    }
+  }
+
+  function fetchBairrosAlerta() {
+    fetch('bairros-alerta.json?_=' + Date.now(), { cache: 'no-store' })
+      .then(function(r){ if (!r.ok) throw new Error('sem bairros-alerta.json'); return r.json(); })
+      .then(applyData)
+      .catch(function(){
+        if (window.BAIRROS_ALERTA_DATA) applyData(window.BAIRROS_ALERTA_DATA);
+        else if (updateEl) updateEl.textContent = 'indisponível';
+      });
+  }
+
+  if (selectEl) {
+    selectEl.addEventListener('change', function(){
+      var id = selectEl.value;
+      if (gb) gb.set(id);
+      renderBairro(id);
+    });
+  }
+
+  if (gb) {
+    gb.onChange(function(id){
+      if (selectEl && selectEl.value !== id) selectEl.value = id;
+      renderBairro(id);
+    });
+  }
+
+  if (window.BAIRROS_ALERTA_DATA) applyData(window.BAIRROS_ALERTA_DATA);
+  fetchBairrosAlerta();
+  if (window.GuaipecazSchedules) {
+    window.GuaipecazSchedules.alignPoll('bairros', fetchBairrosAlerta);
   }
 })();
 

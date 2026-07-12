@@ -11,6 +11,15 @@
       "label": "espelha o Nível Guaíba (a cada 15 minutos; backup a cada 2 h)",
       "short_label": "15 min"
     },
+    "bairros": {
+      "workflow": "update-bairros-alerta.yml",
+      "cron": "12,27,42,57 * * * *",
+      "cron_timezone": "UTC",
+      "fetch_delay_minutes": 3,
+      "interval_minutes": 15,
+      "label": "alerta por bairro com IA (a cada 15 minutos)",
+      "short_label": "15 min"
+    },
     "news": {
       "workflow": "update-news.yml",
       "cron": "0 */2 * * *",
