@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-12T09:49:52.974564+00:00",
+  "gerado_em": "2026-07-12T11:08:57.149861+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -164,6 +164,16 @@
       "resumo": "Lenda das maratonas Eliud Kipchoge corre na Orla do Guaíba e conhece projeto social da Capital GZH"
     },
     {
+      "id": "876d6f85864b",
+      "titulo": "Obras das alças da nova Ponte do Guaíba dependem de remoções em Porto Alegre",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPendQdkJiUW1oU1RvTVVfZ2tGcjNuQkxlTThNanFTSy14NFdTUFpUbXJsa2hYc002MkRnX1dOU3VMOElFOU55bnczLVpKd0k4V3FXMUV0ZnRMWWZFWENzeF9Sams5TzR4ZlFWTVRNZy1SaTd3MjltRkY4aWUxNUczVUt5M05vaktoTS1fT21RU2NWRVJKREUwLVp5N0dTRlBYTmtDdGN5THZVdFJwYnFqRnZHbm9ia2VmUEVpWlFkeVpfXzU0dHlV?oc=5",
+      "fonte": "R7",
+      "publicado_em": "2026-07-08T13:35:02+00:00",
+      "categoria": null,
+      "feed": "recentes",
+      "resumo": "Obras das alças da nova Ponte do Guaíba dependem de remoções em Porto Alegre R7"
+    },
+    {
       "id": "7cbd8fad7170",
       "titulo": "Guaíba inaugura seis novas salas no Hospital Regional Nelson Cornetet",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbl9IN2lPbTcxd1NZalNqUWxNei11ZHFEdlFnc1hEdU1xTFlnNDJQbS1yRUpzSERKeE5uS1pWaGZZc2lORnNsQmVhOTlFMk8zR0NBRjBBbFB5TGJNUlVhbGZ2VnozWFFpZDB4enE0UEY5aThsNHVMUWV6b1FPSEtvTnR3Q3Z3aE9SRHJQOEpKeXh1aE16?oc=5",
@@ -224,16 +234,6 @@
       "resumo": "Guaíba intensifica investimentos em obras de prevenção contra enchentes na área de infraestrutura Correio do Povo"
     },
     {
-      "id": "ae6d9a60afb8",
-      "titulo": "Auxiliar de Cozinha — Guaíba, RS",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTnJTZEI3QUxwMmNxZ1p3TWhYZk9zUFROeUprWkgzMC1hM2V1aklmYUYtaEZXMnVrVllFRVpBLXZNVjUzamJjREpGcGpmVmQxTUtfUEhwVWF3aGdSM2thSmd1ZUdLbjVobXVJNW5aeG5KYzJxRWZ6Z2FCRkxidVM2Wnl2dl8?oc=5",
-      "fonte": "Portal Salário",
-      "publicado_em": "2026-07-03T07:00:00+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "Auxiliar de Cozinha — Guaíba, RS Portal Salário"
-    },
-    {
       "id": "2e20766bf06b",
       "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional 'Mobilidade para Todos'",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTHVTVVFCVndUT3VNWjRPZk96RTRHbTdRZXVCWUctMVJpU1h3ZE44WGxiQTEtaklFZndpd1FsSmdtSkgycklKeXE5VHFjMmNXTnhtUXAxdVBlRGIyZmRkSk92QnJqdFdXRTdEdmt3U1U2RXNhRWFiYmNRRHotTE1aSm9XXzZNLXVaYkYtaGRfc3lVVWJfVWRjYzZISm5iVG81MS1abzZsenJhdnN0eHFtdUZnYWxWVHBfaUFxcnV2bF9hMmlTZHBhUmpTU0hpcW5YVHdYdTk4VjU2X0MzUFhrekdB?oc=5",
@@ -242,6 +242,16 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional 'Mobilidade para Todos' Repórter Guaibense"
+    },
+    {
+      "id": "ec2c2c0ed1f8",
+      "titulo": "Porto Alegre entra em atenção por risco de elevação do Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObi1FU2lGVkhEcGw5UjBZcllQMlRMMnlrWk1GTDRhaTJLeG13aGV4OVdkcXN3UUphMTEtNVZJMU5vZVVuaXhZbVBxeE5HcGRCWjBEdDQxVTZCbVczamFJRWpYenNZZDJiZ1Y5VmJCV20zVXhCbTl5dVQ5X0xqOFZaMTJlRUhhQ2ZnRWhQMVVZX1BMNkRhYTA0Y1p5TEloZjg?oc=5",
+      "fonte": "Agora RS",
+      "publicado_em": "2026-07-01T07:00:00+00:00",
+      "categoria": null,
+      "feed": "google",
+      "resumo": "Porto Alegre entra em atenção por risco de elevação do Guaíba Agora RS"
     },
     {
       "id": "27304c7576ce",
@@ -272,6 +282,26 @@
       "categoria": null,
       "feed": "google",
       "resumo": "O que significa monumento de 4,5 metros com dedo apontado para o céu instalado às margens do Guaíba G1"
+    },
+    {
+      "id": "2afc568ba6d5",
+      "titulo": "Situação política e interesses estrangeiros ameaçam o Guaíba, no Rio Grande do Sul",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQc3dPODVBckRvZEhTWGN0bXJpUHFoa21QYjlnOHhnSkFxeVBBY2U5WjRsNVhiWHk2X3lxUjh3c2o5SEJabVdWZlNkQzZLYmdFRmpUOEg2VS0wWjlvMVhrQzI2TTAxU1o4WkR5bHVSQnBIRkIzcXgyQkpiRl9ja0xsOUZXTVd3c0hPbEVmbmFkbWFuYS1xNWhkQ0Y5UE1LX3QyMXhIX2t0VUVJaWdVUGkzTg?oc=5",
+      "fonte": "((o))eco | Jornalismo Ambiental",
+      "publicado_em": "2026-06-26T07:00:00+00:00",
+      "categoria": null,
+      "feed": "google",
+      "resumo": "Situação política e interesses estrangeiros ameaçam o Guaíba, no Rio Grande do Sul ((o))eco | Jornalismo Ambiental"
+    },
+    {
+      "id": "28cfe033ae86",
+      "titulo": "O que significa a mão gigante de concreto com dedo apontado para o céu em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQX1kydUhiZmYzdHYweW1teHlydEIwSVo3U0RFWDc4SXR6VGRyeXM2Zi00c2Z4NmdKRXVLeFdydXdZSEJSQVBZUjgyZDRpVjEzWkN0bnBCRXU5dEc3Rl9wNzNNdHVNVExCSlJuVlBpOFVHNl9GSV81M3B1SzZ5VzRpSnhaUF80UWs4QXhkS0s0MC1mZnBrbUY1WkJlWTVaaHVKWEJNRGxJTURBek45ZmUtWmN3RHFldmVJc3hOd09wVlNoNU84Q05TcnBDNHVYQkluQ2E1VXBxU3p6TEd4ZnZuYTVxangySTVVbF9jZU5Qb1Fzdm1NR1JMR2ZVc3VCOE95RDU0?oc=5",
+      "fonte": "Diário Gaúcho",
+      "publicado_em": "2026-06-24T07:00:00+00:00",
+      "categoria": null,
+      "feed": "google",
+      "resumo": "O que significa a mão gigante de concreto com dedo apontado para o céu em Guaíba Diário Gaúcho"
     },
     {
       "id": "84fb647c92f5",
@@ -342,36 +372,6 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Guaíba recebe etapa do Circuito Sesc de Corridas no dia 28 de junho; veja como se inscrever Repórter Guaibense"
-    },
-    {
-      "id": "69ffa1599a86",
-      "titulo": "Prefeitura de Guaíba reorganiza o calendário de pagamento e de adiantamento do 13º salário dos servidores",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdWVrUEZLemYzaG1SZlVmMG4tY3lCWjN2ejVXYU1JZ09ad3pnekJOYmJERC1fSGVFeDZ6c3ZrblItckdpN2ZnbEE4SXBRYmVCLWh1My1oZGh6ZXkzdVZaVFczNHlPRDJySFhQWGdrZnVQNEQ2Y0pXbHhvTXB1b0lnSzBpamc0dXpJb090RW1fNkI3Z0ZCZjVOb3E4MWlqMl80d3U4ZWJGYjdwQlZiOUFnSm8weG5CRmxuTXBHQkVNOVh3SnQ3OWJ0NXBQZXJkYVRmeVNsZWJ1bWstR0JWRGd3Rl9GUQ?oc=5",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-06-15T07:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter",
-      "resumo": "Prefeitura de Guaíba reorganiza o calendário de pagamento e de adiantamento do 13º salário dos servidores Repórter Guaibense"
-    },
-    {
-      "id": "cdb1a37cd63d",
-      "titulo": "Circuito Sesc de Corridas chega a Guaíba com provas de 3, 5 e 10km",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPc2ppY0RSeGN5NllqQ1pYRFJSU2sxOXJvajM2UFBJdHJTcTFwM3psTHV1VUxWUkY0WDlBQjdEaGhEOEJkNzc0X2ppWW5DZExvZTB5b2RpYkszUHl3aFQ5d3c2YkJQMW8wVTlFV3VERVFmYU45LWZmRlNEQTdTN2JGNmpOUXVzMDNsaC1nT1R2ekN4Mk1tMS1GM3o3SVA1S0FhdEE?oc=5",
-      "fonte": "Sesc/RS",
-      "publicado_em": "2026-06-15T07:00:00+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "Circuito Sesc de Corridas chega a Guaíba com provas de 3, 5 e 10km Sesc/RS"
-    },
-    {
-      "id": "e844f9abb50e",
-      "titulo": "Cinco bairros de Guaíba têm abastecimento afetado neste sábado",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaDlxYmcyZFdaUV96cVNWS2xUU0RZMU1HcEhNMHh6TEludko0Y1BIUGZJM3JIUDBFakpUc3VkTjlndVRTMFF2Y3E4QWZJbWk0S2NIOW9Kc1JLQmw3cTROQWZGZjA1bXl4b3Ital9wYVI4MW5VOXNDTWpZYkp5WW5qTkJR?oc=5",
-      "fonte": "Agora RS",
-      "publicado_em": "2026-06-13T07:00:00+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "Cinco bairros de Guaíba têm abastecimento afetado neste sábado Agora RS"
     }
   ],
   "noticias_home": [
