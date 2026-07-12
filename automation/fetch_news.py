@@ -22,7 +22,7 @@ USER_AGENT = "GuaipecasBot/1.0 (+https://github.com/Stanlennc/guaipecas-repo)"
 MAX_ITEMS_HOME = 8
 MAX_ITEMS = 30
 MAX_IMAGE_FETCH = 28
-MAX_CONTENT_FETCH = 25
+MAX_CONTENT_FETCH = 30
 
 MEDIA_NS = {"media": "http://search.yahoo.com/mrss/"}
 CONTENT_NS = "{http://purl.org/rss/1.0/modules/content/}encoded"
@@ -617,17 +617,15 @@ def find_reporter_url_by_title(titulo):
         if score > best_score:
             best_score = score
             best = url
-    return best if best_score >= 3 else None
+    return best if best_score >= 2 else None
 
 
 def resolve_article_url(url, titulo="", fonte=""):
     if not url or "news.google.com" not in url:
         return url
-    fonte_low = (fonte or "").lower()
-    if "reporter" in fonte_low or "guaibense" in fonte_low:
-        found = find_reporter_url_by_title(titulo)
-        if found:
-            return found
+    found = find_reporter_url_by_title(titulo)
+    if found:
+        return found
     decoded = decode_google_news_url(url)
     return decoded or url
 
@@ -807,6 +805,40 @@ def scrape_reporter_home(max_items=14):
     return items
 
 
+def enrich_images(noticias):
+    """Segunda passagem focada em imagens para itens do topo da lista."""
+    fetched = 0
+    for item in noticias[:MAX_ITEMS]:
+        if item.get("imagem"):
+            continue
+        if fetched >= MAX_IMAGE_FETCH:
+            break
+        img, _, _ = fetch_article_page(
+            item.get("url"),
+            item.get("titulo", ""),
+            item.get("fonte", ""),
+        )
+        fetched += 1
+        if img:
+            item["imagem"] = img
+            item["imagem_credito"] = item.get("fonte")
+            print(f"imagem extra: {item['titulo'][:50]}…", file=sys.stderr)
+    return noticias
+
+
+def pick_noticias_home(noticias, limit=MAX_ITEMS_HOME):
+    """Home prioriza manchetes com foto quando houver."""
+    with_img = [n for n in noticias if n.get("imagem")]
+    without = [n for n in noticias if not n.get("imagem")]
+    picked = []
+    for pool in (with_img, without):
+        for item in pool:
+            if len(picked) >= limit:
+                return picked
+            picked.append(item)
+    return picked
+
+
 def enrich_metadata(noticias):
     """Preenche imagem, resumo, corpo e crédito quando a fonte original publica metadados."""
     pending = [
@@ -936,7 +968,7 @@ def dedupe_and_sort(items):
                 dt = datetime.min.replace(tzinfo=timezone.utc)
         has_img = 1 if it.get("imagem") else 0
         direct = 1 if it.get("feed") in {"reporter_direto", "g1_rs", "expansao_direto", "sul21_direto"} else 0
-        return (item_rank_score(it), has_img, direct, relevance_boost(it), dt, it.get("prioridade", 5))
+        return (has_img, item_rank_score(it), relevance_boost(it), direct, dt, it.get("prioridade", 5))
 
     def item_rank_score(it):
         if it.get("feed") == "reporter_direto":
@@ -964,7 +996,7 @@ def dedupe_and_sort(items):
                 dt = datetime.min.replace(tzinfo=timezone.utc)
         has_img = 1 if item.get("imagem") else 0
         direct = 1 if item.get("feed") in {"reporter_direto", "g1_rs", "expansao_direto", "sul21_direto"} else 0
-        return (relevance_boost(item), has_img, direct, item_rank_score(item), dt, item.get("prioridade", 5))
+        return (has_img, relevance_boost(item), direct, item_rank_score(item), dt, item.get("prioridade", 5))
 
     unique.sort(key=sort_key, reverse=True)
     trimmed = unique[:MAX_ITEMS]
@@ -1017,7 +1049,9 @@ def main():
 
     noticias = dedupe_and_sort(collected)
     noticias = enrich_metadata(noticias)
-    noticias_home = noticias[:MAX_ITEMS_HOME]
+    noticias = enrich_images(noticias)
+    noticias = dedupe_and_sort(noticias)
+    noticias_home = pick_noticias_home(noticias)
 
     payload = {
         "gerado_em": datetime.now(timezone.utc).isoformat(),
