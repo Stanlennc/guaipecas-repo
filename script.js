@@ -2008,6 +2008,15 @@ function updateRiverAlert(level, message) {
     });
   }
 
+  document.addEventListener('click', function(e){
+    var card = e.target.closest('.explorar-card[href="#explorarMap"]');
+    if (!card || !mapEl) return;
+    window.setTimeout(function(){
+      mapEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (mapInstance) mapInstance.invalidateSize();
+    }, 80);
+  });
+
   function renderFds(cidade) {
     if (!fdsGrid) return;
     var picks = (data.fim_de_semana || []).filter(function(p){ return p.cidade === cidade; });

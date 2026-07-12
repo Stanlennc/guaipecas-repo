@@ -25,6 +25,10 @@ def pontos_turisticos_to_itens(pontos: list) -> list[dict]:
         item.setdefault("tipo", "lugar")
         item.setdefault("mapa", True)
         item["curado"] = True
+        # url legado virava link do card; site oficial fica só no popup do mapa
+        if item.get("url"):
+            item.setdefault("site_url", item["url"])
+            del item["url"]
         out.append(item)
     return out
 
