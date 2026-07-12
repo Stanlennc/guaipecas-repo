@@ -8,7 +8,7 @@ Entradas:
   - Open-Meteo (previsão de chuva)
 
 Texto orientativo:
-  - Com OPENAI_API_KEY: geração via API (modelo configurável)
+  - Com GEMINI_API_KEY: geração via Google Gemini (tier gratuito)
   - Sem chave: templates em português claro (mesma estrutura JSON)
 """
 
@@ -34,8 +34,8 @@ JS_OUTPUT = ROOT / "bairros-alerta-data.js"
 GUAIBA_LAT = -30.1116
 GUAIBA_LON = -51.3237
 
-OPENAI_URL = "https://api.openai.com/v1/chat/completions"
-OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta"
 
 RISCO_HIST_WEIGHT = {"alto": 1.0, "medio": 0.55, "baixo": 0.25}
 PROX_WEIGHT = {"alta": 0.18, "media": 0.10, "baixa": 0.04}
@@ -221,43 +221,60 @@ def parse_ai_json(content: str) -> dict | None:
     return None
 
 
+def gemini_api_key() -> str:
+    return (
+        os.environ.get("GEMINI_API_KEY", "").strip()
+        or os.environ.get("GOOGLE_API_KEY", "").strip()
+    )
+
+
 def generate_ai_texts(seed: dict, ctx: dict, computed: dict) -> dict | None:
-    api_key = os.environ.get("OPENAI_API_KEY", "").strip()
+    api_key = gemini_api_key()
     if not api_key:
-        print("OPENAI_API_KEY ausente — usando templates.", file=sys.stderr)
+        print("GEMINI_API_KEY ausente — usando templates.", file=sys.stderr)
         return None
 
     prompt = build_ai_prompt(seed, ctx, computed)
+    url = f"{GEMINI_API_BASE}/models/{GEMINI_MODEL}:generateContent"
     payload = {
-        "model": OPENAI_MODEL,
-        "temperature": 0.35,
-        "response_format": {"type": "json_object"},
-        "messages": [
-            {
-                "role": "system",
-                "content": (
-                    "Você é redator do portal Guaipecaz. Respostas só em JSON, "
-                    "português brasileiro, sem inventar dados."
+        "systemInstruction": {
+            "parts": [{
+                "text": (
+                    "Você é redator do portal Guaipecaz em Guaíba/RS. "
+                    "Respostas só em JSON válido, português brasileiro, sem inventar dados."
                 ),
-            },
-            {"role": "user", "content": prompt},
-        ],
+            }],
+        },
+        "contents": [{
+            "role": "user",
+            "parts": [{"text": prompt}],
+        }],
+        "generationConfig": {
+            "temperature": 0.35,
+            "responseMimeType": "application/json",
+        },
     }
     headers = {
-        "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
+        "x-goog-api-key": api_key,
     }
     try:
-        resp = requests.post(OPENAI_URL, headers=headers, json=payload, timeout=90)
+        resp = requests.post(url, headers=headers, json=payload, timeout=90)
         resp.raise_for_status()
-        content = resp.json()["choices"][0]["message"]["content"]
+        data = resp.json()
+        candidates = data.get("candidates") or []
+        if not candidates:
+            print("Gemini sem candidatos — fallback para templates.", file=sys.stderr)
+            return None
+        parts = (candidates[0].get("content") or {}).get("parts") or []
+        content = "".join(p.get("text", "") for p in parts)
         parsed = parse_ai_json(content)
         if parsed:
-            print(f"Textos IA gerados ({OPENAI_MODEL}, {len(parsed)} bairros).", file=sys.stderr)
+            print(f"Textos IA gerados (Gemini {GEMINI_MODEL}, {len(parsed)} bairros).", file=sys.stderr)
             return parsed
-        print("Resposta IA inválida — fallback para templates.", file=sys.stderr)
+        print("Resposta Gemini inválida — fallback para templates.", file=sys.stderr)
     except Exception as exc:
-        print(f"IA falhou: {exc} — fallback para templates.", file=sys.stderr)
+        print(f"Gemini falhou: {exc} — fallback para templates.", file=sys.stderr)
     return None
 
 
@@ -270,7 +287,7 @@ def build_payload(seed: dict, rivers: dict, weather: dict) -> dict:
         computed[bairro["id"]] = {"status": status, "score": score}
 
     ai_texts = generate_ai_texts(seed, ctx, computed)
-    fonte_texto = f"OpenAI ({OPENAI_MODEL})" if ai_texts else "templates Guaipecaz"
+    fonte_texto = f"Gemini ({GEMINI_MODEL})" if ai_texts else "templates Guaipecaz"
 
     bairros_out = []
     for bairro in seed["bairros"]:

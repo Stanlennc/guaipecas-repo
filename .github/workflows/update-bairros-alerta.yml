@@ -40,10 +40,10 @@ jobs:
           ANA_API_PASSWORD: ${{ secrets.ANA_API_PASSWORD }}
         run: python automation/fetch_rivers.py
 
-      - name: Gerar alertas por bairro (IA)
+      - name: Gerar alertas por bairro (Gemini)
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-4o-mini
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.0-flash
         run: python automation/fetch_bairros_alerta.py
 
       - run: python automation/gen_schedules.py
