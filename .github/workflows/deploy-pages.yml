@@ -10,7 +10,7 @@ on:
       - "Atualizar ofertas dos mercados"
       - "Atualizar editais"
       - "Atualizar serviços"
-      - "Atualizar explorar"
+      - "Atualizar Explorar"
     types: [completed]
   workflow_dispatch: {}
 
