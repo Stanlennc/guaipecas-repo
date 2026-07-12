@@ -18,6 +18,20 @@ def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+LICENSE_BY_CREDIT = {
+    "Guaipecaz": "Uso próprio (curadoria Guaipecaz)",
+    "Ricardo Stricher": "© Ricardo Stricher — uso autorizado no Guaipecaz",
+    "Maria Ana Krack": "CC BY-SA 4.0 (Wikimedia Commons)",
+}
+
+
+def enrich_image_license(item: dict) -> None:
+    if item.get("imagem_licenca"):
+        return
+    cred = item.get("imagem_credito") or ""
+    item["imagem_licenca"] = LICENSE_BY_CREDIT.get(cred, "Ver crédito na legenda")
+
+
 def pontos_turisticos_to_itens(pontos: list) -> list[dict]:
     out = []
     for p in pontos or []:
@@ -25,6 +39,7 @@ def pontos_turisticos_to_itens(pontos: list) -> list[dict]:
         item.setdefault("tipo", "lugar")
         item.setdefault("mapa", True)
         item["curado"] = True
+        enrich_image_license(item)
         # url legado virava link do card; site oficial fica só no popup do mapa
         if item.get("url"):
             item.setdefault("site_url", item["url"])

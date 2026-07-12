@@ -194,26 +194,12 @@ def generate_fallback_banner(market_id, name, color_hex):
 
 
 def resolve_banner(market_id, page_url, fallback, name="", color="#3dadb8"):
-    """Baixa banner real ou gera PNG de fallback."""
+    """Banner gerado pelo Guaipecaz — sem republicar encartes de terceiros."""
     BANNERS_DIR.mkdir(parents=True, exist_ok=True)
-    html = fetch_html(page_url)
-
-    if html:
-        for img_url in _collect_banner_candidates(html, page_url, market_id):
-            ext = _guess_ext(img_url)
-            dest = BANNERS_DIR / f"{market_id}{ext}"
-            try:
-                _download_image(img_url, dest)
-                print(f"Banner real: {market_id} ← {img_url[:80]}…")
-                return f"assets/banners/{market_id}{ext}", img_url
-            except Exception as e:
-                print(f"Tentativa falhou ({market_id}): {e}", file=sys.stderr)
-
     generated = generate_fallback_banner(market_id, name, color)
     if generated:
         print(f"Banner gerado: {market_id}")
         return generated, None
-
     return fallback, None
 
 
@@ -230,16 +216,7 @@ def _is_store_logo(url, titulo=""):
 
 
 def pick_promo_highlight(ofertas, banner_origem, banner_local):
-    """Escolhe a melhor imagem de promoção e um título curto para o card."""
-    for oferta in ofertas:
-        img = _normalize_url(oferta.get("imagem"))
-        titulo = (oferta.get("titulo") or "").strip()
-        if img and not _is_store_logo(img, titulo) and len(titulo) > 3:
-            return img, titulo[:72]
-
-    if banner_origem and not _is_store_logo(banner_origem):
-        return banner_origem, "Encarte da semana"
-
+    """Card usa apenas arte gerada pelo Guaipecaz."""
     return banner_local, "Ver encarte da semana"
 
 
@@ -384,7 +361,10 @@ def main():
                 try:
                     ofertas = scraper_func()
                     # limita a 10 ofertas
-                    mercado_data["ofertas"] = ofertas[:10]
+                    mercado_data["ofertas"] = [
+                        {k: v for k, v in o.items() if k != "imagem"}
+                        for o in ofertas[:10]
+                    ]
                     mercado_data["quantidade"] = len(ofertas)
                 except Exception as e:
                     print(
@@ -403,7 +383,8 @@ def main():
         )
         mercado_data["promocao_imagem"] = promo_img
         mercado_data["promocao_titulo"] = promo_titulo
-        mercado_data["imagem_credito"] = config["name"]
+        mercado_data["imagem_credito"] = "Guaipecaz"
+        mercado_data.pop("banner_origem", None)
 
     output = ROOT / "ofertas.json"
     with open(output, "w", encoding="utf-8") as f:

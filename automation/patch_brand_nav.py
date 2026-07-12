@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Atualiza marca Guaipecaz e link Explorar no nav das páginas públicas."""
+"""Atualiza marca Guaipecaz no nav das páginas públicas."""
 
 import re
 from pathlib import Path
@@ -15,18 +15,6 @@ SKIP = {
     "preview-regiao.html",
 }
 
-NAV_INSERT = (
-    '      <a href="guibanews.html">Guibanews</a>\n'
-    '      <a href="explorar.html">Explorar</a>\n'
-    '      <a href="servicos.html'
-)
-
-MOBILE_INSERT = (
-    '    <a href="guibanews.html">Guibanews</a>\n'
-    '    <a href="explorar.html">Explorar</a>\n'
-    '    <a href="servicos.html'
-)
-
 
 def patch_html(path: Path) -> bool:
     text = path.read_text(encoding="utf-8")
@@ -35,16 +23,6 @@ def patch_html(path: Path) -> bool:
     text = text.replace("Guaipecas · Guaíba em Dia", "Guaipecaz · Guaíba e região")
     text = text.replace("Portal cidadão · Guaíba/RS", "Guaíba e região")
     text = text.replace("Guaipecas", "Guaipecaz")
-
-    if 'href="explorar.html"' not in text:
-        text = text.replace(
-            '      <a href="guibanews.html">Guibanews</a>\n      <a href="servicos.html',
-            NAV_INSERT,
-        )
-        text = text.replace(
-            '    <a href="guibanews.html">Guibanews</a>\n    <a href="servicos.html',
-            MOBILE_INSERT,
-        )
 
     text = re.sub(r'script\.js\?v=\d+', 'script.js?v=9', text)
     if 'script.js?v=' not in text and 'script.js"' in text:

@@ -1,8 +1,7 @@
 name: Atualizar Explorar
 
+# Seção Explorar desativada no site — workflow só manual até reativação.
 on:
-  schedule:
-    - cron: "0 21 * * 4" # quintas às 18h (Brasília, UTC-3)
   workflow_dispatch: {}
 
 permissions:

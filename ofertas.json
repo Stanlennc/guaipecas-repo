@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-11T22:56:54.968231+00:00",
+  "gerado_em": "2026-07-12T03:40:00+00:00",
   "mercados": [
     {
       "id": "stok",
@@ -12,7 +12,7 @@
       "quantidade": 0,
       "promocao_imagem": "assets/banners/stok.png",
       "promocao_titulo": "Ver encarte da semana",
-      "imagem_credito": "Stok Center"
+      "imagem_credito": "Guaipecaz"
     },
     {
       "id": "indio",
@@ -22,11 +22,10 @@
       "banner": "assets/banners/indio.png",
       "ofertas": [],
       "tipo": "scraping",
-      "banner_origem": "https://assets.ibecom.com.br/ib.store.image.medium/m-23f3328c4612491bb296b0d831f76379.png",
       "quantidade": 0,
       "promocao_imagem": "assets/banners/indio.png",
       "promocao_titulo": "Ver encarte da semana",
-      "imagem_credito": "Supermercado Índio"
+      "imagem_credito": "Guaipecaz"
     },
     {
       "id": "paulinho",
@@ -36,11 +35,10 @@
       "banner": "assets/banners/paulinho.png",
       "ofertas": [],
       "tipo": "scraping",
-      "banner_origem": "https://assets.ibecom.com.br/ib.store.image.medium/m-9edbfff4022a4ac7a2f7c45ed301d430.png",
       "quantidade": 0,
       "promocao_imagem": "assets/banners/paulinho.png",
       "promocao_titulo": "Ver encarte da semana",
-      "imagem_credito": "Supermercado Paulinho"
+      "imagem_credito": "Guaipecaz"
     }
   ]
 }

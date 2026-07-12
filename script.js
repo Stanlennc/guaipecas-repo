@@ -1,4 +1,4 @@
-// Privacidade — consentimento antes do Google Analytics (LGPD)
+// Privacidade — consentimento antes do Google Analytics (LGPD + Consent Mode v2)
 window.GuaipecazConsent = (function(){
   var KEY = 'guaipecaz_cookie_consent';
 
@@ -10,13 +10,31 @@ window.GuaipecazConsent = (function(){
     try { localStorage.setItem(KEY, value); } catch (e) {}
   }
 
+  function ensureGtag() {
+    window.dataLayer = window.dataLayer || [];
+    if (!window.gtag) {
+      window.gtag = function(){ window.dataLayer.push(arguments); };
+    }
+  }
+
+  function setConsentDefault() {
+    ensureGtag();
+    window.gtag('consent', 'default', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      wait_for_update: 500
+    });
+  }
+
   function loadAnalytics() {
     var id = window.GUAIPECAS_GA4_ID;
     if (!id || id.indexOf('G-') !== 0 || id === 'G-XXXXXXXX' || window.__guaipecasGaLoaded) return;
     window.__guaipecasGaLoaded = true;
 
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function(){ window.dataLayer.push(arguments); };
+    ensureGtag();
+    window.gtag('consent', 'update', { analytics_storage: 'granted' });
     window.gtag('js', new Date());
     window.gtag('config', id, { anonymize_ip: true, send_page_view: true });
 
@@ -59,6 +77,7 @@ window.GuaipecazConsent = (function(){
     });
   }
 
+  setConsentDefault();
   if (get() === 'analytics') loadAnalytics();
   else if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', mountBanner);
@@ -649,6 +668,8 @@ function applyRiverStatus(card, level, cota, statusEl, feedStatus) {
   }
 }
 
+var RIVER_ALERT_DISCLAIMER = ' Indicativo — não substitui avisos oficiais da Defesa Civil ou da prefeitura.';
+
 function updateRiverAlert(level, message) {
   var banner = document.getElementById('riverAlert');
   var textEl = document.getElementById('riverAlertText');
@@ -661,7 +682,7 @@ function updateRiverAlert(level, message) {
   banner.hidden = false;
   banner.classList.toggle('river-alert--watch', level === 'watch');
   banner.classList.toggle('river-alert--danger', level === 'danger');
-  textEl.textContent = message;
+  textEl.textContent = message + RIVER_ALERT_DISCLAIMER;
 }
 
 // Atualização do nível dos rios via rivers.json
@@ -680,7 +701,7 @@ function updateRiverAlert(level, message) {
     }
     if (riverData.fonte_url) thumb.href = riverData.fonte_url;
     thumb.hidden = false;
-    thumb.title = 'Foto: ' + (riverData.imagem_credito || riverData.fonte || 'Nível Guaíba') + ' — abrir ao vivo';
+    thumb.title = 'Foto ao vivo: ' + (riverData.imagem_credito || riverData.fonte || 'Nível Guaíba') + ' — abrir fonte';
   }
 
   function updateRivers(data) {
@@ -894,15 +915,10 @@ function updateRiverAlert(level, message) {
   }
 
   function renderBanner(m) {
-    var banner = m.promocao_imagem || m.banner_origem || m.banner || ('assets/banners/' + m.id + '.png');
+    var banner = m.banner || m.promocao_imagem || ('assets/banners/' + m.id + '.png');
     var alt = 'Ofertas ' + m.nome;
     var cta = m.promocao_titulo || 'Ver encarte da semana';
-    if (!m.promocao_titulo && m.ofertas && m.ofertas.length > 0) {
-      var o = m.ofertas[0];
-      cta = (o.titulo || '') + (o.preco ? ' — ' + o.preco : '');
-      cta = cta.trim() || 'Ver encarte da semana';
-    }
-    var credit = m.imagem_credito || m.nome;
+    var credit = 'Arte Guaipecaz · encarte no site do mercado';
     return (
       '<a href="' + escapeHtml(m.url) + '" target="_blank" rel="noopener" class="banner-offer banner-offer--live" style="--market-color:' + escapeHtml(m.cor) + '">' +
         '<img src="' + escapeHtml(banner) + '" alt="' + escapeHtml(alt) + '" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="480" height="270">' +
@@ -911,7 +927,7 @@ function updateRiverAlert(level, message) {
           '<div class="banner-offer__text">' +
             '<span class="banner-offer__name">' + escapeHtml(m.nome) + '</span>' +
             '<span class="banner-offer__cta">' + escapeHtml(cta) + '</span>' +
-            '<span class="banner-offer__credit">Foto: ' + escapeHtml(credit) + '</span>' +
+            '<span class="banner-offer__credit">' + escapeHtml(credit) + '</span>' +
           '</div>' +
           '<span class="banner-offer__arrow" aria-hidden="true">→</span>' +
         '</div>' +
@@ -1869,6 +1885,7 @@ function updateRiverAlert(level, message) {
   var lightboxTitle = document.getElementById('explorarLightboxTitle');
   var lightboxText = document.getElementById('explorarLightboxText');
   var lightboxAddress = document.getElementById('explorarLightboxAddress');
+  var lightboxCredit = document.getElementById('explorarLightboxCredit');
   var lightboxMap = document.getElementById('explorarLightboxMap');
   var perfilItem = null;
   var fdsGrid = document.getElementById('explorarFdsGrid');
@@ -1943,6 +1960,13 @@ function updateRiverAlert(level, message) {
     if (lightboxTitle) lightboxTitle.textContent = item.titulo || '';
     if (lightboxText) lightboxText.textContent = item.descricao_longa || item.descricao_curta || '';
     if (lightboxAddress) lightboxAddress.textContent = item.endereco || '';
+    if (lightboxCredit) {
+      var creditParts = [];
+      if (item.imagem_credito) creditParts.push('Foto: ' + item.imagem_credito);
+      if (item.imagem_licenca) creditParts.push(item.imagem_licenca);
+      lightboxCredit.textContent = creditParts.join(' · ');
+      lightboxCredit.hidden = !creditParts.length;
+    }
     if (lightboxMap) {
       lightboxMap.hidden = !(item.mapa && item.lat != null && item.lon != null);
     }

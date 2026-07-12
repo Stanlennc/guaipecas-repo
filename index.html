@@ -6,7 +6,7 @@
 <title>Guaipecaz · Guaíba e região</title>
 <meta name="description" content="Nível dos rios, lazer, saúde, editais e contatos de Guaíba e Grande Porto Alegre — reunidos para quem mora na região.">
 <meta property="og:title" content="Guaipecaz · Guaíba e região">
-<meta property="og:description" content="O essencial da região reunido: rios, explorar, saúde, editais e contatos — atualizado para você agir a tempo.">
+<meta property="og:description" content="O essencial da região reunido: rios, saúde, editais e contatos — atualizado para você agir a tempo.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="assets/favicon.svg">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -25,10 +25,9 @@
     <nav class="main-nav">
       <a href="index.html" class="active">Início</a>
       <a href="guibanews.html">Guibanews</a>
-      <a href="explorar.html">Explorar</a>
       <a href="servicos.html">Serviços</a>
       <a href="saude.html">Saúde</a>
-      <a href="diario-oficial.html">Diário Oficial</a>
+      <a href="diario-oficial.html">Editais e vagas</a>
       <a href="contatos.html">Contatos</a>
     </nav>
     <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" id="navToggle">
@@ -39,10 +38,9 @@
   <div class="mobile-nav" id="mobileNav">
     <a href="index.html">Início</a>
     <a href="guibanews.html">Guibanews</a>
-    <a href="explorar.html">Explorar</a>
     <a href="servicos.html">Serviços</a>
     <a href="saude.html">Saúde</a>
-    <a href="diario-oficial.html">Diário Oficial</a>
+    <a href="diario-oficial.html">Editais e vagas</a>
     <a href="contatos.html">Contatos</a>
   </div>
 </header>
@@ -203,7 +201,7 @@
         <a class="weather-more" href="https://open-meteo.com/" target="_blank" rel="noopener">Fonte: Open-Meteo ↗</a>
       </div>
 
-      <p class="river-note">Dados via <a href="https://nivelguaiba.com.br/" target="_blank" rel="noopener">Nível Guaíba ↗</a>, <span data-cadence="rivers">espelha o Nível Guaíba (a cada 15 minutos)</span>. Em risco, ligue <a href="contatos-emergencia.html#defesa-civil"><strong>199</strong> (Defesa Civil)</a>.</p>
+      <p class="river-note">Dados via <a href="https://nivelguaiba.com.br/" target="_blank" rel="noopener">Nível Guaíba ↗</a>, <span data-cadence="rivers">espelha o Nível Guaíba (a cada 15 minutos)</span>. <strong>Indicativo apenas</strong> — não substitui avisos oficiais da Defesa Civil ou da prefeitura. Em risco, ligue <a href="contatos-emergencia.html#defesa-civil"><strong>199</strong> (Defesa Civil)</a>.</p>
 
       <div class="river-sources">
         <span class="section-label">Mais fontes</span>
@@ -296,7 +294,7 @@
     <section class="agenda-section" aria-labelledby="agendaTitle">
       <div class="section-head-row">
         <p class="section-label" id="agendaTitle">Agenda local</p>
-        <a class="section-more" href="explorar.html">Explorar →</a>
+        <a class="section-more" href="servicos.html">Ver agenda →</a>
       </div>
       <ol class="manchetes-list manchetes-list--compact" id="agendaHomeList"></ol>
     </section>
@@ -310,13 +308,6 @@
         <span class="tag">Guibanews</span>
         <h3>Notícias da região</h3>
         <p>Guaíba e Grande Porto Alegre — manchetes <span data-cadence="news">atualizadas a cada 2 horas</span>.</p>
-      </a>
-
-      <a class="card" href="explorar.html" data-accent="water">
-        <svg class="card-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/><circle cx="12" cy="11" r="2"/></svg>
-        <span class="tag">Explorar</span>
-        <h3>Fim de semana</h3>
-        <p>Parques e orla em Guaíba, POA e Canoas — curadoria <span data-cadence="explorar">atualizada às quintas, 18h</span>.</p>
       </a>
 
       <a class="card" href="servicos.html" data-accent="jobs">
@@ -335,7 +326,7 @@
 
       <a class="card" href="diario-oficial.html" data-accent="docs">
         <svg class="card-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg>
-        <span class="tag">Diário Oficial</span>
+        <span class="tag">Editais e vagas</span>
         <h3>Editais e decretos</h3>
         <p>Licitações, concursos e decretos — <span data-cadence="editais">atualiza a cada 6 horas</span> na fonte.</p>
       </a>
@@ -350,7 +341,7 @@
 
     <div class="concursos-note">
       <p class="concursos-note__title">Concursos públicos</p>
-      <p class="concursos-note__text">No momento, <strong>não há concurso com inscrições abertas</strong> na Prefeitura de Guaíba, segundo nossa indexação automática (<span data-cadence="editais">atualiza a cada 6 horas</span>). <strong>Confirme sempre</strong> no <a href="diario-oficial.html">Diário Oficial</a> e no portal da <a href="https://concurso.idecan.org.br/Concurso.aspx?ID=77" target="_blank" rel="noopener">IDECAN ↗</a>.</p>
+      <p class="concursos-note__text">No momento, <strong>não há concurso com inscrições abertas</strong> na Prefeitura de Guaíba, segundo nossa indexação automática (<span data-cadence="editais">atualiza a cada 6 horas</span>). <strong>Confirme sempre</strong> no <a href="diario-oficial.html">Editais e vagas</a> e no portal da <a href="https://concurso.idecan.org.br/Concurso.aspx?ID=77" target="_blank" rel="noopener">IDECAN ↗</a>.</p>
     </div>
 
     <div class="home-footer">
@@ -371,6 +362,7 @@
     <div class="foot-links">
       <a href="privacidade.html">Privacidade</a>
       <a href="termos.html">Termos</a>
+      <a href="reportar-conteudo.html">Reportar conteúdo</a>
       <a href="https://guaiba.atende.net/transparencia/">Portal da Transparência ↗</a>
       <a href="https://falabr.cgu.gov.br/web/RS/Guaiba">Ouvidoria (Fala.BR) ↗</a>
       <a href="https://guaiba.atende.net/cidadao">Site oficial da Prefeitura ↗</a>
@@ -387,6 +379,6 @@
 <script src="editais-data.js"></script>
 <script src="servicos-data.js"></script>
 <script src="analytics-config.js"></script>
-<script src="script.js?v=12"></script>
+<script src="script.js?v=13"></script>
 </body>
 </html>

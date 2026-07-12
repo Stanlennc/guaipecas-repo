@@ -161,7 +161,7 @@ def download_river_photo(river_id, image_url):
 
 
 def enrich_river_photos(rios):
-    """Adiciona fotos reais das estações (Nível Guaíba)."""
+    """Referencia foto ao vivo no Nível Guaíba — sem salvar cópia local."""
     for chave, station in STATIONS.items():
         if chave not in rios:
             continue
@@ -170,11 +170,10 @@ def enrich_river_photos(rios):
             remote = extract_og_image(html)
             if not remote:
                 continue
-            local = download_river_photo(chave, remote)
             rios[chave]["imagem_remota"] = remote
-            rios[chave]["imagem"] = local or remote
+            rios[chave]["imagem"] = remote
             rios[chave]["imagem_credito"] = "Nível Guaíba"
-            print(f"foto rio {chave}: {rios[chave]['imagem']}", file=sys.stderr)
+            print(f"foto rio {chave}: link remoto", file=sys.stderr)
         except Exception as exc:
             print(f"foto rio {chave}: {exc}", file=sys.stderr)
     return rios

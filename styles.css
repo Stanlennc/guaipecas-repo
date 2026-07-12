@@ -2285,6 +2285,12 @@ body[data-page="explorar"] {
   color: var(--river);
 }
 
+.explorar-lightbox__credit {
+  margin: 0 0 12px;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
 .explorar-lightbox__map {
   font-family: var(--font-mono);
   font-size: 0.72rem;

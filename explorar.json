@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-12T02:58:33.706196+00:00",
+  "gerado_em": "2026-07-12T03:36:43.009715+00:00",
   "lede": "Pontos turísticos de Guaíba, Porto Alegre e Canoas — com foto, endereço e mapa.",
   "cidades": [
     "guaiba",
@@ -79,7 +79,8 @@
       "dica": "Confira a agenda municipal — costuma ter evento nos fins de semana.",
       "tipo": "lugar",
       "mapa": true,
-      "curado": true
+      "curado": true,
+      "imagem_licenca": "Uso próprio (curadoria Guaipecaz)"
     },
     {
       "id": "guaiba-praia-alegria",
@@ -102,7 +103,8 @@
       "dica": "Respeite a comunidade ribeirinha — estacione em áreas permitidas.",
       "tipo": "lugar",
       "mapa": true,
-      "curado": true
+      "curado": true,
+      "imagem_licenca": "Uso próprio (curadoria Guaipecaz)"
     },
     {
       "id": "guaiba-pier-guaiba",
@@ -124,7 +126,8 @@
       "dica": "Combine com a Praia Alegria no mesmo passeio.",
       "tipo": "lugar",
       "mapa": true,
-      "curado": true
+      "curado": true,
+      "imagem_licenca": "Uso próprio (curadoria Guaipecaz)"
     },
     {
       "id": "poa-parque-redencao",
@@ -147,7 +150,8 @@
       "dica": "Domingo de manhã: caminhada + Brique no mesmo programa.",
       "tipo": "lugar",
       "mapa": true,
-      "curado": true
+      "curado": true,
+      "imagem_licenca": "© Ricardo Stricher — uso autorizado no Guaipecaz"
     },
     {
       "id": "poa-jardim-botanico",
@@ -169,7 +173,8 @@
       "dica": "Vá de manhã cedo — menos calor e mais silêncio nas trilhas.",
       "tipo": "lugar",
       "mapa": true,
-      "curado": true
+      "curado": true,
+      "imagem_licenca": "Uso próprio (curadoria Guaipecaz)"
     },
     {
       "id": "poa-moinhos-vento",
@@ -191,7 +196,8 @@
       "dica": "Combine com almoço no bairro Moinhos de Vento.",
       "tipo": "lugar",
       "mapa": true,
-      "curado": true
+      "curado": true,
+      "imagem_licenca": "CC BY-SA 4.0 (Wikimedia Commons)"
     },
     {
       "id": "poa-usina-gasometro",
@@ -214,7 +220,8 @@
       "dica": "Chegue 40 minutos antes do pôr do sol para caminhar do Gasômetro ao Cais Mauá.",
       "tipo": "lugar",
       "mapa": true,
-      "curado": true
+      "curado": true,
+      "imagem_licenca": "Uso próprio (curadoria Guaipecaz)"
     },
     {
       "id": "canoas-parque-getulio",
@@ -236,7 +243,8 @@
       "dica": "Chegue cedo no sábado para estacionar perto da José Bonifácio.",
       "tipo": "lugar",
       "mapa": true,
-      "curado": true
+      "curado": true,
+      "imagem_licenca": "Uso próprio (curadoria Guaipecaz)"
     }
   ]
 }
