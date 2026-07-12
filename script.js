@@ -1543,6 +1543,54 @@ function updateRiverAlert(level, message) {
 })();
 
 
+// Links de emergência curtos (190, 192…) → mapa; demais → tel:
+window.guaipecasContatoEmergencia = (function(){
+  var SERVICO_BY_SHORT = {
+    '190': 'policia',
+    '192': 'samu',
+    '193': 'bombeiros',
+    '199': 'defesa-civil',
+    '180': 'disque-180'
+  };
+
+  function shortDigits(tel) {
+    var d = String(tel || '').replace(/\D/g, '');
+    return d.length <= 3 ? d : '';
+  }
+
+  function servicoFromTel(tel) {
+    return SERVICO_BY_SHORT[shortDigits(tel)] || null;
+  }
+
+  function pageUrl(servico) {
+    return servico ? 'contatos-emergencia.html#' + servico : 'contatos-emergencia.html';
+  }
+
+  function hrefForTel(tel, servico, opts) {
+    opts = opts || {};
+    var svc = servico || servicoFromTel(tel);
+    var isShort = !!servicoFromTel(tel);
+    if (svc && isShort) {
+      if (opts.onEmergenciaPage) return '#' + svc;
+      return pageUrl(svc);
+    }
+    if (tel) return 'tel:' + String(tel);
+    return pageUrl(svc);
+  }
+
+  function labelForTel(tel, telefone) {
+    return telefone || tel || 'Contato';
+  }
+
+  return {
+    servicoFromTel: servicoFromTel,
+    pageUrl: pageUrl,
+    hrefForTel: hrefForTel,
+    labelForTel: labelForTel,
+    isShortEmergency: function(tel) { return !!servicoFromTel(tel); }
+  };
+})();
+
 // Mapa e lista de apoio — páginas dedicadas (mulher / pet)
 (function(){
   var pageKey = document.body.getAttribute('data-apoio-page');
@@ -1570,8 +1618,11 @@ function updateRiverAlert(level, message) {
 
   function renderLinks(p) {
     var links = [];
+    var ce = window.guaipecasContatoEmergencia;
     if (p.tel) {
-      links.push('<a class="link" href="tel:' + esc(p.tel) + '">' + esc(p.telefone || p.tel) + ' ↗</a>');
+      var href = ce ? ce.hrefForTel(p.tel, null) : ('tel:' + p.tel);
+      var label = ce ? ce.labelForTel(p.tel, p.telefone) : (p.telefone || p.tel);
+      links.push('<a class="link" href="' + esc(href) + '">' + esc(label) + ' ↗</a>');
     }
     if (p.whatsapp) {
       links.push('<a class="link" href="https://wa.me/' + esc(p.whatsapp) + '" target="_blank" rel="noopener">WhatsApp ↗</a>');
@@ -1746,6 +1797,7 @@ function updateRiverAlert(level, message) {
   var data = null;
   var mapInstance = null;
   var markerLayers = [];
+  var markerByPointId = {};
   var SERVICOS = ['samu', 'bombeiros', 'policia', 'defesa-civil', 'disque-180'];
 
   function esc(s) {
@@ -1754,8 +1806,18 @@ function updateRiverAlert(level, message) {
 
   function renderLinks(p) {
     var links = [];
+    var ce = window.guaipecasContatoEmergencia;
+    if (p.mapa && p.lat != null && p.lon != null) {
+      links.push('<button type="button" class="link link--map" data-map-ponto="' + esc(p.id) + '">Ver no mapa ↓</button>');
+    }
     if (p.tel) {
-      links.push('<a class="link" href="tel:' + esc(p.tel) + '">' + esc(p.telefone || p.tel) + ' ↗</a>');
+      var href = ce ? ce.hrefForTel(p.tel, p.servico, { onEmergenciaPage: true }) : ('tel:' + p.tel);
+      var label = ce ? ce.labelForTel(p.tel, p.telefone) : (p.telefone || p.tel);
+      if (ce && ce.isShortEmergency(p.tel)) {
+        links.push('<a class="link" href="' + esc(href) + '">' + esc(label) + ' — mapa ↗</a>');
+      } else {
+        links.push('<a class="link" href="tel:' + esc(p.tel) + '">' + esc(label) + ' ↗</a>');
+      }
     }
     if (p.url) {
       var href = esc(p.url);
@@ -1799,11 +1861,37 @@ function updateRiverAlert(level, message) {
     });
   }
 
+  function focusMapPoint(pointId) {
+    var marker = markerByPointId[pointId];
+    if (!marker || !mapInstance) return;
+    if (mapEl) mapEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    mapInstance.flyTo(marker.getLatLng(), Math.max(mapInstance.getZoom(), 15), { duration: 0.55 });
+    window.setTimeout(function(){ marker.openPopup(); }, 320);
+  }
+
+  function focusMapServico(servico) {
+    if (!mapInstance) return;
+    if (mapEl) mapEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    var cidade = gc.get();
+    var pontos = pontosDaCidade(cidade).filter(function(p){
+      return p.servico === servico && p.mapa && p.lat != null && p.lon != null && markerByPointId[p.id];
+    });
+    if (!pontos.length) return;
+    if (pontos.length === 1) {
+      focusMapPoint(pontos[0].id);
+      return;
+    }
+    var group = L.featureGroup(pontos.map(function(p){ return markerByPointId[p.id]; }));
+    mapInstance.flyToBounds(group.getBounds().pad(0.2), { duration: 0.55, maxZoom: 14 });
+    window.setTimeout(function(){ markerByPointId[pontos[0].id].openPopup(); }, 420);
+  }
+
   function updateMap(cidade) {
     if (!mapInstance || !window.L) return;
     var mh = window.guaipecasMapHelpers;
     markerLayers.forEach(function(layer){ mapInstance.removeLayer(layer); });
     markerLayers = [];
+    markerByPointId = {};
     var cfg = gc.getConfig(cidade);
     mapInstance.setView([cfg.lat, cfg.lon], cfg.zoom);
     var mappable = pontosDaCidade(cidade).filter(function(p){
@@ -1817,7 +1905,11 @@ function updateRiverAlert(level, message) {
       if (p.telefone) popup += '<br>' + esc(p.telefone);
       if (p.posicao_aproximada) popup += '<br><em>Posição aproximada no mapa</em>';
       if (p.nota) popup += '<br><em>' + esc(p.nota) + '</em>';
-      markerLayers.push(mh.addMarker(mapInstance, p, { lat: item.lat, lon: item.lon, popup: popup }));
+      var marker = mh.addMarker(mapInstance, p, { lat: item.lat, lon: item.lon, popup: popup });
+      if (marker) {
+        markerLayers.push(marker);
+        markerByPointId[p.id] = marker;
+      }
     });
     if (markerLayers.length > 1) {
       mapInstance.fitBounds(L.featureGroup(markerLayers).getBounds().pad(0.12));
@@ -1849,8 +1941,13 @@ function updateRiverAlert(level, message) {
     var hash = window.location.hash.replace('#', '');
     if (!hash || SERVICOS.indexOf(hash) === -1) return;
     window.setTimeout(function(){
+      focusMapServico(hash);
       var el = document.getElementById(hash);
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (el) {
+        window.setTimeout(function(){
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 500);
+      }
     }, 350);
   }
 
@@ -1861,6 +1958,23 @@ function updateRiverAlert(level, message) {
       var svc = (data.servicos && data.servicos[key]) || {};
       var titleEl = document.querySelector('#' + key + ' .emergencia-servico__title');
       if (titleEl && svc.titulo) titleEl.textContent = svc.titulo;
+    });
+    document.addEventListener('click', function(e){
+      var mapBtn = e.target.closest('[data-map-ponto]');
+      if (mapBtn) {
+        e.preventDefault();
+        focusMapPoint(mapBtn.getAttribute('data-map-ponto'));
+        return;
+      }
+      var cta = e.target.closest('#emergenciaCta a[href^="#"]');
+      if (cta) {
+        var svc = (cta.getAttribute('href') || '').replace('#', '');
+        if (SERVICOS.indexOf(svc) !== -1) {
+          e.preventDefault();
+          window.location.hash = svc;
+          scrollToHash();
+        }
+      }
     });
     applyCidade(gc.get());
     gc.onChange(applyCidade);
