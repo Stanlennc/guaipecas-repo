@@ -587,6 +587,13 @@ body.nav-open { overflow: hidden; }
   color: var(--mist);
   margin-top: 12px;
 }
+.river-card .river-photo-note {
+  font-size: 0.58rem;
+  line-height: 1.35;
+  color: var(--mist);
+  margin: 6px 0 0;
+  opacity: 0.85;
+}
 
 .river-card.alert-watch {
   border-color: rgba(232, 168, 124, 0.4);

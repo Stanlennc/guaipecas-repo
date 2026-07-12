@@ -1019,15 +1019,35 @@ function updateRiverAlert(level, message) {
     }
   }
 
-  function fetchRivers() {
-    function apply(data) {
-      if (data && data.rios) updateRivers(data);
+  function dataFreshness(data) {
+    if (!data) return 0;
+    var stamps = [];
+    if (data.gerado_em) stamps.push(new Date(data.gerado_em).getTime());
+    var rios = data.rios || {};
+    ['guaiba', 'jacui'].forEach(function(key){
+      var r = rios[key];
+      if (r && r.data_hora_medicao) stamps.push(new Date(r.data_hora_medicao).getTime());
+    });
+    return stamps.length ? Math.max.apply(null, stamps) : 0;
+  }
+
+  var lastAppliedFreshness = 0;
+
+  function applyIfFresher(data) {
+    if (!data || !data.rios) return;
+    var fresh = dataFreshness(data);
+    if (fresh >= lastAppliedFreshness) {
+      lastAppliedFreshness = fresh;
+      updateRivers(data);
     }
-    fetch('rivers.json', { cache: 'no-store' })
+  }
+
+  function fetchRivers() {
+    fetch('rivers.json?_=' + Date.now(), { cache: 'no-store' })
       .then(function(r){ if (!r.ok) throw new Error('sem rivers.json'); return r.json(); })
-      .then(apply)
+      .then(applyIfFresher)
       .catch(function(){
-        if (window.RIVERS_DATA) apply(window.RIVERS_DATA);
+        if (window.RIVERS_DATA) applyIfFresher(window.RIVERS_DATA);
         else {
           ['guaibaLevel', 'jacuiLevel', 'nowUpdate'].forEach(function(id){
             clearSkeleton(document.getElementById(id));
@@ -1038,6 +1058,7 @@ function updateRiverAlert(level, message) {
       });
   }
 
+  if (window.RIVERS_DATA) applyIfFresher(window.RIVERS_DATA);
   fetchRivers();
   if (window.GuaipecazSchedules) {
     window.GuaipecazSchedules.alignPoll('rivers', fetchRivers);
