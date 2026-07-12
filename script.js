@@ -1932,18 +1932,16 @@ window.guaipecasContatoEmergencia = (function(){
     updateMap(cidade);
   }
 
+  function scrollToServico(servico) {
+    if (!servico || SERVICOS.indexOf(servico) === -1) return;
+    var el = document.getElementById(servico);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
   function scrollToHash() {
     var hash = window.location.hash.replace('#', '');
     if (!hash || SERVICOS.indexOf(hash) === -1) return;
-    window.setTimeout(function(){
-      focusMapServico(hash);
-      var el = document.getElementById(hash);
-      if (el) {
-        window.setTimeout(function(){
-          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }, 500);
-      }
-    }, 350);
+    window.setTimeout(function(){ scrollToServico(hash); }, 150);
   }
 
   function initEmergencia(payload) {
@@ -1966,8 +1964,12 @@ window.guaipecasContatoEmergencia = (function(){
         var svc = (cta.getAttribute('href') || '').replace('#', '');
         if (SERVICOS.indexOf(svc) !== -1) {
           e.preventDefault();
-          window.location.hash = svc;
-          scrollToHash();
+          if (window.history && window.history.pushState) {
+            window.history.pushState(null, '', '#' + svc);
+          } else {
+            window.location.hash = svc;
+          }
+          scrollToServico(svc);
         }
       }
     });
