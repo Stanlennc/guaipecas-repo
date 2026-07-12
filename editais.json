@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-12T13:16:00.029672+00:00",
+  "gerado_em": "2026-07-12T19:03:09.688244+00:00",
   "fonte_oficial": "https://www.diariomunicipal.com.br/famurs/pesquisar",
   "entidade_famurs": "963876",
   "editais": [
@@ -11,6 +11,15 @@
       "tipo": "concurso",
       "publicado_em": "2026-06-27T07:00:00+00:00",
       "feed": "concurso"
+    },
+    {
+      "id": "a6d75e6c7ff7",
+      "titulo": "Nova gestora do hospital de Guaíba abre 120 vagas de emprego no local",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaUNVbzJHd3ZHZVhHNUVQdTZiZ2lKeE5HSWtVS1UtZ0NBVHV1eE9FZURPQkxvTVVPZW85ZlZvcjdPbFFHa1BGY0xuLVpMUW93Q2F1QmZDU0Vna2RQZGxkTV9zTGpoTndtaHdLSlVfY0Nrb1RkaC1vS290NXhEa21BREtoWVAwWHdBWGJVd3YxMHpfUV9IMzE4Rko2WU54OEtWVHdvWHRnZURzQUl2bEFTT1dkSFJmYmpUUi1nVFhmM09hSTdxaXExazJXX2V4XzlXaTZCRg?oc=5",
+      "fonte": "Jornal do Comércio",
+      "tipo": "vaga",
+      "publicado_em": "2026-06-23T22:04:09+00:00",
+      "feed": "vagas"
     },
     {
       "id": "99ac890d6af6",
@@ -100,15 +109,6 @@
       "fonte": "Repórter Guaibense",
       "tipo": "vaga",
       "publicado_em": "2026-02-24T08:00:00+00:00",
-      "feed": "vagas"
-    },
-    {
-      "id": "efa233eb66cd",
-      "titulo": "Fábrica da CMPC em Guaíba recebe currículos para futuras contratações; veja as vagas",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVlZ1SjdsYjc1ZkoyTi05UlVvVUhrM2pSRWNPUy1CdFZYbk5tNWdFdEYxb1VRUTVvRC14V0dPWXRNX2xjcU85dThMdC0ySWhjYVVWYTZHbmtyWVZmTWJSYndlNkMzaWFpR3FSZnIzQXNUR1lnTHNGbHpmTGgwMUh6MU93SWVFWDRYWFJmTUhMZ2FfaG1KRDJ3QUJNMFVaV0cxT2ctR0toMEFHX0pWQlhtT29DOTFSX1FFZUE1c1NEaXp6ejU3QWtn?oc=5",
-      "fonte": "Repórter Guaibense",
-      "tipo": "vaga",
-      "publicado_em": "2026-02-13T08:00:00+00:00",
       "feed": "vagas"
     }
   ]
