@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-13T19:21:49.473900+00:00",
+  "gerado_em": "2026-07-13T20:56:15.179110+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -200,7 +200,7 @@
       "fonte": "Agora RS",
       "publicado_em": "2026-07-09T13:19:53+00:00",
       "categoria": null,
-      "feed": "vizinhos",
+      "feed": "recentes",
       "resumo": "Mutirão do Projeto Terra contempla 226 imóveis, em Guaíba Agora RS"
     },
     {
@@ -284,16 +284,6 @@
       "resumo": "Motorista de aplicativo morre em acidente em Guaíba, e SIMTRAPLIRS cobra punição rigorosa ao motorista embriagado Portal de Camaquã"
     },
     {
-      "id": "a6107b83689a",
-      "titulo": "Hospital de Guaíba reabre em setembro com nova gestão",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONjlGa0M4Mk1zN05zc1BGUXFGTWpocFdjYlY0dHU5QlpNcFl0MlNITnJjRjlFbDhhSVh5VGQwNm1vWWhHbzRrdy1GcXFlQVFXWHZaS0NXdUs3QWZZM2o1SGZiYTl1MHJUelZKZE1BV0RyRUR6WXFWT0t4c2g2eE12VEJKMm5KX3FiN3VXUkR3UXRDeDI1V0NBbVRsWWJHLWxWNnBRSnFJZ3AtV3NHMVdiRlM4b3VVOXhjX3ctcUtaaw?oc=5",
-      "fonte": "Jornal do Comércio",
-      "publicado_em": "2026-07-06T20:39:50+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Hospital de Guaíba reabre em setembro com nova gestão Jornal do Comércio"
-    },
-    {
       "id": "2d4e7a08ef0b",
       "titulo": "Guaíba intensifica investimentos em obras de prevenção contra enchentes na área de infraestrutura",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOd09LX1hZWklFbDVVZjRLSFhjVTdFSXBYajBSTkdFandlZnRRWDQtUEhYZUhQOFYwSFhmampjQ2NXSUUzWGVNeDVRNThjQllIalFGOWphbWNLdlNhQWczMGpEUXRvUlhnMmU5OF9PbWlIa3ZiUUtQVmRPcUxZSGY4emsxT0ViQjhNU3VNX2RJZkF1Rlo4OS1uV05FX0lpYzFRamxzc3d1VFdhTzlQRnhsUmhMa2F6R19PcDZFcUtUT3E3Z0xSLWpfb1BWYmRUZUI5MUFYNTVJQk02UDJLOWp3bEEteUlSbnVtVXplODVNSnFEelU0?oc=5",
@@ -312,16 +302,6 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional 'Mobilidade para Todos' Repórter Guaibense"
-    },
-    {
-      "id": "ec2c2c0ed1f8",
-      "titulo": "Porto Alegre entra em atenção por risco de elevação do Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObi1FU2lGVkhEcGw5UjBZcllQMlRMMnlrWk1GTDRhaTJLeG13aGV4OVdkcXN3UUphMTEtNVZJMU5vZVVuaXhZbVBxeE5HcGRCWjBEdDQxVTZCbVczamFJRWpYenNZZDJiZ1Y5VmJCV20zVXhCbTl5dVQ5X0xqOFZaMTJlRUhhQ2ZnRWhQMVVZX1BMNkRhYTA0Y1p5TEloZjg?oc=5",
-      "fonte": "Agora RS",
-      "publicado_em": "2026-07-01T07:00:00+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "Porto Alegre entra em atenção por risco de elevação do Guaíba Agora RS"
     },
     {
       "id": "e99883bf253e",
@@ -344,16 +324,6 @@
       "resumo": "Situação política e interesses estrangeiros ameaçam o Guaíba, no Rio Grande do Sul ((o))eco | Jornalismo Ambiental"
     },
     {
-      "id": "28cfe033ae86",
-      "titulo": "O que significa a mão gigante de concreto com dedo apontado para o céu em Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQX1kydUhiZmYzdHYweW1teHlydEIwSVo3U0RFWDc4SXR6VGRyeXM2Zi00c2Z4NmdKRXVLeFdydXdZSEJSQVBZUjgyZDRpVjEzWkN0bnBCRXU5dEc3Rl9wNzNNdHVNVExCSlJuVlBpOFVHNl9GSV81M3B1SzZ5VzRpSnhaUF80UWs4QXhkS0s0MC1mZnBrbUY1WkJlWTVaaHVKWEJNRGxJTURBek45ZmUtWmN3RHFldmVJc3hOd09wVlNoNU84Q05TcnBDNHVYQkluQ2E1VXBxU3p6TEd4ZnZuYTVxangySTVVbF9jZU5Qb1Fzdm1NR1JMR2ZVc3VCOE95RDU0?oc=5",
-      "fonte": "Diário Gaúcho",
-      "publicado_em": "2026-06-24T07:00:00+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "O que significa a mão gigante de concreto com dedo apontado para o céu em Guaíba Diário Gaúcho"
-    },
-    {
       "id": "84fb647c92f5",
       "titulo": "Comitê faz alerta sobre efeitos de vapor da CMPC em Guaíba/RS - Instituto Humanitas Unisinos",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUC1HSTVZMFJ4RXpLZkszd0xUcDdjNHZMc3ZoX1I1QjlQa3lUTy1iX25JakNKYlNMZEp4ZUVtT2tDNzlraTNzUHc2dTIzODJzMHN6WVdpTzFZUENMWFVNUUtRMnM0V2hIWE9WVGZRMkoxb1dqR3VHb0lGNC1weGV3Vm5LU3BzTXJZVXlIZ2RYTW9NZi03RC1xSw?oc=5",
@@ -372,6 +342,36 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Círculo Saúde abre 120 vagas de emprego para a instalação do novo hospital de Guaíba Repórter Guaibense"
+    },
+    {
+      "id": "38548429cccc",
+      "titulo": "Observatório Social alerta para situação financeira e indica redução de 23% nas despesas de Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNjc4U194ZHFlLUF0T05TVklfZk12Yk1HbEc3V0JBOXRfd0lVVVRiUmJXNVlEckVjYWdBbmJCeDhwMGY0d2FSbmZzc2o0MmFFR19wMjFSVHVvdC0tV2Y0aGFYR21ucjdQNjJvVW5GdndWUEItdGFBVHA0bFZSWjBrdDlOMWdzOFhNYUNUWUxXN1hxMjA0TDFDNnhhclNlSGwyQ3UzenpTam9IWW9DS1o1LTJ3TnFhVTlQTEhUaXgwNHg2b2pYcTdzZXgtTEswcmhRUTlPeENzTGs2dw?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-06-22T07:00:00+00:00",
+      "categoria": null,
+      "feed": "reporter",
+      "resumo": "Observatório Social alerta para situação financeira e indica redução de 23% nas despesas de Guaíba Repórter Guaibense"
+    },
+    {
+      "id": "784593a9ce78",
+      "titulo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSXpabXR0c1ZCZXJXRHY4U3M3aUhTWFM1N19WNFMzcU9nbnBMR3I3SHE5eml2bVZmRGptZ2MwLUxTQXF5cXgxMG1uVEdNaGN6SkxkcjNONzNtclg5Z2NRbTg5ZlprMDhKZE44cEhOR3V5VzhobmM5QTdEUHoza0lZWWZxaFA3M3ExUXpnUTc5N1dzeG5sWW9iS3p1eE9nc2xtU2VXNENIdlkwdVd3N1MxVWpMeVNzcnZILU1rWmFvR1ZoQmZXRXRXYnV3bVE?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-06-19T07:00:00+00:00",
+      "categoria": null,
+      "feed": "reporter",
+      "resumo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos Repórter Guaibense"
+    },
+    {
+      "id": "fef6f73af6dd",
+      "titulo": "Obras da Corsan podem causar oscilação na pressão da água em Guaíba nesta quarta-feira",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNU1Fd05FZUJuZWJyaGRydFcyckluSEg1eW9TbFlKRUlMZXhOMlNWNndsMV9LaDlXNTE4UUdoMnozX1IyaXVndmtEWElvQmdhbWlBUzZvMHowQm54RkNBUTNrQkVsMzA5YU5sUGt6YVFKZW1GVUNZWUotQVZRUENZZl9CNXFnMVVvOE9hbU04ZWstMnlKZHpvNFpSSkRYV0pmanlXYW9nLUVyRnh0QXBmQW44VDAyZEhyWnF4M2EwemthTVFzN1FqZTAxOA?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-06-16T07:00:00+00:00",
+      "categoria": null,
+      "feed": "reporter",
+      "resumo": "Obras da Corsan podem causar oscilação na pressão da água em Guaíba nesta quarta-feira Repórter Guaibense"
     }
   ],
   "noticias_home": [
