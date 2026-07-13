@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-07-13T14:31:13.335017+00:00",
+  "gerado_em": "2026-07-13T14:50:38.454197+00:00",
   "fonte": "Nível Guaíba",
   "rios": {
     "guaiba": {
       "nome": "Rio Guaíba",
       "local": "Cais Mauá, Porto Alegre",
-      "nivel_m": 0.65,
+      "nivel_m": 0.67,
       "cota_inundacao": 3.0,
-      "data_hora_medicao": "2026-07-13T10:15:00-03:00",
+      "data_hora_medicao": "2026-07-13T11:15:00-03:00",
       "status": "normal",
       "fonte": "Nível Guaíba",
       "fonte_url": "https://nivelguaiba.com.br/",
