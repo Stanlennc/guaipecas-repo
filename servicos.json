@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-12T12:03:54.158057+00:00",
+  "gerado_em": "2026-07-13T13:28:06.999624+00:00",
   "farmacia_plantao": {
     "titulo": "Farmácia de plantão",
     "descricao": "A escala oficial é publicada pela Prefeitura e pelo conselho regional. Confira o endereço da farmácia aberta hoje.",
@@ -39,13 +39,6 @@
       "id": "844e518cddb2",
       "titulo": "Cronograma de projetos sociais sec esportes e juventude",
       "url": "https://guaiba.atende.net/cidadao/noticia/cronograma-de-projetos-sociais-sec-esportes-e-juventude",
-      "fonte": "Prefeitura de Guaíba",
-      "tipo": "oficial"
-    },
-    {
-      "id": "e6894f0beff3",
-      "titulo": "Guaiba alerta para prazos de alistamento obrigatorio e regularizacao militar",
-      "url": "https://guaiba.atende.net/cidadao/noticia/guaiba-alerta-para-prazos-de-alistamento-obrigatorio-e-regularizacao-militar",
       "fonte": "Prefeitura de Guaíba",
       "tipo": "oficial"
     },
