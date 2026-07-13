@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-13T06:51:59.974344+00:00",
+  "gerado_em": "2026-07-13T11:09:31.320307+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -74,6 +74,46 @@
   ],
   "noticias": [
     {
+      "id": "360a1434a2b0",
+      "titulo": "Sob chuva, Guaíba recebe mais de 400 corredores na 8ª etapa do Circuito Sesc de Corridas",
+      "url": "https://www.reporterguaibense.com.br/noticia/sob-chuva-guaiba-recebe-mais-de-400-corredores-na-8-etapa-do-circuito-sesc-de-corridas",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-13T00:00:00+00:00",
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
+    },
+    {
+      "id": "221c68dd37a6",
+      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
+      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
+    },
+    {
+      "id": "d85bcc167848",
+      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
+    },
+    {
+      "id": "4cd91ccbbdfb",
+      "titulo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura",
+      "url": "https://www.reporterguaibense.com.br/noticia/guaiba-lanca-editais-da-politica-nacional-aldir-blanc-com-mais-de-r-450-mil-em-investimentos-na-cultura",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Os editais foram apresentados em duas audiências públicas presenciais"
+    },
+    {
       "id": "8c21b166730d",
       "titulo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 44",
       "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOQ0tYaUFndWhpdkNUQjVFN2tLRHpvdEs5c1FVaVNwUEsxbDkyX0lYRHJUZW1LZ21iV0h0NXM5R2xtdS1iWjB2T293WTlnWng1WnVTeFBUa0tSZjM5SDBLVklhT2prSjNGYVJzN21EeHhndWVra2RPQUZrTjgxUGFyOEU1b1dqYlI0SXdKXzhYbUlVa1NKcHpJNldlLXRQU1lLV21NZ2pVU1dDV3dFRnp6RTJSZlRfeHRELUxUYlB6ZjlyQWZHOENMWjlqX000TVZram8zTV9QUDZENHphel9MaTA4d1JhXzhzcjBWLXF5eU42N19uN296anlmc1M3WWZVZ2c4c3FZNkFJd2xqZml3TEw3aUlVeWRJcEhBemZHR0dhWmdwdWdBc09HcGNpN28?oc=5",
@@ -90,7 +130,7 @@
       "fonte": "Portal de Camaquã",
       "publicado_em": "2026-07-11T02:17:56+00:00",
       "categoria": null,
-      "feed": "vizinhos",
+      "feed": "recentes",
       "resumo": "PRF recupera motocicleta furtada e prende homem com antecedentes criminais na BR-116, em Guaíba Portal de Camaquã"
     },
     {
@@ -184,6 +224,16 @@
       "resumo": "Lenda das maratonas Eliud Kipchoge corre na Orla do Guaíba e conhece projeto social da Capital GZH"
     },
     {
+      "id": "876d6f85864b",
+      "titulo": "Obras das alças da nova Ponte do Guaíba dependem de remoções em Porto Alegre",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPendQdkJiUW1oU1RvTVVfZ2tGcjNuQkxlTThNanFTSy14NFdTUFpUbXJsa2hYc002MkRnX1dOU3VMOElFOU55bnczLVpKd0k4V3FXMUV0ZnRMWWZFWENzeF9Sams5TzR4ZlFWTVRNZy1SaTd3MjltRkY4aWUxNUczVUt5M05vaktoTS1fT21RU2NWRVJKREUwLVp5N0dTRlBYTmtDdGN5THZVdFJwYnFqRnZHbm9ia2VmUEVpWlFkeVpfXzU0dHlV?oc=5",
+      "fonte": "R7",
+      "publicado_em": "2026-07-08T13:35:02+00:00",
+      "categoria": null,
+      "feed": "recentes",
+      "resumo": "Obras das alças da nova Ponte do Guaíba dependem de remoções em Porto Alegre R7"
+    },
+    {
       "id": "ab4d17bad809",
       "titulo": "RECORD Guaíba leva estúdio de inverno à Serra Gaúcha durante temporada 2026",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVms1MkpZbVNaTjdTWURQY3BsNDFlYlVvcXo0bV91U3FxN3RoaGVzZjJPZGhPVDRacVdDeVNfbFlqTmNqU0xKRHJwUVJJc05HTlM0VHhJVUZWQm90TlhuaDJQU1ZVTUk2U1VpRzBiVDJfeWowNHpzRGpQbTZjZV9XZHpQOGJzbmRlSGhUSzdXVlRTRmtEdi03TGlEZXVWdTA2aGJsTFlsdVNzWXVQdlRYck1UdGVMenNkNTNEdlBQamF3eXB0QmNFaGFNWHo0SThXNGdNV1lrMmJ5dw?oc=5",
@@ -264,26 +314,6 @@
       "resumo": "Porto Alegre entra em atenção por risco de elevação do Guaíba Agora RS"
     },
     {
-      "id": "27304c7576ce",
-      "titulo": "Sob chuva, Guaíba recebe mais de 400 corredores na 8ª etapa do Circuito Sesc de Corridas",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTnp2dllfbnUtTzhWbUVQSkVsUGZ6eEE2UzVVM0FCSTJVTW5QTWZkTnEyRFBRRzdFNHBUYXRKY0R1dDZrRFRhN0dyX21VcE5CdkhlY3NrTDZBbERzRHVwd04xaVl1emJMMGFSZ2ZJSURvY0JZNFZpemxtR285OGExT09VUllEY2dUekUxc2dIZjZNTkl1RWEteHBnVEVEcnZVclpCMGl3SEhieDU5elAzclYwYWNSWUJ1bFJ1VVkyeC1IVEhqRmd1M0FMaw?oc=5",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-06-29T23:08:00+00:00",
-      "categoria": null,
-      "feed": "reporter",
-      "resumo": "Sob chuva, Guaíba recebe mais de 400 corredores na 8ª etapa do Circuito Sesc de Corridas Repórter Guaibense"
-    },
-    {
-      "id": "375eb2b1cf80",
-      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMUJNbzhvMlo2c09lM3JaR2pxR3ZxanFGQU9LTkJfeWlfdU9oWUpDdmlCRWp2dGk1c194ZHo1dDQ4N2F6UjBCQ1dObjlSb1pEd09ya1NNWG1YR1JxNE55WUF4SDc0VEtTSlVUY3dtRmhmLU80WWg1d1A5SUxPbjVWS0c4ZHpEMTUyOUREQ1Q4XzM2eGxXc1AwSE5USmhNNklObFNPV0lOcVFBLV9kVTl4S0JLSHc2Sm9SOTJMclhXUQ?oc=5",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-06-29T19:15:00+00:00",
-      "categoria": null,
-      "feed": "reporter",
-      "resumo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba Repórter Guaibense"
-    },
-    {
       "id": "e99883bf253e",
       "titulo": "O que significa monumento de 4,5 metros com dedo apontado para o céu instalado às margens do Guaíba",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxObEZRdlNaQzFtdlpoUk5rUVBIbVpKSVpqRk50LTVucUFEV1JENHB4bkYzN3J5U1l1bl95Y1NlVmNPbDVQWUhYc0RYUW9HeV9KUEJEandjdjBITnZxMHcwakwtMVo0M3hjY1h0RHZ2eGxJb1lHUWRraVExTF84UTBCZEM5RjJ3NEt5T0h1RmdQQ2d5LVJpbk9JUi1qNHpTeXk2LU5wRFBTLWt4V0RmY0wxaXRNemRJVHduaXczWUI2WnQyTEZwQ0NrdnczZXkzVHlLaGJsM05mcURsNzBmOTJNNHFDbzY0ZVFiTEExMkNWR084MUIyeWxZUdIBhwJBVV95cUxNaWZqZGpRb0c3b3g1NWxGSkFNb3d5VUJEUVlIbHpIVGc3dHRRZXEtOFl6Sk5pRXN3amYxN3lvVGFud1pfNzltQWEzUDF2OWRKWlF5eVhwdk1hX0MxcldMNVJ3VkNQelI5MGQxdk1wV0YwS3FNUTdWcDdQUnlNUHM0Tm1QUG52Z1ZfYUJtM19hZGc3S081UlZ4Wmd2Wk1OU2V1N0xPOFVkd1hzdGpXRFRhR3JYRU4xS2UxQXlHQjNUcXg3RnMtQ1I4RHRBQ0pPT2kyUGo1SXYzVmhRR2dTMUZCMmR6SGZlQzliRE5MQ0hvR2hwd2lXTDRTTlgzU0lxdW1XMFBBUFpvMA?oc=5",
@@ -342,39 +372,49 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Observatório Social alerta para situação financeira e indica redução de 23% nas despesas de Guaíba Repórter Guaibense"
-    },
-    {
-      "id": "784593a9ce78",
-      "titulo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSXpabXR0c1ZCZXJXRHY4U3M3aUhTWFM1N19WNFMzcU9nbnBMR3I3SHE5eml2bVZmRGptZ2MwLUxTQXF5cXgxMG1uVEdNaGN6SkxkcjNONzNtclg5Z2NRbTg5ZlprMDhKZE44cEhOR3V5VzhobmM5QTdEUHoza0lZWWZxaFA3M3ExUXpnUTc5N1dzeG5sWW9iS3p1eE9nc2xtU2VXNENIdlkwdVd3N1MxVWpMeVNzcnZILU1rWmFvR1ZoQmZXRXRXYnV3bVE?oc=5",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-06-19T07:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter",
-      "resumo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos Repórter Guaibense"
-    },
-    {
-      "id": "2219b64998d7",
-      "titulo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVkI4bGFGSEM4Nm5lVk5xNUZ2VHRORlJKa2E1bEV5QVNJNUFTbUxQb0tUR1dQU2p3bm9LX2FMb2lZeVU5M0JpSHVqaTQ4S0hqR3BUMnh3ekF1QUw2c0VGNHo0WjFqdHpGUWlBREl1UXdQM3J2S3Q1TjcwdEFXZFdSQWJJU2VuSmhCOHhsczBFZ3NJdDFnMWdVSElzY0hadXNsRDV5N0ppb2F1aWx3MWNoUGE1Uk9fYUM4N2lURGllMDRIQXM1X3dzNmFhRzJpdGRvRU5vY3hSSnBfUlBsQmhTMDFB?oc=5",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-06-17T07:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter",
-      "resumo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura Repórter Guaibense"
-    },
-    {
-      "id": "fef6f73af6dd",
-      "titulo": "Obras da Corsan podem causar oscilação na pressão da água em Guaíba nesta quarta-feira",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNU1Fd05FZUJuZWJyaGRydFcyckluSEg1eW9TbFlKRUlMZXhOMlNWNndsMV9LaDlXNTE4UUdoMnozX1IyaXVndmtEWElvQmdhbWlBUzZvMHowQm54RkNBUTNrQkVsMzA5YU5sUGt6YVFKZW1GVUNZWUotQVZRUENZZl9CNXFnMVVvOE9hbU04ZWstMnlKZHpvNFpSSkRYV0pmanlXYW9nLUVyRnh0QXBmQW44VDAyZEhyWnF4M2EwemthTVFzN1FqZTAxOA?oc=5",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-06-16T07:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter",
-      "resumo": "Obras da Corsan podem causar oscilação na pressão da água em Guaíba nesta quarta-feira Repórter Guaibense"
     }
   ],
   "noticias_home": [
+    {
+      "id": "360a1434a2b0",
+      "titulo": "Sob chuva, Guaíba recebe mais de 400 corredores na 8ª etapa do Circuito Sesc de Corridas",
+      "url": "https://www.reporterguaibense.com.br/noticia/sob-chuva-guaiba-recebe-mais-de-400-corredores-na-8-etapa-do-circuito-sesc-de-corridas",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-13T00:00:00+00:00",
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
+    },
+    {
+      "id": "221c68dd37a6",
+      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
+      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
+    },
+    {
+      "id": "d85bcc167848",
+      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
+    },
+    {
+      "id": "4cd91ccbbdfb",
+      "titulo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura",
+      "url": "https://www.reporterguaibense.com.br/noticia/guaiba-lanca-editais-da-politica-nacional-aldir-blanc-com-mais-de-r-450-mil-em-investimentos-na-cultura",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Os editais foram apresentados em duas audiências públicas presenciais"
+    },
     {
       "id": "8c21b166730d",
       "titulo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 44",
@@ -392,7 +432,7 @@
       "fonte": "Portal de Camaquã",
       "publicado_em": "2026-07-11T02:17:56+00:00",
       "categoria": null,
-      "feed": "vizinhos",
+      "feed": "recentes",
       "resumo": "PRF recupera motocicleta furtada e prende homem com antecedentes criminais na BR-116, em Guaíba Portal de Camaquã"
     },
     {
@@ -414,46 +454,6 @@
       "categoria": null,
       "feed": "recentes",
       "resumo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 1 ArchDaily"
-    },
-    {
-      "id": "3a2cd35e5251",
-      "titulo": "Guaíba fortalece as equipes da Defesa Civil com treinamento aquático",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQnVUYlY3V2Q1bDI5Q245eGloLU1kb3JhWXd0M1NCdGdCMGRLNHZoTTM5X051U05ZOWR4RUJHaUxxMGZVbmIyby02M3RKWTFkck93Z19meF9jNmhlZHRQMEpKbGxpZ3FvMXRwcTdDREptdk55aHhjalVJMlJrM0E3cVpzYjZfMVhBVklXanpmZEE0YmM?oc=5",
-      "fonte": "expansao.co",
-      "publicado_em": "2026-07-10T17:05:19+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Guaíba fortalece as equipes da Defesa Civil com treinamento aquático expansao.co"
-    },
-    {
-      "id": "7e14a601c6dd",
-      "titulo": "Defensoria Pública participa da entrega das escrituras encaminhadas pelo Projeto Terra – Eu sou COHAB, em Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdEhqOThMTUxOQVVXZXkzY18zd0dGUTNWdXRaRTR2S2thRzdCZzVwdjhqcUQ2NXh5c3NkYnIyd09TWXdkcWFfQUwtYmVqWVo2c2dyVC1RWUtXZ0JEVndNR2QxcWxZVTJGU3FVWlRPNjlJbWg4ckVUclBGZzVic200ckk4TDhGSGFzZ01mT2ZoOUhySUZINXlUMDV0WFF3M1dGd2FMV0pWYnhVemVVZEUwaXVlTXV3ZFVqakg5NEYyb1BYU05Oa0VGUmZZX3FXalhUQ0NBd3RaYUNqZw?oc=5",
-      "fonte": "defensoria.rs.def.br",
-      "publicado_em": "2026-07-09T18:26:24+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Defensoria Pública participa da entrega das escrituras encaminhadas pelo Projeto Terra – Eu sou COHAB, em Guaíba defensoria.rs.def.br"
-    },
-    {
-      "id": "ea9a7f777f82",
-      "titulo": "Mutirão do Projeto Terra contempla 226 imóveis, em Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV1Z4QzRSWXpXOGc3THh1VlkyZjNKdzYwT0VjYlpTZzE2Y0JQLTB0enlsQUdtTUVEQVQ2Q3dya3ZKUkkwbzRxUkxRdU4zWHRPdnRiUFNwNENRVm9OX0tCTThQMFlKcUhVS21GcDJMUTBlUjR3ZGJDOGZKVGV4c3JWcExtdw?oc=5",
-      "fonte": "Agora RS",
-      "publicado_em": "2026-07-09T13:19:53+00:00",
-      "categoria": null,
-      "feed": "vizinhos",
-      "resumo": "Mutirão do Projeto Terra contempla 226 imóveis, em Guaíba Agora RS"
-    },
-    {
-      "id": "b7a69d8e4111",
-      "titulo": "Cinco novos consultórios e uma Sala Lilás são inaugurados no Hospital Regional Nelson Cornetet, em Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQbk9WelplN1pYck9oQW91SWRaMUp2MHB5QVBIdGd2RGI0Ty1HSXB0YzcyTnRibWlrc2hXUlZyMUNMd0pNbURIdlBZTVQ1MkFScGNVLWdDOS1rYmJaNTJEd0lxUU9zVzZPemo3MFQtWEd1d3JFSTJZM2lvR0M0ZXZUUlF0Szc2M2oxLXdkTEEwYzA2ZV9ZVzFxb3hNR1RCM291dW9zV3pKb3ZfYXVUU3VzZS1uVk9hWDBCbnJEREJTWkJuT0k4elNUOE83LUZ0bkJ4QVNTQ01DTWwwVFFLSzBheURXSDRQcDhodUk5NVZGcFkzeTdZNkE5cVUxSUhaaVJDOEE?oc=5",
-      "fonte": "Correio do Povo",
-      "publicado_em": "2026-07-09T12:55:26+00:00",
-      "categoria": null,
-      "feed": "correio",
-      "resumo": "Cinco novos consultórios e uma Sala Lilás são inaugurados no Hospital Regional Nelson Cornetet, em Guaíba Correio do Povo"
     }
   ]
 }
