@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-13T14:30:56.200310+00:00",
+  "gerado_em": "2026-07-13T17:53:54.590787+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -84,16 +84,6 @@
       "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
     },
     {
-      "id": "221c68dd37a6",
-      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
-      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
-    },
-    {
       "id": "d85bcc167848",
       "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
@@ -102,6 +92,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
+    },
+    {
+      "id": "221c68dd37a6",
+      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
+      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
     },
     {
       "id": "4cd91ccbbdfb",
@@ -114,23 +114,23 @@
       "resumo": "Os editais foram apresentados em duas audiências públicas presenciais"
     },
     {
-      "id": "42c63cc8e584",
+      "id": "1243af8e6369",
       "titulo": "Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal",
-      "url": "https://expansao.co/guaiba-presta-apoio-humanitario-a-eldorado-do-sul-apos-forte-temporal/",
-      "fonte": "Expansão",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVjZyTTRhRG9jLVNWYlZiVkROR2ZubWZHRlo3SG1aVzdacmVqZzYzN3Y0ajNjLWs1VktvbWNNRkFkU3hva25pRlpVNFdBVFIxSk5DUFY4aC1ObnJIRnJIaldNRXJDQldIY2tqQ0Zld28wRVJzTTJkU29YMmdlOEtOQ0EwMEllODAxRVVUdEVzQ2dPcVdz?oc=5",
+      "fonte": "expansao.co",
       "publicado_em": "2026-07-13T13:06:41+00:00",
-      "categoria": "Cidades",
-      "feed": "expansao_direto",
-      "resumo": "Neste domingo, 12 de julho, a prefeita de Guaíba, Claudinha Jardim, designou equipes da Defesa Civil e da Secretaria de Infraestrutura para prestar apoio humanitário às famílias de Eldorado do&#8230; O post Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal apareceu primeiro em…"
+      "categoria": null,
+      "feed": "vizinhos",
+      "resumo": "Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal expansao.co"
     },
     {
-      "id": "f06b650a4cf5",
+      "id": "02f654b3f345",
       "titulo": "Guaíba: Uma Nova História",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1YWEZWamE1OVFZUzhpeEQxMGVDYzAtOWNSMi1wY1puOUhrNUJ5bndQQkJTVXlhMi1iZG1oUFkyZTlrS2llZ3pfb0RmczZ5bzY0dm5yTEJuRmRoVGc5UzI2X1phck0wX2RlYmhoS2Vnak5WUjdpeFc0VW1R?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WR2ktVzNGWHoyUHZ5UnM2c2pHWE40ZFVQcHNoR1JjYTNyRTFLendXdTBjNEJnbVhYRWprSUN0Qm5HU0pSdE5BTW9lMDdpT3p2aDlFaXlaUzZxbXpPcS14UjVJeWM4V1dYVVQ5blpmVXEwXzNmUlhxWlhZNE0wZ28?oc=5",
       "fonte": "Portal Litoral Sul",
       "publicado_em": "2026-07-13T11:30:22+00:00",
       "categoria": null,
-      "feed": "vizinhos",
+      "feed": "litoral",
       "resumo": "Guaíba: Uma Nova História Portal Litoral Sul"
     },
     {
@@ -227,11 +227,11 @@
       "id": "cbd5df7a6345",
       "titulo": "Projeto Terra entrega 226 escrituras em Guaíba",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QeXI1WU91ZHNBckJEVDFmc1FhU2hyVnRBTXFodUtVeVNzcWI2MmRTX0FPUTNQbGs3RGhGcFg5Q3kwVVFkR2N0T3hqRHpKZWgyU2VWOFlEczd4Rl9LNmRfRGRLeUd1WHF2ZDhOQV9XR0lOT1drb1pMR1Rrd9IBgAFBVV95cUxNczZUbEpZRGNxbmh1UEp0SUJ3QkhGSU5yUWo3VUZXRUdyNjFTczdqdlVaaHVDRTdCbkxWd2p4dUhWcEgzdzlPUG5FM21vNF9QSUpBeDlpZnN3T2FwYWJGQ0s4V0tIczl1MUVkQ0pCV0szS1U5Q09jR0hDZUpMWkhGZQ?oc=5",
-      "fonte": "osul.com.br",
+      "fonte": "Jornal O Sul",
       "publicado_em": "2026-07-09T02:37:59+00:00",
       "categoria": null,
       "feed": "recentes",
-      "resumo": "Projeto Terra entrega 226 escrituras em Guaíba osul.com.br"
+      "resumo": "Projeto Terra entrega 226 escrituras em Guaíba Jornal O Sul"
     },
     {
       "id": "9ee89f7b2a64",
@@ -386,16 +386,6 @@
       "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
     },
     {
-      "id": "221c68dd37a6",
-      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
-      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
-    },
-    {
       "id": "d85bcc167848",
       "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
@@ -404,6 +394,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
+    },
+    {
+      "id": "221c68dd37a6",
+      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
+      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
     },
     {
       "id": "4cd91ccbbdfb",
@@ -416,23 +416,23 @@
       "resumo": "Os editais foram apresentados em duas audiências públicas presenciais"
     },
     {
-      "id": "42c63cc8e584",
+      "id": "1243af8e6369",
       "titulo": "Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal",
-      "url": "https://expansao.co/guaiba-presta-apoio-humanitario-a-eldorado-do-sul-apos-forte-temporal/",
-      "fonte": "Expansão",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVjZyTTRhRG9jLVNWYlZiVkROR2ZubWZHRlo3SG1aVzdacmVqZzYzN3Y0ajNjLWs1VktvbWNNRkFkU3hva25pRlpVNFdBVFIxSk5DUFY4aC1ObnJIRnJIaldNRXJDQldIY2tqQ0Zld28wRVJzTTJkU29YMmdlOEtOQ0EwMEllODAxRVVUdEVzQ2dPcVdz?oc=5",
+      "fonte": "expansao.co",
       "publicado_em": "2026-07-13T13:06:41+00:00",
-      "categoria": "Cidades",
-      "feed": "expansao_direto",
-      "resumo": "Neste domingo, 12 de julho, a prefeita de Guaíba, Claudinha Jardim, designou equipes da Defesa Civil e da Secretaria de Infraestrutura para prestar apoio humanitário às famílias de Eldorado do&#8230; O post Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal apareceu primeiro em…"
+      "categoria": null,
+      "feed": "vizinhos",
+      "resumo": "Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal expansao.co"
     },
     {
-      "id": "f06b650a4cf5",
+      "id": "02f654b3f345",
       "titulo": "Guaíba: Uma Nova História",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1YWEZWamE1OVFZUzhpeEQxMGVDYzAtOWNSMi1wY1puOUhrNUJ5bndQQkJTVXlhMi1iZG1oUFkyZTlrS2llZ3pfb0RmczZ5bzY0dm5yTEJuRmRoVGc5UzI2X1phck0wX2RlYmhoS2Vnak5WUjdpeFc0VW1R?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WR2ktVzNGWHoyUHZ5UnM2c2pHWE40ZFVQcHNoR1JjYTNyRTFLendXdTBjNEJnbVhYRWprSUN0Qm5HU0pSdE5BTW9lMDdpT3p2aDlFaXlaUzZxbXpPcS14UjVJeWM4V1dYVVQ5blpmVXEwXzNmUlhxWlhZNE0wZ28?oc=5",
       "fonte": "Portal Litoral Sul",
       "publicado_em": "2026-07-13T11:30:22+00:00",
       "categoria": null,
-      "feed": "vizinhos",
+      "feed": "litoral",
       "resumo": "Guaíba: Uma Nova História Portal Litoral Sul"
     },
     {
