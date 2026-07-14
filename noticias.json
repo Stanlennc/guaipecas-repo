@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-13T22:55:05.824103+00:00",
+  "gerado_em": "2026-07-14T02:23:07.037531+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -84,16 +84,6 @@
       "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
     },
     {
-      "id": "d85bcc167848",
-      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
-    },
-    {
       "id": "221c68dd37a6",
       "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
       "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
@@ -102,6 +92,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
+    },
+    {
+      "id": "d85bcc167848",
+      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
     },
     {
       "id": "4cd91ccbbdfb",
@@ -124,9 +124,9 @@
       "resumo": "Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal expansao.co"
     },
     {
-      "id": "02f654b3f345",
+      "id": "f06b650a4cf5",
       "titulo": "Guaíba: Uma Nova História",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WR2ktVzNGWHoyUHZ5UnM2c2pHWE40ZFVQcHNoR1JjYTNyRTFLendXdTBjNEJnbVhYRWprSUN0Qm5HU0pSdE5BTW9lMDdpT3p2aDlFaXlaUzZxbXpPcS14UjVJeWM4V1dYVVQ5blpmVXEwXzNmUlhxWlhZNE0wZ28?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1YWEZWamE1OVFZUzhpeEQxMGVDYzAtOWNSMi1wY1puOUhrNUJ5bndQQkJTVXlhMi1iZG1oUFkyZTlrS2llZ3pfb0RmczZ5bzY0dm5yTEJuRmRoVGc5UzI2X1phck0wX2RlYmhoS2Vnak5WUjdpeFc0VW1R?oc=5",
       "fonte": "Portal Litoral Sul",
       "publicado_em": "2026-07-13T11:30:22+00:00",
       "categoria": null,
@@ -274,16 +274,6 @@
       "resumo": "Cidade Inteligente Guaíba inicia nova etapa com primeiro evento oficial de ativação do bairro Portal Litoral Sul"
     },
     {
-      "id": "086a09ae1b68",
-      "titulo": "Motorista de aplicativo morre em acidente em Guaíba, e SIMTRAPLIRS cobra punição rigorosa ao motorista embriagado",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPQWczZTVibktoVFVOZ1FuN1pkSmRkenJHM0p6WFltYTZXZXZSUzJLS1VhUm96Rmh2TzMtMFA4X2xrZnBCUVRhWWNoTEw4RnBBaEFBTFRJLUJsV01JRE1UbHNiVmJ3Q2hmS0V6ZFYxaEN3UlZLdnhzRW01U215Z2xoa3pIZzYzcnBFRVk3LXB5Uy1Xb09DbUtmQUNsTG10dlNGX1N4ZlI0NWVqTndUazZnTU5Gd3djbm1VZ3hMS280X1ZPRXQ1V1JSTm1FazVmM2txVVh0SlVwMmFjUXpxSzB1UFpBZTZtLTZxd2RUVm1wQzBJLW92cVNrV1JHYnE?oc=5",
-      "fonte": "Portal de Camaquã",
-      "publicado_em": "2026-07-06T23:02:16+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Motorista de aplicativo morre em acidente em Guaíba, e SIMTRAPLIRS cobra punição rigorosa ao motorista embriagado Portal de Camaquã"
-    },
-    {
       "id": "2d4e7a08ef0b",
       "titulo": "Guaíba intensifica investimentos em obras de prevenção contra enchentes na área de infraestrutura",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOd09LX1hZWklFbDVVZjRLSFhjVTdFSXBYajBSTkdFandlZnRRWDQtUEhYZUhQOFYwSFhmampjQ2NXSUUzWGVNeDVRNThjQllIalFGOWphbWNLdlNhQWczMGpEUXRvUlhnMmU5OF9PbWlIa3ZiUUtQVmRPcUxZSGY4emsxT0ViQjhNU3VNX2RJZkF1Rlo4OS1uV05FX0lpYzFRamxzc3d1VFdhTzlQRnhsUmhMa2F6R19PcDZFcUtUT3E3Z0xSLWpfb1BWYmRUZUI5MUFYNTVJQk02UDJLOWp3bEEteUlSbnVtVXplODVNSnFEelU0?oc=5",
@@ -372,6 +362,16 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Observatório Social alerta para situação financeira e indica redução de 23% nas despesas de Guaíba Repórter Guaibense"
+    },
+    {
+      "id": "784593a9ce78",
+      "titulo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSXpabXR0c1ZCZXJXRHY4U3M3aUhTWFM1N19WNFMzcU9nbnBMR3I3SHE5eml2bVZmRGptZ2MwLUxTQXF5cXgxMG1uVEdNaGN6SkxkcjNONzNtclg5Z2NRbTg5ZlprMDhKZE44cEhOR3V5VzhobmM5QTdEUHoza0lZWWZxaFA3M3ExUXpnUTc5N1dzeG5sWW9iS3p1eE9nc2xtU2VXNENIdlkwdVd3N1MxVWpMeVNzcnZILU1rWmFvR1ZoQmZXRXRXYnV3bVE?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-06-19T07:00:00+00:00",
+      "categoria": null,
+      "feed": "reporter",
+      "resumo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos Repórter Guaibense"
     }
   ],
   "noticias_home": [
@@ -386,16 +386,6 @@
       "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
     },
     {
-      "id": "d85bcc167848",
-      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
-    },
-    {
       "id": "221c68dd37a6",
       "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
       "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
@@ -404,6 +394,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
+    },
+    {
+      "id": "d85bcc167848",
+      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
     },
     {
       "id": "4cd91ccbbdfb",
@@ -426,9 +426,9 @@
       "resumo": "Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal expansao.co"
     },
     {
-      "id": "02f654b3f345",
+      "id": "f06b650a4cf5",
       "titulo": "Guaíba: Uma Nova História",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WR2ktVzNGWHoyUHZ5UnM2c2pHWE40ZFVQcHNoR1JjYTNyRTFLendXdTBjNEJnbVhYRWprSUN0Qm5HU0pSdE5BTW9lMDdpT3p2aDlFaXlaUzZxbXpPcS14UjVJeWM4V1dYVVQ5blpmVXEwXzNmUlhxWlhZNE0wZ28?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1YWEZWamE1OVFZUzhpeEQxMGVDYzAtOWNSMi1wY1puOUhrNUJ5bndQQkJTVXlhMi1iZG1oUFkyZTlrS2llZ3pfb0RmczZ5bzY0dm5yTEJuRmRoVGc5UzI2X1phck0wX2RlYmhoS2Vnak5WUjdpeFc0VW1R?oc=5",
       "fonte": "Portal Litoral Sul",
       "publicado_em": "2026-07-13T11:30:22+00:00",
       "categoria": null,
