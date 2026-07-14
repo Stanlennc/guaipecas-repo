@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-14T20:59:39.742257+00:00",
+  "gerado_em": "2026-07-14T22:56:01.757787+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -74,6 +74,16 @@
   ],
   "noticias": [
     {
+      "id": "5c9a14de8bb3",
+      "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/vendedor-auxiliar-mecanico-servicos-gerais-e-mais-veja-as-vagas-de-emprego-disponiveis-no-sine-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-14T00:00:00+00:00",
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
+    },
+    {
       "id": "360a1434a2b0",
       "titulo": "Sob chuva, Guaíba recebe mais de 400 corredores na 8ª etapa do Circuito Sesc de Corridas",
       "url": "https://www.reporterguaibense.com.br/noticia/sob-chuva-guaiba-recebe-mais-de-400-corredores-na-8-etapa-do-circuito-sesc-de-corridas",
@@ -102,16 +112,6 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
-    },
-    {
-      "id": "4cd91ccbbdfb",
-      "titulo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura",
-      "url": "https://www.reporterguaibense.com.br/noticia/guaiba-lanca-editais-da-politica-nacional-aldir-blanc-com-mais-de-r-450-mil-em-investimentos-na-cultura",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Os editais foram apresentados em duas audiências públicas presenciais"
     },
     {
       "id": "a6f52b2ce280",
@@ -376,6 +376,16 @@
   ],
   "noticias_home": [
     {
+      "id": "5c9a14de8bb3",
+      "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/vendedor-auxiliar-mecanico-servicos-gerais-e-mais-veja-as-vagas-de-emprego-disponiveis-no-sine-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-14T00:00:00+00:00",
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
+    },
+    {
       "id": "360a1434a2b0",
       "titulo": "Sob chuva, Guaíba recebe mais de 400 corredores na 8ª etapa do Circuito Sesc de Corridas",
       "url": "https://www.reporterguaibense.com.br/noticia/sob-chuva-guaiba-recebe-mais-de-400-corredores-na-8-etapa-do-circuito-sesc-de-corridas",
@@ -404,16 +414,6 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
-    },
-    {
-      "id": "4cd91ccbbdfb",
-      "titulo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura",
-      "url": "https://www.reporterguaibense.com.br/noticia/guaiba-lanca-editais-da-politica-nacional-aldir-blanc-com-mais-de-r-450-mil-em-investimentos-na-cultura",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Os editais foram apresentados em duas audiências públicas presenciais"
     },
     {
       "id": "a6f52b2ce280",
