@@ -1,8 +1,17 @@
 {
-  "gerado_em": "2026-07-14T19:17:04.984752+00:00",
+  "gerado_em": "2026-07-15T02:15:53.134443+00:00",
   "fonte_oficial": "https://www.diariomunicipal.com.br/famurs/pesquisar",
   "entidade_famurs": "963876",
   "editais": [
+    {
+      "id": "a549bed95947",
+      "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQLTRwSjRyMGRNYWdjci1rSUdRTXk4T1ZpekoxRDJCbFhoeGxDRGl4MXNWTWVQaE5sdjVOdjNlTU93UkpzVnlSSmdVTlJneTdRaE5OLUthajc4N3N1OEI1NmI1Vkh2amFQYWVFWkZIa01sMUh1X0xjSG1FaXdSMklIaDZBR3lna0F0SllmYllLZ0dXZ1JSMjV1aFlPeTlRVTBKalBYdjBEQUVsdk9Ic216QUhmZU11RWJLdjByUkNRUHhVcVZsQ25rWi13djN3ZWFibVhERmt3azYtaFltQVU0?oc=5",
+      "fonte": "Repórter Guaibense",
+      "tipo": "vaga",
+      "publicado_em": "2026-07-14T22:18:00+00:00",
+      "feed": "vagas"
+    },
     {
       "id": "2af13ba036a9",
       "titulo": "Oratória e Emoção: Guaíba celebra os talentos do 4º Concurso Escolar na Câmara de Vereadores",
@@ -100,15 +109,6 @@
       "fonte": "Repórter Guaibense",
       "tipo": "vaga",
       "publicado_em": "2026-03-02T08:00:00+00:00",
-      "feed": "vagas"
-    },
-    {
-      "id": "efa233eb66cd",
-      "titulo": "Fábrica da CMPC em Guaíba recebe currículos para futuras contratações; veja as vagas",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVlZ1SjdsYjc1ZkoyTi05UlVvVUhrM2pSRWNPUy1CdFZYbk5tNWdFdEYxb1VRUTVvRC14V0dPWXRNX2xjcU85dThMdC0ySWhjYVVWYTZHbmtyWVZmTWJSYndlNkMzaWFpR3FSZnIzQXNUR1lnTHNGbHpmTGgwMUh6MU93SWVFWDRYWFJmTUhMZ2FfaG1KRDJ3QUJNMFVaV0cxT2ctR0toMEFHX0pWQlhtT29DOTFSX1FFZUE1c1NEaXp6ejU3QWtn?oc=5",
-      "fonte": "Repórter Guaibense",
-      "tipo": "vaga",
-      "publicado_em": "2026-02-13T08:00:00+00:00",
       "feed": "vagas"
     }
   ]
