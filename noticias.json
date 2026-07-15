@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-15T02:21:01.003183+00:00",
+  "gerado_em": "2026-07-15T06:12:48.709447+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -78,7 +78,7 @@
       "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/vendedor-auxiliar-mecanico-servicos-gerais-e-mais-veja-as-vagas-de-emprego-disponiveis-no-sine-guaiba",
       "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-14T00:00:00+00:00",
+      "publicado_em": "2026-07-15T00:00:00+00:00",
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
@@ -88,7 +88,7 @@
       "titulo": "Sob chuva, Guaíba recebe mais de 400 corredores na 8ª etapa do Circuito Sesc de Corridas",
       "url": "https://www.reporterguaibense.com.br/noticia/sob-chuva-guaiba-recebe-mais-de-400-corredores-na-8-etapa-do-circuito-sesc-de-corridas",
       "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-14T00:00:00+00:00",
+      "publicado_em": "2026-07-15T00:00:00+00:00",
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
@@ -220,7 +220,7 @@
       "fonte": "Agora RS",
       "publicado_em": "2026-07-09T13:19:53+00:00",
       "categoria": null,
-      "feed": "recentes",
+      "feed": "vizinhos",
       "resumo": "Mutirão do Projeto Terra contempla 226 imóveis, em Guaíba Agora RS"
     },
     {
@@ -242,16 +242,6 @@
       "categoria": null,
       "feed": "litoral",
       "resumo": "Cidade Inteligente Guaíba inicia entrega da infraestrutura e projeta novo ciclo de desenvolvimento para a região Portal Litoral Sul"
-    },
-    {
-      "id": "cbd5df7a6345",
-      "titulo": "Projeto Terra entrega 226 escrituras em Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QeXI1WU91ZHNBckJEVDFmc1FhU2hyVnRBTXFodUtVeVNzcWI2MmRTX0FPUTNQbGs3RGhGcFg5Q3kwVVFkR2N0T3hqRHpKZWgyU2VWOFlEczd4Rl9LNmRfRGRLeUd1WHF2ZDhOQV9XR0lOT1drb1pMR1Rrd9IBgAFBVV95cUxNczZUbEpZRGNxbmh1UEp0SUJ3QkhGSU5yUWo3VUZXRUdyNjFTczdqdlVaaHVDRTdCbkxWd2p4dUhWcEgzdzlPUG5FM21vNF9QSUpBeDlpZnN3T2FwYWJGQ0s4V0tIczl1MUVkQ0pCV0szS1U5Q09jR0hDZUpMWkhGZQ?oc=5",
-      "fonte": "Jornal O Sul",
-      "publicado_em": "2026-07-09T02:37:59+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Projeto Terra entrega 226 escrituras em Guaíba Jornal O Sul"
     },
     {
       "id": "9ee89f7b2a64",
@@ -372,6 +362,16 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos Repórter Guaibense"
+    },
+    {
+      "id": "c9603e9456c3",
+      "titulo": "Guaíba adere ao programa Prepara RS para enfrentar os potenciais efeitos do El Niño",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaEFIZmhpTEdtWVFZQ0N6ZVlLTkU1cnUwRnV0SW8zVFlDcHBjVlI3TGplRVJhQ3VJbjNETjZKcnZNZXNtZmF1X2VKc2hsZkx2TXR0bGhsckxpcFQ5endVc2dBQWt4ei1SLXdvSmtxamgzbFNDck5KX2tzeDhXS3NQZ2dvQktRbDQ0bWNfYU9KVWlsa0xGcGhKRkM3SjVYS0prbndma3VqWVdhWS1m?oc=5",
+      "fonte": "expansao.co",
+      "publicado_em": "2026-06-18T07:00:00+00:00",
+      "categoria": null,
+      "feed": "google",
+      "resumo": "Guaíba adere ao programa Prepara RS para enfrentar os potenciais efeitos do El Niño expansao.co"
     }
   ],
   "noticias_home": [
@@ -380,7 +380,7 @@
       "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/vendedor-auxiliar-mecanico-servicos-gerais-e-mais-veja-as-vagas-de-emprego-disponiveis-no-sine-guaiba",
       "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-14T00:00:00+00:00",
+      "publicado_em": "2026-07-15T00:00:00+00:00",
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
@@ -390,7 +390,7 @@
       "titulo": "Sob chuva, Guaíba recebe mais de 400 corredores na 8ª etapa do Circuito Sesc de Corridas",
       "url": "https://www.reporterguaibense.com.br/noticia/sob-chuva-guaiba-recebe-mais-de-400-corredores-na-8-etapa-do-circuito-sesc-de-corridas",
       "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-14T00:00:00+00:00",
+      "publicado_em": "2026-07-15T00:00:00+00:00",
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "O evento contemplou provas de 1 km a 10 km neste domingo"
