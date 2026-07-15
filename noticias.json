@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-15T19:08:39.311405+00:00",
+  "gerado_em": "2026-07-15T20:59:04.501506+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -102,6 +102,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
+    },
+    {
+      "id": "b9a5d813bc2a",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
       "id": "d85bcc167848",
@@ -362,16 +372,6 @@
       "categoria": null,
       "feed": "google",
       "resumo": "Guaíba adere ao programa Prepara RS para enfrentar os potenciais efeitos do El Niño expansao.co"
-    },
-    {
-      "id": "2219b64998d7",
-      "titulo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVkI4bGFGSEM4Nm5lVk5xNUZ2VHRORlJKa2E1bEV5QVNJNUFTbUxQb0tUR1dQU2p3bm9LX2FMb2lZeVU5M0JpSHVqaTQ4S0hqR3BUMnh3ekF1QUw2c0VGNHo0WjFqdHpGUWlBREl1UXdQM3J2S3Q1TjcwdEFXZFdSQWJJU2VuSmhCOHhsczBFZ3NJdDFnMWdVSElzY0hadXNsRDV5N0ppb2F1aWx3MWNoUGE1Uk9fYUM4N2lURGllMDRIQXM1X3dzNmFhRzJpdGRvRU5vY3hSSnBfUlBsQmhTMDFB?oc=5",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-06-17T07:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter",
-      "resumo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura Repórter Guaibense"
     }
   ],
   "noticias_home": [
@@ -404,6 +404,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
+    },
+    {
+      "id": "b9a5d813bc2a",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
       "id": "d85bcc167848",
@@ -444,16 +454,6 @@
       "categoria": null,
       "feed": "recentes",
       "resumo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 43 ArchDaily"
-    },
-    {
-      "id": "1243af8e6369",
-      "titulo": "Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVjZyTTRhRG9jLVNWYlZiVkROR2ZubWZHRlo3SG1aVzdacmVqZzYzN3Y0ajNjLWs1VktvbWNNRkFkU3hva25pRlpVNFdBVFIxSk5DUFY4aC1ObnJIRnJIaldNRXJDQldIY2tqQ0Zld28wRVJzTTJkU29YMmdlOEtOQ0EwMEllODAxRVVUdEVzQ2dPcVdz?oc=5",
-      "fonte": "expansao.co",
-      "publicado_em": "2026-07-13T13:06:41+00:00",
-      "categoria": null,
-      "feed": "vizinhos",
-      "resumo": "Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal expansao.co"
     }
   ]
 }
