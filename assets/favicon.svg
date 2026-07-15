@@ -1,5 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Guaipecaz">
   <rect width="32" height="32" rx="8" fill="#0a0f14"/>
-  <path d="M4 22 C8 18, 12 24, 16 20 C20 16, 24 22, 28 18 L28 28 L4 28 Z" fill="#3dadb8" opacity="0.9"/>
-  <path d="M4 22 C8 18, 12 24, 16 20 C20 16, 24 22, 28 18" fill="none" stroke="#e8a87c" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- head -->
+  <ellipse cx="16" cy="17" rx="11" ry="10.5" fill="#e8b882"/>
+  <!-- white blaze + muzzle -->
+  <path d="M12 8.5 C14 7.2, 18 7.2, 20 8.5 L19.5 16 C18.5 20, 13.5 20, 12.5 16 Z" fill="#f5f0e8"/>
+  <ellipse cx="16" cy="21" rx="6.2" ry="5" fill="#f5f0e8"/>
+  <!-- teal ear (right) -->
+  <path d="M21.5 7.5 C25 5.5, 28.5 9, 27.2 13.5 C26.5 16, 24 16.5, 22 14.5 Z" fill="#2f9aa8"/>
+  <!-- tan ear (left) -->
+  <path d="M10.5 7.5 C7 5.5, 3.5 9, 4.8 13.5 C5.5 16, 8 16.5, 10 14.5 Z" fill="#d49a62"/>
+  <!-- teal eye patch -->
+  <ellipse cx="21" cy="15.2" rx="4.2" ry="4.6" fill="#2f9aa8"/>
+  <!-- eyes -->
+  <circle cx="12.2" cy="15.2" r="1.85" fill="#0a0f14"/>
+  <circle cx="20.2" cy="15.2" r="1.85" fill="#0a0f14"/>
+  <circle cx="12.7" cy="14.7" r="0.45" fill="#fff"/>
+  <circle cx="20.7" cy="14.7" r="0.45" fill="#fff"/>
+  <!-- nose -->
+  <ellipse cx="16" cy="19.3" rx="2.1" ry="1.6" fill="#0a0f14"/>
+  <!-- smile + tongue -->
+  <path d="M13.2 21.8 Q16 24.2 18.8 21.8" fill="none" stroke="#0a0f14" stroke-width="1.1" stroke-linecap="round"/>
+  <ellipse cx="16" cy="23.4" rx="1.3" ry="1.1" fill="#e89a9a"/>
 </svg>

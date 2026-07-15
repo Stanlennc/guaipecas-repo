@@ -1,4 +1,4 @@
-const CACHE = 'guaipecaz-v47';
+const CACHE = 'guaipecaz-v48';
 const SHELL = [
   '/',
   '/index.html',
@@ -27,6 +27,7 @@ const SHELL = [
   '/manifest.json',
   '/sw.js',
   '/assets/favicon.svg',
+  '/assets/favicon.png',
   '/assets/icon-192.png',
   '/assets/icon-512.png',
   '/assets/backgrounds/bg-por-sol.jpg',

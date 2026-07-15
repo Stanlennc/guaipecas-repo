@@ -9,6 +9,12 @@
   "lang": "pt-BR",
   "icons": [
     {
+      "src": "assets/favicon.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
       "src": "assets/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
