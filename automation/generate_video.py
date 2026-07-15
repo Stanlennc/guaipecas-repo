@@ -19,13 +19,19 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
+AUDIOS = ROOT / "audios"
 OUT_VIDEO = ASSETS / "video-guaipecaz-30s.mp4"
 QR_PATH = ASSETS / "qr-guaipecaz.png"
+# Mixkit Stock Music Free License — Hip Hop 02 (Lily J)
+AUDIO_TRACK = AUDIOS / "mixkit-hip-hop-02-738.mp3"
 SITE_URL = SITE_URL_DISPLAY
 
 W, H = 1080, 1920
 FPS = 30
 DURATION = 30.0
+AUDIO_VOLUME = 0.3
+AUDIO_FADE_IN = 1.5
+AUDIO_FADE_OUT = 2.5
 SLIDE_COUNT = 6
 SLIDE_FRAMES = int(DURATION / SLIDE_COUNT * FPS)  # 150 frames = 5s each
 
@@ -378,7 +384,7 @@ def render_frames() -> list[Path]:
     return paths
 
 
-def encode_video(frame_paths: list[Path], out: Path) -> None:
+def encode_video(frame_paths: list[Path], out: Path, audio: Path | None = None) -> None:
     if not frame_paths:
         raise SystemExit("Nenhum frame gerado.")
 
@@ -392,13 +398,32 @@ def encode_video(frame_paths: list[Path], out: Path) -> None:
         ffmpeg, "-y",
         "-framerate", str(FPS),
         "-i", pattern,
+    ]
+
+    use_audio = audio is not None and audio.exists()
+    if use_audio:
+        fade_out_start = max(0.0, DURATION - AUDIO_FADE_OUT)
+        afilter = (
+            f"[1:a]atrim=0:{DURATION},asetpts=PTS-STARTPTS,"
+            f"volume={AUDIO_VOLUME},"
+            f"afade=t=in:st=0:d={AUDIO_FADE_IN},"
+            f"afade=t=out:st={fade_out_start}:d={AUDIO_FADE_OUT}[a]"
+        )
+        cmd.extend(["-i", str(audio), "-filter_complex", afilter, "-map", "0:v", "-map", "[a]"])
+    else:
+        if audio is not None:
+            print(f"Aviso: trilha não encontrada ({audio}), gerando vídeo sem áudio.")
+
+    cmd.extend([
         "-c:v", "libx264",
         "-pix_fmt", "yuv420p",
         "-crf", "20",
         "-preset", "medium",
-        "-movflags", "+faststart",
-        str(out),
-    ]
+    ])
+    if use_audio:
+        cmd.extend(["-c:a", "aac", "-b:a", "128k"])
+    cmd.extend(["-movflags", "+faststart", str(out)])
+
     subprocess.run(cmd, check=True, capture_output=True)
 
 
@@ -406,8 +431,11 @@ def main():
     ASSETS.mkdir(parents=True, exist_ok=True)
     print(f"Gerando {int(DURATION * FPS)} frames ({DURATION}s @ {FPS}fps)...")
     frames = render_frames()
-    print(f"Codificando vídeo → {OUT_VIDEO}")
-    encode_video(frames, OUT_VIDEO)
+    if AUDIO_TRACK.exists():
+        print(f"Codificando vídeo + trilha ({AUDIO_TRACK.name}) → {OUT_VIDEO}")
+    else:
+        print(f"Codificando vídeo → {OUT_VIDEO}")
+    encode_video(frames, OUT_VIDEO, audio=AUDIO_TRACK)
     # cleanup temp frames
     for p in frames:
         p.unlink(missing_ok=True)

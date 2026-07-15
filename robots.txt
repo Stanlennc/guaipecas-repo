@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Páginas de prévia / desenvolvimento — não indexar
+Disallow: /preview-
+
+Sitemap: https://guaipecaz.com.br/sitemap.xml
