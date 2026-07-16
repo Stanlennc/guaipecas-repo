@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-16T20:56:09.170613+00:00",
+  "gerado_em": "2026-07-16T22:56:13.013389+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -122,6 +122,16 @@
       "categoria": "Projetos especiais",
       "feed": "expansao_direto",
       "resumo": "O projeto Pedal Sustentável está com uma nova edição em funcionamento em Guaíba, oferecendo bicicletas compartilhadas para uso gratuito da população. A iniciativa conta com o apoio da CMPC e&#8230; O post Projeto Pedal Sustentável disponibiliza bicicletas gratuitas em Guaíba apareceu primeiro em…"
+    },
+    {
+      "id": "041d301d35e1",
+      "titulo": "O pôr do sol mais famoso do sul do país cai sobre o Guaíba e ilumina a chaminé de 117 metros da Usina do Gasômetro",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPa2JVT1dzVkZXc3BFajlWVDRsdGlJZDJnRzhNZ05JeWwxNnhobktzRFBJUlZ0QkpaSGQ0VG1GQlloOGF3c2g5NEJ2S0N2alAxWGRrWUpyOU5lZDZ3TWNrcmdPTUNNZDdCOXRlR3R0MmcyVWU0N3hESVRUR3BRY0txbHBzTl80QXdYZ0Vtd1hiRHVmYXM1TG1zdGgwYkpYSFlQVFZRTVJYb3NWWXdYOGlLRGlUMng3T095VWlGS080ZTBkYXVGcXFVU2NnSkxWUDBHRUZVUkZRajBrNWh0OVQyXzZzN0szYlI5TUluN1BVU1AycVk?oc=5",
+      "fonte": "Correio Braziliense",
+      "publicado_em": "2026-07-16T21:30:00+00:00",
+      "categoria": null,
+      "feed": "recentes",
+      "resumo": "O pôr do sol mais famoso do sul do país cai sobre o Guaíba e ilumina a chaminé de 117 metros da Usina do Gasômetro Correio Braziliense"
     },
     {
       "id": "d3c2091518bd",
@@ -362,16 +372,6 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Observatório Social alerta para situação financeira e indica redução de 23% nas despesas de Guaíba Repórter Guaibense"
-    },
-    {
-      "id": "784593a9ce78",
-      "titulo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSXpabXR0c1ZCZXJXRHY4U3M3aUhTWFM1N19WNFMzcU9nbnBMR3I3SHE5eml2bVZmRGptZ2MwLUxTQXF5cXgxMG1uVEdNaGN6SkxkcjNONzNtclg5Z2NRbTg5ZlprMDhKZE44cEhOR3V5VzhobmM5QTdEUHoza0lZWWZxaFA3M3ExUXpnUTc5N1dzeG5sWW9iS3p1eE9nc2xtU2VXNENIdlkwdVd3N1MxVWpMeVNzcnZILU1rWmFvR1ZoQmZXRXRXYnV3bVE?oc=5",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-06-19T07:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter",
-      "resumo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos Repórter Guaibense"
     }
   ],
   "noticias_home": [
@@ -426,6 +426,16 @@
       "resumo": "O projeto Pedal Sustentável está com uma nova edição em funcionamento em Guaíba, oferecendo bicicletas compartilhadas para uso gratuito da população. A iniciativa conta com o apoio da CMPC e&#8230; O post Projeto Pedal Sustentável disponibiliza bicicletas gratuitas em Guaíba apareceu primeiro em…"
     },
     {
+      "id": "041d301d35e1",
+      "titulo": "O pôr do sol mais famoso do sul do país cai sobre o Guaíba e ilumina a chaminé de 117 metros da Usina do Gasômetro",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPa2JVT1dzVkZXc3BFajlWVDRsdGlJZDJnRzhNZ05JeWwxNnhobktzRFBJUlZ0QkpaSGQ0VG1GQlloOGF3c2g5NEJ2S0N2alAxWGRrWUpyOU5lZDZ3TWNrcmdPTUNNZDdCOXRlR3R0MmcyVWU0N3hESVRUR3BRY0txbHBzTl80QXdYZ0Vtd1hiRHVmYXM1TG1zdGgwYkpYSFlQVFZRTVJYb3NWWXdYOGlLRGlUMng3T095VWlGS080ZTBkYXVGcXFVU2NnSkxWUDBHRUZVUkZRajBrNWh0OVQyXzZzN0szYlI5TUluN1BVU1AycVk?oc=5",
+      "fonte": "Correio Braziliense",
+      "publicado_em": "2026-07-16T21:30:00+00:00",
+      "categoria": null,
+      "feed": "recentes",
+      "resumo": "O pôr do sol mais famoso do sul do país cai sobre o Guaíba e ilumina a chaminé de 117 metros da Usina do Gasômetro Correio Braziliense"
+    },
+    {
       "id": "d3c2091518bd",
       "titulo": "Estão abertas as inscrições para a segunda edição do concurso de fotografia \"Olhares de Guaíba\"",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd0JDLU5oLXJTSkctTGtFZXgxLXZnUkh6bjBBSWlYSnJ6YTlzTkFrcDJJbGZyWko3aVZJQlJKZ1QxbjdMVUYxNU1hMElrSlZnY180cTlfNHpuUEhzTjVVQlFRQzFXd0szN2JYOC1UazhxbWlMWm15VU8tUmw4Z1V6ZFZQbTVtMFNqajVpcERDNFZyYkpVWGtqYkNoVTBPcndDWGZ6RGJ6SWZBSk9sR0NQalFBNEdLblFnWi1JNHNwSkpYREg3eWt6Z2cyUFRKd0FCMU1naQ?oc=5",
@@ -444,16 +454,6 @@
       "categoria": null,
       "feed": "vizinhos",
       "resumo": "Guaíba arrecada doações para famílias atingidas por temporal em Eldorado do Sul expansao.co"
-    },
-    {
-      "id": "22e768a3b77b",
-      "titulo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 43",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNZ0Vnb3hMam4tRzQ4Mlo2VjFZSnlZZDFMUEpXX2hzcm5Pbm1rOTFLN3B0eURXdzlJOGZINGtmdVJ1aU9nZjBkTHBBa0tjVFFWcnlNeE5sdzNzc0N1VFZSNW8xTkliOHRyWkpISHN5N0lqRFlSaFMwbEUwOWtfei10VzFKcTFJY0tYcXFUb0NEMGhjbGxJaVZhZ3NUeS1oQm02c3pocmp3Y21tMDlqVUV0MjZTNzhnenlBaGI0bGJQdGZvbFJJOXF2RG16Y2FDY2hIN3U4ZThnUmdNUmNMdllscWRKaFdoUXpKQzN2NG9mN3hHYXNKWFQ5OXEzQmEwamZBZGJ5UUpZS1c1cUZGWThpX19TNU1SWExtX214UnB0aUdLVmN4Z1ctUmVkbzNKR2M?oc=5",
-      "fonte": "ArchDaily",
-      "publicado_em": "2026-07-14T06:00:05+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 43 ArchDaily"
     }
   ]
 }
