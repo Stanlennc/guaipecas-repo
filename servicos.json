@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-15T12:20:22.845291+00:00",
+  "gerado_em": "2026-07-16T12:25:09.705586+00:00",
   "farmacia_plantao": {
     "titulo": "Farmácia de plantão",
     "descricao": "A escala oficial é publicada pela Prefeitura e pelo conselho regional. Confira o endereço da farmácia aberta hoje.",
@@ -46,6 +46,13 @@
       "id": "ef6dea0e7600",
       "titulo": "Plano plurianual ppa 2026 2029",
       "url": "https://guaiba.atende.net/cidadao/noticia/plano-plurianual-ppa-2026-2029",
+      "fonte": "Prefeitura de Guaíba",
+      "tipo": "oficial"
+    },
+    {
+      "id": "e56ca5e08f16",
+      "titulo": "Prefeitura de guaiba arrecada alimentos e itens de higiene para apoiar eldorado do sul",
+      "url": "https://guaiba.atende.net/cidadao/noticia/prefeitura-de-guaiba-arrecada-alimentos-e-itens-de-higiene-para-apoiar-eldorado-do-sul",
       "fonte": "Prefeitura de Guaíba",
       "tipo": "oficial"
     },
