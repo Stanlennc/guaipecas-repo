@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-16T13:47:04.064903+00:00",
+  "gerado_em": "2026-07-16T15:38:06.711596+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -74,44 +74,24 @@
   ],
   "noticias": [
     {
-      "id": "5c9a14de8bb3",
-      "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/vendedor-auxiliar-mecanico-servicos-gerais-e-mais-veja-as-vagas-de-emprego-disponiveis-no-sine-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-16T00:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
-    },
-    {
-      "id": "221c68dd37a6",
-      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
-      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
-    },
-    {
-      "id": "b9a5d813bc2a",
+      "id": "a5f3503d8b58",
       "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXdwWU0wM2dSMjlLTDVpUWZ4XzhfcW9aSWxPc29UZ0dYNXVpbDh2VHlHWmJxTDR2SnVPeGhwdlJVU3NQMDlpak5WVFR3YmFiT2x6VlotQjFvZl9TNFJSTDNEWnZuR1A3NEl3UDhlUDdZck1JX0xZWlR2WjBYRVZyc0pFa0pJVlNfVEFKT0hpSWxKeVlneDVlN1MzdDgxTmUyVVR5YlR1SFNaZVJLSGNfNWZaUlR4RktYSVplTjA2dlVWV1UxZ1VSSA?oc=5",
       "fonte": "Repórter Guaibense",
-      "publicado_em": null,
+      "publicado_em": "2026-07-15T19:58:00+00:00",
       "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+      "feed": "reporter",
+      "resumo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba Repórter Guaibense"
     },
     {
-      "id": "d85bcc167848",
-      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
+      "id": "a549bed95947",
+      "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQLTRwSjRyMGRNYWdjci1rSUdRTXk4T1ZpekoxRDJCbFhoeGxDRGl4MXNWTWVQaE5sdjVOdjNlTU93UkpzVnlSSmdVTlJneTdRaE5OLUthajc4N3N1OEI1NmI1Vkh2amFQYWVFWkZIa01sMUh1X0xjSG1FaXdSMklIaDZBR3lna0F0SllmYllLZ0dXZ1JSMjV1aFlPeTlRVTBKalBYdjBEQUVsdk9Ic216QUhmZU11RWJLdjByUkNRUHhVcVZsQ25rWi13djN3ZWFibVhERmt3azYtaFltQVU0?oc=5",
       "fonte": "Repórter Guaibense",
-      "publicado_em": null,
+      "publicado_em": "2026-07-14T22:18:00+00:00",
       "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
+      "feed": "reporter",
+      "resumo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba Repórter Guaibense"
     },
     {
       "id": "a6f52b2ce280",
@@ -274,6 +254,16 @@
       "resumo": "Porto Alegre entra em atenção por risco de elevação do Guaíba Agora RS"
     },
     {
+      "id": "375eb2b1cf80",
+      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMUJNbzhvMlo2c09lM3JaR2pxR3ZxanFGQU9LTkJfeWlfdU9oWUpDdmlCRWp2dGk1c194ZHo1dDQ4N2F6UjBCQ1dObjlSb1pEd09ya1NNWG1YR1JxNE55WUF4SDc0VEtTSlVUY3dtRmhmLU80WWg1d1A5SUxPbjVWS0c4ZHpEMTUyOUREQ1Q4XzM2eGxXc1AwSE5USmhNNklObFNPV0lOcVFBLV9kVTl4S0JLSHc2Sm9SOTJMclhXUQ?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-06-29T19:15:00+00:00",
+      "categoria": null,
+      "feed": "reporter",
+      "resumo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba Repórter Guaibense"
+    },
+    {
       "id": "27304c7576ce",
       "titulo": "Sob chuva, Guaíba recebe mais de 400 corredores na 8ª etapa do Circuito Sesc de Corridas",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTnp2dllfbnUtTzhWbUVQSkVsUGZ6eEE2UzVVM0FCSTJVTW5QTWZkTnEyRFBRRzdFNHBUYXRKY0R1dDZrRFRhN0dyX21VcE5CdkhlY3NrTDZBbERzRHVwd04xaVl1emJMMGFSZ2ZJSURvY0JZNFZpemxtR285OGExT09VUllEY2dUekUxc2dIZjZNTkl1RWEteHBnVEVEcnZVclpCMGl3SEhieDU5elAzclYwYWNSWUJ1bFJ1VVkyeC1IVEhqRmd1M0FMaw?oc=5",
@@ -372,48 +362,38 @@
       "categoria": null,
       "feed": "google",
       "resumo": "Guaíba adere ao programa Prepara RS para enfrentar os potenciais efeitos do El Niño expansao.co"
+    },
+    {
+      "id": "2219b64998d7",
+      "titulo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVkI4bGFGSEM4Nm5lVk5xNUZ2VHRORlJKa2E1bEV5QVNJNUFTbUxQb0tUR1dQU2p3bm9LX2FMb2lZeVU5M0JpSHVqaTQ4S0hqR3BUMnh3ekF1QUw2c0VGNHo0WjFqdHpGUWlBREl1UXdQM3J2S3Q1TjcwdEFXZFdSQWJJU2VuSmhCOHhsczBFZ3NJdDFnMWdVSElzY0hadXNsRDV5N0ppb2F1aWx3MWNoUGE1Uk9fYUM4N2lURGllMDRIQXM1X3dzNmFhRzJpdGRvRU5vY3hSSnBfUlBsQmhTMDFB?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-06-17T07:00:00+00:00",
+      "categoria": null,
+      "feed": "reporter",
+      "resumo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura Repórter Guaibense"
     }
   ],
   "noticias_home": [
     {
-      "id": "5c9a14de8bb3",
-      "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/vendedor-auxiliar-mecanico-servicos-gerais-e-mais-veja-as-vagas-de-emprego-disponiveis-no-sine-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-16T00:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
-    },
-    {
-      "id": "221c68dd37a6",
-      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
-      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
-    },
-    {
-      "id": "b9a5d813bc2a",
+      "id": "a5f3503d8b58",
       "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXdwWU0wM2dSMjlLTDVpUWZ4XzhfcW9aSWxPc29UZ0dYNXVpbDh2VHlHWmJxTDR2SnVPeGhwdlJVU3NQMDlpak5WVFR3YmFiT2x6VlotQjFvZl9TNFJSTDNEWnZuR1A3NEl3UDhlUDdZck1JX0xZWlR2WjBYRVZyc0pFa0pJVlNfVEFKT0hpSWxKeVlneDVlN1MzdDgxTmUyVVR5YlR1SFNaZVJLSGNfNWZaUlR4RktYSVplTjA2dlVWV1UxZ1VSSA?oc=5",
       "fonte": "Repórter Guaibense",
-      "publicado_em": null,
+      "publicado_em": "2026-07-15T19:58:00+00:00",
       "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+      "feed": "reporter",
+      "resumo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba Repórter Guaibense"
     },
     {
-      "id": "d85bcc167848",
-      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
+      "id": "a549bed95947",
+      "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQLTRwSjRyMGRNYWdjci1rSUdRTXk4T1ZpekoxRDJCbFhoeGxDRGl4MXNWTWVQaE5sdjVOdjNlTU93UkpzVnlSSmdVTlJneTdRaE5OLUthajc4N3N1OEI1NmI1Vkh2amFQYWVFWkZIa01sMUh1X0xjSG1FaXdSMklIaDZBR3lna0F0SllmYllLZ0dXZ1JSMjV1aFlPeTlRVTBKalBYdjBEQUVsdk9Ic216QUhmZU11RWJLdjByUkNRUHhVcVZsQ25rWi13djN3ZWFibVhERmt3azYtaFltQVU0?oc=5",
       "fonte": "Repórter Guaibense",
-      "publicado_em": null,
+      "publicado_em": "2026-07-14T22:18:00+00:00",
       "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
+      "feed": "reporter",
+      "resumo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba Repórter Guaibense"
     },
     {
       "id": "a6f52b2ce280",
@@ -454,6 +434,26 @@
       "categoria": null,
       "feed": "vizinhos",
       "resumo": "Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal expansao.co"
+    },
+    {
+      "id": "f06b650a4cf5",
+      "titulo": "Guaíba: Uma Nova História",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1YWEZWamE1OVFZUzhpeEQxMGVDYzAtOWNSMi1wY1puOUhrNUJ5bndQQkJTVXlhMi1iZG1oUFkyZTlrS2llZ3pfb0RmczZ5bzY0dm5yTEJuRmRoVGc5UzI2X1phck0wX2RlYmhoS2Vnak5WUjdpeFc0VW1R?oc=5",
+      "fonte": "Portal Litoral Sul",
+      "publicado_em": "2026-07-13T11:30:22+00:00",
+      "categoria": null,
+      "feed": "litoral",
+      "resumo": "Guaíba: Uma Nova História Portal Litoral Sul"
+    },
+    {
+      "id": "e985f003db84",
+      "titulo": "PRF recupera motocicleta furtada e prende homem com antecedentes criminais na BR-116, em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdHdwMUZ4X2hlUXJoblpRWjdyZHdoZGJPN28yVUlPVDNCeV9ZRHd4UUtfeXAtSzh6QWlwNGgyTWR4WVhtYVN0OERnWXloTnh1ZkpDaGEzZVpPWW43THJrRkJxak9XbUp3Zm1vd1hodlA3aU80bmxEcDdLTXB0MUo4SndyZGxaNExwUmNrZE90Tk8zcTA0bWJMRTMxTDlpbHd2T0cyWkxwXzJobmhpV0hKem55cS1MZE5QS1pUNENXajBGTm15Qy1lTlhvUHFtUjlxMG9FUGs0cjctbHM5NDVmU2ZYeXc?oc=5",
+      "fonte": "Portal de Camaquã",
+      "publicado_em": "2026-07-11T02:17:56+00:00",
+      "categoria": null,
+      "feed": "recentes",
+      "resumo": "PRF recupera motocicleta furtada e prende homem com antecedentes criminais na BR-116, em Guaíba Portal de Camaquã"
     }
   ]
 }
