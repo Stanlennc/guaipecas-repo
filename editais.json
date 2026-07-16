@@ -1,8 +1,17 @@
 {
-  "gerado_em": "2026-07-16T13:46:36.238549+00:00",
+  "gerado_em": "2026-07-16T19:06:57.364790+00:00",
   "fonte_oficial": "https://www.diariomunicipal.com.br/famurs/pesquisar",
   "entidade_famurs": "963876",
   "editais": [
+    {
+      "id": "d3c2091518bd",
+      "titulo": "Estão abertas as inscrições para a segunda edição do concurso de fotografia \"Olhares de Guaíba\"",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd0JDLU5oLXJTSkctTGtFZXgxLXZnUkh6bjBBSWlYSnJ6YTlzTkFrcDJJbGZyWko3aVZJQlJKZ1QxbjdMVUYxNU1hMElrSlZnY180cTlfNHpuUEhzTjVVQlFRQzFXd0szN2JYOC1UazhxbWlMWm15VU8tUmw4Z1V6ZFZQbTVtMFNqajVpcERDNFZyYkpVWGtqYkNoVTBPcndDWGZ6RGJ6SWZBSk9sR0NQalFBNEdLblFnWi1JNHNwSkpYREg3eWt6Z2cyUFRKd0FCMU1naQ?oc=5",
+      "fonte": "Repórter Guaibense",
+      "tipo": "concurso",
+      "publicado_em": "2026-07-16T18:45:00+00:00",
+      "feed": "concurso"
+    },
     {
       "id": "a549bed95947",
       "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
@@ -22,19 +31,19 @@
       "feed": "concurso"
     },
     {
-      "id": "99ac890d6af6",
-      "titulo": "Círculo Saúde abre 120 vagas para Hospital de Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX1NaMUppQ1pSYWl2OVlCN3BIck1LZ1l6a21mNW45N0szNF9ING1NOW0xZFVjaXQ5U1ZISUxoU0xvUnhWVk1CQzVMRDVXOVJtWElkeWs3WnI3aFdGMXRfS2QzZHlsRlpPXzZ2WWlkVURyMDgzcUhuODRhQWw0aGtkS3dfYkR0S3hDaE1vckU5cy00bHFYa0w4VWdVVU9rNWZWY2tZZjBlLW56TjR2UHR5cXp5T0dhalo0b2k2N2pYeHlRODA1b18tUQ?oc=5",
-      "fonte": "portaldenoticias.com.br",
-      "tipo": "vaga",
-      "publicado_em": "2026-06-23T15:48:00+00:00",
-      "feed": "vagas"
-    },
-    {
       "id": "a6d75e6c7ff7",
       "titulo": "Nova gestora do hospital de Guaíba abre 120 vagas de emprego no local",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaUNVbzJHd3ZHZVhHNUVQdTZiZ2lKeE5HSWtVS1UtZ0NBVHV1eE9FZURPQkxvTVVPZW85ZlZvcjdPbFFHa1BGY0xuLVpMUW93Q2F1QmZDU0Vna2RQZGxkTV9zTGpoTndtaHdLSlVfY0Nrb1RkaC1vS290NXhEa21BREtoWVAwWHdBWGJVd3YxMHpfUV9IMzE4Rko2WU54OEtWVHdvWHRnZURzQUl2bEFTT1dkSFJmYmpUUi1nVFhmM09hSTdxaXExazJXX2V4XzlXaTZCRg?oc=5",
       "fonte": "Jornal do Comércio",
+      "tipo": "vaga",
+      "publicado_em": "2026-06-23T07:00:00+00:00",
+      "feed": "vagas"
+    },
+    {
+      "id": "99ac890d6af6",
+      "titulo": "Círculo Saúde abre 120 vagas para Hospital de Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX1NaMUppQ1pSYWl2OVlCN3BIck1LZ1l6a21mNW45N0szNF9ING1NOW0xZFVjaXQ5U1ZISUxoU0xvUnhWVk1CQzVMRDVXOVJtWElkeWs3WnI3aFdGMXRfS2QzZHlsRlpPXzZ2WWlkVURyMDgzcUhuODRhQWw0aGtkS3dfYkR0S3hDaE1vckU5cy00bHFYa0w4VWdVVU9rNWZWY2tZZjBlLW56TjR2UHR5cXp5T0dhalo0b2k2N2pYeHlRODA1b18tUQ?oc=5",
+      "fonte": "portaldenoticias.com.br",
       "tipo": "vaga",
       "publicado_em": "2026-06-23T07:00:00+00:00",
       "feed": "vagas"
@@ -100,15 +109,6 @@
       "fonte": "Repórter Guaibense",
       "tipo": "vaga",
       "publicado_em": "2026-03-10T07:00:00+00:00",
-      "feed": "vagas"
-    },
-    {
-      "id": "3a5d12a4d051",
-      "titulo": "Sine Guaíba abre 30 vagas de emprego do Zaffari para empacotador, caixa e balconista",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYng5VVNpV2ZZZF9LSjUzVVU5TW1OU19vZ3NYREhfeFZhNDEzSmtLcmdrMU1QUU80OXVTMkw3aG5qSUlzUTY3MUJyWHRpQlRHN05aa1QtaXhoSzhYNUVKeGVfRW9NSVlRZHczM1RIc2hSTGVUMXJjMm90OEF6SW44VzliU3JSQTBCbk9ZSTZ1Y1hLYzVId2c3b1N4NjRzYXQ2T1QwaVZDSURwUWN5QURHdmtWQW5MaGhwU2dhd1JERnN0ZWQ0Ymxn?oc=5",
-      "fonte": "Repórter Guaibense",
-      "tipo": "vaga",
-      "publicado_em": "2026-03-02T08:00:00+00:00",
       "feed": "vagas"
     }
   ]
