@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-17T19:05:28.153925+00:00",
+  "gerado_em": "2026-07-17T20:53:09.750607+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -84,14 +84,14 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "221c68dd37a6",
-      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
-      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
+      "id": "b9a5d813bc2a",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
+      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
       "id": "1360a7e98d8a",
@@ -104,14 +104,14 @@
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
-      "id": "b9a5d813bc2a",
-      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "id": "d85bcc167848",
+      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
     },
     {
       "id": "87deade54bcf",
@@ -200,7 +200,7 @@
       "fonte": "expansao.co",
       "publicado_em": "2026-07-13T13:06:41+00:00",
       "categoria": null,
-      "feed": "vizinhos",
+      "feed": "recentes",
       "resumo": "Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal expansao.co"
     },
     {
@@ -242,6 +242,16 @@
       "categoria": null,
       "feed": "google",
       "resumo": "Defensoria Pública participa da entrega das escrituras encaminhadas pelo Projeto Terra – Eu sou COHAB, em Guaíba defensoria.rs.def.br"
+    },
+    {
+      "id": "ea9a7f777f82",
+      "titulo": "Mutirão do Projeto Terra contempla 226 imóveis, em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV1Z4QzRSWXpXOGc3THh1VlkyZjNKdzYwT0VjYlpTZzE2Y0JQLTB0enlsQUdtTUVEQVQ2Q3dya3ZKUkkwbzRxUkxRdU4zWHRPdnRiUFNwNENRVm9OX0tCTThQMFlKcUhVS21GcDJMUTBlUjR3ZGJDOGZKVGV4c3JWcExtdw?oc=5",
+      "fonte": "Agora RS",
+      "publicado_em": "2026-07-09T13:19:53+00:00",
+      "categoria": null,
+      "feed": "google",
+      "resumo": "Mutirão do Projeto Terra contempla 226 imóveis, em Guaíba Agora RS"
     },
     {
       "id": "fa898c66b7b6",
@@ -302,16 +312,6 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Sob chuva, Guaíba recebe mais de 400 corredores na 8ª etapa do Circuito Sesc de Corridas Repórter Guaibense"
-    },
-    {
-      "id": "375eb2b1cf80",
-      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMUJNbzhvMlo2c09lM3JaR2pxR3ZxanFGQU9LTkJfeWlfdU9oWUpDdmlCRWp2dGk1c194ZHo1dDQ4N2F6UjBCQ1dObjlSb1pEd09ya1NNWG1YR1JxNE55WUF4SDc0VEtTSlVUY3dtRmhmLU80WWg1d1A5SUxPbjVWS0c4ZHpEMTUyOUREQ1Q4XzM2eGxXc1AwSE5USmhNNklObFNPV0lOcVFBLV9kVTl4S0JLSHc2Sm9SOTJMclhXUQ?oc=5",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-06-29T07:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter",
-      "resumo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba Repórter Guaibense"
     },
     {
       "id": "0c0135b6b68d",
@@ -386,14 +386,14 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "221c68dd37a6",
-      "titulo": "Rotary Guaíba realiza primeira entrega de cadeira de rodas pelo programa nacional",
-      "url": "https://www.reporterguaibense.com.br/noticia/rotary-guaiba-realiza-primeira-entrega-de-cadeira-de-rodas-pelo-programa-nacional-mobilidade-para-todos",
+      "id": "b9a5d813bc2a",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "A ação transformou a vida de Délcio Mendonça, de 63 anos, na última sexta-feira (27)"
+      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
       "id": "1360a7e98d8a",
@@ -406,14 +406,14 @@
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
-      "id": "b9a5d813bc2a",
-      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "id": "d85bcc167848",
+      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
     },
     {
       "id": "87deade54bcf",
