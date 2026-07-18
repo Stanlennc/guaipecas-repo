@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-17T12:16:26.173598+00:00",
+  "gerado_em": "2026-07-18T11:58:47.452410+00:00",
   "farmacia_plantao": {
     "titulo": "Farmácia de plantão",
     "descricao": "A escala oficial é publicada pela Prefeitura e pelo conselho regional. Confira o endereço da farmácia aberta hoje.",
@@ -18,57 +18,6 @@
     "descricao": "Calendário e orientações de coleta domiciliar em Guaíba.",
     "url": "https://guaiba.atende.net/cidadao/pagina/coleta-de-lixo"
   },
-  "agenda": [
-    {
-      "id": "844e518cddb2",
-      "titulo": "Cronograma de projetos sociais sec esportes e juventude",
-      "url": "https://guaiba.atende.net/cidadao/noticia/cronograma-de-projetos-sociais-sec-esportes-e-juventude",
-      "fonte": "Prefeitura de Guaíba",
-      "tipo": "agenda"
-    }
-  ],
-  "noticias_oficiais": [
-    {
-      "id": "07ed57a44127",
-      "titulo": "Confira como emitir as guias de tributos em atraso e parcelamentos realizados",
-      "url": "https://guaiba.atende.net/cidadao/noticia/confira-como-emitir-as-guias-de-tributos-em-atraso-e-parcelamentos-realizados",
-      "fonte": "Prefeitura de Guaíba",
-      "tipo": "oficial"
-    },
-    {
-      "id": "844e518cddb2",
-      "titulo": "Cronograma de projetos sociais sec esportes e juventude",
-      "url": "https://guaiba.atende.net/cidadao/noticia/cronograma-de-projetos-sociais-sec-esportes-e-juventude",
-      "fonte": "Prefeitura de Guaíba",
-      "tipo": "oficial"
-    },
-    {
-      "id": "ef6dea0e7600",
-      "titulo": "Plano plurianual ppa 2026 2029",
-      "url": "https://guaiba.atende.net/cidadao/noticia/plano-plurianual-ppa-2026-2029",
-      "fonte": "Prefeitura de Guaíba",
-      "tipo": "oficial"
-    },
-    {
-      "id": "e56ca5e08f16",
-      "titulo": "Prefeitura de guaiba arrecada alimentos e itens de higiene para apoiar eldorado do sul",
-      "url": "https://guaiba.atende.net/cidadao/noticia/prefeitura-de-guaiba-arrecada-alimentos-e-itens-de-higiene-para-apoiar-eldorado-do-sul",
-      "fonte": "Prefeitura de Guaíba",
-      "tipo": "oficial"
-    },
-    {
-      "id": "2b2428dc5ee3",
-      "titulo": "Prometas 100 anos",
-      "url": "https://guaiba.atende.net/cidadao/noticia/prometas-100-anos",
-      "fonte": "Prefeitura de Guaíba",
-      "tipo": "oficial"
-    },
-    {
-      "id": "ef19e3899c4b",
-      "titulo": "Selecionado para o curso de qualificacao",
-      "url": "https://guaiba.atende.net/cidadao/noticia/selecionado-para-o-curso-de-qualificacao",
-      "fonte": "Prefeitura de Guaíba",
-      "tipo": "oficial"
-    }
-  ]
+  "agenda": [],
+  "noticias_oficiais": []
 }
