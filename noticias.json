@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-18T02:21:59.567017+00:00",
+  "gerado_em": "2026-07-18T06:04:13.018897+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -78,20 +78,10 @@
       "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/vendedor-auxiliar-mecanico-servicos-gerais-e-mais-veja-as-vagas-de-emprego-disponiveis-no-sine-guaiba",
       "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-17T00:00:00+00:00",
+      "publicado_em": "2026-07-18T00:00:00+00:00",
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
-    },
-    {
-      "id": "b9a5d813bc2a",
-      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
       "id": "1360a7e98d8a",
@@ -102,6 +92,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
+    },
+    {
+      "id": "b9a5d813bc2a",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
       "id": "d85bcc167848",
@@ -224,16 +224,6 @@
       "resumo": "Defensoria Pública participa da entrega das escrituras encaminhadas pelo Projeto Terra – Eu sou COHAB, em Guaíba defensoria.rs.def.br"
     },
     {
-      "id": "ea9a7f777f82",
-      "titulo": "Mutirão do Projeto Terra contempla 226 imóveis, em Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV1Z4QzRSWXpXOGc3THh1VlkyZjNKdzYwT0VjYlpTZzE2Y0JQLTB0enlsQUdtTUVEQVQ2Q3dya3ZKUkkwbzRxUkxRdU4zWHRPdnRiUFNwNENRVm9OX0tCTThQMFlKcUhVS21GcDJMUTBlUjR3ZGJDOGZKVGV4c3JWcExtdw?oc=5",
-      "fonte": "Agora RS",
-      "publicado_em": "2026-07-09T13:19:53+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "Mutirão do Projeto Terra contempla 226 imóveis, em Guaíba Agora RS"
-    },
-    {
       "id": "fa898c66b7b6",
       "titulo": "Cidade Inteligente Guaíba inicia entrega da infraestrutura e projeta novo ciclo de desenvolvimento para a região",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRWEwWFRFM3RoQUJraC1OVzRQNWZaTmhQMFBXb00xcG9DNnlSUTUzQUJSM2lVekRWcTlWbWhyb3h5aFJRaHlQaDM5LUIxT2l1YTRHN2xCTGxHUkFnUTgtbE1WVTRyTjMwV3RJd0RwcFAxS01RMVRSQ29GR1RPTVZQNFJZVVdGVVF6SzhLRnNLQlVhNHFKa3dUd2VGWUJNZFh3MnJPaF9BTmh3b0Q4T3F6MC1qekZjbmdwZGJyUmZLbjd2cHZwendsZVRpVEFuNFNySWc?oc=5",
@@ -338,7 +328,7 @@
       "titulo": "Comitê faz alerta sobre efeitos de vapor da CMPC em Guaíba/RS - Instituto Humanitas Unisinos",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUC1HSTVZMFJ4RXpLZkszd0xUcDdjNHZMc3ZoX1I1QjlQa3lUTy1iX25JakNKYlNMZEp4ZUVtT2tDNzlraTNzUHc2dTIzODJzMHN6WVdpTzFZUENMWFVNUUtRMnM0V2hIWE9WVGZRMkoxb1dqR3VHb0lGNC1weGV3Vm5LU3BzTXJZVXlIZ2RYTW9NZi03RC1xSw?oc=5",
       "fonte": "Instituto Humanitas Unisinos - IHU",
-      "publicado_em": "2026-06-23T11:17:41+00:00",
+      "publicado_em": "2026-06-23T07:00:00+00:00",
       "categoria": null,
       "feed": "google",
       "resumo": "Comitê faz alerta sobre efeitos de vapor da CMPC em Guaíba/RS Instituto Humanitas Unisinos - IHU"
@@ -372,6 +362,16 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos Repórter Guaibense"
+    },
+    {
+      "id": "9cdf03a8f687",
+      "titulo": "Guaíba adere ao programa Prepara RS para enfrentar os potenciais efeitos do El Niño",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObE1XSWltTk8zVHpRalltc2xXSkZnN1I1N0dERHYtUzI4NEhKYVlWU2l4MmkzS25IREUwbWQ3MnpfTTNObHBIU0R1NDFVSWM2anVnQnZJUzJPS1Bjb1dSN1JnS1VVNmRqNjNCVzNHRE9jck42UWN1SjZRb0l5RVd6TzNYVXpiYmdIcllJemVYRnlrTmxMS01taFNrNUJRd3NLaklyUHY2TQ?oc=5",
+      "fonte": "expansao.co",
+      "publicado_em": "2026-06-18T07:00:00+00:00",
+      "categoria": null,
+      "feed": "google",
+      "resumo": "Guaíba adere ao programa Prepara RS para enfrentar os potenciais efeitos do El Niño expansao.co"
     }
   ],
   "noticias_home": [
@@ -380,20 +380,10 @@
       "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/vendedor-auxiliar-mecanico-servicos-gerais-e-mais-veja-as-vagas-de-emprego-disponiveis-no-sine-guaiba",
       "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-17T00:00:00+00:00",
+      "publicado_em": "2026-07-18T00:00:00+00:00",
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
-    },
-    {
-      "id": "b9a5d813bc2a",
-      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
       "id": "1360a7e98d8a",
@@ -404,6 +394,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
+    },
+    {
+      "id": "b9a5d813bc2a",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
       "id": "d85bcc167848",
