@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-18T06:04:13.018897+00:00",
+  "gerado_em": "2026-07-18T09:23:51.919806+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -84,16 +84,6 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "1360a7e98d8a",
-      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
-      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
-    },
-    {
       "id": "b9a5d813bc2a",
       "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
@@ -102,6 +92,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+    },
+    {
+      "id": "1360a7e98d8a",
+      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
+      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
       "id": "d85bcc167848",
@@ -222,6 +222,16 @@
       "categoria": null,
       "feed": "google",
       "resumo": "Defensoria Pública participa da entrega das escrituras encaminhadas pelo Projeto Terra – Eu sou COHAB, em Guaíba defensoria.rs.def.br"
+    },
+    {
+      "id": "ea9a7f777f82",
+      "titulo": "Mutirão do Projeto Terra contempla 226 imóveis, em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV1Z4QzRSWXpXOGc3THh1VlkyZjNKdzYwT0VjYlpTZzE2Y0JQLTB0enlsQUdtTUVEQVQ2Q3dya3ZKUkkwbzRxUkxRdU4zWHRPdnRiUFNwNENRVm9OX0tCTThQMFlKcUhVS21GcDJMUTBlUjR3ZGJDOGZKVGV4c3JWcExtdw?oc=5",
+      "fonte": "Agora RS",
+      "publicado_em": "2026-07-09T13:19:53+00:00",
+      "categoria": null,
+      "feed": "google",
+      "resumo": "Mutirão do Projeto Terra contempla 226 imóveis, em Guaíba Agora RS"
     },
     {
       "id": "fa898c66b7b6",
@@ -362,16 +372,6 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos Repórter Guaibense"
-    },
-    {
-      "id": "9cdf03a8f687",
-      "titulo": "Guaíba adere ao programa Prepara RS para enfrentar os potenciais efeitos do El Niño",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObE1XSWltTk8zVHpRalltc2xXSkZnN1I1N0dERHYtUzI4NEhKYVlWU2l4MmkzS25IREUwbWQ3MnpfTTNObHBIU0R1NDFVSWM2anVnQnZJUzJPS1Bjb1dSN1JnS1VVNmRqNjNCVzNHRE9jck42UWN1SjZRb0l5RVd6TzNYVXpiYmdIcllJemVYRnlrTmxMS01taFNrNUJRd3NLaklyUHY2TQ?oc=5",
-      "fonte": "expansao.co",
-      "publicado_em": "2026-06-18T07:00:00+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "Guaíba adere ao programa Prepara RS para enfrentar os potenciais efeitos do El Niño expansao.co"
     }
   ],
   "noticias_home": [
@@ -386,16 +386,6 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "1360a7e98d8a",
-      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
-      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
-    },
-    {
       "id": "b9a5d813bc2a",
       "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
@@ -404,6 +394,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+    },
+    {
+      "id": "1360a7e98d8a",
+      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
+      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
       "id": "d85bcc167848",
