@@ -274,9 +274,29 @@ def is_river_not_city(text):
     return any(re.search(pattern, text) for pattern in river_patterns)
 
 
+# Scripts não latinos — o site só publica em português.
+NON_LATIN_SCRIPT_RE = re.compile(
+    r"["
+    r"\u0400-\u04FF"  # cirílico
+    r"\u0600-\u06FF"  # árabe
+    r"\u0900-\u097F"  # devanágari
+    r"\u4E00-\u9FFF"  # CJK (chinês etc.)
+    r"\u3040-\u30FF"  # hiragana / katakana
+    r"\uAC00-\uD7AF"  # hangul
+    r"]"
+)
+
+
+def has_non_latin_script(text):
+    return bool(text and NON_LATIN_SCRIPT_RE.search(text))
+
+
 def is_junk_item(item):
     titulo = (item.get("titulo") or "").lower()
     fonte = (item.get("fonte") or "").lower()
+    resumo = item.get("resumo") or ""
+    if has_non_latin_script(item.get("titulo") or "") or has_non_latin_script(resumo):
+        return True
     if "moovit" in fonte or "moovit" in titulo:
         return True
     if re.search(r"\bparada\s*$", titulo) and re.search(r"\d{5}", titulo):
