@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-19T13:39:07.852873+00:00",
+  "gerado_em": "2026-07-19T14:14:50.477791+00:00",
   "fonte": "Nível Guaíba",
   "rios": {
     "guaiba": {
@@ -18,9 +18,9 @@
     "jacui": {
       "nome": "Rio Jacuí",
       "local": "Dona Francisca",
-      "nivel_m": 1.42,
+      "nivel_m": 1.23,
       "cota_inundacao": 7.5,
-      "data_hora_medicao": "2026-07-19T09:45:00-03:00",
+      "data_hora_medicao": "2026-07-19T10:45:00-03:00",
       "status": "normal",
       "fonte": "Nível Guaíba",
       "fonte_url": "https://nivelguaiba.com.br/donafrancisca",
