@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-19T06:29:13.602666+00:00",
+  "gerado_em": "2026-07-19T09:51:51.247437+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -210,7 +210,7 @@
       "fonte": "expansao.co",
       "publicado_em": "2026-07-13T13:06:41+00:00",
       "categoria": null,
-      "feed": "recentes",
+      "feed": "vizinhos",
       "resumo": "Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal expansao.co"
     },
     {
@@ -242,6 +242,16 @@
       "categoria": null,
       "feed": "litoral",
       "resumo": "Cidade Inteligente Guaíba inicia entrega da infraestrutura e projeta novo ciclo de desenvolvimento para a região Portal Litoral Sul"
+    },
+    {
+      "id": "fb943be7b348",
+      "titulo": "Cidade Inteligente Guaíba inicia nova etapa com primeiro evento oficial de ativação do bairro",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdVhYdHVOTnpMOEdlZ2pILXhFUFc0c3RPdFNRWlBmMU04NmlZcWF2dG1Ddmh1T08xUHdSaUJtY0RtLWFsRU5mMWRfNXJSdUw5N2hfRDVlamMtek5OOTUyR0tuMENiTjhQZVZmeE1jRTdVVmd4b2hpNHVMZ2NaYU9NME94Y1dWblAya3I5WkN2YzE2VXJMQXdjUFNrdE5qRFVURmRxVkxZLW02VU52NnR0RXBpYjVONGl6cS1HUC1JOG54OUdXMzhHenJ5MXFMUmlHdFE?oc=5",
+      "fonte": "Portal Litoral Sul",
+      "publicado_em": "2026-07-07T11:15:11+00:00",
+      "categoria": null,
+      "feed": "litoral",
+      "resumo": "Cidade Inteligente Guaíba inicia nova etapa com primeiro evento oficial de ativação do bairro Portal Litoral Sul"
     },
     {
       "id": "2d4e7a08ef0b",
@@ -362,16 +372,6 @@
       "categoria": null,
       "feed": "google",
       "resumo": "Guaíba adere ao programa Prepara RS para enfrentar os potenciais efeitos do El Niño expansao.co"
-    },
-    {
-      "id": "2219b64998d7",
-      "titulo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVkI4bGFGSEM4Nm5lVk5xNUZ2VHRORlJKa2E1bEV5QVNJNUFTbUxQb0tUR1dQU2p3bm9LX2FMb2lZeVU5M0JpSHVqaTQ4S0hqR3BUMnh3ekF1QUw2c0VGNHo0WjFqdHpGUWlBREl1UXdQM3J2S3Q1TjcwdEFXZFdSQWJJU2VuSmhCOHhsczBFZ3NJdDFnMWdVSElzY0hadXNsRDV5N0ppb2F1aWx3MWNoUGE1Uk9fYUM4N2lURGllMDRIQXM1X3dzNmFhRzJpdGRvRU5vY3hSSnBfUlBsQmhTMDFB?oc=5",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-06-17T07:00:00+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura Repórter Guaibense"
     }
   ],
   "noticias_home": [
