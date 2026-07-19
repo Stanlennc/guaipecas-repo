@@ -7,6 +7,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-main-data
+  cancel-in-progress: false
+
 jobs:
   update-explorar:
     runs-on: ubuntu-latest
@@ -20,6 +24,8 @@ jobs:
       - run: |
           git config user.name "guaiba-em-dia-bot"
           git config user.email "actions@github.com"
+          git add explorar.json explorar-data.js assets/explorar/ schedules-data.js
+          git pull --rebase --autostash origin main
           git add explorar.json explorar-data.js assets/explorar/ schedules-data.js
           git diff --quiet && git diff --staged --quiet || git commit -m "Atualiza Explorar [automático]"
           git push
