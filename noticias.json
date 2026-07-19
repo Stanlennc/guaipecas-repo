@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-19T01:43:13.761575+00:00",
+  "gerado_em": "2026-07-19T02:34:09.368274+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -84,16 +84,6 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "1360a7e98d8a",
-      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
-      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
-    },
-    {
       "id": "b9a5d813bc2a",
       "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
@@ -102,6 +92,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+    },
+    {
+      "id": "1360a7e98d8a",
+      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
+      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
       "id": "d85bcc167848",
@@ -114,14 +114,14 @@
       "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
     },
     {
-      "id": "34e5883febe2",
+      "id": "13f482014c0b",
       "titulo": "Mercado Livre ergue megacomplexo logístico em Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVW9FUk5DNTVTTzVFOGZtcTlJdTJQVVVPNlU3eDFMcjZVUjZKRklWQnBqVkE1dXFKazlvUFhseUJvbVRkMXEwTDVPNzNEdnhhS0JBSkMzVVlxcjZ6M1dVZ0RFYUx0UW80ZkJFNXE5MFBOUnlHVzdEelRsd0syMnBFT1dQU2dNeTNBVnVr?oc=5",
-      "fonte": "Rádio Pampa",
-      "publicado_em": "2026-07-18T23:31:56+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ0RDclI2cjZXYk5YZ3JDd1V0X2NLbHFWTVFUdWkyUm0zMUZzZUo3QWo3cXhkb3FiVkw1VnZUZGJPRGhUQkpmNUFranFucTlqN1pGdkdVX3M2OW9PUkpfbWFlaFY0c1padnlfa0tZb3FLSFNSTTVaV2dOcXAtd2pwcUVkWVZzLTROV0steUo0b0Q1OHRqbmRXVXR5VnBjTE9nVjJlczM1d1pkUkNKRUpIc3hFam5zdFHSAbwBQVVfeXFMTW94NVlhWHBKUm9aZnZ0NWRkSTJfNmQ0MjByV2FaWGUzd0FkMjdZUzhGRFR2eG1PLW5oWE9wZ0dMajFqeTNSZzNzMzNXc3piQlJtRmZyZDh1d0N4bU54VkxNWkdrTUY3SFlrRTZST3hURUtmclZqOThkVGdFeEQzTjBDR3BTS1hZX21scnNvb0lDQmNvX1VyUTFyV1U4SnJGZEhNQ3FlM1BJLXpNeFdWa2NiRDRkX3l1bDVqRXo?oc=5",
+      "fonte": "Jornal O Sul",
+      "publicado_em": "2026-07-18T22:50:26+00:00",
       "categoria": null,
-      "feed": "recentes",
-      "resumo": "Mercado Livre ergue megacomplexo logístico em Guaíba Rádio Pampa"
+      "feed": "google",
+      "resumo": "Mercado Livre ergue megacomplexo logístico em Guaíba Jornal O Sul"
     },
     {
       "id": "87deade54bcf",
@@ -244,6 +244,16 @@
       "resumo": "Cidade Inteligente Guaíba inicia entrega da infraestrutura e projeta novo ciclo de desenvolvimento para a região Portal Litoral Sul"
     },
     {
+      "id": "fb943be7b348",
+      "titulo": "Cidade Inteligente Guaíba inicia nova etapa com primeiro evento oficial de ativação do bairro",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdVhYdHVOTnpMOEdlZ2pILXhFUFc0c3RPdFNRWlBmMU04NmlZcWF2dG1Ddmh1T08xUHdSaUJtY0RtLWFsRU5mMWRfNXJSdUw5N2hfRDVlamMtek5OOTUyR0tuMENiTjhQZVZmeE1jRTdVVmd4b2hpNHVMZ2NaYU9NME94Y1dWblAya3I5WkN2YzE2VXJMQXdjUFNrdE5qRFVURmRxVkxZLW02VU52NnR0RXBpYjVONGl6cS1HUC1JOG54OUdXMzhHenJ5MXFMUmlHdFE?oc=5",
+      "fonte": "Portal Litoral Sul",
+      "publicado_em": "2026-07-07T11:15:11+00:00",
+      "categoria": null,
+      "feed": "litoral",
+      "resumo": "Cidade Inteligente Guaíba inicia nova etapa com primeiro evento oficial de ativação do bairro Portal Litoral Sul"
+    },
+    {
       "id": "2d4e7a08ef0b",
       "titulo": "Guaíba intensifica investimentos em obras de prevenção contra enchentes na área de infraestrutura",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOd09LX1hZWklFbDVVZjRLSFhjVTdFSXBYajBSTkdFandlZnRRWDQtUEhYZUhQOFYwSFhmampjQ2NXSUUzWGVNeDVRNThjQllIalFGOWphbWNLdlNhQWczMGpEUXRvUlhnMmU5OF9PbWlIa3ZiUUtQVmRPcUxZSGY4emsxT0ViQjhNU3VNX2RJZkF1Rlo4OS1uV05FX0lpYzFRamxzc3d1VFdhTzlQRnhsUmhMa2F6R19PcDZFcUtUT3E3Z0xSLWpfb1BWYmRUZUI5MUFYNTVJQk02UDJLOWp3bEEteUlSbnVtVXplODVNSnFEelU0?oc=5",
@@ -362,16 +372,6 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Servidores de Guaíba entram em estado de greve após mudança no calendário de pagamentos Repórter Guaibense"
-    },
-    {
-      "id": "9cdf03a8f687",
-      "titulo": "Guaíba adere ao programa Prepara RS para enfrentar os potenciais efeitos do El Niño",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObE1XSWltTk8zVHpRalltc2xXSkZnN1I1N0dERHYtUzI4NEhKYVlWU2l4MmkzS25IREUwbWQ3MnpfTTNObHBIU0R1NDFVSWM2anVnQnZJUzJPS1Bjb1dSN1JnS1VVNmRqNjNCVzNHRE9jck42UWN1SjZRb0l5RVd6TzNYVXpiYmdIcllJemVYRnlrTmxMS01taFNrNUJRd3NLaklyUHY2TQ?oc=5",
-      "fonte": "expansao.co",
-      "publicado_em": "2026-06-18T07:00:00+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "Guaíba adere ao programa Prepara RS para enfrentar os potenciais efeitos do El Niño expansao.co"
     }
   ],
   "noticias_home": [
@@ -386,16 +386,6 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "1360a7e98d8a",
-      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
-      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
-    },
-    {
       "id": "b9a5d813bc2a",
       "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
@@ -404,6 +394,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+    },
+    {
+      "id": "1360a7e98d8a",
+      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
+      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
       "id": "d85bcc167848",
@@ -416,14 +416,14 @@
       "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
     },
     {
-      "id": "34e5883febe2",
+      "id": "13f482014c0b",
       "titulo": "Mercado Livre ergue megacomplexo logístico em Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVW9FUk5DNTVTTzVFOGZtcTlJdTJQVVVPNlU3eDFMcjZVUjZKRklWQnBqVkE1dXFKazlvUFhseUJvbVRkMXEwTDVPNzNEdnhhS0JBSkMzVVlxcjZ6M1dVZ0RFYUx0UW80ZkJFNXE5MFBOUnlHVzdEelRsd0syMnBFT1dQU2dNeTNBVnVr?oc=5",
-      "fonte": "Rádio Pampa",
-      "publicado_em": "2026-07-18T23:31:56+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ0RDclI2cjZXYk5YZ3JDd1V0X2NLbHFWTVFUdWkyUm0zMUZzZUo3QWo3cXhkb3FiVkw1VnZUZGJPRGhUQkpmNUFranFucTlqN1pGdkdVX3M2OW9PUkpfbWFlaFY0c1padnlfa0tZb3FLSFNSTTVaV2dOcXAtd2pwcUVkWVZzLTROV0steUo0b0Q1OHRqbmRXVXR5VnBjTE9nVjJlczM1d1pkUkNKRUpIc3hFam5zdFHSAbwBQVVfeXFMTW94NVlhWHBKUm9aZnZ0NWRkSTJfNmQ0MjByV2FaWGUzd0FkMjdZUzhGRFR2eG1PLW5oWE9wZ0dMajFqeTNSZzNzMzNXc3piQlJtRmZyZDh1d0N4bU54VkxNWkdrTUY3SFlrRTZST3hURUtmclZqOThkVGdFeEQzTjBDR3BTS1hZX21scnNvb0lDQmNvX1VyUTFyV1U4SnJGZEhNQ3FlM1BJLXpNeFdWa2NiRDRkX3l1bDVqRXo?oc=5",
+      "fonte": "Jornal O Sul",
+      "publicado_em": "2026-07-18T22:50:26+00:00",
       "categoria": null,
-      "feed": "recentes",
-      "resumo": "Mercado Livre ergue megacomplexo logístico em Guaíba Rádio Pampa"
+      "feed": "google",
+      "resumo": "Mercado Livre ergue megacomplexo logístico em Guaíba Jornal O Sul"
     },
     {
       "id": "87deade54bcf",
