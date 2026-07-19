@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-19T11:08:11.600660+00:00",
+  "gerado_em": "2026-07-19T13:14:43.732857+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -74,46 +74,6 @@
   ],
   "noticias": [
     {
-      "id": "5c9a14de8bb3",
-      "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/vendedor-auxiliar-mecanico-servicos-gerais-e-mais-veja-as-vagas-de-emprego-disponiveis-no-sine-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-19T00:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
-    },
-    {
-      "id": "1360a7e98d8a",
-      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
-      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
-    },
-    {
-      "id": "b9a5d813bc2a",
-      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
-    },
-    {
-      "id": "d85bcc167848",
-      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
-    },
-    {
       "id": "13f482014c0b",
       "titulo": "Mercado Livre ergue megacomplexo logístico em Guaíba",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ0RDclI2cjZXYk5YZ3JDd1V0X2NLbHFWTVFUdWkyUm0zMUZzZUo3QWo3cXhkb3FiVkw1VnZUZGJPRGhUQkpmNUFranFucTlqN1pGdkdVX3M2OW9PUkpfbWFlaFY0c1padnlfa0tZb3FLSFNSTTVaV2dOcXAtd2pwcUVkWVZzLTROV0steUo0b0Q1OHRqbmRXVXR5VnBjTE9nVjJlczM1d1pkUkNKRUpIc3hFam5zdFHSAbwBQVVfeXFMTW94NVlhWHBKUm9aZnZ0NWRkSTJfNmQ0MjByV2FaWGUzd0FkMjdZUzhGRFR2eG1PLW5oWE9wZ0dMajFqeTNSZzNzMzNXc3piQlJtRmZyZDh1d0N4bU54VkxNWkdrTUY3SFlrRTZST3hURUtmclZqOThkVGdFeEQzTjBDR3BTS1hZX21scnNvb0lDQmNvX1VyUTFyV1U4SnJGZEhNQ3FlM1BJLXpNeFdWa2NiRDRkX3l1bDVqRXo?oc=5",
@@ -132,6 +92,16 @@
       "categoria": null,
       "feed": "recentes",
       "resumo": "Fabiano Brasil retorna à Rádio Guaíba para comandar o novo ‘Guaíba Revista’ Coletiva.net"
+    },
+    {
+      "id": "07945b98a1e5",
+      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQVB6UENxS2otRmFFM2NpR1hGa2JsNzFpMU1RNUxNeVFPdGR1TmZVak1IdWRVbXRZYWVDU2M3TWx5U20zLWFHTnRUeFdzZElQS1VHNmE3aVhuT0lpS0ZPUndPRzlhRlpVQ1J3S2hNazBQTjgxXzZ4LWM1VU5Nb255LWc5TGszV1Z3cVZVWnFyY2ZHdV82Q0x3LWFSNERBVU05aHR4ZS00TXNURmtYbF9ZSlJYTzJQaW9oc2U5T1NYUkt0ZlVmOGZSbEJrQ2N5QzlCMmtEUW9CN3l0RkltdUZyUk9raHE2S3RmTnZEWG9FRQ?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-17T15:21:00+00:00",
+      "categoria": null,
+      "feed": "reporter",
+      "resumo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever Repórter Guaibense"
     },
     {
       "id": "041d301d35e1",
@@ -174,6 +144,16 @@
       "resumo": "Projeto Pedal Sustentável disponibiliza bicicletas gratuitas em Guaíba expansao.co"
     },
     {
+      "id": "a5f3503d8b58",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXdwWU0wM2dSMjlLTDVpUWZ4XzhfcW9aSWxPc29UZ0dYNXVpbDh2VHlHWmJxTDR2SnVPeGhwdlJVU3NQMDlpak5WVFR3YmFiT2x6VlotQjFvZl9TNFJSTDNEWnZuR1A3NEl3UDhlUDdZck1JX0xZWlR2WjBYRVZyc0pFa0pJVlNfVEFKT0hpSWxKeVlneDVlN1MzdDgxTmUyVVR5YlR1SFNaZVJLSGNfNWZaUlR4RktYSVplTjA2dlVWV1UxZ1VSSA?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-15T19:58:00+00:00",
+      "categoria": null,
+      "feed": "reporter",
+      "resumo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba Repórter Guaibense"
+    },
+    {
       "id": "a6f52b2ce280",
       "titulo": "Guaíba arrecada doações para famílias atingidas por temporal em Eldorado do Sul",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTmNxMEhCWlk1Q2YxOU5wV0Vxb1AwWDZiU2RGWU9OT25mTktwNlppLXRMTGZBLUdmUXk1NnZ1Z0lrYjNic0ZFb203SXNDZWc4ZU5UUzFpeGNfWXRET2hnWG8zRDdnV19fQmR1Y0pZeWZkSW9ZNUNaMFEwYlhuSUNfakFJTzJudDk0clNzZnllRU9EaEtvenNCck54OEU0OWdoQ0E?oc=5",
@@ -210,7 +190,7 @@
       "fonte": "expansao.co",
       "publicado_em": "2026-07-13T13:06:41+00:00",
       "categoria": null,
-      "feed": "recentes",
+      "feed": "vizinhos",
       "resumo": "Guaíba presta apoio humanitário a Eldorado do Sul após forte temporal expansao.co"
     },
     {
@@ -250,7 +230,7 @@
       "fonte": "Portal Litoral Sul",
       "publicado_em": "2026-07-07T11:15:11+00:00",
       "categoria": null,
-      "feed": "litoral",
+      "feed": "google",
       "resumo": "Cidade Inteligente Guaíba inicia nova etapa com primeiro evento oficial de ativação do bairro Portal Litoral Sul"
     },
     {
@@ -282,6 +262,16 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Sob chuva, Guaíba recebe mais de 400 corredores na 8ª etapa do Circuito Sesc de Corridas Repórter Guaibense"
+    },
+    {
+      "id": "375eb2b1cf80",
+      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMUJNbzhvMlo2c09lM3JaR2pxR3ZxanFGQU9LTkJfeWlfdU9oWUpDdmlCRWp2dGk1c194ZHo1dDQ4N2F6UjBCQ1dObjlSb1pEd09ya1NNWG1YR1JxNE55WUF4SDc0VEtTSlVUY3dtRmhmLU80WWg1d1A5SUxPbjVWS0c4ZHpEMTUyOUREQ1Q4XzM2eGxXc1AwSE5USmhNNklObFNPV0lOcVFBLV9kVTl4S0JLSHc2Sm9SOTJMclhXUQ?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-06-29T07:00:00+00:00",
+      "categoria": null,
+      "feed": "reporter",
+      "resumo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba Repórter Guaibense"
     },
     {
       "id": "0c0135b6b68d",
@@ -372,49 +362,19 @@
       "categoria": null,
       "feed": "google",
       "resumo": "Guaíba adere ao programa Prepara RS para enfrentar os potenciais efeitos do El Niño expansao.co"
+    },
+    {
+      "id": "2219b64998d7",
+      "titulo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVkI4bGFGSEM4Nm5lVk5xNUZ2VHRORlJKa2E1bEV5QVNJNUFTbUxQb0tUR1dQU2p3bm9LX2FMb2lZeVU5M0JpSHVqaTQ4S0hqR3BUMnh3ekF1QUw2c0VGNHo0WjFqdHpGUWlBREl1UXdQM3J2S3Q1TjcwdEFXZFdSQWJJU2VuSmhCOHhsczBFZ3NJdDFnMWdVSElzY0hadXNsRDV5N0ppb2F1aWx3MWNoUGE1Uk9fYUM4N2lURGllMDRIQXM1X3dzNmFhRzJpdGRvRU5vY3hSSnBfUlBsQmhTMDFB?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-06-17T07:00:00+00:00",
+      "categoria": null,
+      "feed": "google",
+      "resumo": "Guaíba lança editais da Política Nacional Aldir Blanc com mais de R$ 450 mil em investimentos na cultura Repórter Guaibense"
     }
   ],
   "noticias_home": [
-    {
-      "id": "5c9a14de8bb3",
-      "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/vendedor-auxiliar-mecanico-servicos-gerais-e-mais-veja-as-vagas-de-emprego-disponiveis-no-sine-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-19T00:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
-    },
-    {
-      "id": "1360a7e98d8a",
-      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
-      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
-    },
-    {
-      "id": "b9a5d813bc2a",
-      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
-    },
-    {
-      "id": "d85bcc167848",
-      "titulo": "Novo filme do Homem-Aranha deve ser uma das estreias do novo cinema de Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/novo-filme-do-homem-aranha-deve-ser-uma-das-estreias-do-novo-cinema-de-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "A unidade de Guaíba terá uma sala com 170 lugares, projetor digital com tecnologia 3D e bombonière"
-    },
     {
       "id": "13f482014c0b",
       "titulo": "Mercado Livre ergue megacomplexo logístico em Guaíba",
@@ -436,6 +396,16 @@
       "resumo": "Fabiano Brasil retorna à Rádio Guaíba para comandar o novo ‘Guaíba Revista’ Coletiva.net"
     },
     {
+      "id": "07945b98a1e5",
+      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQVB6UENxS2otRmFFM2NpR1hGa2JsNzFpMU1RNUxNeVFPdGR1TmZVak1IdWRVbXRZYWVDU2M3TWx5U20zLWFHTnRUeFdzZElQS1VHNmE3aVhuT0lpS0ZPUndPRzlhRlpVQ1J3S2hNazBQTjgxXzZ4LWM1VU5Nb255LWc5TGszV1Z3cVZVWnFyY2ZHdV82Q0x3LWFSNERBVU05aHR4ZS00TXNURmtYbF9ZSlJYTzJQaW9oc2U5T1NYUkt0ZlVmOGZSbEJrQ2N5QzlCMmtEUW9CN3l0RkltdUZyUk9raHE2S3RmTnZEWG9FRQ?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-17T15:21:00+00:00",
+      "categoria": null,
+      "feed": "reporter",
+      "resumo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever Repórter Guaibense"
+    },
+    {
       "id": "041d301d35e1",
       "titulo": "O pôr do sol mais famoso do sul do país cai sobre o Guaíba e ilumina a chaminé de 117 metros da Usina do Gasômetro",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPa2JVT1dzVkZXc3BFajlWVDRsdGlJZDJnRzhNZ05JeWwxNnhobktzRFBJUlZ0QkpaSGQ0VG1GQlloOGF3c2g5NEJ2S0N2alAxWGRrWUpyOU5lZDZ3TWNrcmdPTUNNZDdCOXRlR3R0MmcyVWU0N3hESVRUR3BRY0txbHBzTl80QXdYZ0Vtd1hiRHVmYXM1TG1zdGgwYkpYSFlQVFZRTVJYb3NWWXdYOGlLRGlUMng3T095VWlGS080ZTBkYXVGcXFVU2NnSkxWUDBHRUZVUkZRajBrNWh0OVQyXzZzN0szYlI5TUluN1BVU1AycVk?oc=5",
@@ -454,6 +424,36 @@
       "categoria": null,
       "feed": "vizinhos",
       "resumo": "Reservatórios de água de Guaíba e Eldorado do Sul terão limpeza periódica CORSAN"
+    },
+    {
+      "id": "d3c2091518bd",
+      "titulo": "Estão abertas as inscrições para a segunda edição do concurso de fotografia \"Olhares de Guaíba\"",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd0JDLU5oLXJTSkctTGtFZXgxLXZnUkh6bjBBSWlYSnJ6YTlzTkFrcDJJbGZyWko3aVZJQlJKZ1QxbjdMVUYxNU1hMElrSlZnY180cTlfNHpuUEhzTjVVQlFRQzFXd0szN2JYOC1UazhxbWlMWm15VU8tUmw4Z1V6ZFZQbTVtMFNqajVpcERDNFZyYkpVWGtqYkNoVTBPcndDWGZ6RGJ6SWZBSk9sR0NQalFBNEdLblFnWi1JNHNwSkpYREg3eWt6Z2cyUFRKd0FCMU1naQ?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-16T18:45:00+00:00",
+      "categoria": null,
+      "feed": "reporter",
+      "resumo": "Estão abertas as inscrições para a segunda edição do concurso de fotografia \"Olhares de Guaíba\" Repórter Guaibense"
+    },
+    {
+      "id": "b8090e77ea01",
+      "titulo": "Projeto Pedal Sustentável disponibiliza bicicletas gratuitas em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR2h6dlhYQ2lXU1IyazJ5ZTVoZXI3Q0x3alMwUTJ1UGpIdFA4OGlHTHBJRmJlcVZsblk1SnF4T01KVWZtVGhxSm1lY1FkaXpGQ05QZGRMZGZNc1JOZGhNUTg4SnRPekZpc18wV2pHQkEyN1duN3JZWHZJVFlCTy1JOVItMllkVUpTaTdFbmd6TUpSam1hd3c?oc=5",
+      "fonte": "expansao.co",
+      "publicado_em": "2026-07-16T17:29:21+00:00",
+      "categoria": null,
+      "feed": "recentes",
+      "resumo": "Projeto Pedal Sustentável disponibiliza bicicletas gratuitas em Guaíba expansao.co"
+    },
+    {
+      "id": "a5f3503d8b58",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXdwWU0wM2dSMjlLTDVpUWZ4XzhfcW9aSWxPc29UZ0dYNXVpbDh2VHlHWmJxTDR2SnVPeGhwdlJVU3NQMDlpak5WVFR3YmFiT2x6VlotQjFvZl9TNFJSTDNEWnZuR1A3NEl3UDhlUDdZck1JX0xZWlR2WjBYRVZyc0pFa0pJVlNfVEFKT0hpSWxKeVlneDVlN1MzdDgxTmUyVVR5YlR1SFNaZVJLSGNfNWZaUlR4RktYSVplTjA2dlVWV1UxZ1VSSA?oc=5",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": "2026-07-15T19:58:00+00:00",
+      "categoria": null,
+      "feed": "reporter",
+      "resumo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba Repórter Guaibense"
     }
   ]
 }
