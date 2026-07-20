@@ -1,8 +1,17 @@
 {
-  "gerado_em": "2026-07-19T19:03:13.111307+00:00",
+  "gerado_em": "2026-07-20T02:47:47.085475+00:00",
   "fonte_oficial": "https://www.diariomunicipal.com.br/famurs/pesquisar",
   "entidade_famurs": "963876",
   "editais": [
+    {
+      "id": "bed1d4b3120d",
+      "titulo": "Mercado Livre confirma megacentro logístico em Guaíba e vai gerar 660 empregos diretos na região",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQcWtYUERDZFc3Ti1STjhxX3pCZWFxRzg0MVV2UWRZanNwalVVRFF5Y3JZZVBaUm1pbWR6RVN3UTZYeWRsa2hxYzV3SWEzQjZiRnpLaTR2R2MxSF9EamtSM3N2UHE1S3VqNHJHNFRHa2l4NF96N3hlcVVXVy14Y3RCUUlLWFBUb3hqUHE1QmxZRUF5T0p3VVBXQWtKOWVrSFllYTd6Njk5azFObloySGhWTWNLQlJSQWtELUE5LU5rVzZoSDd4TnZEYTNuVzRhZDJWNEZLNmN4emY3cVlFbjQ4MUhycUVUWlE?oc=5",
+      "fonte": "Portal de Camaquã",
+      "tipo": "vaga",
+      "publicado_em": "2026-07-20T01:43:42+00:00",
+      "feed": "vagas"
+    },
     {
       "id": "07945b98a1e5",
       "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
@@ -94,22 +103,13 @@
       "feed": "vagas"
     },
     {
-      "id": "ef7dc3ed3a53",
-      "titulo": "Sine Guaíba oferece mais de 20 vagas de emprego nesta semana; veja a lista",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZFYtbTRQaFZPN3YyNEgzUEZHTWZCNXF0OHF5ekdNYzFrOEJSRkFlTjdCVElJeFM4d19BN051aFBneWRKTmRyVVdoc0NUUFcwZG84TV9DenhUdGh0ci1tVFJIWV9DYnp2UXhaRTRZbEdZSUZmTDBtTmR1SlV0S1BjTU01bjZYMWgzRkRFc1pnN3pMSXM0Ti1mNGJDTXQybFN6dUtGYUNJR2hQT1d1ZDlSdldvVHJpUlVUWHc?oc=5",
-      "fonte": "Repórter Guaibense",
-      "tipo": "vaga",
-      "publicado_em": "2026-03-25T07:00:00+00:00",
-      "feed": "vagas"
-    },
-    {
       "id": "b24e52e6cbd9",
       "titulo": "Sine oferece mais de 250 vagas de emprego em Guaíba e região; veja a lista",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbmVURkNjVTFXRTM3RHo3RDdCYS1nQkZaR2RDSW82TDlQVS1ZM1V1cXcwcHNKNkpSX1owcFFDX1lVMnEwNUZkblFIdFM0TlI4bFFpcEZsNDRmVjZqMHpNMmVaa0lXQk9NbkNPODFLbF84OHlxUkhHUFVnVHdELXc1VDhCY3hGeHp5V25MRzVQVC1jWmhfOWV2SEtsM2VCaEFESHlyNHlhTG5rTEI5UE95QnNkaFh0T1VvYUE?oc=5",
       "fonte": "Repórter Guaibense",
-      "tipo": "vaga",
+      "tipo": "concurso",
       "publicado_em": "2026-03-10T07:00:00+00:00",
-      "feed": "vagas"
+      "feed": "concurso"
     }
   ]
 }
