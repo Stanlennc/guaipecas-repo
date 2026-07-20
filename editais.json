@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-20T08:55:00.022832+00:00",
+  "gerado_em": "2026-07-20T14:01:50.206754+00:00",
   "fonte_oficial": "https://www.diariomunicipal.com.br/famurs/pesquisar",
   "entidade_famurs": "963876",
   "editais": [
@@ -17,9 +17,9 @@
       "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQVB6UENxS2otRmFFM2NpR1hGa2JsNzFpMU1RNUxNeVFPdGR1TmZVak1IdWRVbXRZYWVDU2M3TWx5U20zLWFHTnRUeFdzZElQS1VHNmE3aVhuT0lpS0ZPUndPRzlhRlpVQ1J3S2hNazBQTjgxXzZ4LWM1VU5Nb255LWc5TGszV1Z3cVZVWnFyY2ZHdV82Q0x3LWFSNERBVU05aHR4ZS00TXNURmtYbF9ZSlJYTzJQaW9oc2U5T1NYUkt0ZlVmOGZSbEJrQ2N5QzlCMmtEUW9CN3l0RkltdUZyUk9raHE2S3RmTnZEWG9FRQ?oc=5",
       "fonte": "Repórter Guaibense",
-      "tipo": "concurso",
+      "tipo": "vaga",
       "publicado_em": "2026-07-17T15:21:00+00:00",
-      "feed": "concurso"
+      "feed": "vagas"
     },
     {
       "id": "d3c2091518bd",
@@ -85,15 +85,6 @@
       "feed": "concurso"
     },
     {
-      "id": "77a0ee2578b3",
-      "titulo": "Frentista, vendedor, auxiliar de cozinha e mais: Sine Guaíba tem 16 vagas de emprego nesta semana",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZ3h0bFZtY2dTSEdnWVVXanVReTVpY2ZVclEtUGNKTWJYd2gtWlpUNzRlX01uakE0SHF3RWNZa3hqdks0NlVacVUtbmRnOVZOdjZ0T3RXNU9VbFlDLVJOY2ZGVU1iSTd4Z2pOZ0s0amNPaW1RZ3BDVTFKVGJNdUlkTnpiLUlWLXVna1BBczU1eDhjNDBpbE1PMGExSm9FMmdvLXNNcUhlQXRReHhYaWVWZUkwN3JCejY0VXVRX21NUXlXNHFDOHdsSEFrQUI0WndjVUVGaDh3?oc=5",
-      "fonte": "Repórter Guaibense",
-      "tipo": "concurso",
-      "publicado_em": "2026-04-23T07:00:00+00:00",
-      "feed": "concurso"
-    },
-    {
       "id": "8cf47856226c",
       "titulo": "Sine Guaíba oferece mais de 20 vagas de emprego e realiza entrevistas para oportunidades em Eldorado do Sul",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTmtMNVFaY0RYYjlraklQYzhtRFgzV3B1M1hCQXVFUHpwNHU3ejJRT2Q0UWdJUll1UnJZQnBITmlscFdYRkNIX0RXYzAzWEVEZVVqblUxbTQ2MGg0aEt2Z0tWTFVIZzBmT2wwREFoYWlhRnRINWxfYm82eXNWRE5JdkdQenB6T3pRUGNIWGxZQ284Q1hvRzY1Vnh4UGFmNTlIRDlBQm8wb3RwaVpUVk9manVINHk3U1lGSzhmeEtlV0NWRzAwSFgyNXU5UFQzMzUwOE1rZlI0Z0w4Ymt3OWRqbm8zS0hFa2s?oc=5",
@@ -110,6 +101,15 @@
       "tipo": "concurso",
       "publicado_em": "2026-03-10T07:00:00+00:00",
       "feed": "concurso"
+    },
+    {
+      "id": "3a5d12a4d051",
+      "titulo": "Sine Guaíba abre 30 vagas de emprego do Zaffari para empacotador, caixa e balconista",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYng5VVNpV2ZZZF9LSjUzVVU5TW1OU19vZ3NYREhfeFZhNDEzSmtLcmdrMU1QUU80OXVTMkw3aG5qSUlzUTY3MUJyWHRpQlRHN05aa1QtaXhoSzhYNUVKeGVfRW9NSVlRZHczM1RIc2hSTGVUMXJjMm90OEF6SW44VzliU3JSQTBCbk9ZSTZ1Y1hLYzVId2c3b1N4NjRzYXQ2T1QwaVZDSURwUWN5QURHdmtWQW5MaGhwU2dhd1JERnN0ZWQ0Ymxn?oc=5",
+      "fonte": "Repórter Guaibense",
+      "tipo": "vaga",
+      "publicado_em": "2026-03-02T08:00:00+00:00",
+      "feed": "vagas"
     }
   ]
 }
