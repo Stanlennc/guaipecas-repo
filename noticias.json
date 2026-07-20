@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-20T18:01:12.299322+00:00",
+  "gerado_em": "2026-07-20T21:11:41.467327+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -74,16 +74,6 @@
   ],
   "noticias": [
     {
-      "id": "cdfc5fa3a4a6",
-      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
-      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-20T00:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
-    },
-    {
       "id": "5c9a14de8bb3",
       "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/vendedor-auxiliar-mecanico-servicos-gerais-e-mais-veja-as-vagas-de-emprego-disponiveis-no-sine-guaiba",
@@ -94,14 +84,14 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "b9a5d813bc2a",
-      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "id": "cdfc5fa3a4a6",
+      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
+      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
     },
     {
       "id": "1360a7e98d8a",
@@ -112,6 +102,26 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
+    },
+    {
+      "id": "2127146cc672",
+      "titulo": "Licitação dos semáforos em Guaíba avança para nova etapa; entenda os próximos passos",
+      "url": "https://www.reporterguaibense.com.br/noticia/licitacao-dos-semaforos-em-guaiba-avanca-para-nova-etapa-entenda-os-proximos-passos",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
+    },
+    {
+      "id": "b9a5d813bc2a",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
       "id": "df412f76efa6",
@@ -354,37 +364,17 @@
       "resumo": "Situação política e interesses estrangeiros ameaçam o Guaíba, no Rio Grande do Sul ((o))eco | Jornalismo Ambiental"
     },
     {
-      "id": "28cfe033ae86",
-      "titulo": "O que significa a mão gigante de concreto com dedo apontado para o céu em Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQX1kydUhiZmYzdHYweW1teHlydEIwSVo3U0RFWDc4SXR6VGRyeXM2Zi00c2Z4NmdKRXVLeFdydXdZSEJSQVBZUjgyZDRpVjEzWkN0bnBCRXU5dEc3Rl9wNzNNdHVNVExCSlJuVlBpOFVHNl9GSV81M3B1SzZ5VzRpSnhaUF80UWs4QXhkS0s0MC1mZnBrbUY1WkJlWTVaaHVKWEJNRGxJTURBek45ZmUtWmN3RHFldmVJc3hOd09wVlNoNU84Q05TcnBDNHVYQkluQ2E1VXBxU3p6TEd4ZnZuYTVxangySTVVbF9jZU5Qb1Fzdm1NR1JMR2ZVc3VCOE95RDU0?oc=5",
-      "fonte": "Diário Gaúcho",
-      "publicado_em": "2026-06-24T07:00:00+00:00",
+      "id": "5f8d9b0792a0",
+      "titulo": "Em agenda no RS, ministro dos transportes visita obras e assina contrato para conclusão da Nova Ponte do Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOQm9XblZ0czN2QXlRczUxaGZGNWtYLUpQeDJjNFRkM2ExZFJNOXU5cWUzb1JZZ2pwMk8yTmVtX0RtcTk0TzRQWlgxTWVrc1RPRlFHQTdiVDE2ZGFyVjNTRFE3NVo2aTlWdVFtTVcwVmMwbDFLN3RJM3FVYzBnRGVBcnBIT0xWLWtFaUhxTXR0eVdCYy1UVDRKUlJab1NKS25ncEFWUGwwZEsyR3NNWVYxVng3Q2xqRER0dUZOTW1XdjJIck5MR0RwOGRpaHFZWmMwQUkyM0FMRDV1eUNHS3R3dnFxRjdFS09UcVB2eVN0cnpYaUZQOHI5cS1kVnhOcGh3bFlWckpn?oc=5",
+      "fonte": "Correio do Povo",
+      "publicado_em": "2026-06-25T07:00:00+00:00",
       "categoria": null,
       "feed": "google",
-      "resumo": "O que significa a mão gigante de concreto com dedo apontado para o céu em Guaíba Diário Gaúcho"
-    },
-    {
-      "id": "84fb647c92f5",
-      "titulo": "Comitê faz alerta sobre efeitos de vapor da CMPC em Guaíba/RS - Instituto Humanitas Unisinos",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUC1HSTVZMFJ4RXpLZkszd0xUcDdjNHZMc3ZoX1I1QjlQa3lUTy1iX25JakNKYlNMZEp4ZUVtT2tDNzlraTNzUHc2dTIzODJzMHN6WVdpTzFZUENMWFVNUUtRMnM0V2hIWE9WVGZRMkoxb1dqR3VHb0lGNC1weGV3Vm5LU3BzTXJZVXlIZ2RYTW9NZi03RC1xSw?oc=5",
-      "fonte": "Instituto Humanitas Unisinos - IHU",
-      "publicado_em": "2026-06-23T07:00:00+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "Comitê faz alerta sobre efeitos de vapor da CMPC em Guaíba/RS Instituto Humanitas Unisinos - IHU"
+      "resumo": "Em agenda no RS, ministro dos transportes visita obras e assina contrato para conclusão da Nova Ponte do Guaíba Correio do Povo"
     }
   ],
   "noticias_home": [
-    {
-      "id": "cdfc5fa3a4a6",
-      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
-      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-20T00:00:00+00:00",
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
-    },
     {
       "id": "5c9a14de8bb3",
       "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
@@ -396,14 +386,14 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "b9a5d813bc2a",
-      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "id": "cdfc5fa3a4a6",
+      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
+      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
     },
     {
       "id": "1360a7e98d8a",
@@ -414,6 +404,26 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
+    },
+    {
+      "id": "2127146cc672",
+      "titulo": "Licitação dos semáforos em Guaíba avança para nova etapa; entenda os próximos passos",
+      "url": "https://www.reporterguaibense.com.br/noticia/licitacao-dos-semaforos-em-guaiba-avanca-para-nova-etapa-entenda-os-proximos-passos",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
+    },
+    {
+      "id": "b9a5d813bc2a",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
       "id": "df412f76efa6",
@@ -444,16 +454,6 @@
       "categoria": null,
       "feed": "correio",
       "resumo": "Fabiano Brasil retorna para a Rádio Guaíba Correio do Povo"
-    },
-    {
-      "id": "13f482014c0b",
-      "titulo": "Mercado Livre ergue megacomplexo logístico em Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ0RDclI2cjZXYk5YZ3JDd1V0X2NLbHFWTVFUdWkyUm0zMUZzZUo3QWo3cXhkb3FiVkw1VnZUZGJPRGhUQkpmNUFranFucTlqN1pGdkdVX3M2OW9PUkpfbWFlaFY0c1padnlfa0tZb3FLSFNSTTVaV2dOcXAtd2pwcUVkWVZzLTROV0steUo0b0Q1OHRqbmRXVXR5VnBjTE9nVjJlczM1d1pkUkNKRUpIc3hFam5zdFHSAbwBQVVfeXFMTW94NVlhWHBKUm9aZnZ0NWRkSTJfNmQ0MjByV2FaWGUzd0FkMjdZUzhGRFR2eG1PLW5oWE9wZ0dMajFqeTNSZzNzMzNXc3piQlJtRmZyZDh1d0N4bU54VkxNWkdrTUY3SFlrRTZST3hURUtmclZqOThkVGdFeEQzTjBDR3BTS1hZX21scnNvb0lDQmNvX1VyUTFyV1U4SnJGZEhNQ3FlM1BJLXpNeFdWa2NiRDRkX3l1bDVqRXo?oc=5",
-      "fonte": "Jornal O Sul",
-      "publicado_em": "2026-07-20T03:57:55+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Mercado Livre ergue megacomplexo logístico em Guaíba Jornal O Sul"
     }
   ]
 }
