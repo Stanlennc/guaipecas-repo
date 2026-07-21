@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-20T22:59:43.497111+00:00",
+  "gerado_em": "2026-07-21T02:32:15.642233+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -84,14 +84,14 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "1360a7e98d8a",
-      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
-      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
+      "id": "16fe33979805",
+      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
+      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
     },
     {
       "id": "2127146cc672",
@@ -102,6 +102,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
+    },
+    {
+      "id": "1360a7e98d8a",
+      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
+      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
       "id": "cdfc5fa3a4a6",
@@ -135,13 +145,13 @@
     },
     {
       "id": "5750e23b19ed",
-      "titulo": "Aos 133 anos, BM de Novo Hamburgo honra centenário da morte de patrono e condecora repórter da Rádio Guaíba",
+      "titulo": "Aos 133 anos, BM de Novo Hamburgo condecora repórter da Rádio Guaíba e honra patrono em centenário de morte",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcy1RUHJjTGxNUmxYcmpYLUZzT2pWNnhialpidVpMUWZQaHpETGhTM2FqcjY3R0gzRkNmUS1mcklPS19DU1prMElPdzRiam4wYUJwRDd3b294UEtLM040VzBKLUlVMWxoeVFyYjdjUVBxY0JUcTdpeXNUWDY2Q2poX3l1QU95LVliRWhxd2dmZ19rZEh3SFpSakdzM05oNkp2OFJGZnJ6WlBkaEcxYmY1ZDZxUGxJMHpFTUNYdEJxNVNZV2I0bmdJYw?oc=5",
       "fonte": "Rádio Guaíba",
       "publicado_em": "2026-07-20T21:46:00+00:00",
       "categoria": null,
       "feed": "recentes",
-      "resumo": "Aos 133 anos, BM de Novo Hamburgo honra centenário da morte de patrono e condecora repórter da Rádio Guaíba Rádio Guaíba"
+      "resumo": "Aos 133 anos, BM de Novo Hamburgo condecora repórter da Rádio Guaíba e honra patrono em centenário de morte Rádio Guaíba"
     },
     {
       "id": "df412f76efa6",
@@ -362,16 +372,6 @@
       "categoria": null,
       "feed": "google",
       "resumo": "Mais de 400 atletas participam da 8ª etapa do Circuito Sesc de Corridas em Guaíba Sesc/RS"
-    },
-    {
-      "id": "e99883bf253e",
-      "titulo": "O que significa monumento de 4,5 metros com dedo apontado para o céu instalado às margens do Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxObEZRdlNaQzFtdlpoUk5rUVBIbVpKSVpqRk50LTVucUFEV1JENHB4bkYzN3J5U1l1bl95Y1NlVmNPbDVQWUhYc0RYUW9HeV9KUEJEandjdjBITnZxMHcwakwtMVo0M3hjY1h0RHZ2eGxJb1lHUWRraVExTF84UTBCZEM5RjJ3NEt5T0h1RmdQQ2d5LVJpbk9JUi1qNHpTeXk2LU5wRFBTLWt4V0RmY0wxaXRNemRJVHduaXczWUI2WnQyTEZwQ0NrdnczZXkzVHlLaGJsM05mcURsNzBmOTJNNHFDbzY0ZVFiTEExMkNWR084MUIyeWxZUdIBhwJBVV95cUxNaWZqZGpRb0c3b3g1NWxGSkFNb3d5VUJEUVlIbHpIVGc3dHRRZXEtOFl6Sk5pRXN3amYxN3lvVGFud1pfNzltQWEzUDF2OWRKWlF5eVhwdk1hX0MxcldMNVJ3VkNQelI5MGQxdk1wV0YwS3FNUTdWcDdQUnlNUHM0Tm1QUG52Z1ZfYUJtM19hZGc3S081UlZ4Wmd2Wk1OU2V1N0xPOFVkd1hzdGpXRFRhR3JYRU4xS2UxQXlHQjNUcXg3RnMtQ1I4RHRBQ0pPT2kyUGo1SXYzVmhRR2dTMUZCMmR6SGZlQzliRE5MQ0hvR2hwd2lXTDRTTlgzU0lxdW1XMFBBUFpvMA?oc=5",
-      "fonte": "G1",
-      "publicado_em": "2026-06-27T07:00:00+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "O que significa monumento de 4,5 metros com dedo apontado para o céu instalado às margens do Guaíba G1"
     }
   ],
   "noticias_home": [
@@ -386,14 +386,14 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "1360a7e98d8a",
-      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
-      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
+      "id": "16fe33979805",
+      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
+      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
     },
     {
       "id": "2127146cc672",
@@ -404,6 +404,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
+    },
+    {
+      "id": "1360a7e98d8a",
+      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
+      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
       "id": "cdfc5fa3a4a6",
@@ -437,23 +447,13 @@
     },
     {
       "id": "5750e23b19ed",
-      "titulo": "Aos 133 anos, BM de Novo Hamburgo honra centenário da morte de patrono e condecora repórter da Rádio Guaíba",
+      "titulo": "Aos 133 anos, BM de Novo Hamburgo condecora repórter da Rádio Guaíba e honra patrono em centenário de morte",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcy1RUHJjTGxNUmxYcmpYLUZzT2pWNnhialpidVpMUWZQaHpETGhTM2FqcjY3R0gzRkNmUS1mcklPS19DU1prMElPdzRiam4wYUJwRDd3b294UEtLM040VzBKLUlVMWxoeVFyYjdjUVBxY0JUcTdpeXNUWDY2Q2poX3l1QU95LVliRWhxd2dmZ19rZEh3SFpSakdzM05oNkp2OFJGZnJ6WlBkaEcxYmY1ZDZxUGxJMHpFTUNYdEJxNVNZV2I0bmdJYw?oc=5",
       "fonte": "Rádio Guaíba",
       "publicado_em": "2026-07-20T21:46:00+00:00",
       "categoria": null,
       "feed": "recentes",
-      "resumo": "Aos 133 anos, BM de Novo Hamburgo honra centenário da morte de patrono e condecora repórter da Rádio Guaíba Rádio Guaíba"
-    },
-    {
-      "id": "df412f76efa6",
-      "titulo": "Evento gratuito com forró e comidas típicas movimenta a Orla do Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMHYzZDZMdFZUMHdWT25OdUEzRFFBVTlwUVpxMjM0ak9ZRV9US1V3M25EYm8xX1NUcUh5RjJla2lkeGYtVkFGcEVrNVVKZUFZVEFKdU93Sm16bGJESU4wVHNHeGx5U2VyMi1pR3dQNkRIeUFTejR3Mk1jbHFoRmNZd3JtVlJSdFFScFc5YWxSYXU3d3hteWtxWU9US0xpQk5LNlBLNEgxTTZmVUs0VFc3N0hlUVFoUTdDZTZiUUN3cjVPcXRjTTRjVTlFNXE0aTlVYy1jY3NFaXJFZ0VzUnZRa2N2VUJSSUE5Z0h5OUU3OWhpVUZ4YnJOZFQ0X1V2OS1vS00w?oc=5",
-      "fonte": "GZH",
-      "publicado_em": "2026-07-20T17:55:45+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Evento gratuito com forró e comidas típicas movimenta a Orla do Guaíba GZH"
+      "resumo": "Aos 133 anos, BM de Novo Hamburgo condecora repórter da Rádio Guaíba e honra patrono em centenário de morte Rádio Guaíba"
     }
   ]
 }
