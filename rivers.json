@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-07-21T17:39:26.039363+00:00",
+  "gerado_em": "2026-07-21T18:57:31.960863+00:00",
   "fonte": "Nível Guaíba",
   "rios": {
     "guaiba": {
       "nome": "Rio Guaíba",
       "local": "Cais Mauá, Porto Alegre",
-      "nivel_m": 0.59,
+      "nivel_m": 0.63,
       "cota_inundacao": 3.0,
-      "data_hora_medicao": "2026-07-21T13:15:00-03:00",
+      "data_hora_medicao": "2026-07-21T15:15:00-03:00",
       "status": "normal",
       "fonte": "Nível Guaíba",
       "fonte_url": "https://nivelguaiba.com.br/",
@@ -18,9 +18,9 @@
     "jacui": {
       "nome": "Rio Jacuí",
       "local": "Dona Francisca",
-      "nivel_m": 2.53,
+      "nivel_m": 2.29,
       "cota_inundacao": 7.5,
-      "data_hora_medicao": "2026-07-21T13:45:00-03:00",
+      "data_hora_medicao": "2026-07-21T15:45:00-03:00",
       "status": "normal",
       "fonte": "Nível Guaíba",
       "fonte_url": "https://nivelguaiba.com.br/donafrancisca",
