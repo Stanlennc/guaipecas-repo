@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-21T19:19:50.781274+00:00",
+  "gerado_em": "2026-07-21T21:07:40.013276+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -94,16 +94,6 @@
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
-      "id": "b9a5d813bc2a",
-      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
-    },
-    {
       "id": "16fe33979805",
       "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
@@ -112,6 +102,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
+    },
+    {
+      "id": "b9a5d813bc2a",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
       "id": "2127146cc672",
@@ -132,6 +132,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
+    },
+    {
+      "id": "435927b40f66",
+      "titulo": "Guaíba seguirá subindo mesmo com retorno do sol; Ilhas de Porto Alegre entram em estado de atenção",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeWNrWVVHY1RmOUNCa2sxN1ZOeWtFTnlLSnQtSDBzUUktVVhlMFZuMUszb29hSGN6U0FQRE00WVNFUE5yWmo3SGRENlQ5Z3JyNm1PNWRESXVkS0VpOTRrRGhraTBVVzRUdjQwODFXSklrNUhmZ1VEMWlCX2N0NGVScHlXVEx3ZkpCTnJzQ3QwNkF4Yy12ZHBvaGZFWklBaGpRdV9ycW4ycGd3TjJyRk5MZjBCX1NTWGZnMFpHNFJkQ0xpN1NDNlpfUjBoQQ?oc=5",
+      "fonte": "Agora No Vale",
+      "publicado_em": "2026-07-21T19:31:42+00:00",
+      "categoria": null,
+      "feed": "recentes",
+      "resumo": "Guaíba seguirá subindo mesmo com retorno do sol; Ilhas de Porto Alegre entram em estado de atenção Agora No Vale"
     },
     {
       "id": "665df31fd819",
@@ -232,16 +242,6 @@
       "categoria": null,
       "feed": "recentes",
       "resumo": "Barcelona Futsal é superado fora de casa em Guaíba Campeonato Gaúcho Série Ouro FGFS Alcir 61"
-    },
-    {
-      "id": "13f482014c0b",
-      "titulo": "Mercado Livre ergue megacomplexo logístico em Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ0RDclI2cjZXYk5YZ3JDd1V0X2NLbHFWTVFUdWkyUm0zMUZzZUo3QWo3cXhkb3FiVkw1VnZUZGJPRGhUQkpmNUFranFucTlqN1pGdkdVX3M2OW9PUkpfbWFlaFY0c1padnlfa0tZb3FLSFNSTTVaV2dOcXAtd2pwcUVkWVZzLTROV0steUo0b0Q1OHRqbmRXVXR5VnBjTE9nVjJlczM1d1pkUkNKRUpIc3hFam5zdFHSAbwBQVVfeXFMTW94NVlhWHBKUm9aZnZ0NWRkSTJfNmQ0MjByV2FaWGUzd0FkMjdZUzhGRFR2eG1PLW5oWE9wZ0dMajFqeTNSZzNzMzNXc3piQlJtRmZyZDh1d0N4bU54VkxNWkdrTUY3SFlrRTZST3hURUtmclZqOThkVGdFeEQzTjBDR3BTS1hZX21scnNvb0lDQmNvX1VyUTFyV1U4SnJGZEhNQ3FlM1BJLXpNeFdWa2NiRDRkX3l1bDVqRXo?oc=5",
-      "fonte": "Jornal O Sul",
-      "publicado_em": "2026-07-18T22:50:26+00:00",
-      "categoria": null,
-      "feed": "vizinhos",
-      "resumo": "Mercado Livre ergue megacomplexo logístico em Guaíba Jornal O Sul"
     },
     {
       "id": "56eb69e18198",
@@ -396,16 +396,6 @@
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
-      "id": "b9a5d813bc2a",
-      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
-    },
-    {
       "id": "16fe33979805",
       "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
@@ -414,6 +404,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
+    },
+    {
+      "id": "b9a5d813bc2a",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
       "id": "2127146cc672",
@@ -436,6 +436,16 @@
       "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
     },
     {
+      "id": "435927b40f66",
+      "titulo": "Guaíba seguirá subindo mesmo com retorno do sol; Ilhas de Porto Alegre entram em estado de atenção",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeWNrWVVHY1RmOUNCa2sxN1ZOeWtFTnlLSnQtSDBzUUktVVhlMFZuMUszb29hSGN6U0FQRE00WVNFUE5yWmo3SGRENlQ5Z3JyNm1PNWRESXVkS0VpOTRrRGhraTBVVzRUdjQwODFXSklrNUhmZ1VEMWlCX2N0NGVScHlXVEx3ZkpCTnJzQ3QwNkF4Yy12ZHBvaGZFWklBaGpRdV9ycW4ycGd3TjJyRk5MZjBCX1NTWGZnMFpHNFJkQ0xpN1NDNlpfUjBoQQ?oc=5",
+      "fonte": "Agora No Vale",
+      "publicado_em": "2026-07-21T19:31:42+00:00",
+      "categoria": null,
+      "feed": "recentes",
+      "resumo": "Guaíba seguirá subindo mesmo com retorno do sol; Ilhas de Porto Alegre entram em estado de atenção Agora No Vale"
+    },
+    {
       "id": "665df31fd819",
       "titulo": "Mesmo com melhora do tempo, Guaiba continuará subindo e Ilhas de Porto Alegre entram em Risco",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYVZxbXM5TFl1TFF5WWNhd1R3UHoxczJzWnIwZzE1cHItY2lNbHNaaS12S09WZ0ZweV9aS1NlbHpqQkQ2a0F3OVY2SV9SSVZZYkpmVk9RYXlzRERWMVB2X0M1NUtmWlViZXA3ZjkyVTNQbXYwbTdlWFhHb3JObjB0SDF4cmtHVDJWNllsX2xac001WDQzTEpfdXJGUzlYQTNNRVVCeTg5MXliUlFfWVpfS0RfbUlDejBsUUhfelZOWTQza3NUblE?oc=5",
@@ -444,16 +454,6 @@
       "categoria": null,
       "feed": "recentes",
       "resumo": "Mesmo com melhora do tempo, Guaiba continuará subindo e Ilhas de Porto Alegre entram em Risco luizmuller.com"
-    },
-    {
-      "id": "62dcab9023e6",
-      "titulo": "Mercado Livre terá centro de distribuição em Guaíba (RS)",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPU09YYzliUmd0ZGN0a2JVTHVxdVFwYjBQV3FpamhDYWp6SUlWcFRuQ0s0bnhrZUQ4QVBVU1Mzam9JVUtKQUN0LVBIRkVrd20zNHJVLW10Rmt1S1hzRnZtX3I2NWZZdG9fSnkzYjE0WjM0NUo4QkRjMTYyeGxCQV9FaDhVUVVSZw?oc=5",
-      "fonte": "Mundo Logística",
-      "publicado_em": "2026-07-21T15:01:39+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Mercado Livre terá centro de distribuição em Guaíba (RS) Mundo Logística"
     }
   ]
 }
