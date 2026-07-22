@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-22T19:15:39.468974+00:00",
+  "gerado_em": "2026-07-22T21:05:15.649701+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -84,6 +84,16 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
+      "id": "16fe33979805",
+      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
+    },
+    {
       "id": "2127146cc672",
       "titulo": "Licitação dos semáforos em Guaíba avança para nova etapa; entenda os próximos passos",
       "url": "https://www.reporterguaibense.com.br/noticia/licitacao-dos-semaforos-em-guaiba-avanca-para-nova-etapa-entenda-os-proximos-passos",
@@ -104,6 +114,16 @@
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
+      "id": "b9a5d813bc2a",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+    },
+    {
       "id": "cdfc5fa3a4a6",
       "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
       "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
@@ -114,24 +134,34 @@
       "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
     },
     {
-      "id": "16fe33979805",
-      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
+      "id": "2d718370e81b",
+      "titulo": "Guaíba pode atingir cota de alerta entre sexta (24) e sábado, informa prefeitura de Porto Alegre",
+      "url": "https://sul21.com.br/noticias/geral/2026/07/guaiba-pode-atingir-cota-de-alerta-entre-sexta-24-e-sabado-informa-prefeitura-de-porto-alegre/",
+      "fonte": "Sul21",
+      "publicado_em": "2026-07-22T20:52:19+00:00",
+      "categoria": "Geral",
+      "feed": "sul21_direto",
+      "resumo": "O Guaíba pode atingir cota de alerta de 2,50 metros no Cais Mauá entre a sexta-feira (24) e o sábado (25). Simulações hidrológicas desenvolvidas pelo Serviço Geológico do Brasil (SGB), pelo Instituto de Pesquisas Hidráulicas (IPH) e pela Catavento Meteorologia, apontam que o grande volume de chuva…"
     },
     {
-      "id": "b9a5d813bc2a",
-      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
+      "id": "daf4d6248cc5",
+      "titulo": "Guaíba pode atingir cota de alerta em Porto Alegre",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZWNQVlgtMERzTTFtaTRVSkJKTWVnRWtja0wzWTRWSUxSUF8yOEpsbEVGRDVoR0RlanBXWnNleEthSy1ha2d6SzJaMXVSM1cxTm9UMmktR2Zfc3FfekxOOFBFcldiaHJIZXkyanRKUFFqTWpnYnFIMkhGcGVoRkI4T21JLWNHNklEb3Z3UWl4WQ?oc=5",
+      "fonte": "Agora RS",
+      "publicado_em": "2026-07-22T20:24:31+00:00",
       "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+      "feed": "recentes",
+      "resumo": "Guaíba pode atingir cota de alerta em Porto Alegre Agora RS"
+    },
+    {
+      "id": "4034b7377480",
+      "titulo": "Guaíba pode atingir cota de alerta até sábado no Cais Mauá, diz prefeitura de Porto Alegre",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQOEl4VmlWSVJ0d0hoNlMydzB1NU5xZm1oX1dDMkZiLW9NM2FBc2FrQlZVc2ZhT0hRdzJDUlVaUndTLWF4TmM5QlFLUEtpWHJsYXZDbHBXck83eFBQVURKbG00elZUd3hvT1VKRDR5bmh2c01aTWZqU3lmb3R4ZkNKUS1UMEFlNFJlWmswbG5tQjdvRk81Y2JvazBlMEtnVFpIdWdqY1dOUV9rQlJfeG8tUnJoTHdhazBRWGJZV09QcDBmNWVNV0czLW9JOGhIa1JmcDVNdmludm5PcHZKSV9BTFBpamFKbFlVMWc?oc=5",
+      "fonte": "Correio do Povo",
+      "publicado_em": "2026-07-22T19:47:25+00:00",
+      "categoria": null,
+      "feed": "correio",
+      "resumo": "Guaíba pode atingir cota de alerta até sábado no Cais Mauá, diz prefeitura de Porto Alegre Correio do Povo"
     },
     {
       "id": "97a04679471b",
@@ -174,16 +204,6 @@
       "resumo": "Defesa civil Rs diz que Guaíba deverá ficar próximo da cota de alerta jornaltimoneiro.com.br"
     },
     {
-      "id": "7b145106e796",
-      "titulo": "Tendência é de que o Guaíba fique perto da cota de alerta, diz Defesa Civil do RS",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxONnEwMDBucV9pN2xXWXA0c0MyR1VwX3Zhb1NycVIxRGRmYjlzMlpzd2JfcURGd1R1UURvdDZnZURVNXBNQ1ZNZm5mWUlSMHphRS0tV0hFbWI3Wks5MTBtaHFSZ0F3RXF2dndpV3hhNVhLSE15TmZHNmdlUkkwRVd3RTdqem1MaGIzdHZudFBmQnJlRFFQd0pwY01CZko3QkRkaXk0bmt6UXVwRi1PaXIzbThacEsxemtwWWdoUlM2NU1EV0dLOHJkci1ERWlUMFpyY0l1WGVlX1lERlJLWWd5ZmItV3d6YVo3TGFyX3ZyUnhSRWlMTnkxMUt5dUJNSUUyR3hN?oc=5",
-      "fonte": "Diário Gaúcho",
-      "publicado_em": "2026-07-22T13:05:44+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "Tendência é de que o Guaíba fique perto da cota de alerta, diz Defesa Civil do RS Diário Gaúcho"
-    },
-    {
       "id": "b015b5fcbc9c",
       "titulo": "Defesa Civil monitora alta do Guaíba e alerta é para as ilhas",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZkNnNUpEQzI5MnRsUlk3bnBQcHI0NEFURC1kMDQ2RHAzYWx5VzhjYzhpOXBmN3NnTjQ1Q3E0R3dscVcyQmxscHo0NUxlOVoxZ3RGazNQdjRxQnN4bVgtOFRmU0RVWDNUWm43TEFOeWhOcU1nRFJlVGhIQnhDdlRjNUVaYk1BSWxVR0Z1U20tRTNRQVBWMTF6eWZtWFB1Szc0T0g1UThtV2RsQ052WTUwVW9xbEFhaXAxbDJYY29SVWE3TlNv?oc=5",
@@ -222,6 +242,16 @@
       "categoria": null,
       "feed": "recentes",
       "resumo": "Mesmo com melhora do tempo, Guaiba continuará subindo e Ilhas de Porto Alegre entram em Risco luizmuller.com"
+    },
+    {
+      "id": "1aad0c70cfd7",
+      "titulo": "Tendência é de que o Guaíba fique perto da cota de alerta, diz Defesa Civil do RS",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPLUtSdnpCX0M2QmFJOGtKS0JUcVRSMjRSdVdvdkE0OU5IYjVhTC1fZUFfdU5GNUNtMzIzeDdHWnFQOXZvMklJY1pEQ3BsWTNRbFVHcE5NbXBhNGdWN1BXTDdKUzIzS2xlYy1HeXMwNldGTHNSX3NzclpKR3psNGN0OUdwd0lvVnFsay0wdkxXNHp6MWdTVGV2VFllUE5jOElZWDVhbGRnQTVFcFlLUFBGRmw5a0dRbnZJa3Q5eHljXzZ4R24yVzZvWHQxSWZQRGdNNWZUUG9qU2RUak9YLU55TXU2ejFsaERWLWxaQVdzbU1zSlI1UmFSTG9HdzROdFZiWHc?oc=5",
+      "fonte": "GZH",
+      "publicado_em": "2026-07-22T02:06:40+00:00",
+      "categoria": null,
+      "feed": "vizinhos",
+      "resumo": "Tendência é de que o Guaíba fique perto da cota de alerta, diz Defesa Civil do RS GZH"
     },
     {
       "id": "6ed555557f79",
@@ -342,36 +372,6 @@
       "categoria": null,
       "feed": "recentes",
       "resumo": "Fabiano Brasil retorna à Rádio Guaíba para comandar o novo ‘Guaíba Revista’ Coletiva.net"
-    },
-    {
-      "id": "596ee9c8a2ff",
-      "titulo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 39",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOWk9GSlJNb0JLWTZrWFV1cDVISVd6UVdVTXlfOC03cFJUc2dmbmNYQ01RazhkVmNvaDdSSlhPdm14NG1MV1FKSXpVcWx5QXJLbGctLTRyY1JENkZ5YTEwb194ZndHV3JJaWdMQjVoY296cWVTZW56QUhZNDRNdVpqaFJ3OUhuOU9DVlhic2FYcl9LeWJCQ2tEb2pMbElCT3JEbUVxVFhPdHZNVS16cm1vdzA2QlJiSm9OaGdmRTEwaFhRQ1ExWkFYM3lSTk9VV0VUMlUtSUJEUElSOWlzUVVfN0dYSmFXOVVldDdQQ1p5Q1FPd2lFT0ZoQklLYXJiUkhjb1E2aGMzYnFDR09ZME9mNi12cDJIc0NHb1JaYi1yUEhGU1hQLUttV1J0Q3liT2s?oc=5",
-      "fonte": "ArchDaily",
-      "publicado_em": "2026-07-17T11:00:37+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Galeria de Parque Urbano da Orla do Guaíba / Jaime Lerner Arquitetos Associados - 39 ArchDaily"
-    },
-    {
-      "id": "041d301d35e1",
-      "titulo": "O pôr do sol mais famoso do sul do país cai sobre o Guaíba e ilumina a chaminé de 117 metros da Usina do Gasômetro",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPa2JVT1dzVkZXc3BFajlWVDRsdGlJZDJnRzhNZ05JeWwxNnhobktzRFBJUlZ0QkpaSGQ0VG1GQlloOGF3c2g5NEJ2S0N2alAxWGRrWUpyOU5lZDZ3TWNrcmdPTUNNZDdCOXRlR3R0MmcyVWU0N3hESVRUR3BRY0txbHBzTl80QXdYZ0Vtd1hiRHVmYXM1TG1zdGgwYkpYSFlQVFZRTVJYb3NWWXdYOGlLRGlUMng3T095VWlGS080ZTBkYXVGcXFVU2NnSkxWUDBHRUZVUkZRajBrNWh0OVQyXzZzN0szYlI5TUluN1BVU1AycVk?oc=5",
-      "fonte": "Correio Braziliense",
-      "publicado_em": "2026-07-16T21:30:00+00:00",
-      "categoria": null,
-      "feed": "vizinhos",
-      "resumo": "O pôr do sol mais famoso do sul do país cai sobre o Guaíba e ilumina a chaminé de 117 metros da Usina do Gasômetro Correio Braziliense"
-    },
-    {
-      "id": "d3c2091518bd",
-      "titulo": "Estão abertas as inscrições para a segunda edição do concurso de fotografia \"Olhares de Guaíba\"",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd0JDLU5oLXJTSkctTGtFZXgxLXZnUkh6bjBBSWlYSnJ6YTlzTkFrcDJJbGZyWko3aVZJQlJKZ1QxbjdMVUYxNU1hMElrSlZnY180cTlfNHpuUEhzTjVVQlFRQzFXd0szN2JYOC1UazhxbWlMWm15VU8tUmw4Z1V6ZFZQbTVtMFNqajVpcERDNFZyYkpVWGtqYkNoVTBPcndDWGZ6RGJ6SWZBSk9sR0NQalFBNEdLblFnWi1JNHNwSkpYREg3eWt6Z2cyUFRKd0FCMU1naQ?oc=5",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-16T18:45:00+00:00",
-      "categoria": null,
-      "feed": "reporter",
-      "resumo": "Estão abertas as inscrições para a segunda edição do concurso de fotografia \"Olhares de Guaíba\" Repórter Guaibense"
     }
   ],
   "noticias_home": [
@@ -384,6 +384,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
+    },
+    {
+      "id": "16fe33979805",
+      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
     },
     {
       "id": "2127146cc672",
@@ -406,26 +416,6 @@
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
-      "id": "cdfc5fa3a4a6",
-      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
-      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
-    },
-    {
-      "id": "16fe33979805",
-      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
-    },
-    {
       "id": "b9a5d813bc2a",
       "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
@@ -436,24 +426,34 @@
       "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
-      "id": "97a04679471b",
-      "titulo": "Projeto Guaíba consolida primeiro ano de pesquisas sobre os impactos geológicos das enchentes de 2024",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMzlOQWE2a2dkX1haMzlKV0lQZ1NpSkhGRUxrdVFGT3NHNWUtTnlwcUc4SVRwcmk0Y3ktdXJlMGFMdXN5M1VVVGNTQzRJYV93VC1salpWQkpaQjZPTVFLWklkWlpOTFRxX3U5b1d6U3pNTzlQU2NUMlpmaDJuWWZoaE52RGRzMnBGMG1halNFd2RIVm8wT1lSSElsTjJMMnFmcFBYNVRSQllzcHRIRDhicnQzdTN2d0NmWm1OWTZNSGhJb0pkSjJ6bG1IbmM4NUZN?oc=5",
-      "fonte": "Unisinos",
-      "publicado_em": "2026-07-22T18:05:23+00:00",
+      "id": "cdfc5fa3a4a6",
+      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
+      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
       "categoria": null,
-      "feed": "vizinhos",
-      "resumo": "Projeto Guaíba consolida primeiro ano de pesquisas sobre os impactos geológicos das enchentes de 2024 Unisinos"
+      "feed": "reporter_direto",
+      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
     },
     {
-      "id": "b51e7c330822",
-      "titulo": "Eldorado do Sul tem cota de atenção para Jacuí e Guaíba, com leve elevação",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSWQxZWlKMU8xaFItWFc3bnlFcTNkUklSVktrbE9tejFaVndXbmQwZHN4c3N0ejkyMG9xcXlMVEFBUlJFaS13SjZqbDJqaHMzWEhpM0paYnFvQnU2bmZJQkZrb09kT19USk56YU5kMm5pWTNvdS1jMzQzMFMtcy0wck1ZTDI5X2w4aXRIRGpaRnpUdFhGZHJST0ZRSnZGYm1INVNaLUE2bGxpMTM4ekxWYU5EN0tsWlJsQlNlaWJmRXJERmgwLTZsUHd3SExmTVdxbktfZi14bUFqUQ?oc=5",
-      "fonte": "Jornal do Comércio",
-      "publicado_em": "2026-07-22T16:56:14+00:00",
+      "id": "2d718370e81b",
+      "titulo": "Guaíba pode atingir cota de alerta entre sexta (24) e sábado, informa prefeitura de Porto Alegre",
+      "url": "https://sul21.com.br/noticias/geral/2026/07/guaiba-pode-atingir-cota-de-alerta-entre-sexta-24-e-sabado-informa-prefeitura-de-porto-alegre/",
+      "fonte": "Sul21",
+      "publicado_em": "2026-07-22T20:52:19+00:00",
+      "categoria": "Geral",
+      "feed": "sul21_direto",
+      "resumo": "O Guaíba pode atingir cota de alerta de 2,50 metros no Cais Mauá entre a sexta-feira (24) e o sábado (25). Simulações hidrológicas desenvolvidas pelo Serviço Geológico do Brasil (SGB), pelo Instituto de Pesquisas Hidráulicas (IPH) e pela Catavento Meteorologia, apontam que o grande volume de chuva…"
+    },
+    {
+      "id": "daf4d6248cc5",
+      "titulo": "Guaíba pode atingir cota de alerta em Porto Alegre",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZWNQVlgtMERzTTFtaTRVSkJKTWVnRWtja0wzWTRWSUxSUF8yOEpsbEVGRDVoR0RlanBXWnNleEthSy1ha2d6SzJaMXVSM1cxTm9UMmktR2Zfc3FfekxOOFBFcldiaHJIZXkyanRKUFFqTWpnYnFIMkhGcGVoRkI4T21JLWNHNklEb3Z3UWl4WQ?oc=5",
+      "fonte": "Agora RS",
+      "publicado_em": "2026-07-22T20:24:31+00:00",
       "categoria": null,
-      "feed": "vizinhos",
-      "resumo": "Eldorado do Sul tem cota de atenção para Jacuí e Guaíba, com leve elevação Jornal do Comércio"
+      "feed": "recentes",
+      "resumo": "Guaíba pode atingir cota de alerta em Porto Alegre Agora RS"
     }
   ]
 }
