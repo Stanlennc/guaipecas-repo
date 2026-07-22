@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-22T02:31:13.659080+00:00",
+  "gerado_em": "2026-07-22T06:26:41.771204+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -78,40 +78,10 @@
       "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/vendedor-auxiliar-mecanico-servicos-gerais-e-mais-veja-as-vagas-de-emprego-disponiveis-no-sine-guaiba",
       "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-21T00:00:00+00:00",
+      "publicado_em": "2026-07-22T00:00:00+00:00",
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
-    },
-    {
-      "id": "b9a5d813bc2a",
-      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
-    },
-    {
-      "id": "2127146cc672",
-      "titulo": "Licitação dos semáforos em Guaíba avança para nova etapa; entenda os próximos passos",
-      "url": "https://www.reporterguaibense.com.br/noticia/licitacao-dos-semaforos-em-guaiba-avanca-para-nova-etapa-entenda-os-proximos-passos",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
-    },
-    {
-      "id": "cdfc5fa3a4a6",
-      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
-      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
     },
     {
       "id": "16fe33979805",
@@ -132,6 +102,36 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
+    },
+    {
+      "id": "b9a5d813bc2a",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+    },
+    {
+      "id": "cdfc5fa3a4a6",
+      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
+      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
+    },
+    {
+      "id": "2127146cc672",
+      "titulo": "Licitação dos semáforos em Guaíba avança para nova etapa; entenda os próximos passos",
+      "url": "https://www.reporterguaibense.com.br/noticia/licitacao-dos-semaforos-em-guaiba-avanca-para-nova-etapa-entenda-os-proximos-passos",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
     },
     {
       "id": "1aad0c70cfd7",
@@ -167,11 +167,11 @@
       "id": "0e8f5e145bd0",
       "titulo": "Sunset Foodpark promove edição especial julina com forró, comidas típicas e vista para o Guaíba",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVURxVHJyOU8wT1FiS1BsSzB2ZmgwRnBCdXVpQzJwOUNpdFM0LXRnSGxfTFdUWFNVRzFpQ3cyWEdseTdfT0ExdUN0YkVOSWo1RTRKeXRsWnFNbTZxNTBBdFpPLWd6YWFjUlJIbEwwSmstb1pTVGw5Q0haX2tJRHQzM2YtVXN3VWNXSDFXZ25tbVF2aG5sSXlVQWtwdEVkRUZQVFVRaGhBMDhBc2RpbF84UEpPb1FWV2ZFUXkyTnd2T3pPNjJBSWFFQi1tbVdnbmR0eFJoWA?oc=5",
-      "fonte": "Porto Alegre 24 Horas",
+      "fonte": "Notícias – Porto Alegre 24 Horas",
       "publicado_em": "2026-07-22T00:47:00+00:00",
       "categoria": null,
       "feed": "recentes",
-      "resumo": "Sunset Foodpark promove edição especial julina com forró, comidas típicas e vista para o Guaíba Porto Alegre 24 Horas"
+      "resumo": "Sunset Foodpark promove edição especial julina com forró, comidas típicas e vista para o Guaíba Notícias – Porto Alegre 24 Horas"
     },
     {
       "id": "435927b40f66",
@@ -274,6 +274,16 @@
       "resumo": "Barcelona Futsal é superado fora de casa em Guaíba Campeonato Gaúcho Série Ouro FGFS Alcir 61"
     },
     {
+      "id": "13f482014c0b",
+      "titulo": "Mercado Livre ergue megacomplexo logístico em Guaíba",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ0RDclI2cjZXYk5YZ3JDd1V0X2NLbHFWTVFUdWkyUm0zMUZzZUo3QWo3cXhkb3FiVkw1VnZUZGJPRGhUQkpmNUFranFucTlqN1pGdkdVX3M2OW9PUkpfbWFlaFY0c1padnlfa0tZb3FLSFNSTTVaV2dOcXAtd2pwcUVkWVZzLTROV0steUo0b0Q1OHRqbmRXVXR5VnBjTE9nVjJlczM1d1pkUkNKRUpIc3hFam5zdFHSAbwBQVVfeXFMTW94NVlhWHBKUm9aZnZ0NWRkSTJfNmQ0MjByV2FaWGUzd0FkMjdZUzhGRFR2eG1PLW5oWE9wZ0dMajFqeTNSZzNzMzNXc3piQlJtRmZyZDh1d0N4bU54VkxNWkdrTUY3SFlrRTZST3hURUtmclZqOThkVGdFeEQzTjBDR3BTS1hZX21scnNvb0lDQmNvX1VyUTFyV1U4SnJGZEhNQ3FlM1BJLXpNeFdWa2NiRDRkX3l1bDVqRXo?oc=5",
+      "fonte": "Jornal O Sul",
+      "publicado_em": "2026-07-18T22:50:26+00:00",
+      "categoria": null,
+      "feed": "google",
+      "resumo": "Mercado Livre ergue megacomplexo logístico em Guaíba Jornal O Sul"
+    },
+    {
       "id": "56eb69e18198",
       "titulo": "Mercado Livre ergue megacomplexo logístico em Guaíba e transforma o RS em hub do e-commerce",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ1AxWU96TWFnb0ZmMXMxZjZSUms1dkJJMUFlYlp2QTNsemtXbkR6bzRQdmJqMW52cE5EUXp5bjhzb05kUjhuZ2lwbHhWYnpsbFBHdnFENHg4VlZZeEZQMXo5SWNPU2hDaURZcWNGaGlISHhkeFJoUjRraVVQWFBJU2ZRS29zaV9hR1BXcFE5eWU0MzNHSF9ERnd1dVdLazc3dlFEb3pFbm92eVNXcURGNExSUVJ2VjlNbUhj?oc=5",
@@ -362,16 +372,6 @@
       "categoria": null,
       "feed": "litoral",
       "resumo": "Cidade Inteligente Guaíba inicia entrega da infraestrutura e projeta novo ciclo de desenvolvimento para a região Portal Litoral Sul"
-    },
-    {
-      "id": "2d4e7a08ef0b",
-      "titulo": "Guaíba intensifica investimentos em obras de prevenção contra enchentes na área de infraestrutura",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOd09LX1hZWklFbDVVZjRLSFhjVTdFSXBYajBSTkdFandlZnRRWDQtUEhYZUhQOFYwSFhmampjQ2NXSUUzWGVNeDVRNThjQllIalFGOWphbWNLdlNhQWczMGpEUXRvUlhnMmU5OF9PbWlIa3ZiUUtQVmRPcUxZSGY4emsxT0ViQjhNU3VNX2RJZkF1Rlo4OS1uV05FX0lpYzFRamxzc3d1VFdhTzlQRnhsUmhMa2F6R19PcDZFcUtUT3E3Z0xSLWpfb1BWYmRUZUI5MUFYNTVJQk02UDJLOWp3bEEteUlSbnVtVXplODVNSnFEelU0?oc=5",
-      "fonte": "Correio do Povo",
-      "publicado_em": "2026-07-05T15:23:00+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "Guaíba intensifica investimentos em obras de prevenção contra enchentes na área de infraestrutura Correio do Povo"
     }
   ],
   "noticias_home": [
@@ -380,40 +380,10 @@
       "titulo": "Vendedor, auxiliar mecânico, serviços gerais e mais: veja as vagas de emprego disponíveis no Sine Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/vendedor-auxiliar-mecanico-servicos-gerais-e-mais-veja-as-vagas-de-emprego-disponiveis-no-sine-guaiba",
       "fonte": "Repórter Guaibense",
-      "publicado_em": "2026-07-21T00:00:00+00:00",
+      "publicado_em": "2026-07-22T00:00:00+00:00",
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
-    },
-    {
-      "id": "b9a5d813bc2a",
-      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
-    },
-    {
-      "id": "2127146cc672",
-      "titulo": "Licitação dos semáforos em Guaíba avança para nova etapa; entenda os próximos passos",
-      "url": "https://www.reporterguaibense.com.br/noticia/licitacao-dos-semaforos-em-guaiba-avanca-para-nova-etapa-entenda-os-proximos-passos",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
-    },
-    {
-      "id": "cdfc5fa3a4a6",
-      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
-      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
     },
     {
       "id": "16fe33979805",
@@ -434,6 +404,36 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
+    },
+    {
+      "id": "b9a5d813bc2a",
+      "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+    },
+    {
+      "id": "cdfc5fa3a4a6",
+      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
+      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
+    },
+    {
+      "id": "2127146cc672",
+      "titulo": "Licitação dos semáforos em Guaíba avança para nova etapa; entenda os próximos passos",
+      "url": "https://www.reporterguaibense.com.br/noticia/licitacao-dos-semaforos-em-guaiba-avanca-para-nova-etapa-entenda-os-proximos-passos",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
     },
     {
       "id": "1aad0c70cfd7",
