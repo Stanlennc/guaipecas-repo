@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-22T13:49:20.842499+00:00",
+  "gerado_em": "2026-07-22T15:40:41.541191+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -84,14 +84,14 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "16fe33979805",
-      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
+      "id": "1360a7e98d8a",
+      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
+      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
+      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
       "id": "2127146cc672",
@@ -104,16 +104,6 @@
       "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
     },
     {
-      "id": "1360a7e98d8a",
-      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
-      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
-    },
-    {
       "id": "b9a5d813bc2a",
       "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
@@ -124,6 +114,16 @@
       "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
+      "id": "16fe33979805",
+      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
+    },
+    {
       "id": "cdfc5fa3a4a6",
       "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
       "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
@@ -132,6 +132,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
+    },
+    {
+      "id": "ef6ce77f7126",
+      "titulo": "Defesa Civil do RS alerta para alta do Rio Taquari após chuvas extremas; Guaíba também deve subir",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTGpKM3dHWDFPUkxNQ0JyamZlWUZ3cnZrTFd6VGxPQlVzdjIyTjhJemhxaGs0TTQ2a3I3VGlTaDlfOEpVMmlQR3VqMVZKQUJURFlsRDFIeWxER0t5T2RkTTQ1NmJ5cG9taTVZbkx5Rm1YNkJ3OU9HXzUzZEwyUEJMTVJOZ1NoaC1sT19UOWYwTFpkTFFJUjNDRXp5dVNiMV9YWHNmajFSNVNrbkZ4eFUxWVNZWFdxTFVJX3NfVW1OZjkwSkNxbG1ZYjJrYTdUZw?oc=5",
+      "fonte": "Jornal de Pomerode",
+      "publicado_em": "2026-07-22T14:51:34+00:00",
+      "categoria": null,
+      "feed": "vizinhos",
+      "resumo": "Defesa Civil do RS alerta para alta do Rio Taquari após chuvas extremas; Guaíba também deve subir Jornal de Pomerode"
     },
     {
       "id": "b015b5fcbc9c",
@@ -362,16 +372,6 @@
       "categoria": null,
       "feed": "litoral",
       "resumo": "Guaíba: Uma Nova História Portal Litoral Sul"
-    },
-    {
-      "id": "7e14a601c6dd",
-      "titulo": "Defensoria Pública participa da entrega das escrituras encaminhadas pelo Projeto Terra – Eu sou COHAB, em Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdEhqOThMTUxOQVVXZXkzY18zd0dGUTNWdXRaRTR2S2thRzdCZzVwdjhqcUQ2NXh5c3NkYnIyd09TWXdkcWFfQUwtYmVqWVo2c2dyVC1RWUtXZ0JEVndNR2QxcWxZVTJGU3FVWlRPNjlJbWg4ckVUclBGZzVic200ckk4TDhGSGFzZ01mT2ZoOUhySUZINXlUMDV0WFF3M1dGd2FMV0pWYnhVemVVZEUwaXVlTXV3ZFVqakg5NEYyb1BYU05Oa0VGUmZZX3FXalhUQ0NBd3RaYUNqZw?oc=5",
-      "fonte": "defensoria.rs.def.br",
-      "publicado_em": "2026-07-09T18:26:24+00:00",
-      "categoria": null,
-      "feed": "google",
-      "resumo": "Defensoria Pública participa da entrega das escrituras encaminhadas pelo Projeto Terra – Eu sou COHAB, em Guaíba defensoria.rs.def.br"
     }
   ],
   "noticias_home": [
@@ -386,14 +386,14 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "16fe33979805",
-      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
+      "id": "1360a7e98d8a",
+      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
+      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
+      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
       "id": "2127146cc672",
@@ -406,16 +406,6 @@
       "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
     },
     {
-      "id": "1360a7e98d8a",
-      "titulo": "Claudinha Jardim anuncia centro logístico do Mercado Livre em Guaíba com mais de 500 vagas; veja como se inscrever",
-      "url": "https://www.reporterguaibense.com.br/noticia/claudinha-jardim-anuncia-centro-logistico-do-mercado-livre-em-guaiba-com-mais-de-500-vagas-veja-como-se-inscrever",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
-    },
-    {
       "id": "b9a5d813bc2a",
       "titulo": "Veja como se cadastrar e andar nas bicicletas do projeto Pedal Sustentável, em Guaíba",
       "url": "https://www.reporterguaibense.com.br/noticia/veja-como-se-cadastrar-e-andar-nas-bicicletas-do-projeto-pedal-sustentavel-em-guaiba",
@@ -424,6 +414,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+    },
+    {
+      "id": "16fe33979805",
+      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
     },
     {
       "id": "cdfc5fa3a4a6",
@@ -436,6 +436,16 @@
       "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
     },
     {
+      "id": "ef6ce77f7126",
+      "titulo": "Defesa Civil do RS alerta para alta do Rio Taquari após chuvas extremas; Guaíba também deve subir",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTGpKM3dHWDFPUkxNQ0JyamZlWUZ3cnZrTFd6VGxPQlVzdjIyTjhJemhxaGs0TTQ2a3I3VGlTaDlfOEpVMmlQR3VqMVZKQUJURFlsRDFIeWxER0t5T2RkTTQ1NmJ5cG9taTVZbkx5Rm1YNkJ3OU9HXzUzZEwyUEJMTVJOZ1NoaC1sT19UOWYwTFpkTFFJUjNDRXp5dVNiMV9YWHNmajFSNVNrbkZ4eFUxWVNZWFdxTFVJX3NfVW1OZjkwSkNxbG1ZYjJrYTdUZw?oc=5",
+      "fonte": "Jornal de Pomerode",
+      "publicado_em": "2026-07-22T14:51:34+00:00",
+      "categoria": null,
+      "feed": "vizinhos",
+      "resumo": "Defesa Civil do RS alerta para alta do Rio Taquari após chuvas extremas; Guaíba também deve subir Jornal de Pomerode"
+    },
+    {
       "id": "b015b5fcbc9c",
       "titulo": "Defesa Civil monitora alta do Guaíba e alerta é para as ilhas",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZkNnNUpEQzI5MnRsUlk3bnBQcHI0NEFURC1kMDQ2RHAzYWx5VzhjYzhpOXBmN3NnTjQ1Q3E0R3dscVcyQmxscHo0NUxlOVoxZ3RGazNQdjRxQnN4bVgtOFRmU0RVWDNUWm43TEFOeWhOcU1nRFJlVGhIQnhDdlRjNUVaYk1BSWxVR0Z1U20tRTNRQVBWMTF6eWZtWFB1Szc0T0g1UThtV2RsQ052WTUwVW9xbEFhaXAxbDJYY29SVWE3TlNv?oc=5",
@@ -444,16 +454,6 @@
       "categoria": null,
       "feed": "correio",
       "resumo": "Defesa Civil monitora alta do Guaíba e alerta é para as ilhas Correio do Povo"
-    },
-    {
-      "id": "81f926b6e884",
-      "titulo": "Sunset Foodpark promove edição especial julina com forró, comidas típicas e vista para o Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOYm9VSV81RjVnWVNpSUlBNzlRbHBDZU5fdkZwdzBxejlvdlNaaFFCSjZFdGtRbjlmdERrUEFDSWpRYU43aFpUTVVKcmp4WU1TZVZfTzhXWVpMNFdBZHBhNUNQenZDU0dtampZQ3hwa0p1UkJzRlg5bjc2NDhWemhhcS1MdnlSRWU1c0FtNTdOMEYxY2ZXbXNsbDhObEdNZC1OaXhrLVktWi1iYWhHQ3NxZnRrOFFsUG5TZFl3NkV3MDJ3LUwza1pjUFJ3NWR0Y2h5dlVoOGpmQTNxTnB6Nm8tYURhMFNsTjNadE5adjJ6MUR4NUZGNm5ONmRoZmRtU0JhVExaXw?oc=5",
-      "fonte": "Terra",
-      "publicado_em": "2026-07-22T11:34:00+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Sunset Foodpark promove edição especial julina com forró, comidas típicas e vista para o Guaíba Terra"
     }
   ]
 }
