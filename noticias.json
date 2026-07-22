@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-22T17:17:18.772226+00:00",
+  "gerado_em": "2026-07-22T19:15:39.468974+00:00",
   "fontes": [
     {
       "id": "reporter_direto",
@@ -84,24 +84,14 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "16fe33979805",
-      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
+      "id": "2127146cc672",
+      "titulo": "Licitação dos semáforos em Guaíba avança para nova etapa; entenda os próximos passos",
+      "url": "https://www.reporterguaibense.com.br/noticia/licitacao-dos-semaforos-em-guaiba-avanca-para-nova-etapa-entenda-os-proximos-passos",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
-    },
-    {
-      "id": "cdfc5fa3a4a6",
-      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
-      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
+      "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
     },
     {
       "id": "1360a7e98d8a",
@@ -114,14 +104,24 @@
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
-      "id": "2127146cc672",
-      "titulo": "Licitação dos semáforos em Guaíba avança para nova etapa; entenda os próximos passos",
-      "url": "https://www.reporterguaibense.com.br/noticia/licitacao-dos-semaforos-em-guaiba-avanca-para-nova-etapa-entenda-os-proximos-passos",
+      "id": "cdfc5fa3a4a6",
+      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
+      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
+      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
+    },
+    {
+      "id": "16fe33979805",
+      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
     },
     {
       "id": "b9a5d813bc2a",
@@ -132,6 +132,16 @@
       "categoria": null,
       "feed": "reporter_direto",
       "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
+    },
+    {
+      "id": "97a04679471b",
+      "titulo": "Projeto Guaíba consolida primeiro ano de pesquisas sobre os impactos geológicos das enchentes de 2024",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMzlOQWE2a2dkX1haMzlKV0lQZ1NpSkhGRUxrdVFGT3NHNWUtTnlwcUc4SVRwcmk0Y3ktdXJlMGFMdXN5M1VVVGNTQzRJYV93VC1salpWQkpaQjZPTVFLWklkWlpOTFRxX3U5b1d6U3pNTzlQU2NUMlpmaDJuWWZoaE52RGRzMnBGMG1halNFd2RIVm8wT1lSSElsTjJMMnFmcFBYNVRSQllzcHRIRDhicnQzdTN2d0NmWm1OWTZNSGhJb0pkSjJ6bG1IbmM4NUZN?oc=5",
+      "fonte": "Unisinos",
+      "publicado_em": "2026-07-22T18:05:23+00:00",
+      "categoria": null,
+      "feed": "vizinhos",
+      "resumo": "Projeto Guaíba consolida primeiro ano de pesquisas sobre os impactos geológicos das enchentes de 2024 Unisinos"
     },
     {
       "id": "b51e7c330822",
@@ -152,6 +162,26 @@
       "categoria": null,
       "feed": "vizinhos",
       "resumo": "Defesa Civil do RS alerta para alta do Rio Taquari após chuvas extremas; Guaíba também deve subir Jornal de Pomerode"
+    },
+    {
+      "id": "8db6f7fa6e4a",
+      "titulo": "Defesa civil Rs diz que Guaíba deverá ficar próximo da cota de alerta",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeV9MYXBLNEdDWjh6bWRrNHZSeHdBbFR3M3UzWmNEa1hNaU52cDJEMWxIQmlQVTNZWTVTUHJKdEdwRGVIMEh6alN3SDRpVjcwUDJEa25FZUx0T2NTRFBZemxWalI2U1lPdmZ0ZDY2ZGV4aE5yQjdyd2ZtTElpeDZ5X2lfdzYzTWNUR2hNSXZVWnlWNm1lSENMbW9VVjdxWHh3dlpDUUd2ZWMwRjFFOVBQcEg2aGZ2elp0Tno1SVR3TlQ3ZnM?oc=5",
+      "fonte": "jornaltimoneiro.com.br",
+      "publicado_em": "2026-07-22T13:43:33+00:00",
+      "categoria": null,
+      "feed": "recentes",
+      "resumo": "Defesa civil Rs diz que Guaíba deverá ficar próximo da cota de alerta jornaltimoneiro.com.br"
+    },
+    {
+      "id": "7b145106e796",
+      "titulo": "Tendência é de que o Guaíba fique perto da cota de alerta, diz Defesa Civil do RS",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxONnEwMDBucV9pN2xXWXA0c0MyR1VwX3Zhb1NycVIxRGRmYjlzMlpzd2JfcURGd1R1UURvdDZnZURVNXBNQ1ZNZm5mWUlSMHphRS0tV0hFbWI3Wks5MTBtaHFSZ0F3RXF2dndpV3hhNVhLSE15TmZHNmdlUkkwRVd3RTdqem1MaGIzdHZudFBmQnJlRFFQd0pwY01CZko3QkRkaXk0bmt6UXVwRi1PaXIzbThacEsxemtwWWdoUlM2NU1EV0dLOHJkci1ERWlUMFpyY0l1WGVlX1lERlJLWWd5ZmItV3d6YVo3TGFyX3ZyUnhSRWlMTnkxMUt5dUJNSUUyR3hN?oc=5",
+      "fonte": "Diário Gaúcho",
+      "publicado_em": "2026-07-22T13:05:44+00:00",
+      "categoria": null,
+      "feed": "google",
+      "resumo": "Tendência é de que o Guaíba fique perto da cota de alerta, diz Defesa Civil do RS Diário Gaúcho"
     },
     {
       "id": "b015b5fcbc9c",
@@ -192,16 +222,6 @@
       "categoria": null,
       "feed": "recentes",
       "resumo": "Mesmo com melhora do tempo, Guaiba continuará subindo e Ilhas de Porto Alegre entram em Risco luizmuller.com"
-    },
-    {
-      "id": "1aad0c70cfd7",
-      "titulo": "Tendência é de que o Guaíba fique perto da cota de alerta, diz Defesa Civil do RS",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPLUtSdnpCX0M2QmFJOGtKS0JUcVRSMjRSdVdvdkE0OU5IYjVhTC1fZUFfdU5GNUNtMzIzeDdHWnFQOXZvMklJY1pEQ3BsWTNRbFVHcE5NbXBhNGdWN1BXTDdKUzIzS2xlYy1HeXMwNldGTHNSX3NzclpKR3psNGN0OUdwd0lvVnFsay0wdkxXNHp6MWdTVGV2VFllUE5jOElZWDVhbGRnQTVFcFlLUFBGRmw5a0dRbnZJa3Q5eHljXzZ4R24yVzZvWHQxSWZQRGdNNWZUUG9qU2RUak9YLU55TXU2ejFsaERWLWxaQVdzbU1zSlI1UmFSTG9HdzROdFZiWHc?oc=5",
-      "fonte": "GZH",
-      "publicado_em": "2026-07-22T02:06:40+00:00",
-      "categoria": null,
-      "feed": "vizinhos",
-      "resumo": "Tendência é de que o Guaíba fique perto da cota de alerta, diz Defesa Civil do RS GZH"
     },
     {
       "id": "6ed555557f79",
@@ -352,26 +372,6 @@
       "categoria": null,
       "feed": "reporter",
       "resumo": "Estão abertas as inscrições para a segunda edição do concurso de fotografia \"Olhares de Guaíba\" Repórter Guaibense"
-    },
-    {
-      "id": "b8090e77ea01",
-      "titulo": "Projeto Pedal Sustentável disponibiliza bicicletas gratuitas em Guaíba",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR2h6dlhYQ2lXU1IyazJ5ZTVoZXI3Q0x3alMwUTJ1UGpIdFA4OGlHTHBJRmJlcVZsblk1SnF4T01KVWZtVGhxSm1lY1FkaXpGQ05QZGRMZGZNc1JOZGhNUTg4SnRPekZpc18wV2pHQkEyN1duN3JZWHZJVFlCTy1JOVItMllkVUpTaTdFbmd6TUpSam1hd3c?oc=5",
-      "fonte": "expansao.co",
-      "publicado_em": "2026-07-16T17:29:21+00:00",
-      "categoria": null,
-      "feed": "recentes",
-      "resumo": "Projeto Pedal Sustentável disponibiliza bicicletas gratuitas em Guaíba expansao.co"
-    },
-    {
-      "id": "f06b650a4cf5",
-      "titulo": "Guaíba: Uma Nova História",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1YWEZWamE1OVFZUzhpeEQxMGVDYzAtOWNSMi1wY1puOUhrNUJ5bndQQkJTVXlhMi1iZG1oUFkyZTlrS2llZ3pfb0RmczZ5bzY0dm5yTEJuRmRoVGc5UzI2X1phck0wX2RlYmhoS2Vnak5WUjdpeFc0VW1R?oc=5",
-      "fonte": "Portal Litoral Sul",
-      "publicado_em": "2026-07-13T11:30:22+00:00",
-      "categoria": null,
-      "feed": "litoral",
-      "resumo": "Guaíba: Uma Nova História Portal Litoral Sul"
     }
   ],
   "noticias_home": [
@@ -386,24 +386,14 @@
       "resumo": "Os interessados podem cadastrar seus currículos de segunda a sexta-feira diretamente na agência"
     },
     {
-      "id": "16fe33979805",
-      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
-      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
+      "id": "2127146cc672",
+      "titulo": "Licitação dos semáforos em Guaíba avança para nova etapa; entenda os próximos passos",
+      "url": "https://www.reporterguaibense.com.br/noticia/licitacao-dos-semaforos-em-guaiba-avanca-para-nova-etapa-entenda-os-proximos-passos",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
-    },
-    {
-      "id": "cdfc5fa3a4a6",
-      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
-      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
-      "fonte": "Repórter Guaibense",
-      "publicado_em": null,
-      "categoria": null,
-      "feed": "reporter_direto",
-      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
+      "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
     },
     {
       "id": "1360a7e98d8a",
@@ -416,14 +406,24 @@
       "resumo": "O investimento já está confirmado e o projeto avança em ritmo acelerado"
     },
     {
-      "id": "2127146cc672",
-      "titulo": "Licitação dos semáforos em Guaíba avança para nova etapa; entenda os próximos passos",
-      "url": "https://www.reporterguaibense.com.br/noticia/licitacao-dos-semaforos-em-guaiba-avanca-para-nova-etapa-entenda-os-proximos-passos",
+      "id": "cdfc5fa3a4a6",
+      "titulo": "Restaurante Popular de Guaíba tem novo endereço a partir desta terça-feira",
+      "url": "https://www.reporterguaibense.com.br/noticia/restaurante-popular-de-guaiba-tem-novo-endereco-a-partir-desta-terca-feira",
       "fonte": "Repórter Guaibense",
       "publicado_em": null,
       "categoria": null,
       "feed": "reporter_direto",
-      "resumo": "Processo licitatório para modernização da sinalização viária tem empresa classificada em primeiro lugar provisoriamente"
+      "resumo": "O serviço atende cerca de 70 usuários do Centros de Referência de Assistência Social (Cras) por dia"
+    },
+    {
+      "id": "16fe33979805",
+      "titulo": "Especialistas discutem tombamento conjunto da Gruta de Oxum, Pedra de Xangô e Assobecaty em Guaíba",
+      "url": "https://www.reporterguaibense.com.br/noticia/especialistas-discutem-tombamento-conjunto-da-gruta-de-oxum-pedra-de-xango-e-assobecaty-em-guaiba",
+      "fonte": "Repórter Guaibense",
+      "publicado_em": null,
+      "categoria": null,
+      "feed": "reporter_direto",
+      "resumo": "Análise técnica conduz ao entendimento de que há elementos suficientes para sustentar o reconhecimento como um conjunto patrimonial"
     },
     {
       "id": "b9a5d813bc2a",
@@ -436,6 +436,16 @@
       "resumo": "Com apoio da CMPC, a ação disponibiliza bicicletas compartilhadas para uso gratuito dos moradores da cidade"
     },
     {
+      "id": "97a04679471b",
+      "titulo": "Projeto Guaíba consolida primeiro ano de pesquisas sobre os impactos geológicos das enchentes de 2024",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMzlOQWE2a2dkX1haMzlKV0lQZ1NpSkhGRUxrdVFGT3NHNWUtTnlwcUc4SVRwcmk0Y3ktdXJlMGFMdXN5M1VVVGNTQzRJYV93VC1salpWQkpaQjZPTVFLWklkWlpOTFRxX3U5b1d6U3pNTzlQU2NUMlpmaDJuWWZoaE52RGRzMnBGMG1halNFd2RIVm8wT1lSSElsTjJMMnFmcFBYNVRSQllzcHRIRDhicnQzdTN2d0NmWm1OWTZNSGhJb0pkSjJ6bG1IbmM4NUZN?oc=5",
+      "fonte": "Unisinos",
+      "publicado_em": "2026-07-22T18:05:23+00:00",
+      "categoria": null,
+      "feed": "vizinhos",
+      "resumo": "Projeto Guaíba consolida primeiro ano de pesquisas sobre os impactos geológicos das enchentes de 2024 Unisinos"
+    },
+    {
       "id": "b51e7c330822",
       "titulo": "Eldorado do Sul tem cota de atenção para Jacuí e Guaíba, com leve elevação",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSWQxZWlKMU8xaFItWFc3bnlFcTNkUklSVktrbE9tejFaVndXbmQwZHN4c3N0ejkyMG9xcXlMVEFBUlJFaS13SjZqbDJqaHMzWEhpM0paYnFvQnU2bmZJQkZrb09kT19USk56YU5kMm5pWTNvdS1jMzQzMFMtcy0wck1ZTDI5X2w4aXRIRGpaRnpUdFhGZHJST0ZRSnZGYm1INVNaLUE2bGxpMTM4ekxWYU5EN0tsWlJsQlNlaWJmRXJERmgwLTZsUHd3SExmTVdxbktfZi14bUFqUQ?oc=5",
@@ -444,16 +454,6 @@
       "categoria": null,
       "feed": "vizinhos",
       "resumo": "Eldorado do Sul tem cota de atenção para Jacuí e Guaíba, com leve elevação Jornal do Comércio"
-    },
-    {
-      "id": "ef6ce77f7126",
-      "titulo": "Defesa Civil do RS alerta para alta do Rio Taquari após chuvas extremas; Guaíba também deve subir",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTGpKM3dHWDFPUkxNQ0JyamZlWUZ3cnZrTFd6VGxPQlVzdjIyTjhJemhxaGs0TTQ2a3I3VGlTaDlfOEpVMmlQR3VqMVZKQUJURFlsRDFIeWxER0t5T2RkTTQ1NmJ5cG9taTVZbkx5Rm1YNkJ3OU9HXzUzZEwyUEJMTVJOZ1NoaC1sT19UOWYwTFpkTFFJUjNDRXp5dVNiMV9YWHNmajFSNVNrbkZ4eFUxWVNZWFdxTFVJX3NfVW1OZjkwSkNxbG1ZYjJrYTdUZw?oc=5",
-      "fonte": "Jornal de Pomerode",
-      "publicado_em": "2026-07-22T14:51:34+00:00",
-      "categoria": null,
-      "feed": "vizinhos",
-      "resumo": "Defesa Civil do RS alerta para alta do Rio Taquari após chuvas extremas; Guaíba também deve subir Jornal de Pomerode"
     }
   ]
 }
